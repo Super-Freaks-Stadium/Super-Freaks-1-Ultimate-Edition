@@ -8,8 +8,10 @@ function __input_system_tick()
     _global.__current_time = current_time;
     _global.__cleared = false;
 
-    #region Touch
+    #region Touch COMMENTED OUT
     
+	/*
+	
     if (__INPUT_TOUCH_SUPPORT && INPUT_MOBILE_MOUSE)
     {
         var _touch_index = undefined;
@@ -87,6 +89,8 @@ function __input_system_tick()
         _global.__pointer_index = _touch_index;
         if (_global.__pointer_pressed)  _global.__pointer_pressed_index = _touch_index;
     }
+	
+	*/
     
     #endregion
     
@@ -595,8 +599,10 @@ function __input_system_tick()
     
     
 
-    #region Virtual Buttons
+    #region Virtual Buttons COMMENTED OUT
     
+	/*
+	
     //Reorder virtual buttons if necessary, from highest priority to lowest
     if (_global.__virtual_order_dirty)
     {
@@ -648,9 +654,10 @@ function __input_system_tick()
             ++_i;
         }
     }
+	
+	*/
     
     #endregion
-    
     
     
     #region Players
@@ -790,6 +797,276 @@ function __input_system_tick()
     }
     
     
+    
+    if (_global.__allow_gamepad_tester && _global.__gamepad_tester_data.__enabled)
+    {
+        __input_gamepad_tester_tick();
+    }
+}
+
+
+function __input_system_tick_touch()
+{
+    __INPUT_GLOBAL_STATIC_LOCAL  //Set static _global
+    
+    _global.__frame++;
+    _global.__previous_current_time = _global.__current_time;
+    _global.__current_time = current_time;
+    _global.__cleared = false;
+	
+    #region Touch
+    
+    if (__INPUT_TOUCH_SUPPORT && INPUT_MOBILE_MOUSE)
+    {
+        var _touch_index = undefined;
+        var _touch_press_index = _global.__pointer_pressed_index;
+
+        //Track touch time per pointer
+        var _i = 0;
+        repeat(INPUT_MAX_TOUCHPOINTS)
+        {            
+            var _held = device_mouse_check_button(_i, mb_left);
+            
+            //Guard iOS dropping a sustained hold on SystemGestureGate timeout
+            if (__INPUT_ON_IOS)
+            {
+                if (!_held && (_global.__pointer_held_time[_i] >= 0) && (_global.__current_time - _global.__pointer_held_time[_i] > 20))
+                {
+                    if (not _global.__pointer_held_buffer[_i]) _held = true;
+                    _global.__pointer_held_buffer[_i] = !_global.__pointer_held_buffer[_i];
+                }
+            }
+            
+            //Find recent touch
+            if (not _held)
+            {
+                _global.__pointer_held_time[_i] = -1;
+            }
+            else
+            {
+                if (_global.__pointer_held_time[_i] < 0) _global.__pointer_held_time[_i] = _global.__current_time;
+                if ((_touch_index == undefined) || (_global.__pointer_held_time[_i] > _global.__pointer_held_time[_touch_index])) _touch_index = _i;
+            }
+
+            _i++;
+        }
+    
+        //Set active pointer index
+        if (_touch_index == undefined) _touch_index = 0;
+        _global.__pointer_pressed  = device_mouse_check_button_pressed(_touch_index, mb_left);
+        _global.__pointer_released = ((_global.__pointer_index_previous != undefined) && device_mouse_check_button_released(_global.__pointer_index_previous, mb_left));
+
+        //Touch edge testing
+        var _w = display_get_gui_width();
+        var _h = display_get_gui_height();
+        if (INPUT_TOUCH_EDGE_DEADZONE > 0)
+        {
+            //Release
+            if (_global.__pointer_released)
+            {
+                var _tx = device_mouse_x_to_gui(_global.__pointer_index_previous);
+                var _ty = device_mouse_y_to_gui(_global.__pointer_index_previous);
+
+                if ((_tx < INPUT_TOUCH_EDGE_DEADZONE) || (_tx > (_w - INPUT_TOUCH_EDGE_DEADZONE))
+                ||  (_ty < INPUT_TOUCH_EDGE_DEADZONE) || (_ty > (_h - INPUT_TOUCH_EDGE_DEADZONE)))
+                {
+                    _global.__pointer_released = false;
+                }
+            }
+    
+            //Press
+            if (_global.__pointer_pressed)
+            {
+                var _tx = device_mouse_x_to_gui(_touch_index);
+                var _ty = device_mouse_y_to_gui(_touch_index);
+
+                if ((_tx < INPUT_TOUCH_EDGE_DEADZONE) || (_tx > (_w - INPUT_TOUCH_EDGE_DEADZONE))
+                ||  (_ty < INPUT_TOUCH_EDGE_DEADZONE) || (_ty > (_h - INPUT_TOUCH_EDGE_DEADZONE)))
+                {
+                    _global.__pointer_pressed = false;
+                }
+            }
+        }
+
+        //Update state
+        _global.__pointer_index_previous = _global.__pointer_index;
+        _global.__pointer_index = _touch_index;
+        if (_global.__pointer_pressed)  _global.__pointer_pressed_index = _touch_index;
+    }
+    
+    #endregion
+    
+    #region Application state
+    
+    if (INPUT_ON_PC || INPUT_ON_WEB)
+    {
+        if (os_is_paused())
+        {
+            //Lost focus
+            _global.__window_focus = false;
+            
+            //Linux app continues to recieve input some number of frames after focus loss
+            //Clear IO on focus loss to prevent false positive of subsequent focus regain
+            io_clear();
+            
+            __input_gamepad_stop_trigger_effects(all);
+        }
+        else
+        {
+            if (_global.__window_focus)
+            {
+                if (_global.__window_focus_block_mouse)
+                {
+                    //Unblock so we can test for a held mouse button
+                    _global.__window_focus_block_mouse = false;
+                
+                    //Sustain mouse block while a button remains held
+                    if (__input_mouse_button() != mb_none) _global.__window_focus_block_mouse = true;
+                }
+            }
+            else if ((keyboard_key != vk_nokey) 
+                 ||  (mouse_button != mb_none)
+                 ||  (_global.__use_native_focus && window_has_focus())
+                 ||  (__INPUT_ON_MACOS && !INPUT_ON_WEB && _global.__pointer_moved))
+            {
+                //Regained focus
+                _global.__window_focus = true;
+                _global.__window_focus_frame = _global.__frame;
+                
+                //Block mouse button input
+                if (!INPUT_ALLOW_OUT_OF_FOCUS) _global.__window_focus_block_mouse = true;
+                    
+                //Retrigger mouse capture timer to avoid the mouse jumping all over the place when we refocus the window
+                if (_global.__mouse_capture) _global.__mouse_capture_frame = _global.__frame;
+                
+                __input_player_apply_trigger_effects(all);
+            }
+            else if not (_global.__use_native_focus)
+            {
+                //Reevaluate native focus support
+                if (window_has_focus() == false) _global.__use_native_focus = true;
+            }
+        }
+    }
+    
+    var _game_input_allowed_previous = _global.__game_input_allowed;
+    
+    _global.__game_input_allowed = INPUT_ALLOW_OUT_OF_FOCUS || _global.__window_focus;    
+    _global.__overlay_focus = false;
+    
+    if (_global.__using_steamworks)
+    {
+        //Steam overlay
+        if (steam_is_overlay_activated())
+        {
+            _global.__overlay_focus = true;
+            _global.__game_input_allowed = false;
+        }
+    }
+    
+    if (_global.__use_debug_overlay_status)
+    {
+        //Debug overlay
+        if (is_debug_overlay_open())
+        {
+            _global.__overlay_focus = true;
+            
+            if (_global.__gamepad_tester_data.__block_input)
+            {
+                _global.__game_input_allowed = false;
+            }
+        }
+    }
+    
+    //Set Windows IME availability based on focus loss and regain
+    //see https://github.com/YoYoGames/GameMaker-Bugs/issues/5524
+    if (__INPUT_ON_WINDOWS)
+    {
+        if (_global.__game_input_allowed != _game_input_allowed_previous)
+        {
+            if (_global.__game_input_allowed)
+            {
+                keyboard_virtual_hide();
+            }
+            else
+            {
+                keyboard_virtual_show(kbv_type_default, kbv_returnkey_default, kbv_autocapitalize_none, false);
+            }
+        }
+    }
+    
+    //Prevent restart thrashing
+    if ((_global.__current_time - _global.__restart_time) < 1000)
+    {
+        __input_clear_all();
+    }
+    
+    #endregion
+	
+    #region Virtual Buttons
+    
+    //Reorder virtual buttons if necessary, from highest priority to lowest
+    if (_global.__virtual_order_dirty)
+    {
+        //Clean up any destroyed virtual buttons
+        var _i = 0;
+        repeat(array_length(_global.__virtual_array))
+        {
+            if (_global.__virtual_array[_i].__destroyed)
+            {
+                array_delete(_global.__virtual_array, _i, 1);
+            }
+            else
+            {
+                ++_i;
+            }
+        }
+        
+        _global.__virtual_order_dirty = false;
+        array_sort(_global.__virtual_array, function(_a, _b)
+        {
+            return sign(_b.__priority - _a.__priority);
+        });
+    }
+    
+    if (is_struct(_global.__touch_player))
+    {
+        //Detect any new touch points and find the top-most button to handle it
+        var _i = 0;
+        repeat(INPUT_MAX_TOUCHPOINTS)
+        {
+            if (device_mouse_check_button_pressed(_i, mb_left))
+            {
+                var _j = 0;
+                repeat(array_length(_global.__virtual_array))
+                {
+                    if (_global.__virtual_array[_j].__capture_touchpoint(_i)) break;
+                    ++_j;
+                }
+            }
+            
+            ++_i;
+        }
+        
+        //Update any virtual buttons that are currently being interacted with
+        var _i = 0;
+        repeat(array_length(_global.__virtual_array))
+        {
+            _global.__virtual_array[_i].__tick();
+            ++_i;
+        }
+    }
+    
+    #endregion
+	
+    switch(_global.__source_mode)
+    {
+        case INPUT_SOURCE_MODE.FIXED:       /* Do nothing! */                      break;
+        case INPUT_SOURCE_MODE.JOIN:        __input_multiplayer_assignment_tick(); break;
+        case INPUT_SOURCE_MODE.HOTSWAP:     __input_hotswap_tick();                break;
+        case INPUT_SOURCE_MODE.MIXED:                                              break;
+        case INPUT_SOURCE_MODE.MULTIDEVICE:                                        break;
+    }
     
     if (_global.__allow_gamepad_tester && _global.__gamepad_tester_data.__enabled)
     {

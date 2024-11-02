@@ -70,9 +70,12 @@ frame_amount = 0;
 
 global.game_frame_new = true;
 
+if (_frames_game == 0)
+	__input_system_tick_touch();
 while (_frames_game > 0)
 {
 	__input_system_tick();
+	__input_system_tick_touch();
 	
 	_pause = game_pause_get();
 

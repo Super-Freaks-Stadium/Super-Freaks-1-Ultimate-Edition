@@ -404,7 +404,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.800.0.609",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Super Freaks 1 Ultimate Edition",
   "resources":[
@@ -1413,6 +1413,7 @@
     {"id":{"name":"msc_fruit","path":"sounds/msc_fruit/msc_fruit.yy",},},
     {"id":{"name":"msc_gameover_classic","path":"sounds/msc_gameover_classic/msc_gameover_classic.yy",},},
     {"id":{"name":"msc_gameover","path":"sounds/msc_gameover/msc_gameover.yy",},},
+    {"id":{"name":"msc_hippie_secret","path":"sounds/msc_hippie_secret/msc_hippie_secret.yy",},},
     {"id":{"name":"msc_hippie","path":"sounds/msc_hippie/msc_hippie.yy",},},
     {"id":{"name":"msc_ice_secret","path":"sounds/msc_ice_secret/msc_ice_secret.yy",},},
     {"id":{"name":"msc_ice","path":"sounds/msc_ice/msc_ice.yy",},},
