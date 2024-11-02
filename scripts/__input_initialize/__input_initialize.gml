@@ -180,25 +180,25 @@ function __input_initialize()
     
     #region On-boot warnings and errors
     
-    //Set up a time source to manage obj_manager
+    //Set up a time source to manage input_controller_object
     _global.__time_source = time_source_create(time_source_global, 1, time_source_units_frames, function()
     {
         //Ensure existance of our controller object
-        if (!instance_exists(obj_manager))
+        if (!instance_exists(input_controller_object))
         {
             //Try to detect deactivation of the controller object
-            instance_activate_object(obj_manager);
-            if (instance_exists(obj_manager))
+            instance_activate_object(input_controller_object);
+            if (instance_exists(input_controller_object))
             {
                 if (GM_build_type == "run")
                 {
                     //Be nasty when running from the IDE >:(
-                    __input_error("obj_manager has been deactivated\nPlease ensure that obj_manager is never deactivated\nYou may need to use instance_activate_object(obj_manager)");
+                    __input_error("input_controller_object has been deactivated\nPlease ensure that input_controller_object is never deactivated\nYou may need to use instance_activate_object(input_controller_object)");
                 }
                 else
                 {
                     //Be nice when in production <:)
-                    __input_trace("Warning! obj_manager has been deactivated. Please ensure that obj_manager is never deactivated. You may need to use instance_activate_object(obj_manager)");
+                    __input_trace("Warning! input_controller_object has been deactivated. Please ensure that input_controller_object is never deactivated. You may need to use instance_activate_object(input_controller_object)");
                 }
             }
             else
@@ -218,48 +218,48 @@ function __input_initialize()
                     if (GM_build_type == "run")
                     {
                         //Be nasty when running from the IDE >:(
-                        __input_error("obj_manager has been destroyed\nPlease ensure that obj_manager is never destroyed");
+                        __input_error("input_controller_object has been destroyed\nPlease ensure that input_controller_object is never destroyed");
                     }
                     else
                     {
                         //Be nice when in production <:)
-                        __input_trace("Warning! obj_manager has been destroyed. Please ensure that obj_manager is never destroyed");
+                        __input_trace("Warning! input_controller_object has been destroyed. Please ensure that input_controller_object is never destroyed");
                     }
                 }
                 
-                instance_create_depth(0, -__INPUT_CONTROLLER_OBJECT_DEPTH, __INPUT_CONTROLLER_OBJECT_DEPTH, obj_manager);
+                instance_create_depth(0, -__INPUT_CONTROLLER_OBJECT_DEPTH, __INPUT_CONTROLLER_OBJECT_DEPTH, input_controller_object);
             }
         }
         
         //Detect if the controller object has been set to non-persistent
-        if (!obj_manager.persistent)
+        if (!input_controller_object.persistent)
         {
             if (GM_build_type == "run")
             {
                 //Be nasty when running from the IDE >:(
-                __input_error("obj_manager has been set as non-persistent\nPlease ensure that obj_manager is always persistent");
+                __input_error("input_controller_object has been set as non-persistent\nPlease ensure that input_controller_object is always persistent");
             }
             else
             {
                 //Be nice when in production <:)
-                __input_trace("Warning! obj_manager has been set as non-persistent. Please ensure that obj_manager is always persistent");
-                obj_manager.persistent = true;
+                __input_trace("Warning! input_controller_object has been set as non-persistent. Please ensure that input_controller_object is always persistent");
+                input_controller_object.persistent = true;
             }
         }
         
         //Detect if the controller object depth has been set
-        if (obj_manager.depth != __INPUT_CONTROLLER_OBJECT_DEPTH)
+        if (input_controller_object.depth != __INPUT_CONTROLLER_OBJECT_DEPTH)
         {
             if (GM_build_type == "run")
             {
                 //Be nasty when running from the IDE >:(
-                __input_error("obj_manager depth has been changed (expected ", __INPUT_CONTROLLER_OBJECT_DEPTH, ", got ", obj_manager.depth ,")\nPlease ensure that obj_manager is never manually created and depth is not manually set");
+                __input_error("input_controller_object depth has been changed (expected ", __INPUT_CONTROLLER_OBJECT_DEPTH, ", got ", input_controller_object.depth ,")\nPlease ensure that input_controller_object is never manually created and depth is not manually set");
             }
             else
             {
                 //Be nice when in production <:)
-                __input_trace("Warning! obj_manager depth has been changed (expected ", __INPUT_CONTROLLER_OBJECT_DEPTH, ", got ", obj_manager.depth ,")\nPlease ensure that obj_manager is never manually created and depth is not manually set");
-                obj_manager.depth = __INPUT_CONTROLLER_OBJECT_DEPTH;
+                __input_trace("Warning! input_controller_object depth has been changed (expected ", __INPUT_CONTROLLER_OBJECT_DEPTH, ", got ", input_controller_object.depth ,")\nPlease ensure that input_controller_object is never manually created and depth is not manually set");
+                input_controller_object.depth = __INPUT_CONTROLLER_OBJECT_DEPTH;
             }
         }
     }, [], -1);

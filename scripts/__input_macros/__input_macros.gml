@@ -92,7 +92,7 @@
 #macro __INPUT_RATE_LIMIT_DURATION  500 //In milliseconds
 
 //Depth the controller object instance is set to
-#macro __INPUT_CONTROLLER_OBJECT_DEPTH  -10005
+#macro __INPUT_CONTROLLER_OBJECT_DEPTH  -10005//16001
 
 //Valid keycode bounds
 #macro __INPUT_KEYCODE_MIN 0x08

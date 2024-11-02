@@ -404,7 +404,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.800.0.609",
   },
   "name":"Super Freaks 1 Ultimate Edition",
   "resources":[
@@ -420,6 +420,7 @@
     {"id":{"name":"Unlimit Powers","path":"notes/Unlimit Powers/Unlimit Powers.yy",},},
     {"id":{"name":"Unlockables","path":"notes/Unlockables/Unlockables.yy",},},
     {"id":{"name":"Victory Messages","path":"notes/Victory Messages/Victory Messages.yy",},},
+    {"id":{"name":"input_controller_object","path":"objects/input_controller_object/input_controller_object.yy",},},
     {"id":{"name":"obj_air_bubble_spawner","path":"objects/obj_air_bubble_spawner/obj_air_bubble_spawner.yy",},},
     {"id":{"name":"obj_air_bubble","path":"objects/obj_air_bubble/obj_air_bubble.yy",},},
     {"id":{"name":"obj_apex_intro","path":"objects/obj_apex_intro/obj_apex_intro.yy",},},
