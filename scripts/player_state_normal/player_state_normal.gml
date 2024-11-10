@@ -251,23 +251,26 @@ function player_state_normal()
 			if (input_check("jump", player_number))
 			{
 				if (is_undefined(aura_stored))
+				{
 					aura_stored = aura;
+					aura = max(aura - 5, 0);
+				}
 				
 				if (aura_stored > 0)
 				{
-					if (jump_strength >= 0)
-						instance_create_layer(x - 12 + random(24), y - 12 + random(24), "layer_instances", obj_yorb_collected_single);
 					if (jump_strength < JUMP_STRENGTH_MAX)
 					{
 						jump_strength++;
 						if (jump_strength > 0)
-							aura = max(aura - 2, 0);
+							aura = max(aura - 1, 0);
 					}
+					if (jump_strength > 0)
+						instance_create_layer(x - 12 + random(24), y - 12 + random(24), "layer_instances", obj_yorb_collected_single);
 				}
 			}
 			else if (input_check_released("jump", player_number))
 			{
-				if (jump_strength >= 0)
+				if (jump_strength > 0)
 				{
 					jump_buffer = 0;
 					coyote_time = 0;

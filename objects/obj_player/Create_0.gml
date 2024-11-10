@@ -63,7 +63,7 @@ character_index = 0;
 	#macro JUMP_BUFFER_MAX 8
 	etc_buffer = 0;
 	#macro JUMP_STRENGTH_MAX 15
-	#macro JUMP_STRENGTH_MIN -12
+	#macro JUMP_STRENGTH_MIN 0
 	jump_strength = JUMP_STRENGTH_MIN;
 	
 	hp = 0;
