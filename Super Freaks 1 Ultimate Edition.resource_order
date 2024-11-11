@@ -1172,6 +1172,7 @@
     {"name":"scr_tilemap_collisions","order":1,"path":"scripts/scr_tilemap_collisions/scr_tilemap_collisions.yy",},
     {"name":"scr_triggers","order":7,"path":"scripts/scr_triggers/scr_triggers.yy",},
     {"name":"scr_trophies","order":8,"path":"scripts/scr_trophies/scr_trophies.yy",},
+    {"name":"scr_ui_nodes","order":6,"path":"scripts/scr_ui_nodes/scr_ui_nodes.yy",},
     {"name":"scr_unlocks","order":9,"path":"scripts/scr_unlocks/scr_unlocks.yy",},
     {"name":"scr_vectors","order":6,"path":"scripts/scr_vectors/scr_vectors.yy",},
     {"name":"scr_views","order":7,"path":"scripts/scr_views/scr_views.yy",},
