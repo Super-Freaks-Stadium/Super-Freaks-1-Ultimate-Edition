@@ -11,7 +11,7 @@ var _mirror = false;
 if (global.game_state == game_states.gameplay && global.modifiers[modifiers.mirror] == true)
 	_mirror = true;
 
-virtual_buttons_draw_gui();
+//virtual_buttons_draw_gui();
 
 draw_set_alpha(1);
 draw_set_color(c_white);
