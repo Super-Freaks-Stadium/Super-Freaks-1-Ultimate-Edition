@@ -13,4 +13,4 @@ for (_i = 0; _i < 8; ++_i)
 	draw_sprite(sprite_index, 1, _star_x, _star_y);
 }
 
-draw_sprite_interpolated(sprite_index, 0,,,,,,,,, image_angle, image_angle);
+draw_sprite_interpolated(sprite_index, 0,,,,,scale_effect,scale_effect,scale_effect_previous,scale_effect_previous, image_angle, image_angle);

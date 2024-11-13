@@ -25,6 +25,8 @@ with (other)
 //if (hitbox.radius > 8)
 //{
 	rotate_speed = 16;
+    scale_effect_timer = 1.0;
+    scale_x = 
 	sfx_play_global(sfx_stararrow);
 	hitbox.radius = 0;
 //}

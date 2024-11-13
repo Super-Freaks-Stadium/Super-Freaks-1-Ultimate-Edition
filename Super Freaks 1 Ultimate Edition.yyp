@@ -395,6 +395,7 @@
   },
   "name":"Super Freaks 1 Ultimate Edition",
   "resources":[
+    {"id":{"name":"animcurve_star_arrow","path":"animcurves/animcurve_star_arrow/animcurve_star_arrow.yy",},},
     {"id":{"name":"font_gamekeys","path":"fonts/font_gamekeys/font_gamekeys.yy",},},
     {"id":{"name":"font_normal","path":"fonts/font_normal/font_normal.yy",},},
     {"id":{"name":"Cutscenes - Kranion","path":"notes/Cutscenes - Kranion/Cutscenes - Kranion.yy",},},
