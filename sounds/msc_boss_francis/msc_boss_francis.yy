@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":83.35699,
+  "duration":83.35701,
   "name":"msc_boss_francis",
   "parent":{
     "name":"Music",
