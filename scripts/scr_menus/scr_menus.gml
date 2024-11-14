@@ -29,11 +29,12 @@ function menu_step(_player_number = 0)
 	
 	_option_current = options[page][option];
 	
-	//if (options[page][option][menu_option_data.unlocked])
-	//{
-		_option_func = _option_current[menu_option_data.func];
+	if not (options[page][option][menu_option_data.unlocked])
+        input_verb_consume("confirm", global.player_lead);
+    
+    _option_func = _option_current[menu_option_data.func];
 	
-		_option_func();
+    _option_func();
 	//}
 }
 
