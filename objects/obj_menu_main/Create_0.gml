@@ -77,7 +77,7 @@ timer = 0;
 			option = 0;
 			global.story_mode = story_modes.anti_freaks;
 		}
-	}, true);
+	}, false);
 	menu_option_add(_page, 4, "Final Battle (Coming Soon!)", function()
 	{
 		main_text = "Super Freaks 1 Ultimate Edition";
@@ -88,7 +88,7 @@ timer = 0;
 			global.level_id = level_ids.level_apex;
 			instance_create(obj_character_select);
 		}
-	}, true);
+	}, false);
 	menu_option_add(_page, 5, "Museum", function()
 	{
 		main_text = "Super Freaks 1 Ultimate Edition";
