@@ -49,21 +49,25 @@ function __input_config_verbs()
             start: input_binding_gamepad_button(gp_start),
             confirm:  input_binding_gamepad_button(gp_face1),
             deny:  input_binding_gamepad_button(gp_face2),
-        },
+        }//,
         
-        touch:
-        {
-            up:    input_binding_virtual_button(),
-            down:  input_binding_virtual_button(),
-            left:  input_binding_virtual_button(),
-            right: input_binding_virtual_button(),
-            
-            accept:  input_binding_virtual_button(),
-            cancel:  input_binding_virtual_button(),
-            action:  input_binding_virtual_button(),
-            special: input_binding_virtual_button(),
-            
-            pause: input_binding_virtual_button(),
-        }
+        //touch:
+        //{
+        //    up:    input_binding_virtual_button(),
+        //    down:  input_binding_virtual_button(),
+        //    left:  input_binding_virtual_button(),
+        //    right: input_binding_virtual_button(),
+        //    
+        //    jump:  input_binding_virtual_button(),
+        //    
+        //    bubble:  input_binding_virtual_button(),
+        //    rubberband:  input_binding_virtual_button(),
+        //    rubberband_color: input_binding_virtual_button(),
+        //    drop_out: input_binding_virtual_button(),
+        //    
+        //    start: input_binding_virtual_button(),
+        //    confirm: input_binding_virtual_button(),
+        //    deny: input_binding_virtual_button(),
+        //}
     };
 }
