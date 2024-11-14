@@ -47,6 +47,11 @@ timer = 0;
 			option = 0;
 			global.story_mode = story_modes.super_freaks;
 		}
+        if (input_check_pressed("deny", global.player_lead))
+        {
+            spawn_point_set(rm_title);
+            instance_create(obj_room_transition_fade);
+        }
 	});
 	menu_option_add(_page, 1, "Bad Guys Story", function()
 	{
@@ -57,6 +62,11 @@ timer = 0;
 			option = 0;
 			global.story_mode = story_modes.kranion;
 		}
+        if (input_check_pressed("deny", global.player_lead))
+        {
+            spawn_point_set(rm_title);
+            instance_create(obj_room_transition_fade);
+        }
 	});
 	menu_option_add(_page, 2, "Uncle Swordsman Story", function()
 	{
@@ -67,6 +77,11 @@ timer = 0;
 			option = 0;
 			global.story_mode = story_modes.swordsman;
 		}
+        if (input_check_pressed("deny", global.player_lead))
+        {
+            spawn_point_set(rm_title);
+            instance_create(obj_room_transition_fade);
+        }
 	}, true);
 	menu_option_add(_page, 3, "Anti Freaks Story (Coming Soon!)", function()
 	{
@@ -77,6 +92,11 @@ timer = 0;
 			option = 0;
 			global.story_mode = story_modes.anti_freaks;
 		}
+        if (input_check_pressed("deny", global.player_lead))
+        {
+            spawn_point_set(rm_title);
+            instance_create(obj_room_transition_fade);
+        }
 	}, false);
 	menu_option_add(_page, 4, "Final Battle (Coming Soon!)", function()
 	{
@@ -88,6 +108,11 @@ timer = 0;
 			global.level_id = level_ids.level_apex;
 			instance_create(obj_character_select);
 		}
+        if (input_check_pressed("deny", global.player_lead))
+        {
+            spawn_point_set(rm_title);
+            instance_create(obj_room_transition_fade);
+        }
 	}, false);
 	menu_option_add(_page, 5, "Museum", function()
 	{
@@ -102,6 +127,11 @@ timer = 0;
 			else
 				sfx_play_global(sfx_honk);
 		}
+        if (input_check_pressed("deny", global.player_lead))
+        {
+            spawn_point_set(rm_title);
+            instance_create(obj_room_transition_fade);
+        }
 	}, global.unlocks[unlocks.museum][unlock_data.unlocked]);
 	menu_option_add(_page, 6, "Options", function()
 	{
@@ -111,18 +141,33 @@ timer = 0;
 			page = main_menu_pages.options;
 			option = 0;
 		}
+        if (input_check_pressed("deny", global.player_lead))
+        {
+            spawn_point_set(rm_title);
+            instance_create(obj_room_transition_fade);
+        }
 	});
 	menu_option_add(_page, 7, "More Super Freaks Games", function()
 	{
 		main_text = "Super Freaks 1 Ultimate Edition";
 		if (input_check_pressed("confirm", global.player_lead))
 			url_open("https://superfreaks.neocities.org/");
+        if (input_check_pressed("deny", global.player_lead))
+        {
+            spawn_point_set(rm_title);
+            instance_create(obj_room_transition_fade);
+        }
 	});
 	menu_option_add(_page, 8, "Exit", function()
 	{
 		main_text = "Super Freaks 1 Ultimate Edition";
 		if (input_check_pressed("confirm", global.player_lead))
 			game_end();
+        if (input_check_pressed("deny", global.player_lead))
+        {
+            spawn_point_set(rm_title);
+            instance_create(obj_room_transition_fade);
+        }
 	});
 #endregion
 
@@ -611,7 +656,7 @@ timer = 0;
 		else if (input_check_pressed("deny", global.player_lead))
 		{
 			page = main_menu_pages.main;
-			option = 4;
+			option = 5;
 		}
 	});
 	menu_option_add(_page, 1, "Movie Theater", function()
@@ -629,7 +674,7 @@ timer = 0;
 		else if (input_check_pressed("deny", global.player_lead))
 		{
 			page = main_menu_pages.main;
-			option = 4;
+			option = 5;
 		}
 	});
 	
@@ -715,7 +760,7 @@ timer = 0;
 		else if (input_check_pressed("deny", global.player_lead))
 		{
 			page = main_menu_pages.main;
-			option = 5;
+			option = 6;
 		}
 	});
 	menu_option_add(_page, 1, "Visual", function()
@@ -729,7 +774,7 @@ timer = 0;
 		else if (input_check_pressed("deny", global.player_lead))
 		{
 			page = main_menu_pages.main;
-			option = 5;
+			option = 6;
 		}
 	});
 	menu_option_add(_page, 2, "Audio", function()
@@ -743,7 +788,7 @@ timer = 0;
 		else if (input_check_pressed("deny", global.player_lead))
 		{
 			page = main_menu_pages.main;
-			option = 5;
+			option = 6;
 		}
 	});
 	//menu_option_add(_page, 3, "Other", function()
@@ -775,7 +820,7 @@ timer = 0;
 			else if (input_check_pressed("deny", global.player_lead))
 			{
 				page = main_menu_pages.main;
-				option = 5;
+				option = 6;
 			}
 		});
 	}
