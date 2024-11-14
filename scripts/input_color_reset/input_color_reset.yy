@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"input_color_reset",
   "parent":{
-    "name":"Other",
-    "path":"folders/Scripts/Input/Other.yy",
+    "name":"20  Color",
+    "path":"folders/Scripts/Input/20  Color.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

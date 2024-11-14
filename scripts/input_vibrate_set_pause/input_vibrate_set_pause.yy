@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"input_vibrate_set_pause",
   "parent":{
-    "name":"Vibration",
-    "path":"folders/Scripts/Input/Vibration.yy",
+    "name":"19  Vibration",
+    "path":"folders/Scripts/Input/19  Vibration.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

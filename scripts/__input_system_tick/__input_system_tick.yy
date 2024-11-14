@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"__input_system_tick",
   "parent":{
-    "name":"(System)",
-    "path":"folders/Scripts/Input/(System).yy",
+    "name":"Ticks",
+    "path":"folders/Scripts/Input/(System)/Ticks.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"input_binding_mouse_wheel_up",
   "parent":{
-    "name":"Binding Creators",
-    "path":"folders/Scripts/Input/Binding Creators.yy",
+    "name":"05  Binding Creators",
+    "path":"folders/Scripts/Input/05  Binding Creators.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

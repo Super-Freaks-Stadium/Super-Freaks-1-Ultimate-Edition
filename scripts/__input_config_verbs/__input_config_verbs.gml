@@ -1,44 +1,73 @@
-//Defines which verbs should collide with which other verbs when using input_binding_get_collisions()
-//and input_binding_set_safe(). A verb that is not present in a group will collide with all other verbs
-INPUT_VERB_GROUPS = {
-	gameplay: ["jump", "bubble", "rubberband", "rubberband_color"],
-    menu: ["confirm", "deny"],
-};
+// Feather disable all
 
-//Default time before input_check_repeat() returns <true>
-//(Whether this is in frames or milliseconds is controlled by INPUT_TIMER_MILLISECONDS)
-#macro INPUT_REPEAT_DEFAULT_DELAY  10
+//This script contains the default profiles, and hence the default bindings and verbs, for your game
+//
+//  Please edit this macro to meet the needs of your game!
+//
+//The struct return by this script contains the names of each default profile.
+//Default profiles then contain the names of verbs. Each verb should be given a binding that is
+//appropriate for the profile. You can create bindings by calling one of the input_binding_*()
+//functions, such as input_binding_key() for keyboard keys and input_binding_mouse() for
+//mouse buttons
 
-//Default time between a verb being activated and the first time input_check_repeat() returns <true>
-//(Whether this is in frames or milliseconds is controlled by INPUT_TIMER_MILLISECONDS)
-#macro INPUT_REPEAT_DEFAULT_PREDELAY  30
-
-//Time before input_check_long() returns <true>
-//(Whether this is in frames or milliseconds is controlled by INPUT_TIMER_MILLISECONDS)
-#macro INPUT_LONG_DELAY  10
-
-//Delay between key presses for it to register as a double press
-//(Whether this is in frames or milliseconds is controlled by INPUT_TIMER_MILLISECONDS)
-#macro INPUT_DOUBLE_DELAY  12
-
-//Number of frames over which a thumbstick must move, from the minimum to maximum thresholds, to trigger a quick tap
-//Lower values require the player to move a thumbstick faster to trigger a quick tap
-// N.B. This value is always in frames, regardless of what INPUT_TIMER_MILLISECONDS is set to
-#macro INPUT_QUICK_BUFFER  3
-
-//Default time limit between the first and last key press for chord activation
-//(Whether this is in frames or milliseconds is controlled by INPUT_TIMER_MILLISECONDS)
-#macro INPUT_CHORD_DEFAULT_TIME  4
-
-//Whether to clamp 2D input to a maximum distance of 1 unit
-//This affects input_x(), input_y(), input_xy(), input_direction(), and input_distance()
-#macro INPUT_2D_CLAMP  true
-
-//The amount of bias for 2D checkers to prefer straight lines along the x- and y-axes
-//This makes it easier for the player to input exactly horizontal and exactly vertical movement
-//Value should be from 0 to 1. Higher values make the biasing behaviour stronger
-#macro INPUT_2D_XY_AXIS_BIAS  0.0
-
-//Whether the axis bias (see above) should be 8-directional
-//If set to <false>, 2D checkers will only lock to north/east/south/west directions
-#macro INPUT_2D_XY_AXIS_BIAS_DIAGONALS  false
+function __input_config_verbs()
+{
+    return {
+        keyboard_and_mouse:
+        {
+            up:    [input_binding_key(vk_up),    input_binding_key("W")],
+            down:  [input_binding_key(vk_down),  input_binding_key("S")],
+            left:  [input_binding_key(vk_left),  input_binding_key("A")],
+            right: [input_binding_key(vk_right), input_binding_key("D")],
+            
+            jump: [input_binding_key("Z"), input_binding_key(vk_space), input_binding_mouse_button(mb_left)],
+            
+            bubble: [input_binding_key("X"), input_binding_mouse_button(mb_right)],
+            rubberband: [input_binding_key("C"), input_binding_key("Q")],
+            rubberband_color: [input_binding_key("V"), input_binding_key("E")],
+            drop_out: input_binding_key(vk_shift),
+            
+            start: [input_binding_key(vk_enter), input_binding_key(vk_escape)],
+            confirm:  [input_binding_key("Z"), input_binding_mouse_button(mb_left)],
+            deny:  [input_binding_key("X"), input_binding_mouse_button(mb_right)],
+        },
+        
+        gamepad:
+        {
+            up:    [input_binding_gamepad_axis(gp_axislv, true),  input_binding_gamepad_button(gp_padu)],
+            down:  [input_binding_gamepad_axis(gp_axislv, false), input_binding_gamepad_button(gp_padd)],
+            left:  [input_binding_gamepad_axis(gp_axislh, true),  input_binding_gamepad_button(gp_padl)],
+            right: [input_binding_gamepad_axis(gp_axislh, false), input_binding_gamepad_button(gp_padr)],
+            
+            jump:  input_binding_gamepad_button(gp_face1),
+            
+            bubble:  input_binding_gamepad_button(gp_face2),
+            rubberband: input_binding_gamepad_button(gp_shoulderlb), 
+            rubberband_color: input_binding_gamepad_button(gp_shoulderrb), 
+            drop_out: input_binding_gamepad_button(gp_select),
+            
+            start: input_binding_gamepad_button(gp_start),
+            confirm:  input_binding_gamepad_button(gp_face1),
+            deny:  input_binding_gamepad_button(gp_face2),
+        }//,
+        
+        //touch:
+        //{
+        //    up:    input_binding_virtual_button(),
+        //    down:  input_binding_virtual_button(),
+        //    left:  input_binding_virtual_button(),
+        //    right: input_binding_virtual_button(),
+        //    
+        //    jump:  input_binding_virtual_button(),
+        //    
+        //    bubble:  input_binding_virtual_button(),
+        //    rubberband:  input_binding_virtual_button(),
+        //    rubberband_color: input_binding_virtual_button(),
+        //    drop_out: input_binding_virtual_button(),
+        //    
+        //    start: input_binding_virtual_button(),
+        //    confirm: input_binding_virtual_button(),
+        //    deny: input_binding_virtual_button(),
+        //}
+    };
+}

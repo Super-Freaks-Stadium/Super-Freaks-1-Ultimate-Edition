@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"__input_snap_to_json",
   "parent":{
-    "name":"(System)",
-    "path":"folders/Scripts/Input/(System).yy",
+    "name":"Initialization",
+    "path":"folders/Scripts/Input/(System)/Initialization.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

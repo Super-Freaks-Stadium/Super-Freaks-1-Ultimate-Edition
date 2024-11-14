@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"input_player_get_invalid_gamepad_bindings",
   "parent":{
-    "name":"Players",
-    "path":"folders/Scripts/Input/Players.yy",
+    "name":"15  Players",
+    "path":"folders/Scripts/Input/15  Players.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

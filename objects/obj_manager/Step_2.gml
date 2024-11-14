@@ -16,7 +16,7 @@ if (is_struct(_new_source))
 		if (!input_player_connected(_i))
 		{
 		    input_source_set(_new_source, _i, true);
-		    input_consume(all, _i);
+		    input_verb_consume(all, _i);
 			switch (global.game_mode)
 			{
 				case game_modes.normal:
@@ -72,7 +72,9 @@ global.game_frame_new = true;
 
 while (_frames_game > 0)
 {
-	input_tick(true);
+	__input_system_tick();
+	__input_system_tick_touch();
+    //virtual_buttons_step();
 	
 	_pause = game_pause_get();
 

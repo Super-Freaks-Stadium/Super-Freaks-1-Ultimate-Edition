@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"input_source_is_available",
   "parent":{
-    "name":"Sources",
-    "path":"folders/Scripts/Input/Sources.yy",
+    "name":"18  Sources",
+    "path":"folders/Scripts/Input/18  Sources.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"input_accessibility_global_cooldown_get",
   "parent":{
-    "name":"Accessibility",
-    "path":"folders/Scripts/Input/Accessibility.yy",
+    "name":"12  Accessibility",
+    "path":"folders/Scripts/Input/12  Accessibility.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

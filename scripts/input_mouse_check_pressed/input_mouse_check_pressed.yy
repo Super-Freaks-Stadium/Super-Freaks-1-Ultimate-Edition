@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"input_mouse_check_pressed",
   "parent":{
-    "name":"Mouse (Direct)",
-    "path":"folders/Scripts/Input/Mouse (Direct).yy",
+    "name":"24  Mouse (Direct)",
+    "path":"folders/Scripts/Input/24  Mouse (Direct).yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

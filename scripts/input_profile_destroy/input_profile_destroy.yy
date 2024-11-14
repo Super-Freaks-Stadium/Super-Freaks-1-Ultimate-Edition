@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"input_profile_destroy",
   "parent":{
-    "name":"Profiles",
-    "path":"folders/Scripts/Input/Profiles.yy",
+    "name":"16  Profiles",
+    "path":"folders/Scripts/Input/16  Profiles.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"input_check_long_pressed",
   "parent":{
-    "name":"Checkers",
-    "path":"folders/Scripts/Input/Checkers.yy",
+    "name":"03  Advanced Checkers",
+    "path":"folders/Scripts/Input/03  Advanced Checkers.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
