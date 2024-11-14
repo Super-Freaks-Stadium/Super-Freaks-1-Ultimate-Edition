@@ -392,6 +392,7 @@
     {"$GMIncludedFile":"","%Name":"stand.png","CopyToMask":-1,"filePath":"datafiles/chars/!example/spr","name":"stand.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"walk.png","CopyToMask":-1,"filePath":"datafiles/chars/!example/spr","name":"walk.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"wall_slide.png","CopyToMask":-1,"filePath":"datafiles/chars/!example/spr","name":"wall_slide.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"HOW TO USE CUSTOM CHARACTERS.txt","CopyToMask":-1,"filePath":"datafiles/chars","name":"HOW TO USE CUSTOM CHARACTERS.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"controllerblacklist.csv","CopyToMask":-1,"filePath":"datafiles","name":"controllerblacklist.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"controllertypes.csv","CopyToMask":-1,"filePath":"datafiles","name":"controllertypes.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"input_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"input_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -403,7 +404,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.800.0.609",
+    "IDEVersion":"2024.8.1.171",
   },
   "name":"Super Freaks 1 Ultimate Edition",
   "resources":[
