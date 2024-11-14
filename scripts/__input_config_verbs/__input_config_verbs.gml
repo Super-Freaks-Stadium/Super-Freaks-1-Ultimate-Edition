@@ -20,16 +20,16 @@ function __input_config_verbs()
             left:  [input_binding_key(vk_left),  input_binding_key("A")],
             right: [input_binding_key(vk_right), input_binding_key("D")],
             
-            jump: [input_binding_key("Z"), input_binding_key(vk_space)],//, input_binding_mouse_button(mb_left)],
+            jump: [input_binding_key("Z"), input_binding_key(vk_space), input_binding_mouse_button(mb_left)],
             
-            bubble: [input_binding_key("X")],//, input_binding_mouse_button(mb_right)],
+            bubble: [input_binding_key("X"), input_binding_mouse_button(mb_right)],
             rubberband: [input_binding_key("C"), input_binding_key("Q")],
             rubberband_color: [input_binding_key("V"), input_binding_key("E")],
             drop_out: input_binding_key(vk_shift),
             
             start: [input_binding_key(vk_enter), input_binding_key(vk_escape)],
-            confirm:  [input_binding_key("Z")],//, input_binding_mouse_button(mb_left)],
-            deny:  [input_binding_key("X")],//, input_binding_mouse_button(mb_right)],
+            confirm:  [input_binding_key("Z"), input_binding_mouse_button(mb_left)],
+            deny:  [input_binding_key("X"), input_binding_mouse_button(mb_right)],
         },
         
         gamepad:
@@ -49,25 +49,25 @@ function __input_config_verbs()
             start: input_binding_gamepad_button(gp_start),
             confirm:  input_binding_gamepad_button(gp_face1),
             deny:  input_binding_gamepad_button(gp_face2),
-        },
+        }//,
         
-        touch:
-        {
-            up:    input_binding_virtual_button(),
-            down:  input_binding_virtual_button(),
-            left:  input_binding_virtual_button(),
-            right: input_binding_virtual_button(),
-            
-            jump:  input_binding_virtual_button(),
-            
-            bubble:  input_binding_virtual_button(),
-            rubberband:  input_binding_virtual_button(),
-            rubberband_color: input_binding_virtual_button(),
-            drop_out: input_binding_virtual_button(),
-            
-            start: input_binding_virtual_button(),
-            confirm: input_binding_virtual_button(),
-            deny: input_binding_virtual_button(),
-        }
+        //touch:
+        //{
+        //    up:    input_binding_virtual_button(),
+        //    down:  input_binding_virtual_button(),
+        //    left:  input_binding_virtual_button(),
+        //    right: input_binding_virtual_button(),
+        //    
+        //    jump:  input_binding_virtual_button(),
+        //    
+        //    bubble:  input_binding_virtual_button(),
+        //    rubberband:  input_binding_virtual_button(),
+        //    rubberband_color: input_binding_virtual_button(),
+        //    drop_out: input_binding_virtual_button(),
+        //    
+        //    start: input_binding_virtual_button(),
+        //    confirm: input_binding_virtual_button(),
+        //    deny: input_binding_virtual_button(),
+        //}
     };
 }

@@ -76,7 +76,7 @@ while (_frames_game > 0)
 {
 	__input_system_tick();
 	__input_system_tick_touch();
-    virtual_buttons_step();
+    //virtual_buttons_step();
 	
 	_pause = game_pause_get();
 

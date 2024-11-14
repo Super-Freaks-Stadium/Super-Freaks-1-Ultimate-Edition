@@ -27,7 +27,7 @@
 
 //Time before input_check_long() returns <true>
 //(Whether this is in frames or milliseconds is controlled by INPUT_TIMER_MILLISECONDS)
-#macro INPUT_LONG_DELAY  10
+#macro INPUT_LONG_DELAY  20//10
 
 //Delay between key presses for it to register as a double press
 //(Whether this is in frames or milliseconds is controlled by INPUT_TIMER_MILLISECONDS)
