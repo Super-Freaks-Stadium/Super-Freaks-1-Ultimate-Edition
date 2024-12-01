@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"__VinylClassDucker",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__VinylClassDucker",
+  "parent":{
+    "name":"Classes",
+    "path":"folders/Scripts/Vinyl/(Internals)/Classes.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

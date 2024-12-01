@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"__VinylClassQueueTemplate",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"__VinylClassQueueTemplate",
+  "parent":{
+    "name":"Patterns",
+    "path":"folders/Scripts/Vinyl/(Internals)/Classes/Patterns.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
