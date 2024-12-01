@@ -6,7 +6,7 @@
   "name":"__VinylClassPatternShuffle",
   "parent":{
     "name":"Patterns",
-    "path":"folders/Scripts/Vinyl/(Internals)/Classes/Patterns.yy",
+    "path":"folders/Extensions/Vinyl/(Internals)/Classes/Patterns.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

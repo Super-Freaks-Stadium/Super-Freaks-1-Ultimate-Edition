@@ -6,7 +6,7 @@
   "name":"VinylQueueContains",
   "parent":{
     "name":"Queues",
-    "path":"folders/Scripts/Vinyl/Queues.yy",
+    "path":"folders/Extensions/Vinyl/Queues.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -6,7 +6,7 @@
   "name":"__VinylClassVoiceQueue",
   "parent":{
     "name":"Voice",
-    "path":"folders/Scripts/Vinyl/(Internals)/Classes/Voice.yy",
+    "path":"folders/Extensions/Vinyl/(Internals)/Classes/Voice.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

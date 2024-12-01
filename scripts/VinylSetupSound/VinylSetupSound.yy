@@ -6,7 +6,7 @@
   "name":"VinylSetupSound",
   "parent":{
     "name":"Runtime Setup",
-    "path":"folders/Scripts/Vinyl/Runtime Setup.yy",
+    "path":"folders/Extensions/Vinyl/Runtime Setup.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

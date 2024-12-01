@@ -6,7 +6,7 @@
   "name":"VinylResume",
   "parent":{
     "name":"Deprecated",
-    "path":"folders/Scripts/Vinyl/(Internals)/Deprecated.yy",
+    "path":"folders/Extensions/Vinyl/(Internals)/Deprecated.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

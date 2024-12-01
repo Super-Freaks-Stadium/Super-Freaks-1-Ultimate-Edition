@@ -6,7 +6,7 @@
   "name":"VinylGetGlobalMetadata",
   "parent":{
     "name":"Metadata",
-    "path":"folders/Scripts/Vinyl/Metadata.yy",
+    "path":"folders/Extensions/Vinyl/Metadata.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

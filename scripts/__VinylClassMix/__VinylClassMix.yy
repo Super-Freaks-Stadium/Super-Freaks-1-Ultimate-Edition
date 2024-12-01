@@ -6,7 +6,7 @@
   "name":"__VinylClassMix",
   "parent":{
     "name":"Classes",
-    "path":"folders/Scripts/Vinyl/(Internals)/Classes.yy",
+    "path":"folders/Extensions/Vinyl/(Internals)/Classes.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

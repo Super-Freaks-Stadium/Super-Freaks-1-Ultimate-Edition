@@ -6,7 +6,7 @@
   "name":"__input_class_virtual",
   "parent":{
     "name":"Classes",
-    "path":"folders/Scripts/Input/(System)/Classes.yy",
+    "path":"folders/Extensions/Input/(System)/Classes.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

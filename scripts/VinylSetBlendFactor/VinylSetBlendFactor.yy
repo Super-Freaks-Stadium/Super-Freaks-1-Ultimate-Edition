@@ -6,7 +6,7 @@
   "name":"VinylSetBlendFactor",
   "parent":{
     "name":"Blend Voices",
-    "path":"folders/Scripts/Vinyl/Blend Voices.yy",
+    "path":"folders/Extensions/Vinyl/Blend Voices.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -13,7 +13,7 @@
   "name":"VinylFallbackSound",
   "parent":{
     "name":"(Internals)",
-    "path":"folders/Scripts/Vinyl/(Internals).yy",
+    "path":"folders/Extensions/Vinyl/(Internals).yy",
   },
   "preload":false,
   "resourceType":"GMSound",

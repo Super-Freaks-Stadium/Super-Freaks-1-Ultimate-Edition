@@ -6,7 +6,7 @@
   "name":"VinylDuckerGetMaxPriority",
   "parent":{
     "name":"Ducker",
-    "path":"folders/Scripts/Vinyl/Ducker.yy",
+    "path":"folders/Extensions/Vinyl/Ducker.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

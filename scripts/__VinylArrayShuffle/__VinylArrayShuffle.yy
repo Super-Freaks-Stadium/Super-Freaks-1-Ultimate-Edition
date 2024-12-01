@@ -6,7 +6,7 @@
   "name":"__VinylArrayShuffle",
   "parent":{
     "name":"PRNG",
-    "path":"folders/Scripts/Vinyl/(Internals)/PRNG.yy",
+    "path":"folders/Extensions/Vinyl/(Internals)/PRNG.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

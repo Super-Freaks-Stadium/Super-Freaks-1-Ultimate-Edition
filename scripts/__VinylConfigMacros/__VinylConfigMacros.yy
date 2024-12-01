@@ -6,7 +6,7 @@
   "name":"__VinylConfigMacros",
   "parent":{
     "name":"Config",
-    "path":"folders/Scripts/Vinyl/Config.yy",
+    "path":"folders/Extensions/Vinyl/Config.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

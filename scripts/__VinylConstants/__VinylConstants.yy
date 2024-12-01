@@ -6,7 +6,7 @@
   "name":"__VinylConstants",
   "parent":{
     "name":"Vinyl",
-    "path":"folders/Scripts/Vinyl.yy",
+    "path":"folders/Extensions/Vinyl.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

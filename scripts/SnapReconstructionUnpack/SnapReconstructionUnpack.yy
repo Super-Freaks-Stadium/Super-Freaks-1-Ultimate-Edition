@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"SnapReconstructionUnpack",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"SnapReconstructionUnpack",
+  "parent":{
+    "name":"Reconstruction",
+    "path":"folders/Extensions/SNAP/Reconstruction.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

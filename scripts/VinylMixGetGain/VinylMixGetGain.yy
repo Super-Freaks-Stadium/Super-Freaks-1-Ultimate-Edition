@@ -6,7 +6,7 @@
   "name":"VinylMixGetGain",
   "parent":{
     "name":"Mixes",
-    "path":"folders/Scripts/Vinyl/Mixes.yy",
+    "path":"folders/Extensions/Vinyl/Mixes.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -6,7 +6,7 @@
   "name":"VinylGetLoop",
   "parent":{
     "name":"Playback",
-    "path":"folders/Scripts/Vinyl/Playback.yy",
+    "path":"folders/Extensions/Vinyl/Playback.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

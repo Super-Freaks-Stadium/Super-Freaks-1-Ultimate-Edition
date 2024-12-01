@@ -4,7 +4,7 @@
   "name":"Vinyl JSON Format",
   "parent":{
     "name":"Vinyl",
-    "path":"folders/Scripts/Vinyl.yy",
+    "path":"folders/Extensions/Vinyl.yy",
   },
   "resourceType":"GMNotes",
   "resourceVersion":"2.0",

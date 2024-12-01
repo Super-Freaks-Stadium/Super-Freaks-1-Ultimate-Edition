@@ -6,7 +6,7 @@
   "name":"VinylGetLength",
   "parent":{
     "name":"Miscellaneous",
-    "path":"folders/Scripts/Vinyl/Miscellaneous.yy",
+    "path":"folders/Extensions/Vinyl/Miscellaneous.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -6,7 +6,7 @@
   "name":"__VinylWarning",
   "parent":{
     "name":"(Internals)",
-    "path":"folders/Scripts/Vinyl/(Internals).yy",
+    "path":"folders/Extensions/Vinyl/(Internals).yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
