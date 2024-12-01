@@ -2,7 +2,7 @@
 
 var _view_x1 = view_x1_get();
 var _view_y1 = view_y1_get();
-var _static_menu_bg = static_menu_bg_get();
+var _static_menu_bg = motion_sickness_get();
 
 draw_set_alpha(1);
 draw_set_color(c_white);

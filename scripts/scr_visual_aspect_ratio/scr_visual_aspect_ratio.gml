@@ -23,14 +23,14 @@ function aspect_ratio_list_init()
 /// @param {int} _index
 function aspect_ratio_current_set(_index)
 {
-	global.visuals_settings[visuals_data.aspect_ratio] = _index;
+	global.visuals_settings.aspect_ratio = _index;
 	screen_set();
 }
 
 /// @function aspect_ratio_current_get
 function aspect_ratio_current_get()
 {
-	return global.visuals_settings[visuals_data.aspect_ratio];
+	return global.visuals_settings.aspect_ratio;
 }
 
 /// @function aspect_ratio_add

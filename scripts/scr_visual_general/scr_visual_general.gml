@@ -1,4 +1,4 @@
-enum visuals_data
+enum visuals_data //LEGACY
 {
 	aspect_ratio = 0,
 	upscale,
@@ -22,7 +22,20 @@ enum visuals_data
 /// @function visuals_init
 function visuals_init()
 {
-	global.visuals_settings = [];
+	global.visuals_settings = 
+    {
+        aspect_ratio: 0,
+        upscale_window: 2,
+        upscale_internal: 2,
+        fullscreen: false,
+        frame_rate: 2,
+        vsync: true,
+        shader: 0,
+        background_blur: false,
+        screen_shake: true,
+        motion_sickness: false
+    }
+    
 	global.surface_game = -1;
 	global.surface_HUD = -1;
 		
@@ -30,7 +43,7 @@ function visuals_init()
 	framerate_list_init();
 	screen_shaders_init();
 	
-	visuals_default();
+	//visuals_default();
 	visuals_load();
 		
 	screen_set();
@@ -44,43 +57,27 @@ function visuals_init()
 /// @function visuals_save
 function visuals_save()
 {
-	var _json = json_stringify(global.visuals_settings);
-	string_save(_json, "visual.settings");
+	var _snap = SnapToJSON(global.visuals_settings);
+	string_save(_snap, "settings/visual.json");
 }
 
 /// @function visuals_load
 function visuals_load()
-{
-	var _json;
-	var _array;
-	var _i;
-	
-	if (file_exists("visual.settings"))
+{ 
+    //TODO Legacy Save Check
+    
+	if (file_exists("settings/visual.json"))
 	{
-		_json = string_load("visual.settings");
-		_array = json_parse(_json);
+		var _json = string_load("settings/visual.json");
+		var _snap = SnapFromJSON(_json);
 		
-		for (_i = 0; _i < array_length(_array); ++_i)
-		{
-			global.visuals_settings[_i] = _array[_i];
-		}
+        global.visuals_settings = _snap;
+        
+		//for (_i = 0; _i < array_length(_array); ++_i)
+		//{
+		//	global.visuals_settings[_i] = _array[_i];
+		//}
 	}
-}
-
-/// @function visuals_default
-function visuals_default()
-{
-	global.visuals_settings[visuals_data.aspect_ratio] = 0;
-	global.visuals_settings[visuals_data.upscale] = 1;
-	global.visuals_settings[visuals_data.fullscreen] = false;
-	global.visuals_settings[visuals_data.frame_rate] = 2;
-	global.visuals_settings[visuals_data.vsync] = true;
-	global.visuals_settings[visuals_data.aa] = 0;
-	global.visuals_settings[visuals_data.shader] = 0;
-	global.visuals_settings[visuals_data.background_blur] = false;
-	global.visuals_settings[visuals_data.screen_shake] = true;
-	global.visuals_settings[visuals_data.upscale_internal] = 2;
-	global.visuals_settings[visuals_data.static_menu_bg] = false;
 }
 
 /// @function screen_set
@@ -90,11 +87,11 @@ function screen_set()
 	var _screen_width = screen_width_get();
 	var _screen_height = screen_height_get();
 	var _upscale = screen_upscale_get();
-	var _upscale_internal = global.visuals_settings[visuals_data.upscale_internal];
-	var _fullscreen = global.visuals_settings[visuals_data.fullscreen];
+	var _upscale_internal = global.visuals_settings.upscale_internal;
+	var _fullscreen = global.visuals_settings.fullscreen;
 	var _window_width;
 	var _window_height;
-	var _framerate = global.framerate_list[global.visuals_settings[visuals_data.frame_rate]];
+	var _framerate = global.framerate_list[global.visuals_settings.frame_rate];
 	var _display_width = display_get_width();
 	var _display_height = display_get_height();
 		
@@ -137,7 +134,7 @@ function screen_set()
 function screen_width_get()
 {
 	var _aspect_ratio_list = global.aspect_ratio_list;
-	var _aspect_ratio_current = global.visuals_settings[visuals_data.aspect_ratio];
+	var _aspect_ratio_current = global.visuals_settings.aspect_ratio;
 	return _aspect_ratio_list[_aspect_ratio_current][aspect_ratio_data.width];
 }
 
@@ -145,7 +142,7 @@ function screen_width_get()
 function screen_height_get()
 {
 	var _aspect_ratio_list = global.aspect_ratio_list;
-	var _aspect_ratio_current = global.visuals_settings[visuals_data.aspect_ratio];
+	var _aspect_ratio_current = global.visuals_settings.aspect_ratio;
 	return _aspect_ratio_list[_aspect_ratio_current][aspect_ratio_data.height];
 }
 
@@ -153,21 +150,21 @@ function screen_height_get()
 /// @param {int} _upscale
 function screen_upscale_set(_upscale)
 {
-	global.visuals_settings[visuals_data.upscale] = clamp(_upscale, 1, SCREEN_UPSCALE_MAX);
+	global.visuals_settings.upscale_window = clamp(_upscale, 1, SCREEN_UPSCALE_MAX);
 	screen_set();
 }
 
 /// @function screen_upscale_get
 function screen_upscale_get()
 {
-	return global.visuals_settings[visuals_data.upscale];
+	return global.visuals_settings.upscale_window;
 }
 
 /// @function vsync_set
 /// @param {boolean} _flag = true
 function vsync_set(_flag = true)
 {
-	global.visuals_settings[visuals_data.vsync] = _flag;
+	global.visuals_settings.vsync = _flag;
 	
 	gml_pragma("forceinline");
 }
@@ -175,7 +172,7 @@ function vsync_set(_flag = true)
 /// @function vsync_get
 function vsync_get()
 {
-	return global.visuals_settings[visuals_data.vsync];
+	return global.visuals_settings.vsync;
 	
 	gml_pragma("forceinline");
 }
@@ -210,17 +207,17 @@ function aa_get()
 /// @function screen_shake_get
 function screen_shake_get()
 {
-	return global.visuals_settings[visuals_data.screen_shake];
+	return global.visuals_settings.screen_shake;
 }
 
 /// @function background_blur_get
 function background_blur_get()
 {
-	return global.visuals_settings[visuals_data.background_blur];
+	return global.visuals_settings.background_blur;
 }
 
-/// @function static_menu_bg_get
-function static_menu_bg_get()
+/// @function motion_sickness_get
+function motion_sickness_get()
 {
-	return global.visuals_settings[visuals_data.static_menu_bg];
+	return global.visuals_settings.motion_sickness;
 }

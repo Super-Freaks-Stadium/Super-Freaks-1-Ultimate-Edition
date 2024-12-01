@@ -5,7 +5,7 @@ var _screen_height = surface_get_height(application_surface);
 var _debug_text, _zone_text;
 var _i;
 var _zone_active;
-var _shader = global.shaders_list[global.visuals_settings[visuals_data.shader]][0];
+var _shader = global.shaders_list[global.visuals_settings.shader][0];
 var _mirror = false;
 
 if (global.game_state == game_states.gameplay && global.modifiers[modifiers.mirror] == true)

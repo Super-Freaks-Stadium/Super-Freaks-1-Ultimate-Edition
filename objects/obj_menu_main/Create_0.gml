@@ -942,16 +942,16 @@ timer = 0;
 		/// @function visual_options_set
 		visual_options_set = function()
 		{
-			global.visuals_settings[visuals_data.aspect_ratio] = option_aspectratio;
-			global.visuals_settings[visuals_data.upscale] = option_upscale;
-			global.visuals_settings[visuals_data.upscale_internal] = option_upscale_internal;
-			global.visuals_settings[visuals_data.fullscreen] = option_fullscreen;
-			global.visuals_settings[visuals_data.frame_rate] = option_framerate;
+			global.visuals_settings.aspect_ratio = option_aspectratio;
+			global.visuals_settings.upscale_window = option_upscale;
+			global.visuals_settings.upscale_internal = option_upscale_internal;
+			global.visuals_settings.fullscreen = option_fullscreen;
+			global.visuals_settings.frame_rate = option_framerate;
 			vsync_set(option_vsync);
-			global.visuals_settings[visuals_data.screen_shake] = option_screenshake;
-			global.visuals_settings[visuals_data.background_blur] = option_background;
-			global.visuals_settings[visuals_data.shader] = option_shader;
-			global.visuals_settings[visuals_data.static_menu_bg] = option_static_menu_bg;
+			global.visuals_settings.screen_shake = option_screenshake;
+			global.visuals_settings.background_blur = option_background;
+			global.visuals_settings.shader = option_shader;
+			global.visuals_settings.motion_sickness = option_motion_sickness;
 			sfx_play_global(sfx_ding);
 			screen_set();
 			visuals_save();
@@ -962,14 +962,14 @@ timer = 0;
 		{
 			option_aspectratio = aspect_ratio_current_get();
 			option_upscale = screen_upscale_get();
-			option_upscale_internal = global.visuals_settings[visuals_data.upscale_internal];
-			option_fullscreen = global.visuals_settings[visuals_data.fullscreen];
+			option_upscale_internal = global.visuals_settings.upscale_internal;
+			option_fullscreen = global.visuals_settings.fullscreen;
 			option_framerate = framerate_current_get();
 			option_vsync = vsync_get();
-			option_screenshake = global.visuals_settings[visuals_data.screen_shake];
-			option_background = global.visuals_settings[visuals_data.background_blur];
-			option_shader = global.visuals_settings[visuals_data.shader];
-			option_static_menu_bg = global.visuals_settings[visuals_data.static_menu_bg];
+			option_screenshake = global.visuals_settings.screen_shake;
+			option_background = global.visuals_settings.background_blur;
+			option_shader = global.visuals_settings.shader;
+			option_motion_sickness = global.visuals_settings.motion_sickness;
 		}
 		
 		visual_options_reset();
@@ -1208,7 +1208,7 @@ timer = 0;
 			}
 		});
 		
-		menu_option_add(_page, 9, "Static menu background: " + string(boolean_string_onoff(option_static_menu_bg)), function()
+		menu_option_add(_page, 9, "Motion sickness prevention: " + string(boolean_string_onoff(option_motion_sickness)), function()
 		{
 			main_text = "Options - Visual";
 			bottom_text = "Confirm to save changes";
@@ -1224,8 +1224,8 @@ timer = 0;
 			}
 			else if (input_check_pressed("left", global.player_lead) || input_check_pressed("right", global.player_lead))
 			{
-				option_static_menu_bg = !option_static_menu_bg;
-				options[main_menu_pages.options_visual][9][menu_option_data.text] = "Static menu background: " + string(boolean_string_onoff(option_static_menu_bg));
+				option_motion_sickness = !option_motion_sickness;
+				options[main_menu_pages.options_visual][9][menu_option_data.text] = "Motion sickness prevention: " + string(boolean_string_onoff(option_motion_sickness));
 			}
 		})
 	#endregion

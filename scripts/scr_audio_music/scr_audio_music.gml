@@ -61,12 +61,12 @@ function music_resume()
 /// @param _volume
 function volume_music_set(_volume)
 {
-	global.audio_settings[audio_data.volume_music] = _volume;
+	global.audio_settings.volume_music = _volume;
 	audio_emitter_gain(global.audio_emitter_music, _volume * volume_master_get());
 }
 
 /// @function volume_music_get
 function volume_music_get()
 {
-	return global.audio_settings[audio_data.volume_music];
+	return global.audio_settings.volume_music;
 }

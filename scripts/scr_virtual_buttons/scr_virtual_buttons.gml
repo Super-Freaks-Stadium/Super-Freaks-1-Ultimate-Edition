@@ -12,7 +12,7 @@ function virtual_buttons_step()
 {
     var _screen_width = screen_width_get();
     var _screen_height = screen_height_get();
-    var _screen_upscale = global.visuals_settings[visuals_data.upscale_internal];
+    var _screen_upscale = global.visuals_settings.upscale_internal;
     
     var thumbstick_position_x = (0 + 96) * _screen_upscale;
     var thumbstick_position_y = (_screen_height - 96) * _screen_upscale;

@@ -25,5 +25,5 @@ function framerate_add(_framerate)
 /// @function framerate_current_get
 function framerate_current_get()
 {
-	return global.visuals_settings[visuals_data.frame_rate];
+	return global.visuals_settings.frame_rate;
 }

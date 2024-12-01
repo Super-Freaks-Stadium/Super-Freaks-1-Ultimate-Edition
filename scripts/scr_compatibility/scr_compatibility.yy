@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_compatibility",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_compatibility",
+  "parent":{
+    "name":"Compatibility",
+    "path":"folders/Scripts/Compatibility.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
