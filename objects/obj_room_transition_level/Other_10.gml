@@ -3,11 +3,13 @@
 // Inherit the parent event
 event_inherited();
 
+animate_previous = animate;
+
 switch (state)
 {
 	case 0:
-		animate = frame / 20;
-		if (frame == 20)
+		animate = min(frame, 20) / 20;
+		if (frame == 21)
 			state_next_set(1);
 		break;
 	case 1:
@@ -65,7 +67,7 @@ switch (state)
 				hp = 0;
 			}
 		}
-		animate = (frame / 20) + 1;
+		animate = (min(frame, 20) / 20) + 1;
 		if (frame == 20)
 			instance_destroy();
 		break;

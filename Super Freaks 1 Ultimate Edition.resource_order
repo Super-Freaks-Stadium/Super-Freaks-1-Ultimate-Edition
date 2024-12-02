@@ -101,6 +101,7 @@
     {"name":"Test","order":2,"path":"folders/Rooms/Levels/Test.yy",},
     {"name":"Test Level","order":2,"path":"folders/Rooms/Levels/Test/Test Level.yy",},
     {"name":"Scripts","order":27,"path":"folders/Scripts.yy",},
+    {"name":"Compatibility","order":10,"path":"folders/Scripts/Compatibility.yy",},
     {"name":"Data Structures","order":1,"path":"folders/Scripts/Data Structures.yy",},
     {"name":"Debug","order":2,"path":"folders/Scripts/Debug.yy",},
     {"name":"Gameplay","order":3,"path":"folders/Scripts/Gameplay.yy",},

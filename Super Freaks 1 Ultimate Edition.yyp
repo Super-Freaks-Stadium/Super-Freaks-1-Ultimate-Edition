@@ -127,6 +127,7 @@
     {"$GMFolder":"","%Name":"Test Level","folderPath":"folders/Rooms/Levels/Test/Test Level.yy","name":"Test Level","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Audio","folderPath":"folders/Scripts/Audio.yy","name":"Audio","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Compatibility","folderPath":"folders/Scripts/Compatibility.yy","name":"Compatibility","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Data Structures","folderPath":"folders/Scripts/Data Structures.yy","name":"Data Structures","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Debug","folderPath":"folders/Scripts/Debug.yy","name":"Debug","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Gameplay","folderPath":"folders/Scripts/Gameplay.yy","name":"Gameplay","resourceType":"GMFolder","resourceVersion":"2.0",},
