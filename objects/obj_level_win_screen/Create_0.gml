@@ -72,7 +72,9 @@ global.frame_machine_player.pause = true;
 // Inherit the parent event
 event_inherited();
 
+animate_previous = 0;
 animate = 0;
+
 depth = -9998;
 state_next_set(0);
 game_timer_pause(true);
