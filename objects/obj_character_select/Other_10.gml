@@ -4,6 +4,8 @@ var _player_num;
 var _cutscene_room;
 var _level_list;
 
+y_offset_previous = y_offset;
+
 switch (state)
 {
 	case 0: //Raise

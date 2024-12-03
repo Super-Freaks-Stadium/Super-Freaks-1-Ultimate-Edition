@@ -109,6 +109,7 @@ while (_frames_game > 0)
 		
 	with (obj_gameplay_manager)
 	{
+        trophy_offset_previous = trophy_offset;
 		if (the_trophy_appears > 0 || _pause)
 		{
 			trophy_offset = max(trophy_offset - 3, 0);

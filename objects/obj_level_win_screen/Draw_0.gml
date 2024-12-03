@@ -2,7 +2,7 @@
 
 var _i;
 
-var _animate = lerp(animate_previous, animate, global.frame_delta);
+var _animate = lerp(animate_previous, animate, frame_delta_game_get());
 
 var _screen_width = screen_width_get();
 var _screen_height = screen_height_get();

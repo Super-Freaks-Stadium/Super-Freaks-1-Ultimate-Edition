@@ -10,6 +10,9 @@ var _screen_height_half = _screen_height / 2;
 // Inherit the parent event
 event_inherited();
 
+animate_previous = animate;
+lower_offset_previous = lower_offset;
+
 switch (state)
 {
 	case 0:

@@ -8,6 +8,7 @@ despawn_area[1] = -32;
 despawn_area[2] = 32;
 despawn_area[3] = 32;
 
+animate_previous = 0;
 animate = 0;
 rotate_speed = 8;
 

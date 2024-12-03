@@ -29,6 +29,7 @@ despawn_area[1] = _despawn_y1;
 despawn_area[2] = _despawn_x2;
 despawn_area[3] = _despawn_y2;
 
+animate_previous = 0;
 animate = 0;
 animate_speed = 8;
 

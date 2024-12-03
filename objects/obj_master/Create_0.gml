@@ -25,6 +25,7 @@ speed_y = 0;
 speed_path = 0;
 x_previous = x;
 y_previous = y;
+direction_previous = direction;
 x_start_frame = x;
 y_start_frame = y;
 start_room = room;

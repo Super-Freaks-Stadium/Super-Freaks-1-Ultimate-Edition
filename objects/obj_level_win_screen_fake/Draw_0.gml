@@ -1,5 +1,7 @@
 var _i;
 
+var _animate = lerp(animate_previous, animate, frame_delta_game_get());
+
 var _screen_width = screen_width_get();
 var _screen_height = screen_height_get();
 var _view_x1 = view_x1_get();
@@ -12,10 +14,10 @@ var _screen_width_fourth = _screen_width / 4;
 var _name_level = level_name_get();
 var _name_world = level_name_world_get();
 
-var _rec_A_y1 = (animate * _screen_height) - _screen_height;
+var _rec_A_y1 = (_animate * _screen_height) - _screen_height;
 var _rec_A_y2 = _rec_A_y1 + _screen_height;
 
-var _rec_B_y1 = _screen_height - (animate * _screen_height);
+var _rec_B_y1 = _screen_height - (_animate * _screen_height);
 var _rec_B_y2 = _rec_B_y1 + _screen_height;
 
 var _name_level = level_name_get();
@@ -23,9 +25,9 @@ var _name_world = level_name_world_get();
 
 var _trophy_separate = 72;
 var _trophy_rec_width = (global.trophies_max - 1) * _trophy_separate;
-var _trophy_rec_x1 = (_screen_width - (_screen_width_half * animate)) - (_trophy_rec_width * 0.5);
+var _trophy_rec_x1 = (_screen_width - (_screen_width_half * _animate)) - (_trophy_rec_width * 0.5);
 
-var _lower_offset = lower_offset * _screen_height;
+var _lower_offset = lerp(lower_offset_previous, lower_offset, frame_delta_game_get()) * _screen_height;
 
 if (!surface_exists(global.surface_HUD))
 	exit;
@@ -46,10 +48,10 @@ draw_set_font(global.font_title);
 
 draw_set_halign(fa_center);
 draw_set_valign(fa_top);
-draw_text(_view_x1 + (_screen_width_half * animate), _view_y1 + _lower_offset, string_upper(_name_world) + "\n" + string_upper(_name_level) + "\n" + string_upper(clear_text));
+draw_text(_view_x1 + (_screen_width_half * _animate), _view_y1 + _lower_offset, string_upper(_name_world) + "\n" + string_upper(_name_level) + "\n" + string_upper(clear_text));
 
 draw_set_valign(fa_bottom);
-draw_text_ext(_view_x1 + (_screen_width_half * animate), _view_y1 + _screen_height + _lower_offset, string_upper(victory_quote), -1, _screen_width);
+draw_text_ext(_view_x1 + (_screen_width_half * _animate), _view_y1 + _screen_height + _lower_offset, string_upper(victory_quote), -1, _screen_width);
 
 for (_i = 0; _i < global.trophies_max; ++_i)
 {

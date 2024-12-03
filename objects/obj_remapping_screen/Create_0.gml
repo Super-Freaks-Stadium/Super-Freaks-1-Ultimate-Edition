@@ -11,6 +11,7 @@ enum menu_remapping_screen_pages
 // Inherit the parent event
 event_inherited();
 
+y_offset_previous = 1;
 y_offset = 1;
 
 player_number = 0;

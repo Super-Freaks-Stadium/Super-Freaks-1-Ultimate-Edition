@@ -36,9 +36,9 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"my_path","filters":[
         "GMPath",
-      ],"listItems":[],"multiselect":false,"name":"my_path","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"my_speed","filters":[],"listItems":[],"multiselect":false,"name":"my_speed","rangeEnabled":true,"rangeMax":8.0,"rangeMin":-8.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"segments","filters":[],"listItems":[],"multiselect":false,"name":"segments","rangeEnabled":true,"rangeMax":255.0,"rangeMin":1.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
+      ],"listItems":[],"multiselect":false,"name":"my_path","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"my_speed","filters":[],"listItems":[],"multiselect":false,"name":"my_speed","rangeEnabled":true,"rangeMax":8.0,"rangeMin":-8.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"segments","filters":[],"listItems":[],"multiselect":false,"name":"segments","rangeEnabled":true,"rangeMax":255.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

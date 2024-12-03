@@ -1,5 +1,8 @@
 /// @description Step
 
+hitbox_x_offset_previous = hitbox.x_offset;
+hitbox_y_offset_previous = hitbox.y_offset;
+
 spin_angle_previous = spin_angle;
 spin_length_previous = spin_length;
 

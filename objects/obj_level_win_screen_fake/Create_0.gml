@@ -13,13 +13,16 @@ global.frame_machine_player.pause = true;
 // Inherit the parent event
 event_inherited();
 
+animate_previous = 0;
 animate = 0;
+
 depth = -9998;
 state_next_set(0);
 game_timer_pause(true);
 if (global.game_mode != game_modes.boss_rush)
 	music_set(msc_boss_kranion_2);
 
+lower_offset_previous = 0;
 lower_offset = 0;
 
 _level_save.trophies = (_level_save.trophies | global.trophies);

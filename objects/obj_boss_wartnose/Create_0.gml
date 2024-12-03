@@ -23,15 +23,19 @@ array_shuffle(cup_positions);
 cups = 
 [
 	{
+        x_previous: cup_positions[0],
 		x: cup_positions[0],
 	},
 	{
+        x_previous: cup_positions[1],
 		x: cup_positions[1],
 	},
 	{
+        x_previous: cup_positions[2],
 		x: cup_positions[2],
 	},
 	{
+        x_previous: cup_positions[3],
 		x: cup_positions[3],
 	},
 ];
@@ -87,6 +91,7 @@ timer_max = 48;
 hide = false;
 wartnose_visuals = 
 {
+    y_offset_previous: 0,
 	y_offset: 0,
 	flip: 1,
 	flip_timer: 0,

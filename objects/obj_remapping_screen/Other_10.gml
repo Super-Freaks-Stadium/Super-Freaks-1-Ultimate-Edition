@@ -1,5 +1,7 @@
 /// @description Step
 
+y_offset_previous = y_offset;
+
 if (pause)
 {
 	pause = false;

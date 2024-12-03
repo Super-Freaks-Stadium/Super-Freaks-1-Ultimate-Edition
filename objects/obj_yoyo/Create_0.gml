@@ -13,6 +13,8 @@ timer = 0;
 state_next_set(0);
 
 hitbox = new comp_hitbox_circle(,,,,, 24);
+hitbox_x_offset_previous = hitbox.x_offset;
+hitbox_y_offset_previous = hitbox.y_offset;
 
 despawn_area[0] = min(x - 32, destination_x - 32) - x;
 despawn_area[1] = min(y - 32, destination_y - 32) - y;

@@ -1165,6 +1165,7 @@
     {"name":"scr_rooms","order":1,"path":"scripts/scr_rooms/scr_rooms.yy",},
     {"name":"scr_scoring","order":5,"path":"scripts/scr_scoring/scr_scoring.yy",},
     {"name":"scr_shapes","order":5,"path":"scripts/scr_shapes/scr_shapes.yy",},
+    {"name":"scr_signals","order":7,"path":"scripts/scr_signals/scr_signals.yy",},
     {"name":"scr_spawn_point","order":2,"path":"scripts/scr_spawn_point/scr_spawn_point.yy",},
     {"name":"scr_sprites","order":6,"path":"scripts/scr_sprites/scr_sprites.yy",},
     {"name":"scr_state_machine","order":6,"path":"scripts/scr_state_machine/scr_state_machine.yy",},
