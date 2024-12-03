@@ -1,5 +1,7 @@
 /// @description Step
 
+wartnose_visuals.y_offset_previous = wartnose_visuals.y_offset;
+
 var _cup,
 	_cup_list = cups,
 	_cup_list_length = array_length(_cup_list);
@@ -91,7 +93,10 @@ switch (state)
 		{
 			_x_intended = cup_positions[_cup];
 			with (cups[_cup])
+            {
+                x_previous = x;
 				x = lerp(x, _x_intended, _timer);
+            }
 		}
 		
 		if (timer == 0)

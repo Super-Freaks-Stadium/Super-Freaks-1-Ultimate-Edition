@@ -6,6 +6,8 @@ var _missile, _attack_angle, _missile_x, _missile_y;
 // Inherit the parent event
 event_inherited();
 
+laser_distance_previous = laser_distance;
+
 switch (state)
 {
 	case boss_skullmobile_states.intro:
@@ -210,6 +212,10 @@ switch (state)
 		break;
 }
 
+gun_left_previous = {x_offset: gun_left.x_offset, y_offset: gun_left.y_offset}
+gun_right_previous = {x_offset: gun_right.x_offset, y_offset: gun_right.y_offset}
+laser_left_previous = {x_offset: laser_left.x_offset, y_offset: laser_left.y_offset, shape_x2: laser_left.shape_x2, shape_y2: laser_left.shape_y2}
+laser_right_previous = {x_offset: laser_right.x_offset, y_offset: laser_right.y_offset, shape_x2: laser_right.shape_x2, shape_y2: laser_right.shape_y2}
 
 gun_left.x_offset = lengthdir_x(laser_distance, laser_angle + 180);
 gun_left.y_offset = lengthdir_y(laser_distance, laser_angle + 180);

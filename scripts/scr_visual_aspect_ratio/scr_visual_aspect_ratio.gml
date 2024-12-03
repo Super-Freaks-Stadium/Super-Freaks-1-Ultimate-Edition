@@ -16,7 +16,7 @@ function aspect_ratio_list_init()
 	aspect_ratio_add(840, 360, "21:9 - 840 * 360"); // 21:9
 	aspect_ratio_add(840, 400, "21:10 - 840 * 400"); // 21:10
 	aspect_ratio_add(840, 480, "7:4 - 840 * 480"); // 7:4
-    aspect_ratio_add(756, 360, "MOBILE DEBUG")
+    aspect_ratio_add(756, 360, "Pixel 6a")
 }
 
 /// @function aspect_ratio_current_set

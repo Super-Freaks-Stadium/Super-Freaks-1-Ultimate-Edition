@@ -10,7 +10,7 @@ var _view_y1 = view_y1_get();
 var _view_width = view_width_get();
 var _view_height = view_height_get();
 var _x = _view_x1 + (_screen_width / 2);
-var _y = _view_y1 + (_screen_height / 2) + (_screen_height * (2 * y_offset));
+var _y = _view_y1 + (_screen_height / 2) + (_screen_height * (2 * lerp(y_offset_previous, y_offset, frame_delta_game_get())));
 var _color_cyan_light = make_color_rgb(191, 254, 255);
 var _color_cyan_dark = make_color_rgb(0, 107, 191);
 var _binding, _icon;

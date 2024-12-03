@@ -1,5 +1,7 @@
 /// @description Step
 
+y_previous = y;
+
 switch (state)
 {
 	case 0:

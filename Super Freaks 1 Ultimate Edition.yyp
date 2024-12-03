@@ -425,7 +425,6 @@
     {"$GMIncludedFile":"","%Name":"stand.png","CopyToMask":-1,"filePath":"datafiles/chars/!example/spr","name":"stand.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"walk.png","CopyToMask":-1,"filePath":"datafiles/chars/!example/spr","name":"walk.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"wall_slide.png","CopyToMask":-1,"filePath":"datafiles/chars/!example/spr","name":"wall_slide.png","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"HOW TO USE CUSTOM CHARACTERS.txt","CopyToMask":-1,"filePath":"datafiles/chars","name":"HOW TO USE CUSTOM CHARACTERS.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"controllerblacklist.csv","CopyToMask":-1,"filePath":"datafiles","name":"controllerblacklist.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"controllertypes.csv","CopyToMask":-1,"filePath":"datafiles","name":"controllertypes.csv","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"input_license.txt","CopyToMask":-1,"filePath":"datafiles","name":"input_license.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -439,7 +438,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.8.1.171",
+    "IDEVersion":"2024.1100.0.700",
   },
   "name":"Super Freaks 1 Ultimate Edition",
   "resources":[
@@ -1452,6 +1451,7 @@
     {"id":{"name":"scr_saving","path":"scripts/scr_saving/scr_saving.yy",},},
     {"id":{"name":"scr_scoring","path":"scripts/scr_scoring/scr_scoring.yy",},},
     {"id":{"name":"scr_shapes","path":"scripts/scr_shapes/scr_shapes.yy",},},
+    {"id":{"name":"scr_signals","path":"scripts/scr_signals/scr_signals.yy",},},
     {"id":{"name":"scr_spawn_point","path":"scripts/scr_spawn_point/scr_spawn_point.yy",},},
     {"id":{"name":"scr_sprites","path":"scripts/scr_sprites/scr_sprites.yy",},},
     {"id":{"name":"scr_state_machine","path":"scripts/scr_state_machine/scr_state_machine.yy",},},

@@ -176,7 +176,7 @@ var _heart_meter_zoom = _heart_zoom / 100;
 					default:
 						for (_list_pos = 0; _list_pos < global.trophies_max; ++_list_pos)
 						{
-							draw_sprite(spr_HUD_trophy, bit_get(global.trophies, _list_pos), _view_x1 - trophy_offset, _view_y1 + _screen_height - 48 - (global.trophies_max * 32) + (_list_pos * 32));
+							draw_sprite(spr_HUD_trophy, bit_get(global.trophies, _list_pos), _view_x1 - lerp(trophy_offset_previous, trophy_offset, frame_delta_game_get()), _view_y1 + _screen_height - 48 - (global.trophies_max * 32) + (_list_pos * 32));
 						}
 						break;
 				}

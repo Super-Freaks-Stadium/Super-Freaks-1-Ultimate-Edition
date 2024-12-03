@@ -54,6 +54,7 @@ function enemy_killed_create(_sprite_index = sprite_index, _image_index = image_
 		animate_speed = _animate_speed;
 		image_xscale = _image_xscale;
 		image_yscale = _image_yscale;
+        angle_previous = _angle;
 		angle = _angle;
 		speed_h = _speed_h;
 		speed_v = _speed_v;

@@ -1,5 +1,7 @@
 /// @description Step
 
+direction_previous = direction;
+
 var _speed_h, _speed_v, _player;
 var _point_dir, _point_speed, _point_damp;
 

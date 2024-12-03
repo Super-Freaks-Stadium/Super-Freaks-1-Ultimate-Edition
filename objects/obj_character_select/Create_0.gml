@@ -30,6 +30,7 @@ for (_player_num = 0; _player_num <= player_numbers.count; _player_num++)
 // Inherit the parent event
 event_inherited();
 
+y_offset_previous = 1;
 y_offset = 1;
 
 page = menu_character_select_pages.main;
