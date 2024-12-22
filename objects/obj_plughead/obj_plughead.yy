@@ -32,9 +32,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"timer_delay","filters":[],"listItems":[],"multiselect":false,"name":"timer_delay","rangeEnabled":false,"rangeMax":255.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"timer_frequency","filters":[],"listItems":[],"multiselect":false,"name":"timer_frequency","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"64","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"drop_speed","filters":[],"listItems":[],"multiselect":false,"name":"drop_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"timer_delay","filters":[],"listItems":[],"multiselect":false,"name":"timer_delay","rangeEnabled":false,"rangeMax":255.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"timer_frequency","filters":[],"listItems":[],"multiselect":false,"name":"timer_frequency","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"64","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"drop_speed","filters":[],"listItems":[],"multiselect":false,"name":"drop_speed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

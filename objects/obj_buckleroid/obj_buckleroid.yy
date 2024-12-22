@@ -32,9 +32,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"rotate_speed","filters":[],"listItems":[],"multiselect":false,"name":"rotate_speed","rangeEnabled":true,"rangeMax":8.0,"rangeMin":-8.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"shoot_frequency","filters":[],"listItems":[],"multiselect":false,"name":"shoot_frequency","rangeEnabled":true,"rangeMax":255.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"128","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"shoot_delay","filters":[],"listItems":[],"multiselect":false,"name":"shoot_delay","rangeEnabled":true,"rangeMax":255.0,"rangeMin":-255.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"rotate_speed","filters":[],"listItems":[],"multiselect":false,"name":"rotate_speed","rangeEnabled":true,"rangeMax":8.0,"rangeMin":-8.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"shoot_frequency","filters":[],"listItems":[],"multiselect":false,"name":"shoot_frequency","rangeEnabled":true,"rangeMax":255.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"128","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"shoot_delay","filters":[],"listItems":[],"multiselect":false,"name":"shoot_delay","rangeEnabled":true,"rangeMax":255.0,"rangeMin":-255.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

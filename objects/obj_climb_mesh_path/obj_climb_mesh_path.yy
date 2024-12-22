@@ -33,11 +33,11 @@
   "properties":[
     {"$GMObjectProperty":"v1","%Name":"my_path","filters":[
         "GMPath",
-      ],"listItems":[],"multiselect":false,"name":"my_path","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":5,},
-    {"$GMObjectProperty":"v1","%Name":"path_speed_start","filters":[],"listItems":[],"multiselect":false,"name":"path_speed_start","rangeEnabled":true,"rangeMax":16.0,"rangeMin":1.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"path_end_action","filters":[],"listItems":[],"multiselect":false,"name":"path_end_action","rangeEnabled":true,"rangeMax":1.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"path_action_stop","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"already_moving","filters":[],"listItems":[],"multiselect":false,"name":"already_moving","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"activate_timer","filters":[],"listItems":[],"multiselect":false,"name":"activate_timer","rangeEnabled":true,"rangeMax":120.0,"rangeMin":20.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":1,},
+      ],"listItems":[],"multiselect":false,"name":"my_path","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":5,},
+    {"$GMObjectProperty":"v1","%Name":"path_speed_start","filters":[],"listItems":[],"multiselect":false,"name":"path_speed_start","rangeEnabled":true,"rangeMax":16.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"path_end_action","filters":[],"listItems":[],"multiselect":false,"name":"path_end_action","rangeEnabled":true,"rangeMax":1.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"path_action_stop","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"already_moving","filters":[],"listItems":[],"multiselect":false,"name":"already_moving","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"activate_timer","filters":[],"listItems":[],"multiselect":false,"name":"activate_timer","rangeEnabled":true,"rangeMax":120.0,"rangeMin":20.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -9,7 +9,7 @@
   "managed":true,
   "name":"obj_floor_rising",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_level_obj","path":"objects/obj_level_obj/obj_level_obj.yy",},"propertyId":{"name":"can_despawn","path":"objects/obj_level_obj/obj_level_obj.yy",},"resource":null,"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_level_obj","path":"objects/obj_level_obj/obj_level_obj.yy",},"propertyId":{"name":"can_despawn","path":"objects/obj_level_obj/obj_level_obj.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"False",},
   ],
   "parent":{
     "name":"Starscraper",
@@ -33,8 +33,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"speed_rise","filters":[],"listItems":[],"multiselect":false,"name":"speed_rise","rangeEnabled":true,"rangeMax":8.0,"rangeMin":1.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"spike","filters":[],"listItems":[],"multiselect":false,"name":"spike","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
+    {"$GMObjectProperty":"v1","%Name":"speed_rise","filters":[],"listItems":[],"multiselect":false,"name":"speed_rise","rangeEnabled":true,"rangeMax":8.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"spike","filters":[],"listItems":[],"multiselect":false,"name":"spike","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":3,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

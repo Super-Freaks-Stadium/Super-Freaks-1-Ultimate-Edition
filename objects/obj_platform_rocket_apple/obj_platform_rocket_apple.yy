@@ -32,9 +32,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"rocket_height","filters":[],"listItems":[],"multiselect":false,"name":"rocket_height","rangeEnabled":true,"rangeMax":420.0,"rangeMin":16.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"16","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"rocket_speed","filters":[],"listItems":[],"multiselect":false,"name":"rocket_speed","rangeEnabled":true,"rangeMax":16.0,"rangeMin":1.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"lower_speed","filters":[],"listItems":[],"multiselect":false,"name":"lower_speed","rangeEnabled":true,"rangeMax":16.0,"rangeMin":1.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"4","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"rocket_height","filters":[],"listItems":[],"multiselect":false,"name":"rocket_height","rangeEnabled":true,"rangeMax":420.0,"rangeMin":16.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"16","varType":1,},
+    {"$GMObjectProperty":"v1","%Name":"rocket_speed","filters":[],"listItems":[],"multiselect":false,"name":"rocket_speed","rangeEnabled":true,"rangeMax":16.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v1","%Name":"lower_speed","filters":[],"listItems":[],"multiselect":false,"name":"lower_speed","rangeEnabled":true,"rangeMax":16.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"4","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
