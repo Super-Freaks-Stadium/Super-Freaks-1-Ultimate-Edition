@@ -5,8 +5,9 @@
 /// @param loopQueue
 /// @param localGain
 /// @param emitter
+/// @param fadeInRate
 
-function __VinylClassVoiceQueue(_templateName, _behaviour, _loopQueue, _gainLocal, _emitter) constructor
+function __VinylClassVoiceQueue(_templateName, _behaviour, _loopQueue, _gainLocal, _emitter, _fadeInRate) constructor
 {
     static _queueCount = 0;
     
@@ -32,6 +33,8 @@ function __VinylClassVoiceQueue(_templateName, _behaviour, _loopQueue, _gainLoca
     __pitchMix   = 1;
     
     __duckerName = undefined;
+    
+    __fadeInRate = _fadeInRate;
     
     __gainDuck       = 1;
     __gainDuckTarget = 1;
@@ -76,14 +79,34 @@ function __VinylClassVoiceQueue(_templateName, _behaviour, _loopQueue, _gainLoca
     
     static __PlaySound = function(_sound, _loop, _gain, _pitch)
     {
-        if (__emitter == undefined)
+        if (is_infinity(__fadeInRate))
         {
-            return audio_play_sound(_sound, 0, _loop, _gain, 0, _pitch);
+            if (__emitter == undefined)
+            {
+                var _voice = audio_play_sound(_sound, 0, _loop, _gain, 0, _pitch);
+            }
+            else
+            {
+                var _voice = audio_play_sound_on(__emitter, _sound, _loop, 0, _gain, 0, _pitch);
+            }
         }
         else
         {
-            return audio_play_sound_on(__emitter, _sound, _loop, 0, _gain, 0, _pitch);
+            if (__emitter == undefined)
+            {
+                var _voice = audio_play_sound(_sound, 0, _loop, 0, 0, _pitch);
+            }
+            else
+            {
+                var _voice = audio_play_sound_on(__emitter, _sound, _loop, 0, 0, 0, _pitch);
+            }
+            
+            var _gainLocal = __gainLocal;
+            __gainLocal = 0;
+            VinylSetGain(__voiceReference, _gainLocal, __fadeInRate);
         }
+        
+        return _voice;
     }
     
     static __Destroy = function()
@@ -100,8 +123,8 @@ function __VinylClassVoiceQueue(_templateName, _behaviour, _loopQueue, _gainLoca
         
         if (__gainLocal != __gainLocalTarget)
         {
-            _changed = true;
             __gainLocal += clamp(__gainLocalTarget - __gainLocal, -_delta*__gainLocalSpeed, _delta*__gainLocalSpeed);
+            _changed = true;
         }
         
         if (__gainDuckSpeed != undefined)
@@ -120,14 +143,15 @@ function __VinylClassVoiceQueue(_templateName, _behaviour, _loopQueue, _gainLoca
                 if (__gainFadeOutStop)
                 {
                     __Stop();
-                    return;
                 }
                 else
                 {
-                    __gainFadeOut      = 1;
-                    __gainFadeOutSpeed = undefined;
                     __SetPause(true);
                 }
+                
+                __gainFadeOut      = 1;
+                __gainFadeOutSpeed = undefined;
+                __gainFadeOutStop  = undefined;
             }
         }
         
@@ -212,7 +236,7 @@ function __VinylClassVoiceQueue(_templateName, _behaviour, _loopQueue, _gainLoca
         {
             if (_changed)
             {
-                audio_sound_gain(__voiceCurrent, __VINYL_VOICE_GAIN_SxLxMxDxF/VINYL_MAX_VOICE_GAIN, VINYL_STEP_DURATION);
+                audio_sound_gain(__voiceCurrent, __VINYL_VOICE_GAIN_SxLxMxDxF/VINYL_MAX_VOICE_GAIN, 0);
             }
         }
         
@@ -253,7 +277,7 @@ function __VinylClassVoiceQueue(_templateName, _behaviour, _loopQueue, _gainLoca
     
     static __FadeOut = function(_rateOfChange, _pause)
     {
-        if (__gainFadeOutStop != true)
+        if (__IsPlaying() && (__gainFadeOutStop != true))
         {
             __gainFadeOutSpeed = _rateOfChange;
             __gainFadeOutStop  = not _pause;
