@@ -1250,7 +1250,7 @@
     {"name":"scr_trophies","order":8,"path":"scripts/scr_trophies/scr_trophies.yy",},
     {"name":"scr_ui_nodes","order":6,"path":"scripts/scr_ui_nodes/scr_ui_nodes.yy",},
     {"name":"scr_unlocks","order":9,"path":"scripts/scr_unlocks/scr_unlocks.yy",},
-    {"name":"scr_vectors","order":6,"path":"scripts/scr_vectors/scr_vectors.yy",},
+    {"name":"scr_vectors","order":8,"path":"scripts/scr_vectors/scr_vectors.yy",},
     {"name":"scr_views","order":7,"path":"scripts/scr_views/scr_views.yy",},
     {"name":"scr_virtual_buttons","order":5,"path":"scripts/scr_virtual_buttons/scr_virtual_buttons.yy",},
     {"name":"scr_visual_aspect_ratio","order":1,"path":"scripts/scr_visual_aspect_ratio/scr_visual_aspect_ratio.yy",},
