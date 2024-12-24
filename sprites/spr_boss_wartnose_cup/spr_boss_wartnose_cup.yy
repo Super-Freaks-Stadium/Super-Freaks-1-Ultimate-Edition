@@ -81,8 +81,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_boss_wartnose",
+    "path":"texturegroups/texgroup_boss_wartnose",
   },
   "type":0,
   "VTile":false,

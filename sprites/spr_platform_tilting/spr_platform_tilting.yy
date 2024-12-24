@@ -104,8 +104,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_lvl_ice",
+    "path":"texturegroups/texgroup_lvl_ice",
   },
   "type":0,
   "VTile":false,

@@ -93,8 +93,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_lvl_encore",
+    "path":"texturegroups/texgroup_lvl_encore",
   },
   "type":0,
   "VTile":false,

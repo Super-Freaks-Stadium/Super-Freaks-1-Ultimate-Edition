@@ -81,8 +81,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_boss_francis",
+    "path":"texturegroups/texgroup_boss_francis",
   },
   "type":0,
   "VTile":false,

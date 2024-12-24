@@ -89,8 +89,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_boss_cranion",
+    "path":"texturegroups/texgroup_boss_cranion",
   },
   "type":0,
   "VTile":false,

@@ -81,8 +81,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_worldmap",
+    "path":"texturegroups/texgroup_worldmap",
   },
   "type":0,
   "VTile":false,

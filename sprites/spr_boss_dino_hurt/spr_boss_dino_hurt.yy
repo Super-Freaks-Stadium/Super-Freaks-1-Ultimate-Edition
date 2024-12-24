@@ -81,8 +81,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_boss_dino",
+    "path":"texturegroups/texgroup_boss_dino",
   },
   "type":0,
   "VTile":false,

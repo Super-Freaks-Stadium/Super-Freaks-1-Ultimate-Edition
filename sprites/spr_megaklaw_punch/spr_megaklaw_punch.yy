@@ -93,8 +93,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_boss_megaklaw",
+    "path":"texturegroups/texgroup_boss_megaklaw",
   },
   "type":0,
   "VTile":false,
