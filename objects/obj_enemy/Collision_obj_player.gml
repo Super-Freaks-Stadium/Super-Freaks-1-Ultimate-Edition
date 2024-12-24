@@ -154,7 +154,7 @@ switch (_hitbox_self.behavior)
 		{
 			if (ball)
 			{
-				sfx_play_global(sfx_honk);
+				sfx_play_local(sfx_honk);
 				//speed_h = 4 * sign(x - _hitbox_self_x);
 				if (underwater || jetpack)
 				{
@@ -254,7 +254,7 @@ if (_enemy_hurt)
 	if (hurt_timer == 0)
 		enemy_hurt();
 	else
-		sfx_play_global(sfx_bounce_rubber);
+		sfx_play_local(sfx_bounce_rubber);
 }
 
 if (_player_hurt)

@@ -111,7 +111,7 @@ switch (state)
 								_attack_finish = true;
 								claw_left_index = 1;
 								claw_left_timer = 16;
-								sfx_play_global(sfx_explode_short);
+								sfx_play_local(sfx_explode_short);
 								_fireball = instance_create_layer(_claw_left_x, _claw_left_y, "layer_instances", obj_enemy_fireball, 
 								{
 									speed: 4,
@@ -144,7 +144,7 @@ switch (state)
 							if (round(claw_right_angle) == round(_attack_angle))
 							{
 								_attack_finish = true;
-								sfx_play_global(sfx_explode_short);
+								sfx_play_local(sfx_explode_short);
 								claw_right_index = 1;
 								claw_right_timer = 16;
 								_fireball = instance_create_layer(_claw_right_x, _claw_right_y, "layer_instances", obj_enemy_fireball, 

@@ -33,7 +33,7 @@ if (_collision_up)
 	if (speed_v < 0)
 	{
 		speed_v = 0;
-		sfx_play_global(sfx_honk);
+		sfx_play_local(sfx_honk);
 	}
 }
 if (_collision_down)

@@ -39,7 +39,7 @@ switch (state)
 					break;
 			}
 			if (in_view())
-				sfx_play_global(sfx_explode_short);
+				sfx_play_local(sfx_explode_short);
 			_fireball = instance_create_layer(x, y, "layer_instances", obj_enemy_fireball, 
 			{
 				speed: 3,

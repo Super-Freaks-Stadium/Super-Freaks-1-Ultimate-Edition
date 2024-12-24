@@ -51,14 +51,14 @@ switch (state)
 		{
 			sprite_index = spr_milkman_body;
 			speed_v = 0;
-			sfx_play_global(sfx_fall);
+			sfx_play_local(sfx_fall);
 		}
 		
 		y += 12;
 		
 		if (collision_down_simple())
 		{
-			sfx_play_global(sfx_crash_1);
+			sfx_play_local(sfx_crash_1);
 			state_next_set(boss_milkman_states.normal);
 			speed_v = 0;
 			ground_on = true;
@@ -103,7 +103,7 @@ switch (state)
 			
 			if (collision_down_simple())
 			{
-				sfx_play_global(sfx_crash_1);
+				sfx_play_local(sfx_crash_1);
 				speed_v = 0;
 				ground_on = true;
 				_shockwave = instance_create_layer(x, y, "layer_instances", obj_enemy_shockwave);
@@ -121,7 +121,7 @@ switch (state)
 			if (arm_extend == true)
 			{
 				arm_extend = false;
-				sfx_play_global(sfx_zip);
+				sfx_play_local(sfx_zip);
 			}
 		}
 
@@ -167,7 +167,7 @@ switch (state)
 		if (state_begin)
 		{
 			speed_v = 0;
-			sfx_play_global(sfx_fall);
+			sfx_play_local(sfx_fall);
 		}
 		speed_v = min(speed_v + speed_grv, 6);
 		
@@ -175,7 +175,7 @@ switch (state)
 		
 		if (collision_down_simple())
 		{
-			sfx_play_global(sfx_crash_1);
+			sfx_play_local(sfx_crash_1);
 			state_next_set(boss_milkman_states.normal);
 			speed_v = 0;
 			ground_on = true;

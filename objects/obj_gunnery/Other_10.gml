@@ -65,7 +65,7 @@ switch (state)
 				break;
 		}
 		if (in_view())
-			sfx_play_global(sfx_explode_short);
+			sfx_play_local(sfx_explode_short);
 		_fireball = instance_create_layer(x, y + lengthdir_y(4, shoot_spread), "layer_instances", obj_enemy_fireball, 
 		{
 			speed: 4,
@@ -120,7 +120,7 @@ switch (state)
 		if (animate_speed == 0 && timer > 32)
 		{
 			animate_speed = 0.1;
-			sfx_play_global(sfx_gun_cock);
+			sfx_play_local(sfx_gun_cock);
 		}
 		
 		if (animation_about_to_end())

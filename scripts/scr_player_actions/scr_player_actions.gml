@@ -258,14 +258,14 @@ function player_hurt()
 			{
 				speed_h = 1 * -face;
 				speed_v = -4;
-				sfx_play_global(sfx_hurt);
+				sfx_play_local(sfx_hurt);
 			}
 			else
 			{
 				if (state != player_states.hang)
 					state_next_set(player_states.hurt);
 				else
-					sfx_play_global(sfx_hurt);
+					sfx_play_local(sfx_hurt);
 			}
 		}
 		else
@@ -313,7 +313,7 @@ function player_crush()
 	if (_crush_left && _crush_right) || (_crush_up && _crush_down)
 	{
 		state_next_set(player_states.death, 9999999);
-		sfx_play_global(sfx_hurt);
+		sfx_play_local(sfx_hurt);
 		switch (global.story_mode)
 		{
 			case story_modes.super_freaks:
@@ -403,7 +403,7 @@ function player_water_step()
 								aura = 0;
 								break;
 						}
-						sfx_play_global(sfx_hurt);
+						sfx_play_local(sfx_hurt);
 						hurt_timer_set(120);
 						state_next_set(player_states.normal, 999);
 					}

@@ -68,7 +68,7 @@ switch (state)
 		{
 			sprite_index = spr_boss_marrow_prime_cast;
 			image_index = 0;
-			sfx_play_global(sfx_powerup);
+			sfx_play_local(sfx_powerup);
 		}
 		
 		timer -= (1 / _fast_forward);
@@ -120,7 +120,7 @@ switch (state)
 						}
 					}
 			
-					sfx_play_global(sfx_explode);
+					sfx_play_local(sfx_explode);
 					screen_shake(0, 6);
 					break;
 				case 1:
@@ -149,7 +149,7 @@ switch (state)
 		if (state_begin)
 		{
 			speed_v = -10;
-			sfx_play_global(sfx_jump);
+			sfx_play_local(sfx_jump);
 			sprite_index = spr_boss_marrow_prime_jump;
 			image_index = 0;
 			animate_speed = 0;
@@ -182,7 +182,7 @@ switch (state)
 				speed_v = 0;
 				hit_counter = 0;
 				screen_shake(0, 12);
-				sfx_play_global(sfx_crash_2);
+				sfx_play_local(sfx_crash_2);
 				state_next_set(boss_marrow2_states.idle);
 			}
 		}
@@ -220,7 +220,7 @@ switch (state)
 				image_xscale = 4;
 				image_yscale = 4;
 			}
-			sfx_play_global(sfx_explode);
+			sfx_play_local(sfx_explode);
 			screen_shake(0, 20);
 			instance_destroy();
 			instance_create(obj_marrow_death, x, y);

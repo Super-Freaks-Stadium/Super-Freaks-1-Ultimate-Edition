@@ -62,7 +62,7 @@ switch (state)
 				if (speed_v < 0)
 				{
 					speed_v = 0;
-					sfx_play_global(sfx_honk);
+					sfx_play_local(sfx_honk);
 				}
 			}
 			if (_collision_down)
@@ -134,7 +134,7 @@ switch (state)
 				if (speed_v < 0)
 				{
 					speed_v = 0;
-					sfx_play_global(sfx_honk);
+					sfx_play_local(sfx_honk);
 				}
 			}
 			if (_collision_down)
@@ -163,7 +163,7 @@ switch (state)
 				if (image_index == 0)
 				{
 					image_index = 1;
-					sfx_play_global(sfx_bite);
+					sfx_play_local(sfx_bite);
 				}
 			}
 		#endregion

@@ -282,7 +282,7 @@ function player_state_normal()
 						speed_h *= lerp(1, 4, jump_strength / JUMP_STRENGTH_MAX);
 					else
 						speed_h *= lerp(1, 1.25, jump_strength / JUMP_STRENGTH_MAX);
-					sfx_play_global(sfx_explode_short);
+					sfx_play_local(sfx_explode_short);
 					_collider = collider_attach[collider_attach_data.collider];
 					if (!is_undefined(_collider))
 					{
@@ -306,7 +306,7 @@ function player_state_normal()
 			if (!ball || jetpack_jump_timer < 8)
 			{
 				ball = true;
-				sfx_play_global(player_jumpsound_get(character_index));
+				sfx_play_local(player_jumpsound_get(character_index));
 				jetpack_jump_timer = JETPACK_JUMP_TIMER_MAX;
 			}
 			ground_on = false;
@@ -318,7 +318,7 @@ function player_state_normal()
 				
 			if (!underwater && ground_on) || (underwater) || (coyote_time > 0)
 			{
-				sfx_play_global(player_jumpsound_get(character_index));
+				sfx_play_local(player_jumpsound_get(character_index));
 				switch (global.story_mode)
 				{
 					default:
@@ -471,7 +471,7 @@ function player_state_normal()
 		{
 			speed_v = 0;
 			if (sign(y - yprevious) == -1)
-				sfx_play_global(sfx_honk);
+				sfx_play_local(sfx_honk);
 		}
 		if (behavior_ceiling == collider_behaviors_solid.hazard)
 			player_hurt();
@@ -506,7 +506,7 @@ function player_state_normal()
 					{
 						physics = player_physics_modifiers.slime;
 						speed_h = 0;
-						sfx_play_global(sfx_splat);
+						sfx_play_local(sfx_splat);
 					}
 					break;
 				case collider_behaviors_solid.rail:

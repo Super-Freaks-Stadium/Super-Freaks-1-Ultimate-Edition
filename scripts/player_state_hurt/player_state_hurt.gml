@@ -8,7 +8,7 @@ function player_state_hurt()
 		camera.active = true;
 		speed_h = 1 * -face;
 		speed_v = -4;
-		sfx_play_global(sfx_hurt);
+		sfx_play_local(sfx_hurt);
 		hurt_timer_set(120);
 		collider_attach_clear();
 		angle = 0;
@@ -90,7 +90,7 @@ function player_state_hurt()
 		if (speed_v < 0)
 		{
 			speed_v = 0;
-			sfx_play_global(sfx_honk);
+			sfx_play_local(sfx_honk);
 		}
 		state_next_set(player_states.normal, 9);
 	}

@@ -85,7 +85,7 @@ switch (state)
 				speed: 3,
 				direction: _shoot_direction,
 			});
-			sfx_play_global(sfx_explode_short);
+			sfx_play_local(sfx_explode_short);
 		}
 		
 		if (animation_about_to_end())

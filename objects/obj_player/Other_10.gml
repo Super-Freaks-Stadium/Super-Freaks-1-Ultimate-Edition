@@ -19,7 +19,7 @@ if (global.water_active && y > global.water_height)
 {
 	if (underwater == false)
 	{
-		sfx_play_global(sfx_splash);
+		sfx_play_local(sfx_splash);
 		underwater = true;
 	}
 }
@@ -27,7 +27,7 @@ else
 {
 	if (underwater == true)
 	{
-		sfx_play_global(sfx_splash);
+		sfx_play_local(sfx_splash);
 		underwater = false;
 		
 		if (ground_on == false && speed_v < 0)

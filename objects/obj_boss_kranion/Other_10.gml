@@ -60,7 +60,7 @@ switch (state)
 					counter = 5;
 					break;
 			}
-			sfx_play_global(sfx_run_1, true);
+			sfx_play_local(sfx_run_1, true);
 		}
 		timer = min(timer + 1, 52);
 		
@@ -102,7 +102,7 @@ switch (state)
 				speed_h = (abs(speed_h) + 4) * -sign(face);
 				face = -face;
 				screen_shake(12, 0);
-				sfx_play_global(sfx_crash_1);
+				sfx_play_local(sfx_crash_1);
 			}
 			else
 			{
@@ -111,7 +111,7 @@ switch (state)
 				state_next_set(boss_kranion_states.stun);
 				audio_stop_sound(sfx_run_1);
 				screen_shake(12, 0);
-				sfx_play_global(sfx_crash_1);
+				sfx_play_local(sfx_crash_1);
 			}
 		}
 		break;
@@ -125,7 +125,7 @@ switch (state)
 			timer = 0;
 			speed_h = 0;
 			speed_v = 0;
-			sfx_play_global(sfx_run_1, true);
+			sfx_play_local(sfx_run_1, true);
 		}
 		timer = min(timer + 1, 48);
 		
@@ -186,7 +186,7 @@ switch (state)
 				speed_h = -speed_h;
 				face = -face;
 				screen_shake(12, 0);
-				sfx_play_global(sfx_crash_1);
+				sfx_play_local(sfx_crash_1);
 			}
 			else
 			{
@@ -195,14 +195,14 @@ switch (state)
 				state_next_set(boss_kranion_states.stun);
 				audio_stop_sound(sfx_run_1);
 				screen_shake(12, 0);
-				sfx_play_global(sfx_crash_1);
+				sfx_play_local(sfx_crash_1);
 			}
 		}
 		
 		if (collision_flag_get_up() || collision_flag_get_down())
 		{
 			speed_v = -speed_v;
-			sfx_play_global(sfx_crash_1);
+			sfx_play_local(sfx_crash_1);
 			screen_shake(0, 12);
 		}
 		break;
@@ -275,7 +275,7 @@ switch (state)
 						break;
 				}
 				screen_shake(0, 12);
-				sfx_play_global(sfx_crash_1);
+				sfx_play_local(sfx_crash_1);
 				_shockwave = instance_create_layer(x, y + 64, "layer_instances", obj_enemy_shockwave);
 				_shockwave.speed_h = -6;
 				_shockwave = instance_create_layer(x, y + 64, "layer_instances", obj_enemy_shockwave);
@@ -292,7 +292,7 @@ switch (state)
 			hitbox.behavior = enemy_hitbox_behaviors.heavy;
 			hit_counter = 0;
 			timer = 0;
-			sfx_play_global(sfx_crash_2);
+			sfx_play_local(sfx_crash_2);
 		}
 		
 		speed_v = min(speed_v + speed_grv, 6);

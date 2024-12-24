@@ -62,7 +62,7 @@ function music_resume()
 function volume_music_set(_volume)
 {
 	global.audio_settings.volume_music = _volume;
-	audio_emitter_gain(global.audio_emitter_music, _volume * volume_master_get());
+	global.audio_bus_music.gain = (volume_music_get() * volume_master_get());
 }
 
 /// @function volume_music_get

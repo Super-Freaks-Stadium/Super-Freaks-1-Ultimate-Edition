@@ -22,7 +22,7 @@ switch (state)
 		if (state_begin)
 		{
 			timer = 0;
-			sfx_play_global(sfx_lightning, false);
+			sfx_play_local(sfx_lightning, false);
 			hitbox.active = hitbox_active.passive;
 			rectangle_radius = 0;
 			screen_shake(0, 6);

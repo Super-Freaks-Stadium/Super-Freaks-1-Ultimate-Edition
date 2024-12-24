@@ -64,7 +64,7 @@ if (active)
 			active = false;
 			can_despawn = true;
 			if (in_view(x - 32, y - 96, x + 32, y + 96))
-				sfx_play_global(sfx_pop);
+				sfx_play_local(sfx_pop);
 		}
 	}
 	else

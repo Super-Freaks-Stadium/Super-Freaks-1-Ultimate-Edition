@@ -77,7 +77,8 @@ while (_frames_game > 0)
 	__input_system_tick();
 	__input_system_tick_touch();
     virtual_buttons_step();
-	
+    audio_step();
+    
 	_pause = game_pause_get();
 
 	global.animate = (global.animate + 0.25) mod 8;

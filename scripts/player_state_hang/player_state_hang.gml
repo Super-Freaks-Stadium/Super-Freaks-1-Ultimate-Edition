@@ -62,7 +62,7 @@ function player_state_hang()
 			speed_v = -speed_jump;
 		}
 		state_next_set(player_states.normal, 5);
-		sfx_play_global(sfx_jump);
+		sfx_play_local(sfx_jump);
 		hang_dismount_frames = HANG_DISMOUNT_FRAMES_MAX;
 		ball = true;
 		ground_on = false;

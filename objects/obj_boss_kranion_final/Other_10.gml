@@ -195,7 +195,7 @@ switch (state)
 			{
 				speed_x = -speed_x;
 				screen_shake(12, 0);
-				sfx_play_global(sfx_crash_1);
+				sfx_play_local(sfx_crash_1);
 			}
 		}
 		if (_collision_right)
@@ -204,7 +204,7 @@ switch (state)
 			{
 				speed_x = -speed_x;
 				screen_shake(12, 0);
-				sfx_play_global(sfx_crash_1);
+				sfx_play_local(sfx_crash_1);
 			}
 		}
 		if (_collision_up)
@@ -213,7 +213,7 @@ switch (state)
 			{
 				speed_y = -speed_y;
 				screen_shake(0, 12);
-				sfx_play_global(sfx_crash_1);
+				sfx_play_local(sfx_crash_1);
 			}
 		}
 		if (_collision_down)
@@ -222,7 +222,7 @@ switch (state)
 			{
 				speed_y = -speed_y;
 				screen_shake(0, 12);
-				sfx_play_global(sfx_crash_1);
+				sfx_play_local(sfx_crash_1);
 			}
 		}
 		
@@ -259,7 +259,7 @@ switch (state)
 				instance_create_layer(x - 256 + random(512), y - 256 + random(512), "layer_instances", obj_kranion_suction_star);
 			if (timer mod (16 - (global.difficulty - 1) * 2) == 0)
 			{
-				sfx_play_global(sfx_explode_short);
+				sfx_play_local(sfx_explode_short);
 				switch (global.difficulty)
 				{
 					case difficulty_levels.easy:
@@ -300,7 +300,7 @@ switch (state)
 		if (spike_size == 1)
 		{
 			if (spike_speed == 0)
-				sfx_play_global(sfx_pluck);
+				sfx_play_local(sfx_pluck);
 			spike_speed += 0.125;
 			if (spike_speed == 3)
 			{

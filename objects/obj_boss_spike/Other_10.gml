@@ -68,7 +68,7 @@ switch (state)
 			else
 				timer = 48;
 			image_index = 2;
-			sfx_play_global(sfx_pluck);
+			sfx_play_local(sfx_pluck);
 			hitbox.behavior = enemy_hitbox_behaviors.heavy_hazard;
 		}
 		//swing_speed = min(swing_speed + 0.1, 1.5);
@@ -85,7 +85,7 @@ switch (state)
 			blink = false;
 			timer = 16;
 			image_index = 2;
-			sfx_play_global(sfx_explode);
+			sfx_play_local(sfx_explode);
 			if (global.difficulty == difficulty_levels.hard)
 			{
 				for (_i = 0; _i < 8; ++_i)

@@ -20,6 +20,6 @@ with (other)
 		lock_controls_horizontal = 20;
 		trigger_toggle(_trigger_id);
 		sfx_play_global(sfx_ding);
-		sfx_play_global(sfx_hit);
+		sfx_play_local(sfx_hit);
 	}
 }

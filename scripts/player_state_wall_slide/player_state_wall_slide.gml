@@ -47,7 +47,7 @@ function player_state_wall_slide()
 		
 	if (jump_buffer > 0)
 	{
-		sfx_play_global(player_jumpsound_get(character_index));
+		sfx_play_local(player_jumpsound_get(character_index));
 		ball = true;
 		speed_h = face * -4;
 		speed_v = -(speed_jump + (AURA_JUMP * (aura / 100)));
@@ -121,7 +121,7 @@ function player_state_wall_slide()
 		{
 			physics = player_physics_modifiers.slime;
 			speed_v = 0;
-			sfx_play_global(sfx_splat);
+			sfx_play_local(sfx_splat);
 		}
 	}
 	
@@ -130,7 +130,7 @@ function player_state_wall_slide()
 		if (speed_v < 0)
 		{
 			speed_v = 0;
-			sfx_play_global(sfx_honk);
+			sfx_play_local(sfx_honk);
 		}
 	}
 	if (_collision_down)

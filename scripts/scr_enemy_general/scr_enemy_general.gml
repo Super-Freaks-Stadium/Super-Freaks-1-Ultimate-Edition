@@ -28,7 +28,7 @@ function enemy_hurt(_hp = 1, _hurt_timer = 8)
 {
 	hp = max(hp - _hp, 0);
 	hurt_timer_set(_hurt_timer);
-	sfx_play_global(sfx_hit);
+	sfx_play_local(sfx_hit);
 	hit_counter++;
 	if (hp == 0)
 		event_user(5);

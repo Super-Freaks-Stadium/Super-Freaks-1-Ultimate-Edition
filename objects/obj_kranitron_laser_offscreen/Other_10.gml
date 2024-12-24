@@ -23,7 +23,7 @@ switch (state)
 			multiplier = 0;
 			image_alpha = 1;
 			hitbox.active = hitbox_active.inactive;
-			sfx_play_global(sfx_laser_huge_charge, false);
+			sfx_play_local(sfx_laser_huge_charge, false);
 			_player = player_nearest_alive();
 			if (!is_undefined(_player))
 			{
@@ -44,7 +44,7 @@ switch (state)
 			timer = 0;
 			image_alpha = 1;
 			audio_stop_sound(sfx_laser_huge_charge);
-			sfx_play_global(sfx_laser_huge_fire, false);
+			sfx_play_local(sfx_laser_huge_fire, false);
 			hitbox.active = hitbox_active.passive;
 		}
 		

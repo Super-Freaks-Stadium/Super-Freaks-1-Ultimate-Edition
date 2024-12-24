@@ -28,7 +28,7 @@ switch (state)
 		if (state_begin)
 		{
 			y = ystart;
-			sfx_play_global(sfx_fall);
+			sfx_play_local(sfx_fall);
 		}
 		speed_v = min(speed_v + speed_grv, 6);
 		y += speed_v;
@@ -50,7 +50,7 @@ switch (state)
 			y = ystart;
 			state_next_set(0);
 			if (in_view(x - _width_half, y - _height_half, x + _width_half, y + _height_half))
-				sfx_play_global(sfx_pop);
+				sfx_play_local(sfx_pop);
 		}
 		break;
 }

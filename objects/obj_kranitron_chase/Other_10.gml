@@ -6,7 +6,7 @@ switch (state)
 		if (state_begin)
 		{
 			fade = 2;
-			sfx_play_global(sfx_laser_huge_charge);
+			sfx_play_local(sfx_laser_huge_charge);
 		}
 		fade = max(fade - 0.025, -0.5);
 		if (fade == -0.5)
@@ -23,7 +23,7 @@ switch (state)
 		if (animation_at_end())
 		{
 			screen_shake(0, 6);
-			sfx_play_global(sfx_crash_1);
+			sfx_play_local(sfx_crash_1);
 		}
 		x += 1.25;
 		break;

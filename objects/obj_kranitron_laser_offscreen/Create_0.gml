@@ -3,6 +3,8 @@
 // Inherit the parent event
 event_inherited();
 
+audio_emitter_falloff(self_emitter, 2048, 4096, 0);
+
 can_despawn = false;
 x = room_width;
 

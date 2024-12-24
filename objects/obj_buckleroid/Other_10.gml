@@ -33,7 +33,7 @@ if (timer >= shoot_frequency)
 	}
 	
 	if (in_view())
-		sfx_play_global(sfx_explode_short);
+		sfx_play_local(sfx_explode_short);
 	
 	timer = 0;
 	blink = false;

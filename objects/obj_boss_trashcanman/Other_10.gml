@@ -41,7 +41,7 @@ switch (state)
 			sprite_index = player_animation_get(character_index, player_animations.air);
 			animate_speed = 0;
 			image_index = 0;
-			sfx_play_global(sfx_slide_whistle_up);
+			sfx_play_local(sfx_slide_whistle_up);
 		}
 		
 		speed_y -= 0.25;
@@ -68,7 +68,7 @@ switch (state)
 			global.boss_phase = bit_set(global.boss_phase, 3);
 			instance_create_layer(x, y, "layer_instances", obj_boss_explosion);
 			screen_shake(0, 8);
-			sfx_play_global(sfx_yell_wilhelm);
+			sfx_play_local(sfx_yell_wilhelm);
 			speed_x = 0;
 			speed_y = -7.15;
 			hitbox.active = hitbox_active.inactive;
@@ -119,7 +119,7 @@ switch (state)
 			laser.active = hitbox_active.passive;
 			hitbox.behavior = enemy_hitbox_behaviors.heavy;
 			sprite_index = player_animation_get(character_index, player_animations.air);
-			sfx_play_global(sfx_laser_huge_fire);
+			sfx_play_local(sfx_laser_huge_fire);
 			animate_speed = 0;
 			image_index = 1;
 		}

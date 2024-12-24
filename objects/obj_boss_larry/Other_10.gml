@@ -54,7 +54,7 @@ if (_collision_left)
 	if (speed_h < 0)
 	{
 		speed_h = -speed_h;
-		sfx_play_global(sfx_bounce_rubber);
+		sfx_play_local(sfx_bounce_rubber);
 	}
 }
 if (_collision_right)
@@ -62,7 +62,7 @@ if (_collision_right)
 	if (speed_h > 0)
 	{
 		speed_h = -speed_h;
-		sfx_play_global(sfx_bounce_rubber);
+		sfx_play_local(sfx_bounce_rubber);
 	}
 }
 if (_collision_up)
@@ -70,7 +70,7 @@ if (_collision_up)
 	if (speed_v < 0)
 	{
 		speed_v = -speed_v;
-		sfx_play_global(sfx_bounce_rubber);
+		sfx_play_local(sfx_bounce_rubber);
 	}
 }
 if (_collision_down)
@@ -78,7 +78,7 @@ if (_collision_down)
 	if (speed_v >= 0)
 	{
 		speed_v = -7.15;
-		sfx_play_global(sfx_bounce_rubber);
+		sfx_play_local(sfx_bounce_rubber);
 	}
 }
 
@@ -114,7 +114,7 @@ switch (state)
 			image_index = 1;
 			hitbox.behavior = enemy_hitbox_behaviors.heavy_hazard;
 			blink = false;
-			sfx_play_global(sfx_pluck);
+			sfx_play_local(sfx_pluck);
 		}
 		timer = min(timer + 1, 96);
 		

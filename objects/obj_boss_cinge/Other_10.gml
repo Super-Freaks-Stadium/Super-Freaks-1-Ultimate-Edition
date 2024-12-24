@@ -61,7 +61,7 @@ switch (state)
 					_target = player_nearest_alive();
 					if (!is_undefined(_target))
 					{
-						sfx_play_global(sfx_flame);
+						sfx_play_local(sfx_flame);
 						_angle = point_direction(x + (76 * face), y + 48, _target.x, _target.y);
 						_fireball = instance_create_layer(x + (76 * face), y + 48, "layer_instances", obj_enemy_fireball, 
 						{
@@ -120,7 +120,7 @@ switch (state)
 			speed_h = 0;
 			hitbox.shape_x1 = -60;
 			hitbox.shape_x2 = 60;
-			sfx_play_global(sfx_run_1, true);
+			sfx_play_local(sfx_run_1, true);
 		}
 		timer = min(timer + 1, 72);
 		
@@ -176,7 +176,7 @@ switch (state)
 			hitbox.shape_y1 = -40;
 			hitbox.shape_x2 = 40;
 			hitbox.shape_y2 = 80;
-			sfx_play_global(sfx_crash_2);
+			sfx_play_local(sfx_crash_2);
 		}
 		
 		speed_v = min(speed_v + speed_grv, 6);

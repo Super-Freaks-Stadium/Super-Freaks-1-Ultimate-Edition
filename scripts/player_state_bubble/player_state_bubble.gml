@@ -32,7 +32,7 @@ function player_state_bubble()
 		y = clamp(y, _view_y1, _view_y2);
 		hitbox.active = hitbox_active.passive;
 		
-		sfx_play_global(sfx_bubble);
+		sfx_play_local(sfx_bubble);
 		timer_death = 0;
 		
 		if (_nearest_player == undefined)

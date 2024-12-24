@@ -8,7 +8,7 @@ cockpit_timer = 8;
 if (global.boss_phase == 1 && hp <= 9)
 {
 	instance_create_layer(x, y, "layer_instances", obj_boss_explosion);
-	sfx_play_global(sfx_explode);
+	sfx_play_local(sfx_explode);
 	global.boss_phase = 2;
 	speed_h_max = 2;
 	size = 0.75;
@@ -33,7 +33,7 @@ if (global.boss_phase == 1 && hp <= 9)
 else if (global.boss_phase == 2 && hp <= 6)
 {
 	instance_create_layer(x, y, "layer_instances", obj_boss_explosion);
-	sfx_play_global(sfx_explode);
+	sfx_play_local(sfx_explode);
 	global.boss_phase = 3;
 	speed_h_max = 1;
 	size = 0.5;

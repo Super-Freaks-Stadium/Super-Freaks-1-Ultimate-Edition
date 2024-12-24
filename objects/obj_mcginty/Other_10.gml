@@ -39,7 +39,7 @@ if (_collision_left)
 	if (speed_h < 0)
 	{
 		speed_h = -speed_h;
-		sfx_play_global(sfx_bonk_coconut_2);
+		sfx_play_local(sfx_bonk_coconut_2);
 	}
 }
 if (_collision_right)
@@ -47,7 +47,7 @@ if (_collision_right)
 	if (speed_h > 0)
 	{
 		speed_h = -speed_h;
-		sfx_play_global(sfx_bonk_coconut_2);
+		sfx_play_local(sfx_bonk_coconut_2);
 	}
 }
 if (_collision_up)
@@ -55,7 +55,7 @@ if (_collision_up)
 	if (speed_v < 0)
 	{
 		speed_v = 0;
-		sfx_play_global(sfx_bonk_coconut_2);
+		sfx_play_local(sfx_bonk_coconut_2);
 	}
 }
 if (_collision_down)
@@ -65,7 +65,7 @@ if (_collision_down)
 		if (speed_v > 3)
 		{
 			screen_shake(0, 6);
-			sfx_play_global(sfx_crash_1);
+			sfx_play_local(sfx_crash_1);
 		}
 		speed_v = 0;
 		ground_on = true;

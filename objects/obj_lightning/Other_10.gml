@@ -52,7 +52,7 @@ switch (state)
 		{
 			timer = 0;
 			image_alpha = 1;
-			sfx_play_global(sfx_lightning, false);
+			sfx_play_local(sfx_lightning, false);
 			hitbox.active = hitbox_active.passive;
 			global.water_electric_timer = 8;
 			screen_shake(0, 6);

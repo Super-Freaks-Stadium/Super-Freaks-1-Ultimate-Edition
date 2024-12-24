@@ -39,4 +39,10 @@ animate_speed = 0; //Updates animation once a frame
 
 run_frame = false;
 
+self_emitter = audio_emitter_create();
+audio_emitter_bus(self_emitter, global.audio_bus_sfx);
+audio_emitter_falloff(self_emitter, 512, 4096, 1);
+self_emitter_offset = new vector2();
+
+
 //show_debug_message("CREATE " + string(id) + " " + string(object_get_name(object_index)));

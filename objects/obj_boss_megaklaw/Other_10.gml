@@ -109,7 +109,7 @@ switch (state)
 		
 		if (arm_length == arm_length_max)
 		{
-			sfx_play_global(sfx_crash_2);
+			sfx_play_local(sfx_crash_2);
 			state_next_set(boss_megaklaw_states.punch_3);
 			_shockwave = instance_create_layer(x + (arm_length * face), y + arm_length + 24, "layer_instances", obj_enemy_shockwave);
 			_shockwave.speed_h = 6 * face;
@@ -145,7 +145,7 @@ switch (state)
 						case difficulty_levels.easy:
 							break;
 						case difficulty_levels.normal:
-							sfx_play_global(sfx_pop);
+							sfx_play_local(sfx_pop);
 							_target = player_nearest_alive();
 							if (!is_undefined(_target))
 							{
@@ -158,7 +158,7 @@ switch (state)
 							}
 							break;
 						case difficulty_levels.hard:
-							sfx_play_global(sfx_pop);
+							sfx_play_local(sfx_pop);
 							_target = player_nearest_alive();
 							if (!is_undefined(_target) && instance_number(obj_enemy_missile) < 3)
 							{
@@ -173,7 +173,7 @@ switch (state)
 					}
 					break;
 				case 1:
-					sfx_play_global(sfx_pop);
+					sfx_play_local(sfx_pop);
 					switch (global.difficulty)
 					{
 						case difficulty_levels.easy:

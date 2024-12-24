@@ -42,7 +42,7 @@ switch (state)
 		if (animation_at_end())
 		{
 			screen_shake(0, 6);
-			sfx_play_global(sfx_crash_1);
+			sfx_play_local(sfx_crash_1);
 		}
 		if (timer >= 64)
 		{
@@ -58,7 +58,7 @@ switch (state)
 			multiplier = 0;
 			laser_alpha = 1;
 			hitbox_laser.active = hitbox_active.inactive;
-			sfx_play_global(sfx_laser_huge_charge, false);
+			sfx_play_local(sfx_laser_huge_charge, false);
 			hitbox_laser.shape_x1 = lengthdir_x(8000, _attack_angle);
 			hitbox_laser.shape_y1 = lengthdir_y(8000, _attack_angle);
 			hitbox_laser.shape_x2 = 0;
@@ -78,7 +78,7 @@ switch (state)
 			timer = 0;
 			laser_alpha = 1;
 			audio_stop_sound(sfx_laser_huge_charge);
-			sfx_play_global(sfx_laser_huge_fire, false);
+			sfx_play_local(sfx_laser_huge_fire, false);
 			hitbox_laser.active = hitbox_active.passive;
 		}
 		

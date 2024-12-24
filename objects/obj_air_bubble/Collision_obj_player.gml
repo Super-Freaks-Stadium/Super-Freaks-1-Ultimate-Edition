@@ -8,7 +8,7 @@ with (other)
 	{
 		water_meter = 100;
 		_destroy = true;
-		sfx_play_global(sfx_bubble_air);
+		sfx_play_local(sfx_bubble_air);
 	}
 }
 

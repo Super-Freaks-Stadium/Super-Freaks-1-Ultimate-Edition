@@ -36,7 +36,7 @@ switch (state)
 		{
 			sprite_index = spr_boss_marrow_prime_sit_attack;
 			image_index = 0;
-			sfx_play_global(sfx_powerup);
+			sfx_play_local(sfx_powerup);
 		}
 		
 		timer -= (1 / _fast_forward);
@@ -81,7 +81,7 @@ switch (state)
 						}
 					}
 			
-					sfx_play_global(sfx_explode);
+					sfx_play_local(sfx_explode);
 					screen_shake(0, 6);
 					break;
 				case 1:

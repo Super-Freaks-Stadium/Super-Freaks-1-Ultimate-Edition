@@ -9,7 +9,7 @@ SKIZZORPEDE_SEGMENT_LENGTH = floor(24 / abs(speed));
 timer = 256;
 
 animate_speed = 0.125;
-sfx_play_global(sfx_flame);
+sfx_play_local(sfx_flame);
 
 hitbox = [];
 

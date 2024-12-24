@@ -42,7 +42,7 @@ switch (state)
 			sprite_index = player_animation_get(character_index, player_animations.air);
 			animate_speed = 0;
 			image_index = 0;
-			sfx_play_global(sfx_slide_whistle_up);
+			sfx_play_local(sfx_slide_whistle_up);
 			ground_on = false;
 		}
 		
@@ -70,7 +70,7 @@ switch (state)
 			global.boss_phase = bit_set(global.boss_phase, 1);
 			instance_create_layer(x, y, "layer_instances", obj_boss_explosion);
 			screen_shake(0, 8);
-			sfx_play_global(sfx_yell_wilhelm);
+			sfx_play_local(sfx_yell_wilhelm);
 			speed_x = 0;
 			speed_y = -7.15;
 			hitbox.active = hitbox_active.inactive;
@@ -119,7 +119,7 @@ switch (state)
 			case 0:
 			case 6:
 			case 12:
-				sfx_play_global(sfx_explode_short);
+				sfx_play_local(sfx_explode_short);
 				_angle = attack_angle;
 			
 				repeat (4)
@@ -169,7 +169,7 @@ switch (state)
 				speed_y = 0;
 				ground_on = true;
 				screen_shake(0, 8);
-				sfx_play_global(sfx_crash_1);
+				sfx_play_local(sfx_crash_1);
 				repeat(2 + global.difficulty)
 				{
 					instance_create_layer(random_range(480, 1264), 240, "layer_instances", obj_boulder);

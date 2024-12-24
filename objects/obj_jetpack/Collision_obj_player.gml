@@ -7,5 +7,5 @@ if (other.jetpack == false)
 		jetpack = true;
 		ground_on = false;
 	}
-	sfx_play_global(sfx_heart);
+	sfx_play_local(sfx_heart);
 }

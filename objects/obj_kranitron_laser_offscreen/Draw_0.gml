@@ -15,3 +15,5 @@ switch (state)
 }
 draw_line_width(_view_x1, y, _view_x2, y, (96 * multiplier));
 draw_set_alpha(1);
+
+self_emitter_offset = new vector2(_view_x2, y);

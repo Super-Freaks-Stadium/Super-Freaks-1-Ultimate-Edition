@@ -24,7 +24,7 @@ with (collider)
 		
 		collision_flag_clear_down();
 		speed_v = -10;
-		sfx_play_global(sfx_spring);
+		sfx_play_local(sfx_spring);
 		
 		if (object_index == obj_player && player_is_alive())
 		{

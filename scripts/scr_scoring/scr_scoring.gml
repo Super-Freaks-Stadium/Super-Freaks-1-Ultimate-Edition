@@ -106,7 +106,7 @@ function yorbs_add(_amount = 1)
 			break;
 	}
 	
-	sfx_play_global(sfx_yorb);
+	//sfx_play_global(sfx_yorb);
 	
 	if (instance_exists(obj_gameplay_manager))
 	{

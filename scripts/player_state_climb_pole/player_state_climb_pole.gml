@@ -110,7 +110,7 @@ function player_state_climb_pole()
 	{
 		jump_buffer = JUMP_BUFFER_MAX;
 		state_next_set(player_states.normal, 5);
-		sfx_play_global(sfx_jump);
+		sfx_play_local(sfx_jump);
 		ball = true;
 		speed_h = face * -4;
 		speed_v = -speed_jump;

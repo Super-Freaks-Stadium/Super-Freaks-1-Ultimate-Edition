@@ -26,6 +26,8 @@ randomize();
 #endregion
 
 audio_init();
+audio_group_load(audiogroup_music);
+audio_group_load(audiogroup_sfx);
 debug_init(true);
 framerate_game_init();
 gameplay_init();

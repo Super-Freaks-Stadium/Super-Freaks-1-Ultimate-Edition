@@ -32,7 +32,7 @@ switch (state)
 	case boss_dino_states.fall:
 		if (state_begin)
 		{
-			sfx_play_global(sfx_zip);
+			sfx_play_local(sfx_zip);
 			sprite_index = spr_player_death_dino;
 			hitbox.active = hitbox_active.inactive;
 			speed_y = 2;
@@ -47,7 +47,7 @@ switch (state)
 	case boss_dino_states.jetpack:
 		if (state_begin)
 		{
-			sfx_play_global(sfx_slide_whistle_up);
+			sfx_play_local(sfx_slide_whistle_up);
 			if (global.game_mode != game_modes.boss_rush)
 				music_set(msc_boss_dino_2);
 			sprite_index = spr_player_air_dino;

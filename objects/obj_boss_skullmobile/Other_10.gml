@@ -27,7 +27,7 @@ switch (state)
 		{
 			timer = 0;
 			screen_shake(0, 8);
-			sfx_play_global(sfx_crash_1);
+			sfx_play_local(sfx_crash_1);
 		}
 		
 		timer++;
@@ -42,7 +42,7 @@ switch (state)
 			laser_distance = 64;
 			laser_left.active = hitbox_active.passive;
 			laser_right.active = hitbox_active.passive;
-			sfx_play_global(sfx_laser_huge_fire);
+			sfx_play_local(sfx_laser_huge_fire);
 		}
 		
 		#region Laser Angle
@@ -86,7 +86,7 @@ switch (state)
 		if (timer >= 120)
 		{
 			timer = 0;
-			sfx_play_global(sfx_explode_short);
+			sfx_play_local(sfx_explode_short);
 			_attack_angle = angle;
 			_missile_x = x + lengthdir_x(80, angle);
 			_missile_y = y + lengthdir_y(80, angle);
