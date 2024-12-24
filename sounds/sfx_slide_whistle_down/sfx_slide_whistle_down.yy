@@ -2,8 +2,8 @@
   "$GMSound":"",
   "%Name":"sfx_slide_whistle_down",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"audiogroup_sfx",
+    "path":"audiogroups/audiogroup_sfx",
   },
   "bitDepth":1,
   "bitRate":128,
