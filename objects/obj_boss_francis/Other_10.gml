@@ -93,9 +93,9 @@ switch (state)
 		claw_right_pos = lerp_360(claw_right_pos, 315, 0.125);
 		
 		timer = min(timer + (1 / _fast_forward), attack_frequency);
-		if (timer == attack_frequency)
+		if (timer >= attack_frequency)
 		{
-			if (counter_attack == attack_times)
+			if (counter_attack >= attack_times)
 				state_next_set(boss_francis_states.lower);
 			else
 			{
@@ -106,7 +106,7 @@ switch (state)
 						{
 							_attack_angle = point_direction(_claw_left_x, _claw_left_y, _target.x, _target.y);
 							claw_left_angle = lerp_360(claw_left_angle, _attack_angle, 0.5);
-							if (round(claw_left_angle) == round(_attack_angle))
+							if (abs(angle_difference(round(claw_left_angle), round(_attack_angle))) == 0)
 							{
 								_attack_finish = true;
 								claw_left_index = 1;
@@ -141,7 +141,7 @@ switch (state)
 						{
 							_attack_angle = point_direction(_claw_right_x, _claw_right_y, _target.x, _target.y);
 							claw_right_angle = lerp_360(claw_right_angle, _attack_angle, 0.5);
-							if (round(claw_right_angle) == round(_attack_angle))
+							if (abs(angle_difference(round(claw_right_angle), round(_attack_angle))) == 0)
 							{
 								_attack_finish = true;
 								sfx_play_local(sfx_explode_short);
