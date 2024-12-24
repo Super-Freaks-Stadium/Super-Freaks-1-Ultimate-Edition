@@ -29,7 +29,7 @@ claw_left_index = 0;
 claw_left_timer = 0;
 claw_left_pos = 225;
 claw_left_pos_previous = claw_left_pos;
-claw_left_angle = 270;
+claw_left_angle = 270
 claw_left_angle_previous = claw_left_angle;
 
 claw_right_index = 0;
