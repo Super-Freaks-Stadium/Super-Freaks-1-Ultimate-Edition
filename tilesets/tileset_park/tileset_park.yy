@@ -34,8 +34,8 @@
   },
   "spriteNoExport":true,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_lvl_park",
+    "path":"texturegroups/texgroup_lvl_park",
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,

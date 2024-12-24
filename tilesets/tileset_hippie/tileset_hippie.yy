@@ -223,8 +223,8 @@
   },
   "spriteNoExport":true,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_lvl_hippie",
+    "path":"texturegroups/texgroup_lvl_hippie",
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,

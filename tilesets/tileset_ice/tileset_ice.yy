@@ -396,8 +396,8 @@
   },
   "spriteNoExport":true,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_lvl_ice",
+    "path":"texturegroups/texgroup_lvl_ice",
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,

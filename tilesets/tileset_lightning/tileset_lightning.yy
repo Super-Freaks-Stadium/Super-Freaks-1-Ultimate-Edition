@@ -347,8 +347,8 @@
   },
   "spriteNoExport":true,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_lvl_lightning",
+    "path":"texturegroups/texgroup_lvl_lightning",
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,

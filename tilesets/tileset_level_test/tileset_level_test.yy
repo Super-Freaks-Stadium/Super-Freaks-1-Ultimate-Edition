@@ -23,8 +23,8 @@
   },
   "spriteNoExport":true,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_lvl_test",
+    "path":"texturegroups/texgroup_lvl_test",
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,
