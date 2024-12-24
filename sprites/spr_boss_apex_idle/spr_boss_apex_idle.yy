@@ -89,8 +89,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_boss_apex",
+    "path":"texturegroups/texgroup_boss_apex",
   },
   "type":0,
   "VTile":false,

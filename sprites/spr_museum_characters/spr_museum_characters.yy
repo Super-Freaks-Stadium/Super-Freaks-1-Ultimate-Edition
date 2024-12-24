@@ -225,8 +225,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_mugshots",
+    "path":"texturegroups/texgroup_mugshots",
   },
   "type":0,
   "VTile":false,

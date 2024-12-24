@@ -112,8 +112,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_lvl_moon",
+    "path":"texturegroups/texgroup_lvl_moon",
   },
   "type":0,
   "VTile":false,

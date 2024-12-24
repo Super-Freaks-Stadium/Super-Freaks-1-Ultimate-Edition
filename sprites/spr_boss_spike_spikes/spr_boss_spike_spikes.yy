@@ -89,8 +89,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_boss_spike",
+    "path":"texturegroups/texgroup_boss_spike",
   },
   "type":0,
   "VTile":false,

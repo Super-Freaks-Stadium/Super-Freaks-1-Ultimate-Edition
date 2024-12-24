@@ -85,8 +85,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_lvl_toy",
+    "path":"texturegroups/texgroup_lvl_toy",
   },
   "type":0,
   "VTile":false,

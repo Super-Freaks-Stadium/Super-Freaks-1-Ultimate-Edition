@@ -89,8 +89,8 @@
   "swatchColours":null,
   "swfPrecision":0.5,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_boss_shadow",
+    "path":"texturegroups/texgroup_boss_shadow",
   },
   "type":0,
   "VTile":false,

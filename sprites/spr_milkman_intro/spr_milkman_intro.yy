@@ -85,8 +85,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_boss_milkman",
+    "path":"texturegroups/texgroup_boss_milkman",
   },
   "type":0,
   "VTile":false,

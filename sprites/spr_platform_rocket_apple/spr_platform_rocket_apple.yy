@@ -104,8 +104,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_lvl_fruit",
+    "path":"texturegroups/texgroup_lvl_fruit",
   },
   "type":0,
   "VTile":false,
