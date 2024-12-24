@@ -38,8 +38,8 @@
   },
   "spriteNoExport":true,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_lvl_canyon",
+    "path":"texturegroups/texgroup_lvl_canyon",
   },
   "tileAnimationFrames":[],
   "tileAnimationSpeed":15.0,
