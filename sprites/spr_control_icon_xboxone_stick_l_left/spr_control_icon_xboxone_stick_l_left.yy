@@ -85,8 +85,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_controls_xbox",
+    "path":"texturegroups/texgroup_controls_xbox",
   },
   "type":0,
   "VTile":false,

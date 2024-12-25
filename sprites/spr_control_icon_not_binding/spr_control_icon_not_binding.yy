@@ -93,8 +93,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_controls_shared",
+    "path":"texturegroups/texgroup_controls_shared",
   },
   "type":0,
   "VTile":false,

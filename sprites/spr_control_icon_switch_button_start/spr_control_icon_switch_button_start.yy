@@ -85,8 +85,8 @@
   "swatchColours":null,
   "swfPrecision":2.525,
   "textureGroupId":{
-    "name":"Default",
-    "path":"texturegroups/Default",
+    "name":"texgroup_controls_nintendo",
+    "path":"texturegroups/texgroup_controls_nintendo",
   },
   "type":0,
   "VTile":false,
