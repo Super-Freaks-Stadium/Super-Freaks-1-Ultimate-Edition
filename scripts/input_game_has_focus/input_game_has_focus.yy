@@ -6,7 +6,7 @@
   "name":"input_game_has_focus",
   "parent":{
     "name":"23  Other",
-    "path":"folders/Scripts/Input/23  Other.yy",
+    "path":"folders/Extensions/Input/23  Other.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
