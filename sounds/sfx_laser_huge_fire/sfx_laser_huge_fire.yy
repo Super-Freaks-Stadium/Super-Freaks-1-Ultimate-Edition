@@ -12,8 +12,8 @@
   "duration":6.765896,
   "name":"sfx_laser_huge_fire",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Sound Effects",
+    "path":"folders/Sounds/Sound Effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

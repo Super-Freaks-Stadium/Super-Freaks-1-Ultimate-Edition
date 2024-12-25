@@ -12,8 +12,8 @@
   "duration":2.886621,
   "name":"sfx_laser_huge_charge",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Sound Effects",
+    "path":"folders/Sounds/Sound Effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

@@ -12,8 +12,8 @@
   "duration":0.604308,
   "name":"sfx_slide_whistle_down",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Sound Effects",
+    "path":"folders/Sounds/Sound Effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

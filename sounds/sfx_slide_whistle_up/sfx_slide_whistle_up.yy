@@ -12,8 +12,8 @@
   "duration":0.674694,
   "name":"sfx_slide_whistle_up",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Sound Effects",
+    "path":"folders/Sounds/Sound Effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",

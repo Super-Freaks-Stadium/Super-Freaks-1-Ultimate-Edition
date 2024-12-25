@@ -12,8 +12,8 @@
   "duration":0.986848,
   "name":"sfx_yell_wilhelm",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Sound Effects",
+    "path":"folders/Sounds/Sound Effects.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
