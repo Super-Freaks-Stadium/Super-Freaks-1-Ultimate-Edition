@@ -152,7 +152,7 @@ function player_state_normal()
 	#region Jetpack Movement
 		if (jetpack)
 		{
-            var _speed_run_jetpack = _speed_run + 0.5;
+            var _speed_run_jetpack = _speed_run * 1.2;
             var _target_speed = _move.multiply(_speed_run_jetpack); 
             var _speed = new vector2(speed_h, speed_v);
             

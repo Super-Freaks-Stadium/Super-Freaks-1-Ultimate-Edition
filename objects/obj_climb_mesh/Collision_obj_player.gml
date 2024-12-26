@@ -23,7 +23,7 @@ else if (can_grab)
 		default:
 			with (other)
 			{
-				if (input_check_pressed("up", player_number)|| (input_check("up", player_number) && speed_v >= 0))
+				if (input_check_pressed("up", player_number) || (input_check("up", player_number) && speed_v >= 0))
 					_grab = true;
 			}
 			break;

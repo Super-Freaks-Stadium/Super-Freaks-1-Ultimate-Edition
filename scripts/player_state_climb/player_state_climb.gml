@@ -2,9 +2,12 @@ function player_state_climb()
 {
 	var _collision_left = false, _collision_right = false, _collision_up = false, _collision_down = false;
 	var _move_h = 0, _move_v = 0;
+    var _move = new vector2();
 	var _climb_obj, _climb_off = false, _climb_boundaries = false;
 	var _player_pos;
 	var _climb_speed = speed_run;
+    
+    _climb_speed *= 1.2;
 	
 	if (state_begin)
 	{
@@ -46,35 +49,38 @@ function player_state_climb()
 	//if (button_down == controls_action_states.hold) || (button_down == controls_action_states.press)
 	if (input_check("down", player_number))
 		_move_v += 1;
+    
+    _move.x = input_x("left", "right", "up", "down", player_number);
+    _move.y = input_y("left", "right", "up", "down", player_number);
 	
-	switch (_move_h)
+	switch (sign(_move.x))
 	{
 		case -1:
-			x -= _climb_speed;
+			x -= _climb_speed * abs(_move.x);
 			face = -1;
-			animate_speed = 0.125;
+			animate_speed = 0.125 * abs(_move.length());
 			break;
 		case 0:
 			break;
 		case 1:
-			x += _climb_speed;
+			x += _climb_speed * abs(_move.x);
 			face = 1;
-			animate_speed = 0.125;
+			animate_speed = 0.125 * abs(_move.length());
 			break;
 	}
 	
-	switch (_move_v)
+	switch (sign(_move.y))
 	{
 		case -1:
-			y -= _climb_speed;
-			animate_speed = 0.125;
+			y -= _climb_speed * abs(_move.y);
+			animate_speed = 0.125 * abs(_move.length());
 			break;
 		case 0:
 			speed_v = 0;
 			break;
 		case 1:
-			y += _climb_speed;
-			animate_speed = 0.125;
+			y += _climb_speed * abs(_move.y);
+			animate_speed = 0.125 * abs(_move.length());
 			break;
 	}
 	
