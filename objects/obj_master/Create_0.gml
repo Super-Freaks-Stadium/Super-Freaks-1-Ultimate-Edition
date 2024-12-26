@@ -43,6 +43,7 @@ self_emitter = audio_emitter_create();
 audio_emitter_bus(self_emitter, global.audio_bus_sfx);
 audio_emitter_falloff(self_emitter, 512, 4096, 1);
 self_emitter_offset = new vector2();
+self_emitter_auto_adjust = true;
 
 
 //show_debug_message("CREATE " + string(id) + " " + string(object_get_name(object_index)));

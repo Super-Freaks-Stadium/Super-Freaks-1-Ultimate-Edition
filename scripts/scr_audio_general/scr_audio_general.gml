@@ -66,7 +66,8 @@ function audio_step()
     audio_emitter_position(global.audio_emitter_sfx, _view_center_x, _view_center_y, -512);
     with obj_master
     {
-        audio_emitter_position(self_emitter, x + self_emitter_offset.x, y + self_emitter_offset.y, 0);
+        if (self_emitter_auto_adjust)
+            audio_emitter_position(self_emitter, x + self_emitter_offset.x, y + self_emitter_offset.y, 0);
     }
     audio_listener_position(_view_center_x, _view_center_y, -512);
 }

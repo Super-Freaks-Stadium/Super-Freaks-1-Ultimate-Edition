@@ -52,6 +52,7 @@ switch (state)
 		{
 			timer = 0;
 			image_alpha = 1;
+            audio_emitter_position(self_emitter, x, y, 0);
 			sfx_play_local(sfx_lightning, false);
 			hitbox.active = hitbox_active.passive;
 			global.water_electric_timer = 8;
