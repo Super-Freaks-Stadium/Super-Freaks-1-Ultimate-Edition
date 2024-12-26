@@ -807,7 +807,7 @@ timer = 0;
 	//	}
 	//});
 	
-	if (global.debug)
+	if (global.debug_startup)
 	{
 		menu_option_add(_page, 3, "Debug", function()
 		{
@@ -1320,6 +1320,23 @@ timer = 0;
 				option = 3;
 			}
 		});
+        
+        menu_option_add(_page, 1, "Toggle Debug Mode " + (global.debug ? "(Currently Enabled)" : "(Currently Disabled)"), function()
+        {
+            main_text = "Options - Debug";
+            if (input_check_pressed("confirm", global.player_lead))
+            {
+                global.debug = !global.debug;
+                options[main_menu_pages.options_debug][1][menu_option_data.text] = "Toggle Debug Mode " + (global.debug ? "(Currently Enabled)" : "(Currently Disabled)");
+                //page = main_menu_pages.main;
+                //option = 0;
+            }
+            else if (input_check_pressed("deny", global.player_lead))
+            {
+                page = main_menu_pages.options;
+                option = 3;
+            }
+        });
 		
 		#region Debug Level Select
 			_page = main_menu_pages.options_debug_levelselect;
