@@ -370,8 +370,8 @@ function vector2(_x = 0, _y = 0) constructor
 	    {
 	        gml_pragma("forceinline");
             
-	        var _x = lerp(x, _vec_to.x, _weight);
-	        var _y = lerp(y, _vec_to.y, _weight);
+	        var _x = lerp(x, _vec2_to.x, _weight);
+	        var _y = lerp(y, _vec2_to.y, _weight);
             
 	        return new vector2(_x, _y);
 	    }
