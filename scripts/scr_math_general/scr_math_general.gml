@@ -1,7 +1,7 @@
 /// @function lerp_360
-/// @param _angle_1
-/// @param _angle_2
-/// @param _amount = 0
+/// @param {Real} _angle_1
+/// @param {Real} _angle_2
+/// @param {Real} _amount = 0
 function lerp_360(_angle_1, _angle_2, _amount = 0)
 {
 	return _angle_1 - (angle_difference(_angle_1, _angle_2) * _amount);
@@ -9,10 +9,23 @@ function lerp_360(_angle_1, _angle_2, _amount = 0)
 	gml_pragma("forceinline");
 }
 
+/// @function lerp_animcurve
+/// @param {Any} _animcurve
+/// @param {Real} _channel = 0
+/// @param {Real} _value_a
+/// @param {Real} _value_b
+/// @param {Real} _amount
+function lerp_animcurve(_animcurve, _channel = 0, _value_a, _value_b, _amount)
+{
+    var _curve_channel = animcurve_get_channel(_animcurve, _channel);
+    var _amt = animcurve_channel_evaluate(_curve_channel, _amount);
+    return lerp(_value_a, _value_b, _amt);
+}
+
 /// @function approach
-/// @param _start
-/// @param _target
-/// @param _shift
+/// @param {Real} _start
+/// @param {Real} _target
+/// @param {Real} _shift
 function approach(_start, _target, _shift) 
 {
     if (_start < _target)
@@ -49,15 +62,6 @@ function bezier_interpolate(_start, _control_1, _control_2, _end, _t)
 function move_toward(_from, _to, _delta) 
 {
     return abs(_to - _from) <= _delta ? _to : _from + sign(_to - _from) * _delta;
-}
-
-/// @function lengthdir
-/// @param {Real} _length
-/// @param {Real} _dir
-/// @return {Struct} vector2
-function lengthdir(_length, _dir) 
-{
-    return new vector2(_length, 0).rotated(_dir)
 }
 
 /// @function inverse_lerp
