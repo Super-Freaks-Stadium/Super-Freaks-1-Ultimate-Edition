@@ -1217,6 +1217,7 @@
     {"name":"msc_ice","order":16,"path":"sounds/msc_ice/msc_ice.yy",},
     {"name":"msc_lightning","order":15,"path":"sounds/msc_lightning/msc_lightning.yy",},
     {"name":"msc_menu","order":1,"path":"sounds/msc_menu/msc_menu.yy",},
+    {"name":"msc_moon_secret","order":44,"path":"sounds/msc_moon_secret/msc_moon_secret.yy",},
     {"name":"msc_moon","order":20,"path":"sounds/msc_moon/msc_moon.yy",},
     {"name":"msc_park","order":9,"path":"sounds/msc_park/msc_park.yy",},
     {"name":"msc_ship","order":12,"path":"sounds/msc_ship/msc_ship.yy",},

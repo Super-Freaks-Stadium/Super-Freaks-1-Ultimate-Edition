@@ -2,14 +2,14 @@
   "$GMSound":"",
   "%Name":"msc_boss_megaklaw",
   "audioGroupId":{
-    "name":"audiogroup_music",
-    "path":"audiogroups/audiogroup_music",
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":77.041,
+  "duration":77.843994,
   "name":"msc_boss_megaklaw",
   "parent":{
     "name":"Music",

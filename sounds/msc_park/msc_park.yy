@@ -2,8 +2,8 @@
   "$GMSound":"",
   "%Name":"msc_park",
   "audioGroupId":{
-    "name":"audiogroup_music",
-    "path":"audiogroups/audiogroup_music",
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "bitRate":128,
@@ -20,6 +20,6 @@
   "resourceVersion":"2.0",
   "sampleRate":44100,
   "soundFile":"msc_park.ogg",
-  "type":0,
+  "type":1,
   "volume":1.0,
 }

@@ -1423,6 +1423,7 @@
     {"id":{"name":"msc_ice","path":"sounds/msc_ice/msc_ice.yy",},},
     {"id":{"name":"msc_lightning","path":"sounds/msc_lightning/msc_lightning.yy",},},
     {"id":{"name":"msc_menu","path":"sounds/msc_menu/msc_menu.yy",},},
+    {"id":{"name":"msc_moon_secret","path":"sounds/msc_moon_secret/msc_moon_secret.yy",},},
     {"id":{"name":"msc_moon","path":"sounds/msc_moon/msc_moon.yy",},},
     {"id":{"name":"msc_park","path":"sounds/msc_park/msc_park.yy",},},
     {"id":{"name":"msc_ship","path":"sounds/msc_ship/msc_ship.yy",},},
