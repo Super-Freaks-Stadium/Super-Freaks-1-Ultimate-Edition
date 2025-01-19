@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":96.0,
+  "duration":201.85106,
   "name":"msc_toy_secret",
   "parent":{
     "name":"Music",
