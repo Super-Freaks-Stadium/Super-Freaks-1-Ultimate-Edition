@@ -2,14 +2,14 @@
   "$GMSound":"",
   "%Name":"msc_toy_secret",
   "audioGroupId":{
-    "name":"audiogroup_music",
-    "path":"audiogroups/audiogroup_music",
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":96.0,
+  "duration":201.85106,
   "name":"msc_toy_secret",
   "parent":{
     "name":"Music",

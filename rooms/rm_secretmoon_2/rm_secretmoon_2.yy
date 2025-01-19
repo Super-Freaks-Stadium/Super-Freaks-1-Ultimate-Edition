@@ -1,7 +1,7 @@
 {
   "$GMRoom":"v1",
   "%Name":"rm_secretmoon_2",
-  "creationCodeFile":"${project_dir}/rooms/rm_secretmoon_2/RoomCreationCode.gml",
+  "creationCodeFile":"rooms/rm_secretmoon_2/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":true,
   "inheritLayers":true,
