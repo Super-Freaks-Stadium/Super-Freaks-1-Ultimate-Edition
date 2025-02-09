@@ -518,6 +518,7 @@
     {"id":{"name":"obj_cutscene_intro_swordsman","path":"objects/obj_cutscene_intro_swordsman/obj_cutscene_intro_swordsman.yy",},},
     {"id":{"name":"obj_cutscene_intro","path":"objects/obj_cutscene_intro/obj_cutscene_intro.yy",},},
     {"id":{"name":"obj_cutscene_kranion","path":"objects/obj_cutscene_kranion/obj_cutscene_kranion.yy",},},
+    {"id":{"name":"obj_cutscene_kranionminus_antifreaks","path":"objects/obj_cutscene_kranionminus_antifreaks/obj_cutscene_kranionminus_antifreaks.yy",},},
     {"id":{"name":"obj_cutscene_parent","path":"objects/obj_cutscene_parent/obj_cutscene_parent.yy",},},
     {"id":{"name":"obj_cutscene_prime_swordsman","path":"objects/obj_cutscene_prime_swordsman/obj_cutscene_prime_swordsman.yy",},},
     {"id":{"name":"obj_cutscene_skullmobile","path":"objects/obj_cutscene_skullmobile/obj_cutscene_skullmobile.yy",},},
