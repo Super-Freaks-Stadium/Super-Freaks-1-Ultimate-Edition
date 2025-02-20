@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":349.46802,
+  "duration":183.5294,
   "name":"msc_canyon_secret",
   "parent":{
     "name":"Music",

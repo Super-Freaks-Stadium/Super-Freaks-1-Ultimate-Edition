@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":356.086,
+  "duration":197.48572,
   "name":"msc_canyon",
   "parent":{
     "name":"Music",
