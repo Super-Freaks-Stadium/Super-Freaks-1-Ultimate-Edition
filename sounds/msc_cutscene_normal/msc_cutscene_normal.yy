@@ -9,7 +9,7 @@
   "bitRate":128,
   "compression":3,
   "conversionMode":0,
-  "duration":221.016,
+  "duration":109.68751,
   "name":"msc_cutscene_normal",
   "parent":{
     "name":"Music",
