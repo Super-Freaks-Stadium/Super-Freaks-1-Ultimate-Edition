@@ -182,110 +182,116 @@ function museum_init()
 	#region Cutscenes
 		museum_cutscene_create(0,, "Welcome to the USC", rm_cutscene_intro, function()
 		{
-			return level_complete_get(level_ids.level_stadium, story_modes.super_freaks);
+			return true;
 		});
-		museum_cutscene_create(1,, "Meet the Anti Freaks", rm_cutscene_antifreaks_intro, function()
+        museum_cutscene_create(1,, "Fast Cars Underground 2", rm_cutscene_intro_superfreaks, function()
+        {
+            return true;
+        });
+		museum_cutscene_create(2,, "Meet the Anti Freaks", rm_cutscene_antifreaks_intro, function()
 		{
 			return level_complete_get(level_ids.level_stadium, story_modes.super_freaks);
 		});
-		museum_cutscene_create(2,, "Gratituous Multiverse Cameos", rm_cutscene_xfreaks, function()
+		museum_cutscene_create(3,, "Gratituous Multiverse Cameos", rm_cutscene_xfreaks, function()
 		{
 			return level_complete_get(level_ids.level_ludicrous_barrel, story_modes.super_freaks);
 		});
-		museum_cutscene_create(3,, "The Freak Fathers", rm_cutscene_freak_fathers, function()
+		museum_cutscene_create(4,, "The Freak Fathers", rm_cutscene_freak_fathers, function()
 		{
 			return level_complete_get(level_ids.level_freaky_ice, story_modes.super_freaks);
 		});
-		museum_cutscene_create(4,, "Castle Numbskull", rm_cutscene_castle, function()
+		museum_cutscene_create(5,, "Castle Numbskull", rm_cutscene_castle, function()
 		{
 			return level_complete_get(level_ids.level_kranion_conveyor, story_modes.super_freaks);
 		});
-		museum_cutscene_create(5,, "Pimp My Skullmobile", rm_cutscene_skullmobile, function()
+		museum_cutscene_create(6,, "Pimp My Skullmobile", rm_cutscene_skullmobile, function()
 		{
 			return level_complete_get(level_ids.level_kranion_boss_secret, story_modes.super_freaks);
 		});
-		museum_cutscene_create(6,, "Dumb Dino", rm_cutscene_dino, function()
+		museum_cutscene_create(7,, "Dumb Dino", rm_cutscene_dino, function()
 		{
 			return level_complete_get(level_ids.level_kranion_boss, story_modes.super_freaks);
 		});
-		museum_cutscene_create(7,, "The Big Fight", rm_cutscene_kranion, function()
+		museum_cutscene_create(8,, "The Big Fight", rm_cutscene_kranion, function()
 		{
 			return level_complete_get(level_ids.level_kranion_final_boss, story_modes.super_freaks);
 		});
-		museum_cutscene_create(8,, "Normal Ending - Super Freaks", rm_cutscene_ending_normal, function()
+		museum_cutscene_create(9,, "Normal Ending - Super Freaks", rm_cutscene_ending_normal, function()
 		{
 			return level_complete_get(level_ids.level_kranion_final_boss, story_modes.super_freaks);
 		});
-		museum_cutscene_create(9,, "An Exciting Encore", rm_cutscene_encore, function()
+		museum_cutscene_create(10,, "An Exciting Encore", rm_cutscene_encore, function()
 		{
 			return level_complete_get(level_ids.level_supersecret);
 		});
-		museum_cutscene_create(10,, "Anti Freak Fight", rm_cutscene_antifreaks_battle, function()
+		museum_cutscene_create(11,, "Anti Freak Fight", rm_cutscene_antifreaks_battle, function()
 		{
 			return level_complete_get(level_ids.level_supersecret_boss);
 		});
-		museum_cutscene_create(11,, "Secret Ending - Super Freaks", rm_cutscene_ending_secret, function()
+		museum_cutscene_create(12,, "Secret Ending - Super Freaks", rm_cutscene_ending_secret, function()
 		{
 			return level_complete_get(level_ids.level_supersecret_boss);
 		});
-		museum_cutscene_create(12,, "Boneheads Unite!", rm_cutscene_intro_kranion, function()
+		museum_cutscene_create(13,, "Boneheads Unite!", rm_cutscene_intro_kranion, function()
+		{
+			return true;
+		});
+		museum_cutscene_create(14,, "The Boneheads Meet the Anti Freaks", rm_cutscene_antifreaks_intro_villains, function()
 		{
 			return level_complete_get(level_ids.level_stadium, story_modes.kranion);
 		});
-		museum_cutscene_create(13,, "The Boneheads Meet the Anti Freaks", rm_cutscene_antifreaks_intro_villains, function()
-		{
-			return level_complete_get(level_ids.level_stadium, story_modes.kranion);
-		});
-		museum_cutscene_create(14,, "The Freak Fathers Are Displeased", rm_cutscene_freak_fathers_villains, function()
+		museum_cutscene_create(15,, "The Freak Fathers Are Displeased", rm_cutscene_freak_fathers_villains, function()
 		{
 			return level_complete_get(level_ids.level_freaky_ice, story_modes.kranion);
 		});
-		museum_cutscene_create(15,, "Sussing Out the Imposter", rm_cutscene_cranion, function()
+		museum_cutscene_create(16,, "Sussing Out the Imposter", rm_cutscene_cranion, function()
 		{
 			return level_complete_get(level_ids.level_kranion_final_boss, story_modes.kranion);
 		});
-		museum_cutscene_create(16,, "Normal Ending - Bad Guys", rm_cutscene_ending_normal_villains, function()
+		museum_cutscene_create(17,, "Normal Ending - Bad Guys", rm_cutscene_ending_normal_villains, function()
 		{
 			return level_complete_get(level_ids.level_kranion_final_boss, story_modes.kranion);
 		});
-		museum_cutscene_create(17,, "Secret Ending - Bad Guys", rm_cutscene_ending_secret_villains, function()
+		museum_cutscene_create(18,, "Secret Ending - Bad Guys", rm_cutscene_ending_secret_villains, function()
 		{
 			return level_complete_get(level_ids.level_supersecret_boss, story_modes.kranion);
 		});
-		museum_cutscene_create(18,, "Unretirement", rm_cutscene_intro_swordsman, function()
+		museum_cutscene_create(19,, "Unretirement", rm_cutscene_intro_swordsman, function()
+		{
+			return true;
+		});
+		museum_cutscene_create(20,, "Me and My Shadow", rm_cutscene_after_stadium_swordsman, function()
 		{
 			return level_complete_get(level_ids.level_stadium, story_modes.swordsman);
 		});
-		museum_cutscene_create(19,, "Me and My Shadow", rm_cutscene_after_stadium_swordsman, function()
-		{
-			return level_complete_get(level_ids.level_stadium, story_modes.swordsman);
-		});
-		museum_cutscene_create(20,, "80's Training Montage", rm_cutscene_training_swordsman, function()
+		museum_cutscene_create(21,, "80's Training Montage", rm_cutscene_training_swordsman, function()
 		{
 			return level_complete_get(level_ids.level_ludicrous_barrel, story_modes.swordsman);
 		});
-		museum_cutscene_create(21,, "Freak Father Freakcation", rm_cutscene_freak_fathers_swordsman, function()
+		museum_cutscene_create(22,, "Freak Father Freakcation", rm_cutscene_freak_fathers_swordsman, function()
 		{
 			return level_complete_get(level_ids.level_freaky_ice, story_modes.swordsman);
 		});
-		museum_cutscene_create(22,, "Prime Energy", rm_cutscene_prime_swordsman, function()
+		museum_cutscene_create(23,, "Prime Energy", rm_cutscene_prime_swordsman, function()
 		{
 			return level_complete_get(level_ids.level_kranion_final_boss, story_modes.swordsman);
 		});
-		museum_cutscene_create(23,, "Normal Ending - Swordsmen", rm_cutscene_ending_normal_swordsman, function()
+		museum_cutscene_create(24,, "Normal Ending - Swordsmen", rm_cutscene_ending_normal_swordsman, function()
 		{
 			return level_complete_get(level_ids.level_kranion_final_boss, story_modes.swordsman);
 		});
-		museum_cutscene_create(24,, "Secret Ending - Swordsmen", rm_cutscene_ending_secret_swordsman, function()
+		museum_cutscene_create(25,, "Secret Ending - Swordsmen", rm_cutscene_ending_secret_swordsman, function()
 		{
 			return level_complete_get(level_ids.level_supersecret_boss, story_modes.swordsman);
 		});
-		museum_cutscene_create(25,, "Credits", rm_cutscene_credits, function()
+		museum_cutscene_create(26,, "Credits", rm_cutscene_credits, function()
 		{
-			return level_complete_get(level_ids.level_stadium, story_modes.super_freaks) 
-				|| level_complete_get(level_ids.level_stadium, story_modes.kranion)
-				|| level_complete_get(level_ids.level_stadium, story_modes.swordsman);
+			return true;
 		});
+        museum_cutscene_create(27, 0, "Welcome to the USC (Old)", rm_cutscene_intro, function()
+        {
+            return true;
+        });
 	#endregion
 	
 	//museum_load();

@@ -511,7 +511,7 @@ function levels_init()
 	
 	worldmap_init();
 	
-	global.level_cutscene_list[story_modes.super_freaks][level_ids.level_stadium][level_cutscene_data.before] = rm_cutscene_intro;
+	global.level_cutscene_list[story_modes.super_freaks][level_ids.level_stadium][level_cutscene_data.before] = rm_cutscene_intro_superfreaks;
 	global.level_cutscene_list[story_modes.super_freaks][level_ids.level_stadium][level_cutscene_data.after] = rm_cutscene_antifreaks_intro;
 	global.level_cutscene_list[story_modes.super_freaks][level_ids.level_ludicrous_barrel][level_cutscene_data.before] = rm_cutscene_xfreaks;
 	global.level_cutscene_list[story_modes.super_freaks][level_ids.level_freaky_ice][level_cutscene_data.before] = rm_cutscene_freak_fathers;
