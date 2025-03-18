@@ -886,6 +886,7 @@
     {"id":{"name":"rm_cutscene_prime_swordsman","path":"rooms/rm_cutscene_prime_swordsman/rm_cutscene_prime_swordsman.yy",},},
     {"id":{"name":"rm_cutscene_skullmobile","path":"rooms/rm_cutscene_skullmobile/rm_cutscene_skullmobile.yy",},},
     {"id":{"name":"rm_cutscene_training_swordsman","path":"rooms/rm_cutscene_training_swordsman/rm_cutscene_training_swordsman.yy",},},
+    {"id":{"name":"rm_cutscene_xfreaks_old","path":"rooms/rm_cutscene_xfreaks_old/rm_cutscene_xfreaks_old.yy",},},
     {"id":{"name":"rm_cutscene_xfreaks","path":"rooms/rm_cutscene_xfreaks/rm_cutscene_xfreaks.yy",},},
     {"id":{"name":"rm_fruit_1","path":"rooms/rm_fruit_1/rm_fruit_1.yy",},},
     {"id":{"name":"rm_fruit_2","path":"rooms/rm_fruit_2/rm_fruit_2.yy",},},
@@ -2732,6 +2733,7 @@
     {"roomId":{"name":"rm_stadium_1_antifreaks","path":"rooms/rm_stadium_1_antifreaks/rm_stadium_1_antifreaks.yy",},},
     {"roomId":{"name":"rm_cutscene_intro_superfreaks","path":"rooms/rm_cutscene_intro_superfreaks/rm_cutscene_intro_superfreaks.yy",},},
     {"roomId":{"name":"rm_cutscene_intro_old","path":"rooms/rm_cutscene_intro_old/rm_cutscene_intro_old.yy",},},
+    {"roomId":{"name":"rm_cutscene_xfreaks_old","path":"rooms/rm_cutscene_xfreaks_old/rm_cutscene_xfreaks_old.yy",},},
   ],
   "templateType":null,
   "TextureGroups":[
