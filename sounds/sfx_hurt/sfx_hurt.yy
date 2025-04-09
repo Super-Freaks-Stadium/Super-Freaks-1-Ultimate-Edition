@@ -2,14 +2,14 @@
   "$GMSound":"",
   "%Name":"sfx_hurt",
   "audioGroupId":{
-    "name":"audiogroup_sfx",
-    "path":"audiogroups/audiogroup_sfx",
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":0.684989,
+  "duration":0.6849887,
   "name":"sfx_hurt",
   "parent":{
     "name":"Sound Effects",

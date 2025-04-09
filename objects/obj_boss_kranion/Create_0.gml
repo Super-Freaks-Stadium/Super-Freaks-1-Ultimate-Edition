@@ -30,7 +30,7 @@ if (global.story_mode == story_modes.kranion)
 	boss_name = "Cranion";
 else
 	boss_name = "Kranion";
-hp_init(16);
+hp_init(12);
 
 face = -1;
 

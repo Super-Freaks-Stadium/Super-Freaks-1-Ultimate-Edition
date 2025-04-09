@@ -63,7 +63,7 @@ switch (page)
 	case main_menu_pages.museum_theater:
 		_index = museum_items[museum_data.cutscenes][cutscene_index];
 		
-		draw_sprite(spr_museum_cutscenes, _index, _screen_width / 2, _screen_height / 2);
+		draw_sprite(spr_museum_cutscenes, global.museum_stuff[museum_data.cutscenes][_index][museum_cutscene_data.image_index], _screen_width / 2, _screen_height / 2);
 		draw_sprite_ext(spr_menu_arrow_32, _frame, _screen_width / 2 - 96, _screen_height / 2, 1, 1, 180, c_white, 1);
 		draw_sprite_ext(spr_menu_arrow_32, _frame, _screen_width / 2 + 96, _screen_height / 2, 1, 1, 0, c_white, 1);
 		

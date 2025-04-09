@@ -26,7 +26,7 @@ randomize();
 #endregion
 
 audio_init();
-debug_init(true);
+debug_init(false);
 framerate_game_init();
 gameplay_init();
 room_transition_init();

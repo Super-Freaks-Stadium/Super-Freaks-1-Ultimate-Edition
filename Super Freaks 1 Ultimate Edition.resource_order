@@ -1738,6 +1738,7 @@
     {"name":"spr_cutscene_xfreaks_4","order":3,"path":"sprites/spr_cutscene_xfreaks_4/spr_cutscene_xfreaks_4.yy",},
     {"name":"spr_cutscene_xfreaks_5","order":4,"path":"sprites/spr_cutscene_xfreaks_5/spr_cutscene_xfreaks_5.yy",},
     {"name":"spr_cutscene_xfreaks_6","order":5,"path":"sprites/spr_cutscene_xfreaks_6/spr_cutscene_xfreaks_6.yy",},
+    {"name":"spr_cutscene_xfreaks_7","order":6,"path":"sprites/spr_cutscene_xfreaks_7/spr_cutscene_xfreaks_7.yy",},
     {"name":"spr_ego_meter_full","order":11,"path":"sprites/spr_ego_meter_full/spr_ego_meter_full.yy",},
     {"name":"spr_ego_meter","order":10,"path":"sprites/spr_ego_meter/spr_ego_meter.yy",},
     {"name":"spr_elastiband_billboard","order":3,"path":"sprites/spr_elastiband_billboard/spr_elastiband_billboard.yy",},

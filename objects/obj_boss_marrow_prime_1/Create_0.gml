@@ -10,9 +10,9 @@ enum boss_marrow1_states
 // Inherit the parent event
 event_inherited();
 
-hp_init(32);
+hp_init(20);
 timer = 0;
-yorb_amount = 10;
+yorb_amount = 20;
 
 hitbox = new comp_hitbox_AABB(,, hitbox_active.passive, enemy_hitbox_behaviors.heavy,, -72, -72, 72, 72);
 depth = 5;

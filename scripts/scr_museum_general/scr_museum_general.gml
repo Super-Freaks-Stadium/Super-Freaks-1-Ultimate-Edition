@@ -81,7 +81,7 @@ function museum_init()
 		{
 			return level_complete_get(level_ids.level_stadium, story_modes.swordsman) || level_complete_get(level_ids.level_stadium, story_modes.anti_freaks);
 		});
-		museum_character_create(13,, "The X-Freaks", "The Super Freaks of Universe-SF1963X, known for mutations that give them superpowers. In their universe, they've founded a school for Freak Mutants after the humans deemed them all a threat. They have been successful enough in their heroics to join the Multisociety of Super Freaks.", function()
+		museum_character_create(13,, "The X-Freaks", "The Super Freaks of Freakiverse-1963X, known for mutations that give them superpowers. In their universe, they've founded a school for Freak Mutants after the humans deemed them all a threat. They have been successful enough in their heroics to join the H.U.B.", function()
 		{
 			return level_complete_get(level_ids.level_ludicrous_barrel, story_modes.super_freaks);
 		});
@@ -290,7 +290,11 @@ function museum_init()
 		});
         museum_cutscene_create(27, 0, "Welcome to the USC (Old)", rm_cutscene_intro, function()
         {
-            return true;
+            return level_complete_get(level_ids.level_stadium, story_modes.super_freaks);
+        });
+        museum_cutscene_create(28, 3, "Gratituous Multiverse Cameos (Old)", rm_cutscene_xfreaks_old, function()
+        {
+            return level_complete_get(level_ids.level_ludicrous_barrel, story_modes.super_freaks);
         });
 	#endregion
 	

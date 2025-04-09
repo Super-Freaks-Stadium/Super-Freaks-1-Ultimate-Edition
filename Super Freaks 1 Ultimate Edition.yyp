@@ -1,5 +1,5 @@
 {
-  "$GMProject":"",
+  "$GMProject":"v1",
   "%Name":"Super Freaks 1 Ultimate Edition",
   "AudioGroups":[
     {"$GMAudioGroup":"","%Name":"audiogroup_default","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
@@ -375,6 +375,7 @@
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
+  "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"char.json","CopyToMask":-1,"filePath":"datafiles/chars/!example","name":"char.json","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
     {"$GMIncludedFile":"","%Name":"README.txt","CopyToMask":-1,"filePath":"datafiles/chars/!example","name":"README.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
@@ -406,7 +407,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.11.0.179",
+    "IDEVersion":"2024.13.0.190",
   },
   "name":"Super Freaks 1 Ultimate Edition",
   "resources":[
@@ -2017,6 +2018,7 @@
     {"id":{"name":"spr_cutscene_xfreaks_4","path":"sprites/spr_cutscene_xfreaks_4/spr_cutscene_xfreaks_4.yy",},},
     {"id":{"name":"spr_cutscene_xfreaks_5","path":"sprites/spr_cutscene_xfreaks_5/spr_cutscene_xfreaks_5.yy",},},
     {"id":{"name":"spr_cutscene_xfreaks_6","path":"sprites/spr_cutscene_xfreaks_6/spr_cutscene_xfreaks_6.yy",},},
+    {"id":{"name":"spr_cutscene_xfreaks_7","path":"sprites/spr_cutscene_xfreaks_7/spr_cutscene_xfreaks_7.yy",},},
     {"id":{"name":"spr_ego_meter_full","path":"sprites/spr_ego_meter_full/spr_ego_meter_full.yy",},},
     {"id":{"name":"spr_ego_meter","path":"sprites/spr_ego_meter/spr_ego_meter.yy",},},
     {"id":{"name":"spr_elastiband_billboard","path":"sprites/spr_elastiband_billboard/spr_elastiband_billboard.yy",},},

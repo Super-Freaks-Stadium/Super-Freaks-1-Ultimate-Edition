@@ -1208,7 +1208,7 @@ timer = 0;
 			}
 		});
 		
-		menu_option_add(_page, 9, "Static menu background: " + string(boolean_string_onoff(option_static_menu_bg)), function()
+		menu_option_add(_page, 9, "Motion Sickness Mode: " + string(boolean_string_onoff(option_static_menu_bg)), function()
 		{
 			main_text = "Options - Visual";
 			bottom_text = "Confirm to save changes";
@@ -1225,7 +1225,7 @@ timer = 0;
 			else if (input_check_pressed("left", global.player_lead) || input_check_pressed("right", global.player_lead))
 			{
 				option_static_menu_bg = !option_static_menu_bg;
-				options[main_menu_pages.options_visual][9][menu_option_data.text] = "Static menu background: " + string(boolean_string_onoff(option_static_menu_bg));
+				options[main_menu_pages.options_visual][9][menu_option_data.text] = "Motion Sickness Mode: " + string(boolean_string_onoff(option_static_menu_bg));
 			}
 		})
 	#endregion

@@ -21,7 +21,7 @@ if (global.story_mode == story_modes.kranion)
 	boss_name = "Cranion Ultimate Edition";
 else
 	boss_name = "Kranion Ultimate Edition";
-hp_init(16);
+hp_init(12);
 	
 hitbox = new comp_hitbox_circle(,,, enemy_hitbox_behaviors.heavy,, _radius);
 collider_detector_up_set(-_radius + 4, 0, _radius - 4, 0, -_radius);
