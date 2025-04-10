@@ -288,7 +288,7 @@ function museum_init()
 		{
 			return true;
 		});
-        museum_cutscene_create(27, 0, "Welcome to the USC (Old)", rm_cutscene_intro, function()
+        museum_cutscene_create(27, 0, "Welcome to the USC (Old)", rm_cutscene_intro_old, function()
         {
             return level_complete_get(level_ids.level_stadium, story_modes.super_freaks);
         });
