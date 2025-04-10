@@ -210,7 +210,7 @@ function aa_get()
 /// @function screen_shake_get
 function screen_shake_get()
 {
-	return global.visuals_settings[visuals_data.screen_shake];
+	return (global.visuals_settings[visuals_data.screen_shake] && !static_menu_bg_get());
 }
 
 /// @function background_blur_get
