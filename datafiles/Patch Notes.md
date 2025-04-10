@@ -80,3 +80,17 @@
         * Star Arrows now have a fun little Geometry Dash inspired animation when hitting them. This and several other things done for 3.0.3 have been done by JorJoe05. Thanks Jordan!!
         * Playful Park’s tileset has been touched up a bit
         * You can now return to the title from the main menu
+* V3.0.4 - April 10th, 2025
+    * Two metric tons of performance improvements thanks to JorJoe05!
+        * Every bit of graphics interpolation I missed has been touched up. Play above 60fps now for a treat!
+        * Loading times have been massively sped up. They weren't bad before but now they're insanely fast!
+    * Two cutscenes redone to improve flow
+        * Welcome to the USC was split into two cutscenes. The first "Welcome to the USC" part now plays before the title screen, and the second half (now named "Fast Cars Underground 2") plays before the Super Freaks Story as their first cutscene.
+        * Gratituous Multiverse Cameos has been entirely redone, with the only things kept being some of the art and the general idea of the cutscene. The new one is way funnier and, more importantly, half as long!
+        * If you really missed the old versions of these cutscenes for whatever reason, they're actually still available in the museum. No lost media here!
+    * Even more new and updated music tracks! (thanks phil)
+        * Toy Block Secret and Moon Secret have brand new themes
+        * Several tracks, mostly in the first half, have been touched up, most notably Toy Block Bridge, Barrel Canyon Cliffs, and Barrel Secret
+    * Static Menu Background visual option upgraded into Motion Sickness Mode
+    * Title Screen logo cleaned up (thanks again Jordan)
+    * Manual is now a markdown file instead of a word document (oops), patch notes are their own markdown file

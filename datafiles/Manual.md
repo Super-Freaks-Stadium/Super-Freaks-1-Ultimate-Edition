@@ -133,5 +133,6 @@ I’ve added a number of option settings you can fiddle with to make this game a
 	* **Screen Shake:** You can disable screen shake if you want to. I saw a bunch of other games include this as an accessibility setting, so I figured, why not?
 	* **Background Blur:** If you so choose, you can blur the background. It might make it easier to tell the foreground and background apart if I did a bad job at doing that myself. 
 	* **Screen Shader:** This is a fun little feature; you can enable wacky screen shaders for fun! Sadly I have only one currently: Justice is Gray, which makes the screen monochrome. This was based on an April Fools joke where I added this setting to Super Freaks 1 Remastered when the Snyder Cut was released.
+	* **Motion Sickness Mode:** Wanna play Ultimate Edition without vomiting? This is the setting for you! This disables everything I was told was motion sickness inducing, like a small handful of backgrounds, and screen shake.
 * #### Audio
 	* Currently I only have two options here, both for setting music and sound effect volumes. I know it’s unexciting but hey, they’re practical! No idea why you’d want to turn the music down though. I mean have you listened to it? It’s GOOD.
