@@ -14,4 +14,5 @@ switch (state)
 		break;
 }
 draw_line_width(_view_x1, y, _view_x2, y, (96 * multiplier));
+draw_set_color(c_white);
 draw_set_alpha(1);

@@ -11,14 +11,14 @@ function player_physics_set_normal()
 {
 	speed_acc = 0.3;
 	speed_acc_air = 0.3;
-	speed_dec = 0.25;
+	speed_dec = 0.3;
 	speed_dec_air = 0.25;
 	speed_frc = 0.3;
 	speed_frc_air = 0.96875;
 	speed_grv = 0.25;
 
 	speed_jump = 7.15;
-	speed_run = 3;
+	speed_run = 3.25;
 	speed_fall = 6;
 	
 	physics = player_physics_modifiers.normal;
@@ -36,7 +36,7 @@ function player_physics_set_ice()
 	speed_grv = 0.25;
 
 	speed_jump = 7.15;
-	speed_run = 3;
+	speed_run = 3.25;
 	speed_fall = 6;
 	
 	physics = player_physics_modifiers.ice;
