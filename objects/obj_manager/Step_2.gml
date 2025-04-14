@@ -221,6 +221,15 @@ while (_frames_game > 0)
 		water_step();
 		room_transition_step();
 		global.lightbulb_timer = max(global.lightbulb_timer - 1, 0);
+        if (global.turbo.mode)
+        {
+            global.turbo.time = max(global.turbo.time - 0.04, 0);
+            if (global.turbo.time == 0)
+            {
+                with (obj_player)
+                    player_kill();
+            }
+        }
 	}
 	
 	comp_list_camera_step();

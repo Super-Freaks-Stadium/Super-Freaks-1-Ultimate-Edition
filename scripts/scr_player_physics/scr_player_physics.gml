@@ -22,6 +22,9 @@ function player_physics_set_normal()
 	speed_fall = 6;
 	
 	physics = player_physics_modifiers.normal;
+    
+    if (global.turbo.mode)
+        speed_run = 4.25;
 }
 
 /// @function player_physics_set_ice
@@ -40,6 +43,9 @@ function player_physics_set_ice()
 	speed_fall = 6;
 	
 	physics = player_physics_modifiers.ice;
+    
+    if (global.turbo.mode)
+        speed_run = 4.25;
 }
 
 /// @function player_friction_normal

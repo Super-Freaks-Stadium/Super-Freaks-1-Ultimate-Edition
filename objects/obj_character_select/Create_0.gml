@@ -35,5 +35,7 @@ y_offset = 1;
 
 page = menu_character_select_pages.main;
 option = 0;
+if (global.turbo.mode)
+    option = 1;
 
 depth = -9994;

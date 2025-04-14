@@ -312,7 +312,7 @@ function player_death_reset()
 	
 	if (!players_alive())
 	{
-		if (global.hearts == 0 && (global.modifiers[modifiers.game_over] || global.game_mode == game_modes.randomizer || global.game_mode == game_modes.boss_rush))
+		if (global.turbo.mode || global.hearts == 0 && (global.modifiers[modifiers.game_over] || global.game_mode == game_modes.randomizer || global.game_mode == game_modes.boss_rush))
 		{
 			if (!room_transition_active_get())
 				instance_create(obj_gameover);

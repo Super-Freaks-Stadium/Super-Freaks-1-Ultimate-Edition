@@ -1,5 +1,10 @@
 /// @description Step
 
+var _sprite_index,
+    _image_index,
+    _image_xscale,
+    _image_yscale;
+
 collision_flags = 0;
 crush_flags = 0;
 hang_on = false;

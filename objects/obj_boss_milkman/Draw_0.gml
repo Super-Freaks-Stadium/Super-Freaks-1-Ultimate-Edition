@@ -19,17 +19,17 @@ else
 		for (_i = 0; _i < array_length(arm[0]); ++_i)
 		{
 			_arm_seg_length = _arm_length * 16 * _i;
-			draw_sprite(spr_chain, 0, _x - 80 + lengthdir_x(_arm_seg_length, _arm_angle_left), _y - 160 + lengthdir_y(_arm_seg_length, _arm_angle_left));
+			draw_sprite(spr_chain, 0, _x - 80 + lengthdir_x(_arm_seg_length, _arm_angle_left), _y + arm_offset + lengthdir_y(_arm_seg_length, _arm_angle_left));
 		}
 		_arm_seg_length = _arm_length * 16 * (array_length(arm[0]) - 1);
-		draw_sprite_ext(spr_sawful_blade, 0, _x - 80 + lengthdir_x(_arm_seg_length, _arm_angle_left), _y - 160 + lengthdir_y(_arm_seg_length, _arm_angle_left), 1, 1, _arm_angle_left, c_white, 1);
+		draw_sprite_ext(spr_sawful_blade, 0, _x - 80 + lengthdir_x(_arm_seg_length, _arm_angle_left), _y + arm_offset + lengthdir_y(_arm_seg_length, _arm_angle_left), 1, 1, _arm_angle_left, c_white, 1);
 
 		for (_i = 0; _i < array_length(arm[1]); ++_i)
 		{
 			_arm_seg_length = _arm_length * 16 * _i;
-			draw_sprite(spr_chain, 0, _x + 80 + lengthdir_x(_arm_seg_length, _arm_angle_right), _y - 160 + lengthdir_y(_arm_seg_length, _arm_angle_right));
+			draw_sprite(spr_chain, 0, _x + 80 + lengthdir_x(_arm_seg_length, _arm_angle_right), _y + arm_offset + lengthdir_y(_arm_seg_length, _arm_angle_right));
 		}
 		_arm_seg_length = _arm_length * 16 * (array_length(arm[1]) - 1);
-		draw_sprite_ext(spr_sawful_blade, 0, _x + 80 + lengthdir_x(_arm_seg_length, _arm_angle_right), _y - 160 + lengthdir_y(_arm_seg_length, _arm_angle_right), 1, 1, _arm_angle_right, c_white, 1);
+		draw_sprite_ext(spr_sawful_blade, 0, _x + 80 + lengthdir_x(_arm_seg_length, _arm_angle_right), _y + arm_offset + lengthdir_y(_arm_seg_length, _arm_angle_right), 1, 1, _arm_angle_right, c_white, 1);
 	}
 }

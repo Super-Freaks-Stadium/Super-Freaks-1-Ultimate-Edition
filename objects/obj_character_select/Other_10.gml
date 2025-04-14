@@ -48,12 +48,12 @@ switch (state)
 				{
 					option--;
 					if (option < 0)
-						option = 2;
+						option = 3;
 				} 
 				else if (input_check_pressed("down", global.player_lead))
 				{
 					option++;
-					if (option > 2)
+					if (option > 3)
 						option = 0;
 				}
 				
@@ -63,12 +63,17 @@ switch (state)
 					{
 						case 0:
 							page = menu_character_select_pages.character_select;
+                            global.turbo.mode = false;
 							break;
 						case 1:
+							page = menu_character_select_pages.character_select;
+                            global.turbo.mode = true;
+							break;
+						case 2:
 							page = menu_character_select_pages.difficulty_select;
 							option = 0;
 							break;
-						case 2:
+						case 3:
 							page = menu_character_select_pages.modifiers;
 							option = 0;
 							break;
@@ -100,7 +105,7 @@ switch (state)
 				if (input_check_pressed("confirm", global.player_lead) || input_check_pressed("deny", global.player_lead))
 				{
 					page = menu_character_select_pages.main;
-					option = 2;
+					option = 3;
 					sfx_play_global(sfx_ding);
 				}
 				else
@@ -174,7 +179,7 @@ switch (state)
 				if (input_check_pressed("confirm", global.player_lead) || input_check_pressed("deny", global.player_lead))
 				{
 					page = menu_character_select_pages.main;
-					option = 1;
+					option = 2;
 					sfx_play_global(sfx_ding);
 				}
 				
@@ -187,7 +192,10 @@ switch (state)
 					else if (input_check_pressed("deny", global.player_lead))
 					{
 						page = menu_character_select_pages.main;
-						option = 0;
+                        if (global.turbo.mode)
+                            option = 1;
+                        else
+						    option = 0;
 					}
 				
 					for (_player_num = 0; _player_num <= player_numbers.count; ++_player_num)

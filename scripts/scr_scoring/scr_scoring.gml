@@ -105,6 +105,8 @@ function yorbs_add(_amount = 1)
 			player_meter_collect(2 * _amount);
 			break;
 	}
+    
+    global.turbo.time = min(global.turbo.time + (0.5 * _amount), 100);
 	
 	sfx_play_global(sfx_yorb);
 	

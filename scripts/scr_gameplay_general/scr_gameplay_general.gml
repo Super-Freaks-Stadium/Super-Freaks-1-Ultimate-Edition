@@ -47,6 +47,11 @@ enum speedrun_modes
 function gameplay_init()
 {
 	global.story_mode = story_modes.super_freaks;
+    global.turbo = 
+    {
+        mode: false,
+        time: 100,
+    };
 	
 	collider_collision_global_init();
 	difficulty_init();

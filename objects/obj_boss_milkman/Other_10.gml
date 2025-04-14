@@ -18,9 +18,9 @@ if (arm_angle < 0)
 if (arm_active)
 {
 	if (arm_extend)
-		arm_length = min(arm_length + 0.0125, 1);
+		arm_length = min(arm_length + 0.015, 1);
 	else
-		arm_length = max(arm_length - 0.05, 0);
+		arm_length = max(arm_length - 0.1, 0);
 }
 
 switch (state)
@@ -223,7 +223,7 @@ for (_i = array_length(arm[0]) - 1; _i >= 0; --_i)
 	_arm_length = arm_length * 16 * (array_length(arm[0]) - 1 - _i);
 	
 	_arm_seg.x_offset = -80 + lengthdir_x(_arm_length, -arm_angle);
-	_arm_seg.y_offset = -160 + lengthdir_y(_arm_length, -arm_angle);
+	_arm_seg.y_offset = arm_offset + lengthdir_y(_arm_length, -arm_angle);
 }
 
 for (_i = array_length(arm[1]) - 1; _i >= 0; --_i)
@@ -232,5 +232,5 @@ for (_i = array_length(arm[1]) - 1; _i >= 0; --_i)
 	_arm_length = arm_length * 16 * (array_length(arm[1]) - 1 - _i);
 	
 	_arm_seg.x_offset = 80 + lengthdir_x(_arm_length, arm_angle);
-	_arm_seg.y_offset = -160 + lengthdir_y(_arm_length, arm_angle);
+	_arm_seg.y_offset = arm_offset + lengthdir_y(_arm_length, arm_angle);
 }

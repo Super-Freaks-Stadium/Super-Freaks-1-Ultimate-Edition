@@ -252,6 +252,13 @@ function player_hurt()
 		}
 		hurt_timer_set(120);
 		ego_refill_pause = 32;
+        
+        if (global.turbo.mode)
+        {
+            _last_hit = false;
+            global.turbo.time -= 10;
+        }
+        
 		if (!_last_hit)
 		{
 			if (underwater || jetpack)
@@ -269,7 +276,7 @@ function player_hurt()
 			}
 		}
 		else
-			state_next_set(player_states.death, 999);
+            state_next_set(player_states.death, 999);
 	}
 	
 	gml_pragma("forceinline");
@@ -278,7 +285,7 @@ function player_hurt()
 /// @function player_kill
 function player_kill()
 {
-	if (hurt_timer == 0 && state != player_states.hurt && state != player_states.bubble)
+	if (hurt_timer == 0 && state != player_states.inactive && state != player_states.hurt && state != player_states.bubble)
 	{
 		switch (global.story_mode)
 		{

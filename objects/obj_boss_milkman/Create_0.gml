@@ -51,6 +51,7 @@ arm_length_previous = 0;
 arm_active = false;
 arm_extend = false;
 arm_speed = 1.5;
+arm_offset = -196;
 
 ground_on = false;
 
@@ -74,13 +75,13 @@ switch (global.difficulty)
 hp_init(15);
 hitbox = new comp_hitbox_AABB(, -232, hitbox_active.inactive, enemy_hitbox_behaviors.heavy,, -80, 0, 80, 150);
 hitbox_lower = new comp_hitbox_AABB(, -64, hitbox_active.inactive, enemy_hitbox_behaviors.heavy,, -12, 0, 12, 64);
-arm[0][0] = new comp_hitbox_circle(,, hitbox_active.inactive, enemy_hitbox_behaviors.hazard,, 24);
-arm[1][0] = new comp_hitbox_circle(,, hitbox_active.inactive, enemy_hitbox_behaviors.hazard,, 24);
+arm[0][0] = new comp_hitbox_circle(, arm_offset, hitbox_active.inactive, enemy_hitbox_behaviors.hazard,, 24);
+arm[1][0] = new comp_hitbox_circle(, arm_offset, hitbox_active.inactive, enemy_hitbox_behaviors.hazard,, 24);
 
-for (_i = 0; _i < 8; ++_i)
+for (_i = 0; _i < 9; ++_i)
 {
-	array_push(arm[0], new comp_hitbox_circle(,, hitbox_active.inactive, enemy_hitbox_behaviors.hazard,,8));
-	array_push(arm[1], new comp_hitbox_circle(,, hitbox_active.inactive, enemy_hitbox_behaviors.hazard,,8));
+	array_push(arm[0], new comp_hitbox_circle(, arm_offset, hitbox_active.inactive, enemy_hitbox_behaviors.hazard,,8));
+	array_push(arm[1], new comp_hitbox_circle(, arm_offset, hitbox_active.inactive, enemy_hitbox_behaviors.hazard,,8));
 }
 
 collider_detector_down_set(-8,, 8,, 0);
