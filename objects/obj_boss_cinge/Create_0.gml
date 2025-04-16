@@ -28,12 +28,13 @@ speed_acc = 0.125;
 speed_grv = 0.25;
 
 boss_name = "Cinge";
-hp_init(12);
+hp_init(20);
 
 hitbox.shape_x1 = -40;
 hitbox.shape_y1 = -40;
 hitbox.shape_x2 = 40;
 hitbox.shape_y2 = 80;
+hitbox.active = hitbox_active.active;
 
 collider_detector_sides_set(-40,, 40,, 80);
 collider_detector_up_set(-40,, 40,, -60);
@@ -41,7 +42,7 @@ collider_detector_down_set(-40,, 40,, 80);
 
 if (global.boss_phase == 1)
 {
-	hp = 6;
+	hp = 10;
 	instance_create_layer(0, 0, "layer_instances", obj_boss_cinge_heat_haze);
 }
 

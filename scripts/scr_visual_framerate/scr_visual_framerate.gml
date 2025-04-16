@@ -14,12 +14,10 @@ function framerate_list_init()
 }
 
 /// @function framerate_add
-/// @param {int} _framerate
+/// @param {Real} _framerate
 function framerate_add(_framerate)
 {
-	var _list = global.framerate_list;
-	
-	array_push(_list, _framerate);
+	array_push(global.framerate_list, _framerate);
 }
 
 /// @function framerate_current_get

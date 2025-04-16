@@ -28,16 +28,16 @@ switch (state)
 			image_index = 0;
 			animate_speed = 0.15;
 			hitbox.behavior = enemy_hitbox_behaviors.heavy_hazard;
-			hitbox.active = hitbox_active.passive;
+			hitbox.active = hitbox_active.active;
 			timer = 0;
 			hitbox.shape_x1 = -40;
 			hitbox.shape_y1 = -40;
 			hitbox.shape_x2 = 40;
 			hitbox.shape_y2 = 80;
 		}
-		timer = min(timer + 1, 80);
+		timer = min(timer + 1, 32);
 		
-		if (timer == 80)
+		if (timer == 32)
 			state_next_set(boss_cinge_states.shoot);
 		break;
 	case boss_cinge_states.shoot:
@@ -62,8 +62,8 @@ switch (state)
 					if (!is_undefined(_target))
 					{
 						sfx_play_global(sfx_flame);
-						_angle = point_direction(x + (76 * face), y + 48, _target.x, _target.y);
-						_fireball = instance_create_layer(x + (76 * face), y + 48, "layer_instances", obj_enemy_fireball, 
+						_angle = point_direction(x + (76 * face), y + 40, _target.x, _target.y - 32);
+						_fireball = instance_create_layer(x + (76 * face), y + 40, "layer_instances", obj_enemy_energy_orb, 
 						{
 							speed: _fireball_speed,
 							direction: _angle,
@@ -72,16 +72,16 @@ switch (state)
 						
 						if (global.boss_phase == 1)
 						{
-							_fireball = instance_create_layer(x + (76 * face), y + 48, "layer_instances", obj_enemy_fireball, 
+							_fireball = instance_create_layer(x + (76 * face), y + 40, "layer_instances", obj_enemy_fireball, 
 							{
 								speed: _fireball_speed,
-								direction: _angle + 5,
+								direction: _angle + 15,
 								zone_index: -3
 							});
-							_fireball = instance_create_layer(x + (76 * face), y + 48, "layer_instances", obj_enemy_fireball, 
+							_fireball = instance_create_layer(x + (76 * face), y + 40, "layer_instances", obj_enemy_fireball, 
 							{
 								speed: _fireball_speed,
-								direction: _angle - 5,
+								direction: _angle - 15,
 								zone_index: -3
 							});
 						}
@@ -102,9 +102,9 @@ switch (state)
 				}
 				break;
 			case spr_boss_cinge_stand:
-				timer = min(timer + 1, 80);
+				timer = min(timer + 1, 48);
 			
-				if (timer == 80 && !instance_exists(obj_enemy_fireball))
+				if (timer == 48)
 					state_next_set(boss_cinge_states.fireball);
 				break;
 		}
@@ -253,22 +253,26 @@ switch (state)
 			hitbox.shape_y1 = -40;
 			hitbox.shape_x2 = 40;
 			hitbox.shape_y2 = 80;
+            fast_forward = false;
 		}
-		timer = min(timer + 1, 48);
+		timer = min(timer + 1, 56);
 		
 		if (animation_at_end())
 		{
 			image_index = 3;
 			
-			if (global.boss_phase == 0 && hp <= 6)
+			if (global.boss_phase == 0 && hp <= 10)
 			{
 				global.boss_phase = 1;
 				instance_create_layer(0, 0, "layer_instances", obj_boss_cinge_heat_haze);
 			}
 		}
 		
-		if (timer == 48)
+		if (timer == 56)
+        {
 			state_next_set(boss_cinge_states.normal);
+            fast_forward = true;
+        }
 		break;
 	case boss_cinge_states.death:
 		if (state_begin)
