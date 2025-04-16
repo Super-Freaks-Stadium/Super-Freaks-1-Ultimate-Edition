@@ -3,6 +3,7 @@ function player_state_normal()
 	var _collider, _collider_speed_x, _collider_speed_y;
 	var _collision_left = false, _collision_right = false, _collision_up = false, _collision_down = false;
 	var _move_h = 0, _move_v = 0;
+    var _move = new vector2(0, 0);
 	var _speedup_h = 0;
 	var _speed_run = speed_run;
 	var _speed_fall = speed_fall;
@@ -57,19 +58,24 @@ function player_state_normal()
 			{
 				if (input_check("left", player_number))
 					_move_h -= 1;
+                    _move.x = input_x("left", "right", "up", "down", player_number);
 				if (input_check("right", player_number))
 					_move_h += 1;
+                    _move.x = input_x("left", "right", "up", "down", player_number);
 			}
 			break;
 	}
 	_move_h *= mirror_flip_get();
+    _move.x *= mirror_flip_get();
 	_speedup_h *= mirror_flip_get();
 	if (lock_controls_vertical == 0)
 	{
 		if (input_check("up", player_number))
 			_move_v -= 1;
+            _move.y = input_y("left", "right", "up", "down", player_number);
 		if (input_check("down", player_number))
 			_move_v += 1;
+            _move.y = input_y("left", "right", "up", "down", player_number);
 	}
 			
 	if (input_check_pressed("jump", player_number))
@@ -93,6 +99,8 @@ function player_state_normal()
 	}
 			
 	#region Horizontal Movement
+    if (!jetpack)
+    {
 		switch (_move_h)
 		{
 			case -1:
@@ -108,7 +116,8 @@ function player_state_normal()
 					if (speed_h >= -_speed_run)
 						speed_h = max(speed_h - _speed_acc, -_speed_run);
 					else
-						player_friction_normal(_speed_frc, _speed_frc_air);
+                        if (lock_friction == 0)
+                            player_friction_normal(_speed_frc, _speed_frc_air);
 					face = -1;
 					skid = false;
 				}
@@ -130,47 +139,100 @@ function player_state_normal()
 					if (speed_h <= _speed_run)
 						speed_h = min(speed_h + _speed_acc, _speed_run);
 					else
-						player_friction_normal(_speed_frc, _speed_frc_air);
+                        if (lock_friction == 0)
+						  player_friction_normal(_speed_frc, _speed_frc_air);
 					face = 1;
 					skid = false;
 				}
 				break;
 		}
+    }
 	#endregion
 	
-	#region Vertical Movement (Jetpack Only)
+	#region Jetpack Movement
 		if (jetpack)
 		{
-			switch (_move_v)
-			{
-				case -1:
-					if (speed_v > 0)
-						speed_v += -_speed_dec;
-					else
-					{
-						if (speed_v >= -_speed_run)
-							speed_v = max(speed_v - _speed_acc, -_speed_run);
-						else
-							speed_v *= _speed_frc_air;
-					}
-					ground_on = false;
-					break;
-				case 0:
-					speed_v *= _speed_frc_air;
-					break;
-				case 1:
-					if (speed_v < 0)
-						speed_v += _speed_dec;
-					else
-					{
-						if (speed_v <= _speed_run)
-							speed_v = min(speed_v + _speed_acc, _speed_run);
-						else
-							speed_v *= _speed_frc_air;
-					}
-					break;
-			}
-		}
+            var _speed_run_jetpack = _speed_run * 1.2;
+            var _target_speed = _move.multiply(_speed_run_jetpack); 
+            var _speed = new vector2(speed_h, speed_v);
+            
+            if (_move.x != 0) 
+            {
+                if (sign(_move.x) != sign(_speed.x))
+                    _speed.x = move_toward(_speed.x, _target_speed.x, _speed_dec);
+                else 
+                {
+                    if (_speed.x * sign(_target_speed.x) <= abs(_target_speed.x))
+                        _speed.x = move_toward(_speed.x, _target_speed.x, _speed_acc);
+                    else
+                        if (lock_friction == 0)
+                            _speed.x *= _speed_frc_air
+                    if (sign(_speed.x) != 0) 
+                        face = sign(_speed.x); 
+                }
+            } 
+            else 
+                _speed.x *= _speed_frc_air
+            
+            if (_move.y != 0)
+            {
+                if (sign(_move.y) != sign(_speed.y))
+                    _speed.y = move_toward(_speed.y, _target_speed.y, _speed_dec);
+                else
+                {
+                    if (_speed.y * sign(_target_speed.y) <= abs(_target_speed.y))
+                        _speed.y = move_toward(_speed.y, _target_speed.y, _speed_acc);
+                    else
+                        if (lock_friction == 0)
+                            _speed.y *= _speed_frc_air
+                }
+            }
+            else
+                _speed.y *= _speed_frc_air
+                    
+                    //if (_move.dot(_speed) < 0.0)
+                    //    _speed = _speed.move_toward(_target_speed, _speed_dec);
+                    //else
+                    //    if _speed.project(_target_speed).rotated(-_target_speed.angle()).x < _target_speed.length()
+                    //        _speed = _speed.move_toward(_target_speed, _speed_acc);
+                    //    else
+                    //        _speed = _speed.multiply(_speed_frc_air)
+                    //    if (sign(_speed.x) != 0)
+                    //        face = sign(_speed.x);
+                    
+            speed_h = _speed.x;
+            speed_v = _speed.y;
+        }
+            
+			//switch (_move_v)
+			//{
+			//	case -1:
+			//		if (speed_v > 0)
+			//			speed_v += -_speed_dec;
+			//		else
+			//		{
+			//			if (speed_v >= -_speed_run)
+			//				speed_v = max(speed_v - _speed_acc, -_speed_run);
+			//			else
+			//				speed_v *= _speed_frc_air;
+			//		}
+			//		ground_on = false;
+			//		break;
+			//	case 0:
+			//		speed_v *= _speed_frc_air;
+			//		break;
+			//	case 1:
+			//		if (speed_v < 0)
+			//			speed_v += _speed_dec;
+			//		else
+			//		{
+			//			if (speed_v <= _speed_run)
+			//				speed_v = min(speed_v + _speed_acc, _speed_run);
+			//			else
+			//				speed_v *= _speed_frc_air;
+			//		}
+			//		break;
+			//}
 	#endregion
 	
 	
@@ -189,18 +251,21 @@ function player_state_normal()
 			if (input_check("jump", player_number))
 			{
 				if (is_undefined(aura_stored))
-					aura_stored = aura;
-				
-				if (aura_stored > 5)
 				{
-					if (jump_strength > 0)
-						instance_create_layer(x - 12 + random(24), y - 12 + random(24), "layer_instances", obj_yorb_collected_single);
+					aura_stored = aura;
+					aura = max(aura - 5, 0);
+				}
+				
+				if (aura_stored > 0)
+				{
 					if (jump_strength < JUMP_STRENGTH_MAX)
 					{
 						jump_strength++;
 						if (jump_strength > 0)
-							aura = max(aura - 2, 0);
+							aura = max(aura - 1, 0);
 					}
+					if (jump_strength > 0)
+						instance_create_layer(x - 12 + random(24), y - 12 + random(24), "layer_instances", obj_yorb_collected_single);
 				}
 			}
 			else if (input_check_released("jump", player_number))
