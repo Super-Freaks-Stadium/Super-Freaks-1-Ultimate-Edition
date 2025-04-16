@@ -50,7 +50,8 @@ function gameplay_init()
     global.turbo = 
     {
         mode: false,
-        time: 100,
+        time: 30,
+        punish: 1,
     };
 	
 	collider_collision_global_init();

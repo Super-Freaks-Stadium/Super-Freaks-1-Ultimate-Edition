@@ -81,7 +81,7 @@ function game_timer_draw(_x, _y)
 
 
 /// @function yorbs_add
-/// @param _amount = 1
+/// @param {Real} _amount = 1
 function yorbs_add(_amount = 1)
 {
 	switch (global.story_mode)
@@ -105,18 +105,25 @@ function yorbs_add(_amount = 1)
 			player_meter_collect(2 * _amount);
 			break;
 	}
-    
-    global.turbo.time = min(global.turbo.time + (0.5 * _amount), 100);
 	
 	sfx_play_global(sfx_yorb);
-	
-	if (instance_exists(obj_gameplay_manager))
-	{
-		with (obj_gameplay_manager)
-			yorb_effect = min(yorb_effect + _amount, 7);
-	}
+    
+    turbo_time_add(0.35 * _amount);
+    
+	with (obj_gameplay_manager) 
+        yorb_effect = min(yorb_effect + _amount, 7);
 	
 	gml_pragma("forceinline");
+}
+
+/// @function turbo_time_add
+/// @param {Real} _amount = 1
+function turbo_time_add(_amount = 1)
+{
+    global.turbo.time = min(global.turbo.time + _amount, 60);
+    
+    with (obj_gameplay_manager) 
+        yorb_effect = min(yorb_effect + _amount, 7);
 }
 
 /// @function yorb_collect_effect_multi

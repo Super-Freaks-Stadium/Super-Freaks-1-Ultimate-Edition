@@ -223,7 +223,7 @@ while (_frames_game > 0)
 		global.lightbulb_timer = max(global.lightbulb_timer - 1, 0);
         if (global.turbo.mode)
         {
-            global.turbo.time = max(global.turbo.time - 0.04, 0);
+            global.turbo.time = max(global.turbo.time - (1 / 60), 0);
             if (global.turbo.time == 0)
             {
                 with (obj_player)

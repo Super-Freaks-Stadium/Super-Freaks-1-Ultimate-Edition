@@ -29,7 +29,8 @@ switch (state)
 			room_destination_set(spawn_point_room_get());
 			global.boss_phase = 0;
 			global.checkpoint_death_count = 0;
-            global.turbo.time = 100;
+            global.turbo.time = 30;
+            global.turbo.punish = 1;
 			state_next_set(2);
 			//audio_stop_all();
 		}

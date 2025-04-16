@@ -1,7 +1,7 @@
 /// @description 
 
 instance_destroy();
-global.turbo.time = min(global.turbo.time + 5, 100);
+turbo_time_add(5);
 switch (global.story_mode)
 {
 	case story_modes.super_freaks:

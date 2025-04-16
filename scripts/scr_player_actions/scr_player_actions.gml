@@ -256,7 +256,8 @@ function player_hurt()
         if (global.turbo.mode)
         {
             _last_hit = false;
-            global.turbo.time -= 10;
+            global.turbo.time -= global.turbo.punish * 2;
+            global.turbo.punish++;
         }
         
 		if (!_last_hit)
