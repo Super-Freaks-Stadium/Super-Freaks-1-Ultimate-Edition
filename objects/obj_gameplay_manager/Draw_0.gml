@@ -158,7 +158,7 @@ var _show_heart = (global.story_mode == story_modes.super_freaks || global.turbo
     					draw_set_valign(fa_middle); 
                         draw_sprite(spr_HUD_clock, 0, _view_x1, _view_y1 + _screen_height - 32 + yorb_effect); 
                         draw_sprite_part(spr_HUD_clock, 1, 0, 32 - (global.turbo.time * 0.53), 32, (global.turbo.time * 0.53), _view_x1, _view_y1 + _screen_height - (global.turbo.time * 0.53) + yorb_effect); 
-                        draw_text(_view_x1 + 16, _view_y1 + _screen_height - 16 + yorb_effect, floor(global.turbo.time));
+                        draw_text(_view_x1 + 16, _view_y1 + _screen_height - 16 + yorb_effect, round(global.turbo.time));
                     }
                     else
                     {
