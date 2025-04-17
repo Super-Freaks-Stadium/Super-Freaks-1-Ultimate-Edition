@@ -119,6 +119,7 @@ function player_state_climb_pole()
 		lock_controls_horizontal = 12;
 		lock_friction = 12;
 		instance_attach = undefined;
+        can_fireball = false;
 	}
 	jump_buffer = max(jump_buffer - 1, 0);
 	

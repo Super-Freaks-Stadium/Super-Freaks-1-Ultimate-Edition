@@ -68,6 +68,7 @@ function player_state_hang()
 		ground_on = false;
 		coyote_time = 0;
 		instance_attach = undefined;
+        can_fireball = false;
 	}
 	jump_buffer = max(jump_buffer - 1, 0);
 	

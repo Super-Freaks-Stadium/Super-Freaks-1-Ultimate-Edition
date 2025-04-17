@@ -57,6 +57,7 @@ function player_state_wall_slide()
 		jump_buffer = 0;
 		lock_controls_horizontal = 12;
 		lock_friction = 12;
+        can_fireball = false;
 		face = -face;
 		walljump_auto = WALLJUMP_AUTO_MAX;
 		_stick_to_wall = false;

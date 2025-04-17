@@ -244,7 +244,7 @@ function player_hurt()
 					aura = 0;
 				break;
 			case story_modes.anti_freaks:
-				if (aura < 10)
+				if (aura < ANTI_FREAK_WEAK)
 					_last_hit = true;
 				else
 					aura = 0;

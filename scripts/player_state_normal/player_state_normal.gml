@@ -249,20 +249,19 @@ function player_state_normal()
 		if (can_fireball)
 		{
 			if (input_check("jump", player_number))
-			{
-				if (is_undefined(aura_stored))
-				{
-					aura_stored = aura;
-					aura = max(aura - 5, 0);
-				}
-				
-				if (aura_stored > 0)
+			{ 
+                if (aura_stored == 0)
+                    aura_stored = aura;
+                
+				if (aura_stored >= ANTI_FREAK_WEAK)
 				{
 					if (jump_strength < JUMP_STRENGTH_MAX)
 					{
 						jump_strength++;
+                        if (jump_strength == 0)
+                            aura = max(aura - 7, 0);
 						if (jump_strength > 0)
-							aura = max(aura - 1, 0);
+							aura = max(aura - 1.5, 0);
 					}
 					if (jump_strength > 0)
 						instance_create_layer(x - 12 + random(24), y - 12 + random(24), "layer_instances", obj_yorb_collected_single);
@@ -277,10 +276,15 @@ function player_state_normal()
 					ground_on = false;
 					ball = true;
 					skid = false;
-					speed_v = -lerp(speed_jump, speed_jump * 2, jump_strength / JUMP_STRENGTH_MAX);
+					speed_v = -lerp(speed_jump, speed_jump * 1.5, jump_strength / JUMP_STRENGTH_MAX);
 					if (physics != player_physics_modifiers.rail)
 						speed_h *= lerp(1, 4, jump_strength / JUMP_STRENGTH_MAX);
-					else
+					else if (jetpack) 
+                    {
+                        speed_h *= lerp(1, 1.25, jump_strength / JUMP_STRENGTH_MAX);
+                        speed_v *= lerp(1, 1.25, jump_strength / JUMP_STRENGTH_MAX);
+                    }
+                    else
 						speed_h *= lerp(1, 1.25, jump_strength / JUMP_STRENGTH_MAX);
 					sfx_play_global(sfx_explode_short);
 					_collider = collider_attach[collider_attach_data.collider];
@@ -288,13 +292,16 @@ function player_state_normal()
 					{
 						_collider_speed_x = collider_attach[collider_attach_data.speed_x];
 						_collider_speed_y = collider_attach[collider_attach_data.speed_y];
-						speed_h += _collider_speed_x;
-						speed_v = min(speed_v, _collider_speed_y);
+                        if (!jetpack)
+                        {
+						    speed_h += _collider_speed_x;
+						    speed_v = min(speed_v, _collider_speed_y);
+                        }
 						collider_attach_clear();
 					}
 				}
 				jump_strength = JUMP_STRENGTH_MIN;
-				aura_stored = undefined;
+				aura_stored = 0;
 			}
 		}
 	}
