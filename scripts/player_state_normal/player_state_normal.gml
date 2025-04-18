@@ -5,10 +5,12 @@ function player_state_normal()
 	var _move_h = 0, _move_v = 0;
     var _move = new vector2(0, 0);
 	var _speedup_h = 0;
+    var _speed_true;
 	var _speed_run = speed_run;
 	var _speed_fall = speed_fall;
 	var _speed_acc = speed_acc, _speed_dec = speed_dec, _speed_frc = speed_frc;
 	var _speed_frc_air = speed_frc_air;
+    var _anti_freak_jump_min = 5 * (underwater || jetpack);
 	
 	if (global.story_mode == story_modes.swordsman)
 		_speed_run += (AURA_WALK * (aura / 100));
@@ -172,7 +174,7 @@ function player_state_normal()
                 }
             } 
             else 
-                _speed.x *= _speed_frc_air
+                _speed.x *= _speed_frc_air;
             
             if (_move.y != 0)
             {
@@ -184,11 +186,11 @@ function player_state_normal()
                         _speed.y = move_toward(_speed.y, _target_speed.y, _speed_acc);
                     else
                         if (lock_friction == 0)
-                            _speed.y *= _speed_frc_air
+                            _speed.y *= _speed_frc_air;
                 }
             }
             else
-                _speed.y *= _speed_frc_air
+                _speed.y *= _speed_frc_air;
                     
                     //if (_move.dot(_speed) < 0.0)
                     //    _speed = _speed.move_toward(_target_speed, _speed_dec);
@@ -253,39 +255,50 @@ function player_state_normal()
                 if (aura_stored == 0)
                     aura_stored = aura;
                 
-				if (aura_stored >= ANTI_FREAK_WEAK)
+				if (aura_stored > ANTI_FREAK_WEAK)
 				{
 					if (jump_strength < JUMP_STRENGTH_MAX)
 					{
 						jump_strength++;
-                        if (jump_strength == 0)
+                        if (jump_strength == _anti_freak_jump_min)
                             aura = max(aura - 7, 0);
-						if (jump_strength > 0)
+						if (jump_strength > _anti_freak_jump_min)
 							aura = max(aura - 1.5, 0);
 					}
-					if (jump_strength > 0)
+					if (jump_strength > _anti_freak_jump_min)
 						instance_create_layer(x - 12 + random(24), y - 12 + random(24), "layer_instances", obj_yorb_collected_single);
 				}
 			}
-			else if (input_check_released("jump", player_number))
+            
+			if (input_check_released("jump", player_number))
 			{
-				if (jump_strength > 0)
+				if (jump_strength > _anti_freak_jump_min)
 				{
 					jump_buffer = 0;
 					coyote_time = 0;
 					ground_on = false;
 					ball = true;
 					skid = false;
-					speed_v = -lerp(speed_jump, speed_jump * 1.5, jump_strength / JUMP_STRENGTH_MAX);
-					if (physics != player_physics_modifiers.rail)
-						speed_h *= lerp(1, 4, jump_strength / JUMP_STRENGTH_MAX);
-					else if (jetpack) 
+					if (jetpack) 
                     {
-                        speed_h *= lerp(1, 1.25, jump_strength / JUMP_STRENGTH_MAX);
-                        speed_v *= lerp(1, 1.25, jump_strength / JUMP_STRENGTH_MAX);
+                        if (_move.x != 0 || _move.y != 0)
+                        {
+                            _speed_true = lerp(2, 16, jump_strength / JUMP_STRENGTH_MAX);
+                            speed_h = lengthdir_x(_speed_true, point_direction(0, 0, _move.x, _move.y));
+                            speed_v = lengthdir_y(_speed_true, point_direction(0, 0, _move.x, _move.y));
+                        }
+                        else
+                            speed_h *= lerp(1, 4, jump_strength / JUMP_STRENGTH_MAX);
+                        jump_buffer = JUMP_BUFFER_MAX;
                     }
                     else
-						speed_h *= lerp(1, 1.25, jump_strength / JUMP_STRENGTH_MAX);
+                    {
+                        if (physics == player_physics_modifiers.rail)
+                            speed_h *= lerp(1, 1.25, jump_strength / JUMP_STRENGTH_MAX); 
+                        else
+                            speed_h *= lerp(1, 4, jump_strength / JUMP_STRENGTH_MAX);
+                        speed_v = -lerp(speed_jump, speed_jump * 1.5, jump_strength / JUMP_STRENGTH_MAX);
+                    }
 					sfx_play_global(sfx_explode_short);
 					_collider = collider_attach[collider_attach_data.collider];
 					if (!is_undefined(_collider))
@@ -302,6 +315,7 @@ function player_state_normal()
 				}
 				jump_strength = JUMP_STRENGTH_MIN;
 				aura_stored = 0;
+                can_fireball = false;
 			}
 		}
 	}
