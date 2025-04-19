@@ -318,6 +318,7 @@ function levels_init()
 	with (global.levels[level_ids.level_kranion_final_boss])
 	{
 		sprite_index = [spr_worldmap_pic_kranion, spr_worldmap_pic_cranion, spr_worldmap_pic_marrowprime, spr_worldmap_pic_kranion];
+        room_starting = [rm_boss_kranion, rm_boss_kranion, rm_boss_kranion, rm_boss_kranion_minus];
 		name_level = ["Vs Kranion", "Vs ???", "Vs Marrow Prime", "Vs Kranion Minus"];
 	}
 	
