@@ -1,20 +1,22 @@
 {
   "$GMObject":"",
-  "%Name":"obj_boss_kranionminus",
+  "%Name":"obj_boss_kranion_clone",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":15,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_boss_kranionminus",
+  "name":"obj_boss_kranion_clone",
   "overriddenProperties":[],
   "parent":{
     "name":"Kranion Minus",
     "path":"folders/Objects/Enemies/Bosses/Kranion Minus.yy",
   },
   "parentObjectId":{
-    "name":"obj_boss",
-    "path":"objects/obj_boss/obj_boss.yy",
+    "name":"obj_enemy",
+    "path":"objects/obj_enemy/obj_enemy.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
@@ -34,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_boss_kranionminus",
-    "path":"sprites/spr_boss_kranionminus/spr_boss_kranionminus.yy",
+    "name":"spr_boss_kranion_prepare",
+    "path":"sprites/spr_boss_kranion_prepare/spr_boss_kranion_prepare.yy",
   },
   "spriteMaskId":null,
   "visible":true,

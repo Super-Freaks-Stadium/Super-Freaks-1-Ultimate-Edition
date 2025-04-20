@@ -376,6 +376,7 @@
     {"name":"obj_boss_explosion","order":1,"path":"objects/obj_boss_explosion/obj_boss_explosion.yy",},
     {"name":"obj_boss_extra_controller","order":2,"path":"objects/obj_boss_extra_controller/obj_boss_extra_controller.yy",},
     {"name":"obj_boss_geyzer","order":3,"path":"objects/obj_boss_geyzer/obj_boss_geyzer.yy",},
+    {"name":"obj_boss_kranion_clone","order":1,"path":"objects/obj_boss_kranion_clone/obj_boss_kranion_clone.yy",},
     {"name":"obj_boss_kranion_final","order":3,"path":"objects/obj_boss_kranion_final/obj_boss_kranion_final.yy",},
     {"name":"obj_boss_kranion","order":2,"path":"objects/obj_boss_kranion/obj_boss_kranion.yy",},
     {"name":"obj_boss_larry_intro","order":1,"path":"objects/obj_boss_larry_intro/obj_boss_larry_intro.yy",},

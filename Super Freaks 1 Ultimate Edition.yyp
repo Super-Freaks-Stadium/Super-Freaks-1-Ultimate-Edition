@@ -466,6 +466,7 @@
     {"id":{"name":"obj_boss_extra_controller","path":"objects/obj_boss_extra_controller/obj_boss_extra_controller.yy",},},
     {"id":{"name":"obj_boss_francis","path":"objects/obj_boss_francis/obj_boss_francis.yy",},},
     {"id":{"name":"obj_boss_geyzer","path":"objects/obj_boss_geyzer/obj_boss_geyzer.yy",},},
+    {"id":{"name":"obj_boss_kranion_clone","path":"objects/obj_boss_kranion_clone/obj_boss_kranion_clone.yy",},},
     {"id":{"name":"obj_boss_kranion_final","path":"objects/obj_boss_kranion_final/obj_boss_kranion_final.yy",},},
     {"id":{"name":"obj_boss_kranion","path":"objects/obj_boss_kranion/obj_boss_kranion.yy",},},
     {"id":{"name":"obj_boss_kranionminus","path":"objects/obj_boss_kranionminus/obj_boss_kranionminus.yy",},},
