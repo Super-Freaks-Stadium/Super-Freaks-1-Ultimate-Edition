@@ -10,7 +10,7 @@ function player_state_normal()
 	var _speed_fall = speed_fall;
 	var _speed_acc = speed_acc, _speed_dec = speed_dec, _speed_frc = speed_frc;
 	var _speed_frc_air = speed_frc_air;
-    var _anti_freak_jump_min = 5 * (underwater || jetpack);
+    var _anti_freak_jump_min = 7 * (underwater || jetpack);
 	
 	if (global.story_mode == story_modes.swordsman)
 		_speed_run += (AURA_WALK * (aura / 100));

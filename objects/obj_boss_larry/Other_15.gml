@@ -10,6 +10,7 @@ var _player = player_nearest_alive();
 if (_xscale > 0.5)
 {
 	global.boss_phase++;
+    turbo_time_add(20);
 	for (_i = -ceil(_clone_amount / 2); _i <= ceil(_clone_amount / 2); _i += 2)
 	{
 		_clone = instance_create_layer(x + (16 * _i), y, "layer_instances", obj_boss_larry,

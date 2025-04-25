@@ -20,6 +20,7 @@ speed_grv = 0.25;
 timer = 0;
 hitbox = new comp_hitbox_circle(,,, enemy_hitbox_behaviors.hazard,, 48);
 animate_speed = 0.25;
+fast_forward_setting = fast_forward;
 
 if (global.checkpoint[spawn_point_data.go_to_checkpoint] == true)
 	_target = global.checkpoint[spawn_point_data.x];

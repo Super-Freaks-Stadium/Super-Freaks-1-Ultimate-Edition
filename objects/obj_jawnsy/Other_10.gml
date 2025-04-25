@@ -15,6 +15,7 @@ switch (state)
 			speed_h = 0;
 			speed_v = 0;
 			sprite_index = spr_jawnsy;
+            fast_forward = fast_forward_setting;
 		}
 		
 		y = max(y - 4, global.water_height);
@@ -70,6 +71,7 @@ switch (state)
 			speed_h = 0;
 			speed_v = -12;
 			sprite_index = spr_jawnsy_bite;
+            fast_forward = false;
 		}
 		if (y < global.water_height)
 			speed_v = min(speed_v + speed_grv, 6);

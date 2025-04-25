@@ -265,6 +265,7 @@ switch (state)
 			{
 				global.boss_phase = 1;
 				instance_create_layer(0, 0, "layer_instances", obj_boss_cinge_heat_haze);
+                turbo_time_add(20);
 			}
 		}
 		

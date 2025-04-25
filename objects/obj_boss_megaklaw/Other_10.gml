@@ -232,6 +232,7 @@ switch (state)
 			if (global.boss_phase == 0 && hp <= 7)
 			{
 				global.boss_phase = 1;
+                turbo_time_add(20);
 				instance_create_layer(x, y, "layer_instances", obj_boss_explosion);
 			}
 		}

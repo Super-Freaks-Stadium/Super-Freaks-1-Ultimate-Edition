@@ -14,6 +14,7 @@ if (global.boss_phase == 1 && hp <= 9)
 	size = 0.75;
 	state_next_set(boss_francis_states.higher);
 	screen_shake(0, 16);
+    turbo_time_add(20);
 }
 else if (global.boss_phase == 2 && hp <= 6)
 {
@@ -25,4 +26,5 @@ else if (global.boss_phase == 2 && hp <= 6)
 	claws_active = false;
 	state_next_set(boss_francis_states.buzzsaw);
 	screen_shake(0, 16);
+    turbo_time_add(10);
 }

@@ -51,6 +51,7 @@ switch (global.boss_phase)
 			state_next_set(boss_spike_states.normal);
 			global.boss_phase = 1;
 			instance_create_layer(x, y, "layer_instances", obj_boss_explosion);
+            turbo_time_add(20);
 		}
 		break;
 	default:
