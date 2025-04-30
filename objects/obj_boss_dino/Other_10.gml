@@ -42,7 +42,15 @@ switch (state)
 		y += speed_y;
 		
 		if (y >= room_height + 32)
-			state_next_set(boss_dino_states.jetpack);
+        {
+            if (global.difficulty == difficulty_levels.easy)
+            {
+                instance_destroy();
+                level_beat();
+            }
+            else
+			    state_next_set(boss_dino_states.jetpack);
+        }
 		break;
 	case boss_dino_states.jetpack:
 		if (state_begin)

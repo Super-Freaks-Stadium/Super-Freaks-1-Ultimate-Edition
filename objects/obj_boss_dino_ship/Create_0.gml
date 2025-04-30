@@ -36,8 +36,8 @@ switch (global.difficulty)
 	case difficulty_levels.hard:
 		hitbox_saber[1].active = hitbox_active.passive;
 		hitbox_saber[3].active = hitbox_active.passive;
+        break;
 	case difficulty_levels.normal:
-		hitbox_saber[2].active = hitbox_active.passive;
 	case difficulty_levels.easy:
 		hitbox_saber[0].active = hitbox_active.passive;
 		break;

@@ -121,6 +121,7 @@ function player_rubberband_activate()
 function player_ego_meter()
 {
 	var _x1, _y1, _x2, _y2;
+    var _turbo = (0.05 * global.turbo.mode);
 	
 	if (global.story_mode != story_modes.kranion)
 		exit;
@@ -129,7 +130,7 @@ function player_ego_meter()
 	{
 		if (ego_refill_pause == 0)
 		{
-			ego_invincible = max(ego_invincible - 0.25, 0);
+			ego_invincible = max(ego_invincible - 0.25 - _turbo, 0);
 			if (ego_invincible == 0)
 				hp = 80;
 		}
@@ -144,7 +145,7 @@ function player_ego_meter()
 		if (ego_refill_pause == 0)
 		{
 			if (hp > 25)
-				hp = max(hp - 0.125, 25);
+				hp = max(hp - 0.125 - _turbo, 25);
 			else
 				hp = min(hp + 0.1, 25);
 		}
