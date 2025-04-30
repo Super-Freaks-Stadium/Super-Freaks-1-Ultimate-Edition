@@ -4,6 +4,7 @@ function player_state_hurt()
 	
 	if (state_begin)
 	{
+        sprint = 0;
 		visible = true;
 		camera.active = true;
 		speed_h = 1 * -face;

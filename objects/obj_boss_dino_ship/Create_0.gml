@@ -27,7 +27,7 @@ saber_angle_previous = 0;
 
 movement = 0;
 animate_speed = 0.25;
-cockpit_sprite = spr_boss_francis_cockpit_normal;
+cockpit_sprite = spr_boss_dino_ship;
 cockpit_index = 0;
 cockpit_timer = 0;
 

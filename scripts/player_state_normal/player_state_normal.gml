@@ -108,6 +108,7 @@ function player_state_normal()
 			case -1:
 				if (speed_h > 0)
 				{
+                    sprint = max(sprint - 0.1, 0);
 					speed_h += -_speed_dec;
 					platform_jump_off = false;
 					if (ground_on)
@@ -115,6 +116,9 @@ function player_state_normal()
 				}
 				else
 				{
+                    if (ground_on)
+                        sprint = min(sprint + SPRINT_ADD, SPRINT_MAX);
+                    _speed_run = _speed_run + sprint;
 					if (speed_h >= -_speed_run)
 						speed_h = max(speed_h - _speed_acc, -_speed_run);
 					else
@@ -125,12 +129,14 @@ function player_state_normal()
 				}
 				break;
 			case 0:
+                sprint = max(sprint - 0.1, 0);
 				if (physics != player_physics_modifiers.rail)
 					player_friction_normal(_speed_frc, _speed_frc_air);
 				break;
-			case 1:
+			case 1: 
 				if (speed_h < 0)
 				{
+                    sprint = max(sprint - 0.1, 0);
 					speed_h += _speed_dec;
 					platform_jump_off = false;
 					if (ground_on)
@@ -138,6 +144,9 @@ function player_state_normal()
 				}
 				else
 				{
+                    if (ground_on)
+                        sprint = min(sprint + SPRINT_ADD, SPRINT_MAX);
+                    _speed_run = _speed_run + sprint;
 					if (speed_h <= _speed_run)
 						speed_h = min(speed_h + _speed_acc, _speed_run);
 					else

@@ -8,6 +8,7 @@ function player_state_climb()
 	
 	if (state_begin)
 	{
+        sprint = 0;
 		visible = true;
 		camera.active = true;
 		physics = player_physics_modifiers.normal;

@@ -8,6 +8,7 @@ function player_state_bubble()
 	
 	if (state_begin)
 	{
+        sprint = 0;
 		if (state_previous == player_states.drop_in)
 		{
 			x = view_x1_get();
