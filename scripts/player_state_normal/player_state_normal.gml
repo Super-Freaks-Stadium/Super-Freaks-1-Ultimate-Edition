@@ -125,11 +125,13 @@ function player_state_normal()
                         if (lock_friction == 0)
                             player_friction_normal(_speed_frc, _speed_frc_air);
 					face = -1;
+                    sprint_cloud_timer = (sprint_cloud_timer + 1) mod 8;
 					skid = false;
 				}
 				break;
 			case 0:
                 sprint = max(sprint - 0.1, 0);
+                sprint_cloud_timer = 0;
 				if (physics != player_physics_modifiers.rail)
 					player_friction_normal(_speed_frc, _speed_frc_air);
 				break;
@@ -153,6 +155,7 @@ function player_state_normal()
                         if (lock_friction == 0)
 						  player_friction_normal(_speed_frc, _speed_frc_air);
 					face = 1;
+                    sprint_cloud_timer = (sprint_cloud_timer + 1) mod 8;
 					skid = false;
 				}
 				break;
@@ -537,6 +540,7 @@ function player_state_normal()
 						physics = player_physics_modifiers.slime;
 						speed_h = 0;
 						sfx_play_global(sfx_splat);
+                        sprint = 0;
 					}
 					break;
 				case collider_behaviors_solid.rail:
@@ -544,6 +548,7 @@ function player_state_normal()
 						physics = player_physics_modifiers.rail;
 						
 					//speed_h = 5 * face + _speedup_h;
+                    sprint = 0;
 					break;
 				case collider_behaviors_solid.rail_left:
 					if (physics != player_physics_modifiers.rail)
@@ -553,6 +558,7 @@ function player_state_normal()
 					if (speed_h < -12 || speed_h > -4)
 						speed_h = approach(speed_h, clamp(speed_h, -12, -4), 2);
 					speed_h = approach(speed_h, -5 + _speedup_h, 0.1);
+                    sprint = 0;
 					break;
 				case collider_behaviors_solid.rail_right:
 					if (physics != player_physics_modifiers.rail)
@@ -562,6 +568,7 @@ function player_state_normal()
 					if (speed_h < 4 || speed_h > 12)
 						speed_h = approach(speed_h, clamp(speed_h, 4, 12), 2);
 					speed_h = approach(speed_h, 5 + _speedup_h, 0.1);
+                    sprint = 0;
 					break;
 			}
 		}
@@ -606,7 +613,9 @@ function player_state_normal()
 					if (abs(speed_h) > 0)
 					{
 						sprite_index = player_animation_get(character_index, player_animations.walk);
-						animate_speed = 0.125;
+						animate_speed = lerp(0.125, 0.3, abs(speed_h) / SPRINT_MAX);
+                        if (sprint > 0.35 && sprint_cloud_timer == 0)
+                            instance_create_layer(x, y + collider_detector_down_y_get(), "layer_instances", obj_dustcloud);
 					}
 					else
 					{

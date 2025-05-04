@@ -29,6 +29,7 @@ character_index = 0;
     #macro SPRINT_MAX 10
     #macro SPRINT_ADD 0.0125
     sprint = 0;
+    sprint_cloud_timer = 0;
 	ball = false;
 	skid = false;
 	walljump_auto = 0;

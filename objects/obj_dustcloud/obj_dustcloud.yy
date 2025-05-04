@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_afterimage",
+  "%Name":"obj_dustcloud",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_afterimage",
+  "name":"obj_dustcloud",
   "overriddenProperties":[],
   "parent":{
     "name":"Players",
@@ -34,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_invincibility_stars",
-    "path":"sprites/spr_invincibility_stars/spr_invincibility_stars.yy",
+    "name":"spr_player_dustcloud",
+    "path":"sprites/spr_player_dustcloud/spr_player_dustcloud.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -252,6 +252,7 @@ function player_hurt()
 				break;
 		}
 		hurt_timer_set(120);
+        sprint = 0;
 		ego_refill_pause = 32;
         
         if (global.turbo.mode)
@@ -394,6 +395,7 @@ function player_water_step()
 				if (room_transition_active_get())
 					exit;
 				speed_v = -10;
+                sprint = 0;
 				if (!ground_on)
 					speed_h = 0;
 				if (hurt_timer == 0 && ego_invincible == 0)
