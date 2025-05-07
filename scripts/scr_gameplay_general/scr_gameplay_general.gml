@@ -51,6 +51,8 @@ function gameplay_init()
     {
         mode: false,
         time: 30,
+        time_visual: 30,
+        pause: false,
         punish: 1,
     };
 	

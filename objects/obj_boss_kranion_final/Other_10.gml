@@ -57,7 +57,10 @@ switch (state)
 		}
 		y = min(y + speed_y, 782);
 		if (y == 782)
+        {
 			state_next_set(boss_kranion_final_states.idle);
+            global.turbo.pause = false;
+        }
 		break;
 	case boss_kranion_final_states.idle:
 		if (state_begin)
@@ -337,6 +340,7 @@ switch (state)
 	case boss_kranion_final_states.death_1:
 		if (state_begin)
 		{
+            global.turbo.pause = true;
 			hitbox.active = hitbox_active.inactive;
 			timer = 0;
 			if (global.game_mode != game_modes.boss_rush)

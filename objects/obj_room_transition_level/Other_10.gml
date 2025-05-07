@@ -30,6 +30,7 @@ switch (state)
 			global.boss_phase = 0;
 			global.checkpoint_death_count = 0;
             global.turbo.time = 30;
+            global.turbo.pause = false;
             global.turbo.punish = 1;
 			state_next_set(2);
 			//audio_stop_all();

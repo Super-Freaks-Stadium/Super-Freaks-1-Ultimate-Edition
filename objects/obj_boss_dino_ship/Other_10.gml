@@ -51,6 +51,7 @@ switch (state)
 		if (state_begin)
 		{
 			movement = 0;
+            global.turbo.pause = false;
 		}
 		
 		movement = (movement + 2) mod 360;
@@ -78,6 +79,7 @@ switch (state)
 	case boss_dino_ship_states.death:
 		if (state_begin)
 		{
+            global.turbo.pause = true;
 			speed_x = 0;
 			speed_y = 0;
 			hitbox.active = hitbox_active.inactive;

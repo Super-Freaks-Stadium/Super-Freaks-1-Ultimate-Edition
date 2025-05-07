@@ -127,6 +127,7 @@ switch (state)
 	case 2: //Death
 		if (state_begin)
 		{
+            global.turbo.pause = true;
 			image_index = 2;
 			hitbox.active = hitbox_active.inactive;
 			blink = false;

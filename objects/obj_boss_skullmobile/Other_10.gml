@@ -152,6 +152,7 @@ switch (state)
 		case boss_skullmobile_states.death:
 			if (state_begin)
 			{
+                global.turbo.pause = true;
 				timer = 0;
 				laser_distance = 64;
 				hitbox.active = hitbox_active.inactive;

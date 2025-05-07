@@ -152,6 +152,7 @@ switch (state)
 	case boss_wartnose_states.death:
 		if (state_begin)
 		{
+            global.turbo.pause = true;
 			hide = false;
 			timer = 0;
 			hitbox.active = hitbox_active.inactive;

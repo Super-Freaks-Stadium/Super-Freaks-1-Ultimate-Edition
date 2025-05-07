@@ -285,6 +285,7 @@ switch (state)
 			hitbox.active = hitbox_active.inactive;
 			timer = 0;
 			audio_stop_sound(sfx_run_1);
+            global.turbo.pause = true;
 			if (global.game_mode != game_modes.boss_rush)
 				music_stop();
 		}

@@ -198,6 +198,7 @@ switch (state)
 	case boss_shadow_states.death:
 		if (state_begin)
 		{
+            global.turbo.pause = true;
 			sprite_index = spr_boss_shadow_melt;
 			image_index = 0;
 			animate_speed = 0;

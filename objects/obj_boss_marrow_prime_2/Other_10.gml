@@ -190,6 +190,7 @@ switch (state)
 	case boss_marrow2_states.death:
 		if (state_begin)
 		{
+            global.turbo.pause = true;
 			sprite_index = choose(spr_boss_marrow_prime_jump, spr_boss_marrow_prime_death_funny);
 			image_index = 0;
 			animate_speed = 0.15;

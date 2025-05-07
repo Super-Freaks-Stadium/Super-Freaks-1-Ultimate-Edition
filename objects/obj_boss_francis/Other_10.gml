@@ -295,6 +295,7 @@ switch (state)
 	case boss_francis_states.death:
 		if (state_begin)
 		{
+            global.turbo.pause = true;
 			speed_h = 0;
 			hitbox.active = hitbox_active.inactive;
 			hitbox_buzzsaw.active = hitbox_active.inactive;

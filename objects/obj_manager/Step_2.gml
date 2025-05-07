@@ -221,13 +221,24 @@ while (_frames_game > 0)
 		water_step();
 		room_transition_step();
 		global.lightbulb_timer = max(global.lightbulb_timer - 1, 0);
-        if (global.turbo.mode)
+        
+        if (global.turbo.mode && !global.turbo.pause)
         {
-            global.turbo.time = max(global.turbo.time - (1 / 60), 0);
-            if (floor(global.turbo.time) == 0)
+            with (global.turbo)
             {
-                with (obj_player)
-                    player_kill();
+                time = max(time, 0);
+                if (time_visual >= time + 1)
+                    time_visual = max(time_visual - 1, time);
+                else
+                {
+                    time = max(time - (1 / 60), 0);
+                	time_visual = time;
+                }
+                if (floor(time_visual) <= 0)
+                {
+                    with (obj_player)
+                        player_kill(true);
+                }
             }
         }
 	}

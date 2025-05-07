@@ -66,15 +66,16 @@ switch (state)
 		
 		if (timer == 52 && speed_h == 0)
 		{
+            speed_v = -8;
 			switch (face)
 			{
 				case -1:
-					speed_h = -4.5;
+					speed_h = -4;
 					break;
 				case 0:
 					break;
 				case 1:
-					speed_h = 4.5;
+					speed_h = 4;
 					break;
 			}
 			animate_speed += 0.0025;
@@ -339,6 +340,7 @@ switch (state)
 	case boss_kranion_states.death:
 		if (state_begin)
 		{
+            global.turbo.pause = true;
 			sprite_index = sprite_death;
 			image_index = 0;
 			animate_speed = 0.15;

@@ -118,6 +118,7 @@ switch (state)
 	case boss_spike_states.death:
 		if (state_begin)
 		{
+            global.turbo.pause = true;
 			blink = false;
 			timer = 0;
 			global.boss_phase = 2;

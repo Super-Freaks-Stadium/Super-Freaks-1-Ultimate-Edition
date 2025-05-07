@@ -285,27 +285,31 @@ function player_hurt()
 }
 
 /// @function player_kill
-function player_kill()
+/// @param {Bool} _hurt_timer_override = false
+function player_kill(_hurt_timer_override = false)
 {
-	if (hurt_timer == 0 && state != player_states.inactive && state != player_states.hurt && state != player_states.bubble)
+	if (state != player_states.inactive && state != player_states.hurt && state != player_states.bubble)
 	{
-		switch (global.story_mode)
-		{
-			case story_modes.super_freaks:
-				if (global.hearts > 0)
-					global.hearts = max(global.hearts - 1, 0);
-				break;
-			case story_modes.kranion:
-				ego_invincible = 0;
-				if (hp > 0)
-					hp = 0;
-				break;
-			case story_modes.swordsman:
-			case story_modes.anti_freaks:
-				aura = 0;
-				break;
-		}
-		state_next_set(player_states.death, 999);
+        if (_hurt_timer_override || hurt_timer == 0)
+        {
+    		switch (global.story_mode)
+    		{
+    			case story_modes.super_freaks:
+    				if (global.hearts > 0)
+    					global.hearts = max(global.hearts - 1, 0);
+    				break;
+    			case story_modes.kranion:
+    				ego_invincible = 0;
+    				if (hp > 0)
+    					hp = 0;
+    				break;
+    			case story_modes.swordsman:
+    			case story_modes.anti_freaks:
+    				aura = 0;
+    				break;
+    		}
+    		state_next_set(player_states.death, 999);
+        }
 	}
 	
 	gml_pragma("forceinline");

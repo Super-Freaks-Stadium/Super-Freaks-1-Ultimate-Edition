@@ -189,6 +189,7 @@ switch (state)
 	case boss_milkman_states.death:
 		if (state_begin)
 		{
+            global.turbo.pause = true;
 			global.boss_phase = 3;
 			hitbox.active = hitbox_active.inactive;
 			hitbox_lower.active = hitbox_active.inactive;

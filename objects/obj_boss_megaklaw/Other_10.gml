@@ -274,6 +274,7 @@ switch (state)
 	case boss_megaklaw_states.death:
 		if (state_begin)
 		{
+            global.turbo.pause = true;
 			timer = 0;
 			animate_speed = 0;
 			hitbox.active = hitbox_active.inactive;

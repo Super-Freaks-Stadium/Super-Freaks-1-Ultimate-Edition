@@ -10,3 +10,4 @@ music_stop();
 game_timer_pause(true);
 screen_shake(0, 16);
 timer = 32;
+global.turbo.pause = true;

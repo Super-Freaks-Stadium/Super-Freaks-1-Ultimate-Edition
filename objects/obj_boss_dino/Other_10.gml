@@ -32,6 +32,7 @@ switch (state)
 	case boss_dino_states.fall:
 		if (state_begin)
 		{
+            global.turbo.pause = true;
 			sfx_play_global(sfx_zip);
 			sprite_index = spr_player_death_dino;
 			hitbox.active = hitbox_active.inactive;

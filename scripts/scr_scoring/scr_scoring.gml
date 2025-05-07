@@ -113,7 +113,7 @@ function yorbs_add(_amount = 1)
     if (global.turbo.mode)
     {
         //if (_amount > 1)
-            turbo_time_add(0.2 * _amount);
+            turbo_time_add(max(0.1, 0.2 * _amount));
         //else
             //_amount = 0;
     }
