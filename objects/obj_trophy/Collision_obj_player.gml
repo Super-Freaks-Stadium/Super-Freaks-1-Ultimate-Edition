@@ -2,7 +2,7 @@
 
 global.trophies = bit_set(global.trophies, trophy_id);
 sfx_play_global(sfx_unlock_level);
-turbo_time_add(7);
+turbo_time_add(10);
 switch (global.story_mode)
 {
 	case story_modes.super_freaks:

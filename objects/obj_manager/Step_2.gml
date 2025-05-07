@@ -224,7 +224,7 @@ while (_frames_game > 0)
         if (global.turbo.mode)
         {
             global.turbo.time = max(global.turbo.time - (1 / 60), 0);
-            if (global.turbo.time == 0)
+            if (floor(global.turbo.time) == 0)
             {
                 with (obj_player)
                     player_kill();

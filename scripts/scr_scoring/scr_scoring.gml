@@ -1,3 +1,5 @@
+#macro TURBO_TIME_MAX 30
+
 enum game_timer_data
 {
 	pause = 0,
@@ -108,9 +110,15 @@ function yorbs_add(_amount = 1)
 	
 	sfx_play_global(sfx_yorb);
     
-    turbo_time_add(0.35 * _amount);
+    if (global.turbo.mode)
+    {
+        //if (_amount > 1)
+            turbo_time_add(0.2 * _amount);
+        //else
+            //_amount = 0;
+    }
     
-	with (obj_gameplay_manager) 
+    with (obj_gameplay_manager) 
         yorb_effect = min(yorb_effect + _amount, 7);
 	
 	gml_pragma("forceinline");
@@ -120,10 +128,17 @@ function yorbs_add(_amount = 1)
 /// @param {Real} _amount = 1
 function turbo_time_add(_amount = 1)
 {
-    global.turbo.time = min(global.turbo.time + _amount, 60);
+    global.turbo.time = min(global.turbo.time + _amount, TURBO_TIME_MAX);
     
     with (obj_gameplay_manager) 
         yorb_effect = min(yorb_effect + _amount, 7);
+}
+
+/// @function turbo_time_hit
+function turbo_time_hit()
+{
+    global.turbo.time -= global.turbo.punish * 5;
+    global.turbo.punish++;
 }
 
 /// @function yorb_collect_effect_multi

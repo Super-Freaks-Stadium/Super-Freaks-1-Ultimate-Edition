@@ -1,6 +1,6 @@
 {
   "$GMSound":"",
-  "%Name":"sfx_time_slow",
+  "%Name":"sfx_clock_collect",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -9,8 +9,8 @@
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":1.6112925,
-  "name":"sfx_time_slow",
+  "duration":0.8034467,
+  "name":"sfx_clock_collect",
   "parent":{
     "name":"Sound Effects",
     "path":"folders/Sounds/Sound Effects.yy",
@@ -19,7 +19,7 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_time_slow.wav",
+  "soundFile":"sfx_clock_collect.wav",
   "type":0,
   "volume":1.0,
 }

@@ -7,5 +7,5 @@ if (!active)
 	sfx_play_global(sfx_tv_on);
 	checkpoint_set(room, x, y, checkpoint_id);
 	global.checkpoint_death_count = 0;
-    turbo_time_add(15);
+    turbo_time_add(10);
 }

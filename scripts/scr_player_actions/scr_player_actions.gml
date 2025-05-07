@@ -258,8 +258,7 @@ function player_hurt()
         if (global.turbo.mode)
         {
             _last_hit = false;
-            global.turbo.time -= global.turbo.punish * 3.5;
-            global.turbo.punish++;
+            turbo_time_hit();
         }
         
 		if (!_last_hit)
@@ -400,6 +399,11 @@ function player_water_step()
 					speed_h = 0;
 				if (hurt_timer == 0 && ego_invincible == 0)
 				{
+                    if (global.turbo.mode)
+                    {
+                        _last_hit = false;
+                        turbo_time_hit();
+                    }
 					if (!_last_hit)
 					{
 						switch (global.story_mode)

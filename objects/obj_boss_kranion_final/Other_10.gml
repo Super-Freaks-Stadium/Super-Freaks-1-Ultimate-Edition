@@ -374,7 +374,7 @@ switch (state)
 		{
 			state_next_set(-1);
 			level_beat();
-			if (global.game_mode != game_modes.boss_rush || global.game_mode != game_modes.speedrun)
+			if (global.game_mode != game_modes.boss_rush && global.game_mode != game_modes.speedrun)
 			{
 				music_stop();
 				music_set(MUSIC_NA);

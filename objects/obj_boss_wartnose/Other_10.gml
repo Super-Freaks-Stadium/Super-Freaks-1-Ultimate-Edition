@@ -157,7 +157,8 @@ switch (state)
 			hitbox.active = hitbox_active.inactive;
 			global.boss_phase = 2;
 			sprite_index = spr_boss_wartnose_death;
-			music_stop();
+            if (global.game_mode != game_modes.boss_rush)
+			    music_stop();
 			with (obj_pointy)
 				enemy_hurt(100);
 			with (obj_enemy_fireball)
