@@ -63,7 +63,17 @@ victory_quote = choose("You did it!",
 "Gambi Tikiman",
 "It looks like you're trying to play Super Freaks 1 Ultimate Edition. Do you need some help?",
 "Erwal",
-"Wubba, wubba. I'm in the freak today, boy!");
+"Wubba, wubba. I'm in the freak today, boy!",
+"Yoy jum!",
+"Skin!",
+"BEHIND YOU LOOK OUT!!!",
+"We have the meats!", 
+"Brazil", 
+"Super Freaks is older than your kids!", 
+"Fish?", 
+"It was going to be two dimensions but we uh...ran out of time.",
+"Hey! This credit card you gave me is expired!", 
+"Freakdom Planet");
 
 screen_shake(0, 0);
 global.frame_machine_level.pause = true;

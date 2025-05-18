@@ -176,7 +176,8 @@ function levels_init()
 	with (global.levels[level_ids.level_supersecret_boss])
 	{
 		sprite_index = [spr_worldmap_pic_antifreaks, spr_worldmap_pic_antifreaks, spr_worldmap_pic_shadow, spr_worldmap_pic_antifreaks];
-		name_level = ["Vs Anti Freaks", "Vs Anti Freaks", "Vs The Shadow", "Vs Anti Freaks"];
+        room_starting = [rm_boss_antifreaks, rm_boss_antifreaks, rm_boss_antifreaks, rm_boss_humerus];
+		name_level = ["Vs Anti Freaks", "Vs Anti Freaks", "Vs The Shadow", "Vs Lord Humerus"];
 	}
 	
 	//Normal World
