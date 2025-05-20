@@ -73,7 +73,8 @@ victory_quote = choose("You did it!",
 "Fish?", 
 "It was going to be two dimensions but we uh...ran out of time.",
 "Hey! This credit card you gave me is expired!", 
-"Freakdom Planet");
+"Freakdom Planet", 
+"Collect my pages!");
 
 screen_shake(0, 0);
 global.frame_machine_level.pause = true;
