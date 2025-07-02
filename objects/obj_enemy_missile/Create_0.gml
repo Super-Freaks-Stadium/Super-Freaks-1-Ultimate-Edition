@@ -3,8 +3,8 @@
 // Inherit the parent event
 event_inherited();
 
-#macro MISSILE_LIMIT_EASY 2
-#macro MISSILE_LIMIT_NORMAL 3
+#macro MISSILE_LIMIT_EASY 1
+#macro MISSILE_LIMIT_NORMAL 2
 #macro MISSILE_LIMIT_HARD 3
 
 hitbox = new comp_hitbox_circle(,,,,,8);
