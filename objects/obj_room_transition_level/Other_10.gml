@@ -68,6 +68,7 @@ switch (state)
 				ego_refill_pause = 0;
 				aura = 0;
 				hp = 0;
+                sprint = 0;
 			}
 		}
 		animate = (min(frame, 20) / 20) + 1;

@@ -61,6 +61,9 @@ switch (state)
 					options[0][2][menu_option_data.unlocked] = true;
 					break;
 			}
+            
+            if (global.turbo.mode)
+                options[0][2][menu_option_data.unlocked] = false;
 		}
 		
 		if (room_transition_active_get() || instance_exists(obj_remapping_screen))

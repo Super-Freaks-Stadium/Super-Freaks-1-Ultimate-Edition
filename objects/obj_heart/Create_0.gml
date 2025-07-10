@@ -16,3 +16,5 @@ else
     if (hearts_maximum_get() == 0)
     	instance_destroy();
 }
+
+image_xscale = mirror_flip_get();

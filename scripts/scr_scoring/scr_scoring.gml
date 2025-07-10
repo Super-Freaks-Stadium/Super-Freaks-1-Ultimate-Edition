@@ -86,22 +86,27 @@ function game_timer_draw(_x, _y)
 /// @param {Real} _amount = 1
 function yorbs_add(_amount = 1)
 {
+    var _turbo = global.turbo.mode;
+    
 	switch (global.story_mode)
 	{
 		case story_modes.super_freaks:
-			global.heart_meter += _amount;
-	
-			if (global.heart_meter > 99)
-			{
-				if (global.hearts == hearts_maximum_get())
-					global.heart_meter = 99;
-				else
-				{
-					global.hearts++;
-					global.heart_meter = global.heart_meter mod 100;
-					sfx_play_global(sfx_heart);
-				}
-			}
+            if (!_turbo)
+            {
+    			global.heart_meter += _amount;
+    	
+    			if (global.heart_meter > 99)
+    			{
+    				if (global.hearts == hearts_maximum_get())
+    					global.heart_meter = 99;
+    				else
+    				{
+    					global.hearts++;
+    					global.heart_meter = global.heart_meter mod 100;
+    					sfx_play_global(sfx_heart);
+    				}
+    			}
+            }
 			break;
 		default:
 			player_meter_collect(2 * _amount);
@@ -110,13 +115,8 @@ function yorbs_add(_amount = 1)
 	
 	sfx_play_global(sfx_yorb);
     
-    if (global.turbo.mode)
-    {
-        //if (_amount > 1)
-            turbo_time_add(max(0.1, 0.2 * _amount));
-        //else
-            //_amount = 0;
-    }
+    if (_turbo)
+        turbo_time_add(max(0.1, 0.3 * _amount));
     
     with (obj_gameplay_manager) 
         yorb_effect = min(yorb_effect + _amount, 7);

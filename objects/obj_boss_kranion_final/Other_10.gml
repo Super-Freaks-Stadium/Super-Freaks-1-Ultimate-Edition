@@ -60,6 +60,7 @@ switch (state)
         {
 			state_next_set(boss_kranion_final_states.idle);
             global.turbo.pause = false;
+            turbo_time_add(30);
         }
 		break;
 	case boss_kranion_final_states.idle:

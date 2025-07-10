@@ -59,15 +59,15 @@ switch (global.difficulty)
 {
 	case difficulty_levels.easy:
 		attack_frequency = 64;
-		attack_times = 6;
+		attack_times = 4;
 		break;
 	case difficulty_levels.normal:
 		attack_frequency = 48;
-		attack_times = 8;
+		attack_times = 6;
 		break;
 	case difficulty_levels.hard:
 		attack_frequency = 32;
-		attack_times = 12;
+		attack_times = 8;
 		break;
 }
 

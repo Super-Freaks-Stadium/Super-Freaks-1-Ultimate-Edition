@@ -70,7 +70,7 @@ switch (state)
 			y = 1124;
 		}
 		
-		y = max(y - 3, 608);
+		y = max(y - 4, 608);
 		
 		if (y == 608)
 		{
@@ -200,17 +200,17 @@ switch (state)
 		if (state_begin)
 		{
 			timer = 0;
-			speed_h = 0;
+			speed_h /= 3;
 		}
 		
-		claw_left_angle = lerp_360(claw_left_angle, 247.5, 0.5);
-		claw_right_angle = lerp_360(claw_right_angle, 292.5, 0.5);
+		claw_left_angle = lerp_360(claw_left_angle, 225, 0.5);
+		claw_right_angle = lerp_360(claw_right_angle, 315, 0.5);
 		claw_left_pos = lerp_360(claw_left_pos, 180, 0.25);
 		claw_right_pos = lerp_360(claw_right_pos, 360, 0.25);
 		claw_left_index = 1;
 		claw_right_index = 1;
 			
-		//x += speed_h;
+		x += speed_h;
 		y = min(y + 4, 736);
 		
 		if (y == 736)
