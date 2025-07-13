@@ -120,7 +120,7 @@ var _turbo_meter_lerp = 32 / TURBO_TIME_MAX;
 					_offset = (_list_pos * (_screen_width / 4));
 					_list_thing = _player_list[_list_pos];
 					_player_instance = _list_thing[player_data.instance];
-					draw_sprite(spr_player_numbers, _list_pos, _view_x1 + 16 + _offset, _view_y1 + 16);
+					draw_sprite(spr_player_numbers, _list_pos, _view_x1 + 16 + _offset, _view_y1 + 20);
 				
 					if (_list_thing[player_data.active] == true)
 					{
@@ -128,7 +128,7 @@ var _turbo_meter_lerp = 32 / TURBO_TIME_MAX;
 						
 						draw_sprite(player_animation_get(_player_instance.character_index, player_animations.hud_face), HUDDoDead, _view_x1 + 48 + _offset, _view_y1 + 16);
 						if (_list_pos == global.player_lead)
-							draw_sprite(spr_multiplayer_crown, 0, _view_x1 + 48 + _offset, _view_y1 + 40);
+							draw_sprite(spr_multiplayer_crown, 0, _view_x1 + 16 + _offset, _view_y1 + 4);
 						if (_player_instance.rubber_band == true)
 							draw_sprite_ext(spr_HUD_elastiband, _player_instance.rubber_band_color, _view_x1 + 80 + _offset, _view_y1 + 16, 1, 1, 0, c_white, 1);
 						else

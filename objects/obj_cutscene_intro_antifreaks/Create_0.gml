@@ -3,7 +3,7 @@
 // Inherit the parent event
 event_inherited();
 
-cutscene_segment_set(0, "The Shadow: 'Of all the idiots who could claim the Minus Particle before me...hand it over!!'", spr_cutscene_intro_kranion_1,,, msc_cutscene_normal);
+cutscene_segment_set(0, "The Shadow: 'Of all the idiots who could claim a Minus Particle before me...hand it over!!'", spr_cutscene_intro_kranion_1,,, msc_cutscene_normal);
 cutscene_segment_set(1, "Kranion: 'Nuh uh! We found it first. Ain't that right, uncle?'", spr_cutscene_intro_kranion_1);
 cutscene_segment_set(2, "Lord Humerus: 'You had your chance, but it appears even you find yourself distracted by petty revenge. I suppose this is where you cower and send your anti attack dogs after us?'", spr_cutscene_intro_kranion_1);
 cutscene_segment_set(3, "The Shadow: (I hate to say it, but Lord Humerus is good. They don't call him the Master of Magic for nothing. I'd better make a tactical retreat.)", spr_cutscene_intro_kranion_1);
@@ -17,7 +17,7 @@ cutscene_segment_set(8, "Trash Can Man: 'You don't have a heart, idiot, you're a
 cutscene_segment_set(9, "Negative Quincy: 'Speak for yourself! I got a robot heart and arteries and this meat everest burger is cloggin' them all!'", spr_cutscene_intro_kranion_1);
 cutscene_segment_set(10, "Geyzer: 'Silence! You're all idiots! We need to prepare ourselves for--this presence I feel...'", spr_cutscene_intro_kranion_1);
 
-cutscene_segment_set(11, "The Shadow: 'THERE you are. I'm out busting my astral projected rear searching for the Minus Particle, and you four are stuffing your arteries with crap????'", spr_cutscene_intro_kranion_1);
+cutscene_segment_set(11, "The Shadow: 'THERE you are. I'm out busting my astral projected rear searching for the loose Minus Particle, and you four are stuffing your arteries with crap????'", spr_cutscene_intro_kranion_1);
 cutscene_segment_set(12, "Negative Quincy: 'Told ya I got arteries.'", spr_cutscene_intro_kranion_1);
 cutscene_segment_set(13, "The Shadow: 'Shut up! You four had a MISSION. You are the avatars of the Negative Zone!!! You've ignored your duty just to clash with those stupid freaks and skeletons.'", spr_cutscene_intro_kranion_1);
 cutscene_segment_set(14, "Geyzer: 'Don't be a hypocrite, 'boss.' We know you couldn't help yourself and lost a fight to Uncle Swordsman and that other guy.'", spr_cutscene_intro_kranion_1);
