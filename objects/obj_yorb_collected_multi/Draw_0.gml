@@ -1,6 +1,6 @@
 /// @description 
 
-var _y = lerp(y_start_frame, y, frame_delta_level_get());
+var _y = lerp(y_start_frame, y, global.delta);
 var _mirror = mirror_flip_get();
 
 if (value == 0)

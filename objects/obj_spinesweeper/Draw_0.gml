@@ -1,7 +1,7 @@
 /// @description 
 
 var _i;
-var _frame_delta = frame_delta_level_get();
+var _frame_delta = global.delta;
 var _x, _y, _x_previous, _y_previous, _x_delta, _y_delta;
 var _size_delta = lerp(size_previous, size, _frame_delta);
 

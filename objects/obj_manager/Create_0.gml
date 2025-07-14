@@ -36,18 +36,6 @@ visuals_init();
 instance_create(obj_menu_pause, 0, 0);
 instance_create(obj_metronome, 0, 0);
 
-global.font_16 = font_add_sprite(spr_font_16, ord("!"), true, 2);
-global.font_12 = font_add_sprite(spr_font_12, ord("!"), true, 2);
-global.font_title = font_add_sprite_ext(spr_font_title_card, "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!?,:\'\"", true, 2);
-/*
-font_enable_effects(font_normal, true, 
-{
-    outlineEnable: true,
-    outlineDistance: 1,
-    outlineColour: c_black,
-});
-*/
-
 global.animate = 0;
 global.game_frame_new = true;
 global.instance_despawn_timer = 8;
@@ -59,6 +47,7 @@ global.water_active = true;
 global.water_height = 256;
 
 global.frame = 0;
+global.delta = 1;
 
 global.story_mode = story_modes.super_freaks;
 

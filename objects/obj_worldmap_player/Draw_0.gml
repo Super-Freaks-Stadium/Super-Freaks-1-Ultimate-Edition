@@ -1,6 +1,6 @@
 /// @description 
 
-var _frame_delta = frame_delta_game_get();
+var _frame_delta = global.delta;
 var _x = lerp(x_start_frame, x, _frame_delta);
 var _y = lerp(y_start_frame, y, _frame_delta);
 

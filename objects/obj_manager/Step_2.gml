@@ -2,7 +2,9 @@
 
 var _i = 0;
 var _pause;
-var _frames_game, _frames_player, _frames_level, _frames_level_fast_forward;
+var _frames_game = 0,
+    _frame_extra = 0,
+    _fast_forward = global.modifiers[modifiers.fast_forward];
 var _despawn = false;
 var _new_source = input_source_detect_new();
 var _disconnect = false;
@@ -63,12 +65,13 @@ if (_disconnect)
 		instance_create_layer(0, 0, "layer_instances", obj_players_connected_screen);
 }
 
-framerate_game_step();
-
-_frames_game = frame_amount;
-frame_amount = 0;
-
-global.game_frame_new = true;
+global.delta += ( delta_time / 16666.67 );
+while (global.delta > 1)
+{
+    global.delta--;
+    global.game_frame_new = true;
+    _frames_game++;
+}
 
 while (_frames_game > 0)
 {
@@ -83,7 +86,7 @@ while (_frames_game > 0)
 	//Step 1
 	with (obj_master)
 	{
-		EVENT_FRAMEBEGIN;
+        EVENT_FRAMEBEGIN;
 		run_frame = false;
 		hitbox_check_done = false;
 	}
@@ -92,17 +95,9 @@ while (_frames_game > 0)
 	{
 		with (obj_players_connected_screen)
 			instance_step();
-		_frames_player = 0;
-		_frames_level = 0;
-		_frames_level_fast_forward = 0;
 		_frames_game--;
 		continue;
 	}
-	
-	frame_machine_step();
-	_frames_player = global.frame_machine_player.frame_amount;
-	_frames_level = global.frame_machine_level.frame_amount;
-	_frames_level_fast_forward = global.frame_machine_level.frame_amount_fast_forward;
 	
 	with (obj_system)
 		instance_step();
@@ -119,103 +114,99 @@ while (_frames_game > 0)
 			trophy_offset = min(trophy_offset + 3, 32);
 	}
 		
-	if (!_pause)
+	if (!_pause && !instance_exists(obj_level_win_screen) && !instance_exists(obj_level_win_explosion))
 	{
-		with (obj_gameplay_manager)
-			instance_step();
-		with (obj_gameplay_obj)
-			instance_step();
-	}
+        _frame_extra = 1;
+        
+        with (obj_gameplay_parent)
+            frame_counter++;
+        with (obj_level_obj)
+        {
+            if (_fast_forward && fast_forward)
+                frame_counter += 0.5;
+            if (instance_exists(obj_slowmo_effect))
+                frame_counter -= 0.875;
+            _frame_extra = max(_frame_extra, frame_counter);
+        }
 	
-	while (_frames_player > 0 || _frames_level_fast_forward > 0)
-	{
-		global.frame++;
-		//Step 1
-		if (_frames_player > 0)
-		{
-			players_rubberband_step(0);
-			players_rubberband_step(1);
-			with (obj_player_parent)
-				instance_step();
-		}
+        while (_frame_extra >= 1)
+        {
+            with (obj_gameplay_manager)
+    			instance_step();
+    		with (obj_gameplay_obj)
+    			instance_step();
+            
+            //Step 1
+            players_rubberband_step(0);
+            players_rubberband_step(1);
+            with (obj_player_parent)
+            {
+                if (frame_counter > 1)
+                    instance_step();
+            }
+            with (obj_level_obj)
+            {
+                if (frame_counter > 1)
+                    instance_step();
+            }
+            
+            //Collision
+            with (obj_master)
+            {
+                comp_list_collider_step();
+                comp_list_hitbox_update();
+            }
+            with (obj_master)
+            {
+                collisions_check();
+                collisions_resolve();
+                x_previous = x;
+                y_previous = y;
+            }
+        
+            //Step 2
+            global.instance_despawn_timer--;
+            if (global.instance_despawn_timer < 1)
+            {
+                global.instance_despawn_timer += 16;
+                zones_despawn_check();
+                _despawn = true;
+            }
+                
+            with (obj_level_obj)
+            {
+                if (frame_counter > 1)
+                {
+                    instance_step_2();
+                    if (_despawn)
+                        instance_despawn_check();
+                    frame_counter--;
+                }
+            }
+            
+            with (obj_player_parent)
+            {
+                if (frame_counter > 1)
+                {
+                    instance_step_2();
+                    frame_counter--;
+                }
+            }
+            
+            _frame_extra--;
+        }
+        
+        with (obj_player)
+            event_user(5); //Camera
+        
+        global.game_frame_new = false;
+    
+    	//Step 2
+    	with (obj_system)
+    		instance_step_2();
 
-		if (_frames_level_fast_forward > 0)
-		{
-			with (obj_level_obj)
-			{
-				if (fast_forward || _frames_level > 0)
-					instance_step();
-			}
-		}
-		
-		//Collision
-		with (obj_master)
-		{
-			comp_list_collider_step();
-			comp_list_hitbox_update();
-		}
-		with (obj_master)
-		{
-			collisions_check();
-			collisions_resolve();
-			x_previous = x;
-			y_previous = y;
-		}
-
-		//Step 2
-		if (_frames_level_fast_forward > 0)
-		{
-			global.instance_despawn_timer = max(global.instance_despawn_timer - 1, 0);
-			if (global.instance_despawn_timer == 0)
-			{
-				global.instance_despawn_timer = 16;
-				zones_despawn_check();
-				_despawn = true;
-			}
-				
-			with (obj_level_obj)
-			{
-				if (fast_forward || _frames_level > 0)
-				{
-					instance_step_2();
-					if (_despawn)
-						instance_despawn_check();
-				}
-			}
-		
-			_frames_level--;
-			_frames_level_fast_forward--;
-		}
-		
-		if (_frames_player > 0)
-		{
-			with (obj_player_parent)
-				instance_step_2();
-		
-			_frames_player--;
-		}
-		
-		global.game_frame_new = false;
-	}
-	global.frame_machine_player.frame_amount = 0;
-	global.frame_machine_level.frame_amount = 0;
-
-	//Step 2
-	with (obj_system)
-		instance_step_2();
-	
-	if (!_pause)
-	{
 		with (obj_gameplay_obj)
-		{
 			instance_step_2();
-		}
-		
-		with (obj_player)
-		{
-			//Camera
-			event_user(5);
-		}
 			
 		game_timer_step();
 		water_step();

@@ -2,7 +2,7 @@
 
 var _view_x1 = view_x1_get();
 var _view_height = view_height_get();
-var _scroll_delta = lerp(scroll_previous, scroll, frame_delta_level_get());
+var _scroll_delta = lerp(scroll_previous, scroll, global.delta);
 var _triangle_x1, _triangle_y1, _triangle_x2, _triangle_y2, _triangle_x3, _triangle_y3, _length, _width, _angle;
     _length = 800;
     _width = 8;

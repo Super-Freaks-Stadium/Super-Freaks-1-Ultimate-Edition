@@ -122,30 +122,6 @@ function frame_machine_step()
 	}
 }
 
-/// @function frame_delta_game_get
-function frame_delta_game_get()
-{
-	return global.frame_delta;
-	
-	gml_pragma("forceinline");
-}
-
-/// @function frame_delta_player_get
-function frame_delta_player_get()
-{
-	return global.frame_machine_player.frame_delta;
-	
-	gml_pragma("forceinline");
-}
-
-/// @function frame_delta_level_get
-function frame_delta_level_get()
-{
-	return global.frame_machine_level.frame_delta;
-	
-	gml_pragma("forceinline");
-}
-
 /// @function fast_forward_level_get
 function fast_forward_level_get()
 {

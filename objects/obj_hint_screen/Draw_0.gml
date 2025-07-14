@@ -9,7 +9,7 @@ var _view_height = view_height_get();
 var _x = _view_x1 + (_screen_width / 2);
 var _y = _view_y1 + (_screen_height / 2);
 var _dialog_width, _dialog_height;
-var _animate = lerp(animation_previous, animation, frame_delta_game_get());
+var _animate = lerp(animation_previous, animation, global.delta);
 
 if (!surface_exists(global.surface_HUD))
 	exit;

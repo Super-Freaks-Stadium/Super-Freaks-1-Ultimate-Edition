@@ -1,7 +1,7 @@
 /// @description 
 
 var _screen_width, _screen_height, _screen_width_half, _screen_height_half;
-var _circle_size = lerp(circle_size_previous, circle_size, frame_delta_game_get());
+var _circle_size = lerp(circle_size_previous, circle_size, global.delta);
 
 if (!surface_exists(global.surface_HUD))
 	exit;

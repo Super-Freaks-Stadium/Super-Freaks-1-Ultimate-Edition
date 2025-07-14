@@ -8,7 +8,7 @@ draw_set_alpha(1);
 draw_set_color(c_white);
 if (_static_menu_bg == false)
 {
-	var _scroll_delta = lerp(scroll_previous, scroll, global.frame_delta);
+	var _scroll_delta = lerp(scroll_previous, scroll, global.delta);
 	draw_sprite_tiled(spr_menu_main_background, 0, _scroll_delta, _scroll_delta);
 }
 else

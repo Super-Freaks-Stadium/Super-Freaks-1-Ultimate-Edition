@@ -39,11 +39,6 @@ animate_speed = 0; //Updates animation once a frame
 
 run_frame = false;
 
-frames = 
-{
-    to_run: 0,
-    accumulator: 0,
-    delta: 0,
-};
+frame_counter = 0;
 
 //show_debug_message("CREATE " + string(id) + " " + string(object_get_name(object_index)));

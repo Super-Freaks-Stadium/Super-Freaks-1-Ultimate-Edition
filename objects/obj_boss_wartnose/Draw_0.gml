@@ -1,4 +1,4 @@
-var _frame_delta = frame_delta_level_get();
+var _frame_delta = global.delta;
 
 var _y = lerp(y_start_frame, y, _frame_delta);
 var _y_offset = lerp(wartnose_visuals.y_offset_previous, wartnose_visuals.y_offset, _frame_delta);

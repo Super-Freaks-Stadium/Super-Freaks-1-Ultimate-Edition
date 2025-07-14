@@ -1,7 +1,7 @@
 /// @description 
 
 var _i;
-var _frame_delta = frame_delta_level_get();
+var _frame_delta = global.delta;
 var _offset_delta = lerp(offset_previous, offset, _frame_delta);
 var _poles_to_draw = floor(image_yscale);
 

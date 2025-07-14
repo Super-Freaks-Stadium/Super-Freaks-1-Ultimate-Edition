@@ -3,7 +3,7 @@
 var _frame = 0;
 var _player_num, _character_index;
 var _x = view_x_get();
-var _y = view_y_get() + (screen_height_get() * (2 * lerp(y_offset_previous, y_offset, frame_delta_game_get())));
+var _y = view_y_get() + (screen_height_get() * (2 * lerp(y_offset_previous, y_offset, global.delta)));
 var _difficulty_option = global.difficulty;
 
 if (global.animate > 4)

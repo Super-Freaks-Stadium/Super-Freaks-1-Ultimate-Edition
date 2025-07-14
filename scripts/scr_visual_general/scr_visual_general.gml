@@ -25,6 +25,18 @@ function visuals_init()
 	global.visuals_settings = [];
 	global.surface_game = -1;
 	global.surface_HUD = -1;
+    
+    global.font_16 = font_add_sprite(spr_font_16, ord("!"), true, 2);
+    global.font_12 = font_add_sprite(spr_font_12, ord("!"), true, 2);
+    global.font_title = font_add_sprite_ext(spr_font_title_card, "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!?,:\'\"", true, 2);
+    /*
+    font_enable_effects(font_normal, true, 
+    {
+        outlineEnable: true,
+        outlineDistance: 1,
+        outlineColour: c_black,
+    });
+    */
 		
 	aspect_ratio_list_init();
 	framerate_list_init();

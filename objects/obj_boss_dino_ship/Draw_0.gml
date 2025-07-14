@@ -1,7 +1,7 @@
 /// @description Init
 
 var _i;
-var _frame_delta = frame_delta_level_get();
+var _frame_delta = global.delta;
 var _x = lerp(x_start_frame, x, _frame_delta);
 var _y = lerp(y_start_frame, y, _frame_delta);
 var _saber_x, _saber_y, _saber_angle = lerp_360(saber_angle_previous, saber_angle, _frame_delta);

@@ -40,8 +40,8 @@ var _turbo_meter_lerp = 32 / TURBO_TIME_MAX;
 		if (_list_thing[player_data.active] == true)
 		{
 			_player_instance = _list_thing[player_data.instance];
-			_draw_x = lerp(_player_instance.x_start_frame, _player_instance.x, frame_delta_player_get());
-			_draw_y = lerp(_player_instance.y_start_frame, _player_instance.y, frame_delta_player_get());
+			_draw_x = lerp(_player_instance.x_start_frame, _player_instance.x, global.delta);
+			_draw_y = lerp(_player_instance.y_start_frame, _player_instance.y, global.delta);
 			draw_sprite_ext(spr_player_numbers_arrows, _player_instance.player_number, _draw_x, _draw_y - (abs(_player_instance.hitbox.shape_y1 - _player_instance.hitbox.shape_y2) * _zoom), _mirror * _zoom, _zoom, 0, c_white, 1);
 			if (_player_instance.state == player_states.bubble)
 				draw_verb(_player_instance.player_number, "bubble", _draw_x, _draw_y - (72 * _zoom), _zoom * _mirror, _zoom);
@@ -184,7 +184,7 @@ var _turbo_meter_lerp = 32 / TURBO_TIME_MAX;
 					default:
 						for (_list_pos = 0; _list_pos < global.trophies_max; ++_list_pos)
 						{
-							draw_sprite(spr_HUD_trophy, bit_get(global.trophies, _list_pos), _view_x1 - lerp(trophy_offset_previous, trophy_offset, frame_delta_game_get()), _view_y1 + _screen_height - 48 - (global.trophies_max * 32) + (_list_pos * 32));
+							draw_sprite(spr_HUD_trophy, bit_get(global.trophies, _list_pos), _view_x1 - lerp(trophy_offset_previous, trophy_offset, global.delta), _view_y1 + _screen_height - 48 - (global.trophies_max * 32) + (_list_pos * 32));
 						}
 						break;
 				}

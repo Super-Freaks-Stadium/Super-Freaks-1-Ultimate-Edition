@@ -45,7 +45,7 @@ function water_draw()
 	_view_y1 = camera_get_view_y(_view_camera);
 	_view_x2 = _view_x1 + _view_width;
 	_view_y2 = _view_y1 + camera_get_view_height(_view_camera);
-	_water_height = lerp(global.water_height_previous, global.water_height, global.frame_delta);
+	_water_height = lerp(global.water_height_previous, global.water_height, global.delta);
 	
 	if (_water_height < _view_y2 + 32)
 	{

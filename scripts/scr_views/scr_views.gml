@@ -310,8 +310,8 @@ function view_step()
 }
 
 /// @function view_step_delta
-/// @param _frame_delta = global.frame_delta
-function view_step_delta(_frame_delta = global.frame_delta)
+/// @param _frame_delta = global.delta
+function view_step_delta(_frame_delta = global.delta)
 {
 	var _view = global.view;
 	var _view_x, _view_y, _view_z, _view_width, _view_height, _view_width_half, _view_height_half;

@@ -1,6 +1,6 @@
 /// @description 
 
-var _frame_delta = frame_delta_level_get();
+var _frame_delta = global.delta;
 
 switch (state)
 {

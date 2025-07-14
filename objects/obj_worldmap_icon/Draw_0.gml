@@ -4,7 +4,7 @@ var _x	 = x,
 	_y	 = y,
 	_level_id = level_id;
 
-var _pic_alpha = lerp(pic_alpha_previous, pic_alpha, frame_delta_game_get());
+var _pic_alpha = lerp(pic_alpha_previous, pic_alpha, global.delta);
 
 draw_self();
 

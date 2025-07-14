@@ -15,7 +15,7 @@ var _option, _option_count = 0;
 var _arrow_x, _arrow_y;
 var _text = "";
 var _font_size;
-var _animate = lerp(animation_previous, animation, frame_delta_game_get());
+var _animate = lerp(animation_previous, animation, global.delta);
 var _unlocked;
 var _text_y, _text_width = 0, _text_height = 0;
 

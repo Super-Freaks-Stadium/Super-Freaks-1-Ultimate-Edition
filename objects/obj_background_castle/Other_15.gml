@@ -2,7 +2,7 @@
 
 var _view_x1 = view_x1_get();
 var _view_y1 = view_y1_get();
-var _scroll_delta = lerp(scroll_previous, scroll, frame_delta_level_get());
+var _scroll_delta = lerp(scroll_previous, scroll, global.delta);
 
 draw_set_color(c_black);
 draw_rectangle(0, 0, surface_get_width(surface), surface_get_height(surface), false);

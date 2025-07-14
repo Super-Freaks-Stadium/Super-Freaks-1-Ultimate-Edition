@@ -1,6 +1,6 @@
 /// @description 
 
-var _frame_delta = frame_delta_player_get();
+var _frame_delta = global.delta;
 var _x = lerp(x_start_frame, x, _frame_delta);
 var _y = lerp(y_start_frame, y, _frame_delta);
 var _height = collider_detector_down[collider_detector_vertical_data.y];
@@ -81,8 +81,8 @@ if (global.story_mode == story_modes.swordsman)
 
 if (_rubber_band_draw == true && rubber_band && !is_undefined(_average_x) && !is_undefined(_average_x_previous))
 {
-	_average_x = lerp(_average_x_previous, _average_x, frame_delta_player_get());
-	_average_y = lerp(_average_y_previous, _average_y, frame_delta_player_get());
+	_average_x = lerp(_average_x_previous, _average_x, global.delta);
+	_average_y = lerp(_average_y_previous, _average_y, global.delta);
 	_rubber_band_distance = point_distance(x, y, _average_x, _average_y);
 	_rubber_band_direction = point_direction(x, y, _average_x, _average_y);
 	draw_sprite_ext(spr_elastiband, rubber_band_color, x, y, _rubber_band_distance / 32, clamp(32 / _rubber_band_distance, 0.5, 1), _rubber_band_direction, c_white, 1);

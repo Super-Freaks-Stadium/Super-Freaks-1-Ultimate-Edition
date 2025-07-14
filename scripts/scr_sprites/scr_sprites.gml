@@ -13,8 +13,8 @@
 /// @param _angleprevious = _angle
 /// @param _color = draw_get_color()
 /// @param _alpha = draw_get_alpha()
-/// @param _frame_delta = global.frame_delta
-function draw_sprite_interpolated(_sprite_index, _image_index = image_index, _x = x, _y = y, _xprevious = x_start_frame, _yprevious = y_start_frame, _scale_x = 1, _scale_y = 1, _scale_xprevious = _scale_x, _scale_yprevious = _scale_y, _angle = 0, _angleprevious = _angle, _color = draw_get_color(), _alpha = draw_get_alpha(), _frame_delta = global.frame_delta)
+/// @param _frame_delta = global.delta
+function draw_sprite_interpolated(_sprite_index, _image_index = image_index, _x = x, _y = y, _xprevious = x_start_frame, _yprevious = y_start_frame, _scale_x = 1, _scale_y = 1, _scale_xprevious = _scale_x, _scale_yprevious = _scale_y, _angle = 0, _angleprevious = _angle, _color = draw_get_color(), _alpha = draw_get_alpha(), _frame_delta = global.delta)
 {
 	var _x_delta = _x;
 	var _y_delta = _y;

@@ -2,7 +2,7 @@
 
 var _i = 0;
 var _star_x, _star_y, _star_active;
-var _animate = lerp_360(animate_previous, animate, frame_delta_level_get());
+var _animate = lerp_360(animate_previous, animate, global.delta);
 var _star_angle = lengthdir_x(22.5, _animate);
 var _number_angle = lengthdir_x(5, _animate);
 

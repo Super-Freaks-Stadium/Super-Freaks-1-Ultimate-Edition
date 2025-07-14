@@ -2,7 +2,7 @@
 
 var _list = instance_attach_list;
 var _player_instance;
-var _frame_delta = frame_delta_level_get();
+var _frame_delta = global.delta;
 var _x = lerp(x_start_frame, x, _frame_delta);
 var _y = lerp(y_start_frame, y, _frame_delta);
 

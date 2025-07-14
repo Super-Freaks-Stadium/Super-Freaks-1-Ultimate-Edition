@@ -1,7 +1,7 @@
 /// @description 
 
 var _i;
-var _rotate_alpha = lerp(rotate_effect_previous, rotate_effect, frame_delta_level_get());
+var _rotate_alpha = lerp(rotate_effect_previous, rotate_effect, global.delta);
 var _star_x, _star_y, _star_angle;
 var _radius = hitbox.radius;
 

@@ -47,7 +47,7 @@ with (back_sprite_support)
 			exit;
 			
 		_height = abs(sprite_get_height(spr_metal_box) * owner.image_yscale);
-		_frame_delta = frame_delta_level_get();
+		_frame_delta = global.delta;
 		_x = lerp(owner.x_start_frame, owner.x, _frame_delta);
 		_y = lerp(owner.y_start_frame, owner.y, _frame_delta);
 		

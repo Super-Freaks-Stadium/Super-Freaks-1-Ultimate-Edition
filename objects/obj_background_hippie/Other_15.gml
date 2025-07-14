@@ -1,7 +1,7 @@
 /// @description Draw Background
 
 var _view_x1 = view_x1_get();
-var _scroll_delta = lerp(scroll_previous, scroll, frame_delta_level_get());
+var _scroll_delta = lerp(scroll_previous, scroll, global.delta);
 var _sky_color_top, _sky_color_bottom;
 
 if (alternate)

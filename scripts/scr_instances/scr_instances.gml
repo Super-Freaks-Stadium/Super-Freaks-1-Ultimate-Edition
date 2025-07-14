@@ -21,7 +21,6 @@ function instance_create(_object_index, _x = x, _y = y)
 function instance_step()
 {
 	run_frame = true;
-	EVENT_FRAMEBEGIN;
 	state_machine_step();
 	collider_attach_step();
 	EVENT_STEP;

@@ -2,7 +2,7 @@
 
 var _view_x1 = view_x1_get();
 var _view_height = view_height_get();
-var _scroll_delta = lerp(scroll_previous, scroll, frame_delta_level_get());
+var _scroll_delta = lerp(scroll_previous, scroll, global.delta);
 
 if (alternate)
 	draw_set_color(make_colour_rgb(191, 44, 0));

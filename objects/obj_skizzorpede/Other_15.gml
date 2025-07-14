@@ -1,6 +1,6 @@
 /// @description Death
 
-var _frame_delta = frame_delta_level_get();
+var _frame_delta = global.delta;
 var _segment, _segment_position_array, _segment_x, _segment_x_previous, _segment_x_delta, _segment_y, _segment_y_previous, _segment_y_delta;
 
 _segment = 0;

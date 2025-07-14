@@ -1,6 +1,6 @@
 var _i;
 
-var _animate = lerp(animate_previous, animate, frame_delta_game_get());
+var _animate = lerp(animate_previous, animate, global.delta);
 
 var _screen_width = screen_width_get();
 var _screen_height = screen_height_get();
@@ -27,7 +27,7 @@ var _trophy_separate = 72;
 var _trophy_rec_width = (global.trophies_max - 1) * _trophy_separate;
 var _trophy_rec_x1 = (_screen_width - (_screen_width_half * _animate)) - (_trophy_rec_width * 0.5);
 
-var _lower_offset = lerp(lower_offset_previous, lower_offset, frame_delta_game_get()) * _screen_height;
+var _lower_offset = lerp(lower_offset_previous, lower_offset, global.delta) * _screen_height;
 
 if (!surface_exists(global.surface_HUD))
 	exit;

@@ -6,7 +6,7 @@ var _x2 = view_x2_get();
 var _y2 = view_y2_get();
 var _width = _x2 - _x1;
 var _height = _y2 - _y1;
-var _circle_x, _circle_y, _circle_radius, _frame_delta = frame_delta_player_get();
+var _circle_x, _circle_y, _circle_radius, _frame_delta = global.delta;
 
 if (!surface_exists(surface))
 	surface = surface_create(_width, _height);

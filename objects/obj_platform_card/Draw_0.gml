@@ -2,7 +2,7 @@
 
 var _i, _card_count;
 var _card_image = 0;
-var _extend = lerp(card_extend_previous, card_extend, frame_delta_level_get());
+var _extend = lerp(card_extend_previous, card_extend, global.delta);
 
 for (_i = 0; _i < array_length(card_direction); ++_i)
 {

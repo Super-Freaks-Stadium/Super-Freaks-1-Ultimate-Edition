@@ -16,13 +16,13 @@ collider.shape_x2 = _width_half;
 _collider_y1 = collider.shape_y1;
 _collider_y2 = collider.shape_y2;
 
-//for (_i = array_length(_list) - 1; _i >= 0; --_i)
-//{
-//	_instance = _list[_i];
+for (_i = array_length(_list) - 1; _i >= 0; --_i)
+{
+	_instance = _list[_i];
 	
-//	with (_instance)
-//		x += _speed;
-//}
+	with (_instance)
+		x += _speed;
+}
 
 if (my_path == -1)
 {
@@ -75,4 +75,3 @@ else if (offset >= 16)
 	offset -= 16;
 	offset_previous -= 16;
 }
-

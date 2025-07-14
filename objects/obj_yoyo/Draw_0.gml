@@ -11,4 +11,4 @@ draw_set_color(c_yellow);
 draw_line_width(x, y, _hitbox_x, _hitbox_y, 2);
 draw_set_color(c_white);
 draw_sprite(sprite_index, 1, x, y);
-draw_sprite_interpolated(sprite_index, 0, _hitbox_x, _hitbox_y, _hitbox_x_previous, _hitbox_y_previous,,,,, spin_angle, spin_angle_previous,,, frame_delta_level_get());
+draw_sprite_interpolated(sprite_index, 0, _hitbox_x, _hitbox_y, _hitbox_x_previous, _hitbox_y_previous,,,,, spin_angle, spin_angle_previous,,, global.delta);

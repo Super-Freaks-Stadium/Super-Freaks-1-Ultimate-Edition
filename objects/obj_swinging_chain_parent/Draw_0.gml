@@ -2,7 +2,7 @@
 
 var _i;
 
-var _frame_delta = frame_delta_game_get();
+var _frame_delta = global.delta;
 var _angle_delta = angle;
 var _angle_draw;
 
