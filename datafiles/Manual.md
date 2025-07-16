@@ -14,9 +14,10 @@ Super Freaks 1 Ultimate Edition is a 2D platformer featuring single player and u
 
 Go to the right, jump on enemy heads, reach the exit, all of that standard stuff. When you select a level, you can choose between any of the Super Freaks before playing, as well as a whole host of other unlockable characters. There are over 20 characters total!
 
-Also new to the game since version 1.1, custom characters can now be added via the “char” folder the game came with. We technically had a Gamebanana page for modding as well, unfortunately, Gamebanana sucks (for many reasons) and also they randomly took it down, and we’re not sure where else to host modded characters. For some reason you can still access the Gamebanana page and download some stuff, as well as view a tutorial: [Super Freaks 1 Ultimate Edition | SF1UE | Mods & Resources (gamebanana.com)](https://gamebanana.com/games/19289)
+Also new to the game since version 1.1, custom characters can now be added via the “char” folder the game came with. [Check out our ModDB page!](https://www.moddb.com/games/super-freaks-1-ultimate-edition)
 
-Every level can be played in one of three difficulty modes (Easy, Normal, Hard) that changes the level layouts. You can also set three modifiers: a Mirror Mode, Fast Forward (speeds everything in the level up by 1.5x with a few exceptions to make it actually possible), and a Game Over screen so you too can suffer permadeath!
+Every level can be played in a combination of different modes. When selecting a level you can either play on Normal Mode, or Turbo Mode, in which you are much faster, but you have 30 seconds to get to the end of the level (this time can be extended by collecting things).
+You can choose one of three difficulty modes (Easy, Normal, Hard) that changes the level layouts, set three modifiers: a Mirror Mode, Fast Forward (speeds everything in the level up by 1.5x with a few exceptions to make it actually possible), and a Game Over screen so you too can suffer permadeath!
 
 #### Story Modes
 * ###### Super Freaks
@@ -69,16 +70,21 @@ Compared to other platformers, the Super Freaks have a few extra tricks up their
 The “coin” of this game, a glass orb that contains Unlimit Energy. Collecting 100 Yorbs will give you an extra heart!
 
 ###### Happy Heart
-Collecting this heart with little rosy cheeks will, you guessed it, give you another heart. You can choose to start each level (and retry) with a minimum amount of hearts if you so choose, and there is a maximum value that by default is 10—you can either raise it all the way up to 99, or if you’re a total sadist, you can lower it all the way to zero to disable hearts entirely. Have fun…
+Collecting this heart with little rosy cheeks will, you guessed it, give you another heart. 
+When playing the Super Freaks story, you can choose to start each level (and retry) with a minimum amount of hearts if you so choose, and there is a maximum value that by default is 10—you can either raise it all the way up to 99, or if you’re a total sadist, you can lower it all the way to zero to disable hearts entirely.
+On the other storylines, hearts stick around, and will replenish their respective abilities by a bit.
+
+###### Clock
+This item replaces Happy Hearts when playing on Turbo. It will add five seconds to your timer. Considering that timer kills you if it hits zero, you're probably gonna want to grab these!
 
 ###### Yorb Star
-If you die enough times, a Yorb Star will appear right where you spawn. Collecting it will give you 10 hearts, unless you somehow already have that many! The death counter will reset by the time you reach the next checkpoint. This item only appears in Adventure Mode, and only when the Min/Max heart settings are between 1-10.
+If you die enough times, a Yorb Star will appear right where you spawn. Collecting it will give you 10 hearts, unless you somehow already have that many! The death counter will reset by the time you reach the next checkpoint. This item only appears in Adventure Mode when not playing on Turbo, and only when the Min/Max heart settings are between 1-10.
 
 ###### Trophy
-Most levels (excluding boss levels) have three trophies to collect. These unlock a lot of different things: secret levels, extra characters, so on and so forth. You’ll also get a heart by collecting a trophy, which adds a little risk/reward strategy to them.
+Most levels (excluding boss levels) have three trophies to collect. These unlock a lot of different things: secret levels, extra characters, so on and so forth. These are just plain good to seek out in general, since you’ll also get a heart (or other benefits) by collecting a trophy, which adds a little risk/reward strategy to them. In Turbo they'll also add 10 seconds, so if you have enough time to grab a trophy, you might wanna hustle and do so!
 
 ###### Uncle Swordsman’s Walkie Talkies
-Not really a collectible. The Super Freaks’ Uncle Swordsman has been shoved in a locker by Kranion, but he’s still able to dispense his infinite wisdom with his walkie talkies. Just jump at one to receive his great advice.
+Not really a collectible. The Super Freaks’ Uncle Swordsman has been shoved in a locker by Kranion, but he’s still able to dispense his infinite wisdom with his walkie talkies. Just touch one to receive his great advice.
 
 ###### Clock Stopper
 Collecting this watch slows down time temporarily, which is seriously way cooler looking than I describe it here.
@@ -90,7 +96,8 @@ Green Stars with numbers on them. Collect them all in order from 1 to…whicheve
 When you collect one Time Star, the rest will begin ticking down. Collect them all before they disappear, and you’ll get a prize! …which is again, usually a trophy.
 
 ###### Ray
-Not actually a collectible. Ray the TV and his identical brothers act as checkpoints. You have infinite lives, but don’t be afraid to touch one of them so you don’t have to repeat that one level section again.
+Not actually a collectible. Ray the TV and his identical brothers act as checkpoints. 
+On Normal Mode, you have infinite lives, but don’t be afraid to touch one of them so you don’t have to repeat that one level section again. On the other hand, in Turbo Mode, you only have one life, but Rays are still worth finding: you'll get 10 seconds, which may be enough to save your run!
 
 ###### Skull Jar
 Also not really a collectible. Kranion’s Kranibots shove their collected Unlimit Energy inside of a Skull Jar at the end of each level. By touching it, it will explode and you’ll beat the level, as well as denying Kranion some more power.

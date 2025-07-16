@@ -2,7 +2,6 @@
 
 var _back_width = sprite_get_width(spr_background_sky_clouds);
 
-scroll_previous = scroll;
 if (!global.visuals_settings[visuals_data.static_menu_bg])
     scroll++;
 

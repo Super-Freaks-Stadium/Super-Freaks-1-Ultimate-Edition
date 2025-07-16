@@ -62,7 +62,6 @@ else
 if (water)
 	y = global.water_height - 8;
 
-offset_previous = offset;
 offset = offset - _speed;
 
 if (offset < 0)

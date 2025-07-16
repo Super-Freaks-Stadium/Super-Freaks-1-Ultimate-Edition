@@ -1,6 +1,5 @@
 /// @description Step
 
-size_previous = size;
 size = min(size + 0.025, 1);
 
 x += speed_h;

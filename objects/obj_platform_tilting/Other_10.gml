@@ -9,8 +9,6 @@ var _list = collider.attach_list;
 var _angle = angle, _angle_speed = 0;
 var _rotate_back = true;
 
-angle_previous = angle;
-
 for (_i = array_length(_list) - 1; _i >= 0; --_i)
 {
 	_instance = _list[_i];

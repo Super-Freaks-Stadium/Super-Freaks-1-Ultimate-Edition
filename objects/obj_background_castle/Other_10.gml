@@ -2,7 +2,6 @@
 
 var _back_width = sprite_get_height(spr_castle_background_pillar);
 
-scroll_previous = scroll;
 scroll++;
 
 if (scroll >= _back_width)

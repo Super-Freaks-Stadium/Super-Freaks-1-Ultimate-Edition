@@ -3,8 +3,6 @@
 var _i;
 var _card, _card_extend;
 
-card_extend_previous = card_extend;
-
 switch (state)
 {
 	case 0: //Delay
@@ -40,7 +38,7 @@ switch (state)
 		if (state_begin)
 			delay_timer = 0;
 			
-		card_extend = max(card_extend - (card_speed / 100));
+		card_extend = max(card_extend - (card_speed / 100), 0);
 		
 		if (card_extend == 0)
 			state_next_set(0);

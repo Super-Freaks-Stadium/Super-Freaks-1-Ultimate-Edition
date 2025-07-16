@@ -6,13 +6,17 @@ var _zone = zone_index;
 // Inherit the parent event
 event_inherited();
 
-angle_previous = angle;
-angle = (angle + rotate_speed) mod 360;
+angle += rotate_speed;
 
 if (angle < 0)
 {
 	angle += 360;
 	angle_previous += 360;
+}
+else if (angle >= 360)
+{
+	angle -= 360;
+	angle_previous -= 360;
 }
 
 timer++;

@@ -4,9 +4,6 @@ var _back_width = sprite_get_width(spr_hippie_wind);
 var _back_height = sprite_get_height(spr_hippie_wind);
 var _speed_h, _speed_v;
 
-offset_x_previous = offset_x;
-offset_y_previous = offset_y;
-
 switch (state)
 {
 	case 0:

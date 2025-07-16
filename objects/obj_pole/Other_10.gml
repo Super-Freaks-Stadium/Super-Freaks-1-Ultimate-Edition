@@ -26,7 +26,6 @@ for (_i = array_length(_list) - 1; _i >= 0; --_i)
 }
 
 //image_index += rotate_speed * 0.5;
-offset_previous = offset;
 offset = offset - rotate_speed;
 
 if (offset < 0)

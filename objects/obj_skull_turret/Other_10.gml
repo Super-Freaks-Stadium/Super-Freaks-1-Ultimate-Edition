@@ -23,8 +23,6 @@ switch (trigger_id)
 		break;
 }
 
-angle_previous = angle;
-
 if (active)
 {
 	if (face_player)
@@ -71,4 +69,15 @@ if (active)
 		if (ammo > 0)
 			ammo = max(ammo - 1, 0);
 	}
+}
+
+if (angle < 0)
+{
+	angle += 360;
+	angle_previous += 360;
+}
+else if (angle >= 360)
+{
+	angle -= 360;
+	angle_previous -= 360;
 }

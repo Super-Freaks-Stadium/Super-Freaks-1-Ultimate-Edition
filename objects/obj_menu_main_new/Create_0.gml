@@ -51,7 +51,7 @@ function menu_option() constructor
 {
 	x = 0;
 	y = 0;
-	unlocked = true;
+	unlocked = function() {};
 	selectable_area = 
 	{
 		x1: 0,
@@ -94,7 +94,6 @@ with (my_menu)
 			select: new menu_page(),
 			main: new menu_page(),
 			challenge: new menu_page(),
-			freeplay: new menu_page(),
 			speedrun: new menu_page(),
 		},
 		options:
@@ -138,16 +137,9 @@ with (my_menu.pages.story.main)
 
 with (my_menu.pages.story.challenge)
 {
-	freeplay = new menu_option();
+    shuffle = new menu_option();
 	speedrun = new menu_option();
-	randomizer = new menu_option();
 	boss = new menu_option();
-}
-
-with (my_menu.pages.story.freeplay)
-{
-	//one option for each level except Apex's...we can figure this one out later lmfao
-	//any levels not unlocked in current story mode will just have its name set to ??? and no picture
 }
 
 with (my_menu.pages.story.speedrun)

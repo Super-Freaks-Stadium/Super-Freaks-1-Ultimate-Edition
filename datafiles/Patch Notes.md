@@ -94,3 +94,13 @@
     * Static Menu Background visual option upgraded into Motion Sickness Mode
     * Title Screen logo cleaned up (thanks again Jordan)
     * Manual is now a markdown file instead of a word document (oops), patch notes are their own markdown file
+* V3.1 - 20XX
+    * Gameplay Changes (some of these are huge so pay attention)
+        * Movement speed increased by 0.25px so you're not so sluggish
+        * Sprinting: run uninterrupted and you'll notice your speed continue to increase. You'll see your character start to kick up dust clouds when you're going quickly enough for you to notice.
+        * Turbo Mode: A new mode that can be chosen right from the level select screen! Your movement speed is much faster (4.25px vs 3.25), but you have only 30 seconds to make it to the end of the level, and you get one life, so no checkpoints. Extend your time by grabbing yorbs, beating enemies, hitting checkpoints, and collecting trophies. When you get hit, you'll lose 5 seconds, and this number increases by an extra 5 seconds every consecutive time you get hit. Make good use of your extra speed to dominate the level!
+        * To accomodate the above changes and better the game's flow and difficulty in general, every level and boss has been touched up and rebalanced, some more drastically than others. 
+    * Bug Fixes
+        * Fast Forward is no longer jittery! That one was annoying me for two years. I had to rewrite the frame backend to make this happen.
+    * Other
+        * [New mod page at ModDB!](https://www.moddb.com/games/super-freaks-1-ultimate-edition) Hopefully this one won't randomly get taken down for no reason.

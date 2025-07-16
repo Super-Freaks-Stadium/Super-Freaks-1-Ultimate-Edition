@@ -2,7 +2,6 @@
 
 var _back_width = sprite_get_width(spr_background_lightning_clouds);
 
-scroll_previous = scroll;
 scroll++;
 
 if (scroll >= _back_width)

@@ -32,25 +32,3 @@ speed_grv = 0.25;
 collider_detector_sides_set(-_height + 8, -_height_half, -8, _height_half, _width_half);
 collider_detector_up_set(-_width_half + 8, 0, _width_half - 8, 0, -_height);
 collider_detector_down_set(-_width_half, 0, _width_half, 0, 0);
-
-back_sprite_support = instance_create_layer(x, y, "layer_instances", obj_background_sprite_support);
-
-with (back_sprite_support)
-{
-	owner = _my_id;
-	zone_index = _zone_index;
-	
-	draw_func = function()
-	{
-		var _height, _x, _y, _frame_delta;
-		if (!instance_exists(owner))
-			exit;
-			
-		_height = abs(sprite_get_height(spr_metal_box) * owner.image_yscale);
-		_frame_delta = global.delta;
-		_x = lerp(owner.x_start_frame, owner.x, _frame_delta);
-		_y = lerp(owner.y_start_frame, owner.y, _frame_delta);
-		
-		draw_sprite_ext(spr_metal_box_top, 0, _x, _y - _height, owner.image_xscale, 1, 0, c_white, 1);
-	}
-}

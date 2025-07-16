@@ -1,3 +1,0 @@
-/// @description 
-
-draw_func();

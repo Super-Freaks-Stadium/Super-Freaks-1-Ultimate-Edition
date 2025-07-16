@@ -1,6 +1,5 @@
 /// @description Step
 
-angle_previous = angle;
 angle += rotate_speed;
 
 var _width = searchlight_width / 2;

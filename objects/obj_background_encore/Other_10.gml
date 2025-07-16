@@ -2,7 +2,6 @@
 
 var _back_width = sprite_get_width(spr_encore_background);
 
-scroll_previous = scroll;
 scroll += 0.5;
 
 if (scroll >= _back_width)

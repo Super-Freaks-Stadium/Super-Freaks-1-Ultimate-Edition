@@ -1,7 +1,5 @@
 /// @description Step
 
-direction_previous = direction;
-
 var _speed_h, _speed_v, _player;
 var _point_dir, _point_speed, _point_damp;
 
@@ -48,4 +46,15 @@ switch (sign(_speed_v))
 		if (collision_down_simple())
 			instance_destroy();
 		break;
+}
+
+if (direction < 0)
+{
+	direction += 360;
+	direction_previous += 360;
+}
+else if (direction >= 360)
+{
+	direction -= 360;
+	direction_previous -= 360;
 }

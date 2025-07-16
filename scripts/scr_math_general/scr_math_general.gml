@@ -4,9 +4,9 @@
 /// @param {Real} _amount = 0
 function lerp_360(_angle_1, _angle_2, _amount = 0)
 {
+    gml_pragma("forceinline");
+    
 	return _angle_1 - (angle_difference(_angle_1, _angle_2) * _amount);
-	
-	gml_pragma("forceinline");
 }
 
 /// @function lerp_animcurve
@@ -19,6 +19,7 @@ function lerp_animcurve(_animcurve, _channel = 0, _value_a, _value_b, _amount)
 {
     var _curve_channel = animcurve_get_channel(_animcurve, _channel);
     var _amt = animcurve_channel_evaluate(_curve_channel, _amount);
+    
     return lerp(_value_a, _value_b, _amt);
 }
 

@@ -131,9 +131,17 @@ if ((x - x_previous) == 0 && (y - y_previous) == 0)
 	visual_face = 0;
 else
 	visual_face = 1;
-visual_angle_previous = visual_angle;
+
+
+
 visual_angle -= (x - x_previous);
 if (visual_angle < 0)
+{
 	visual_angle += 360;
-else
-	visual_angle = visual_angle mod 360;
+    visual_angle_previous += 360;
+}
+else if (visual_angle >= 360)
+{
+	visual_angle -= 360;
+    visual_angle_previous -= 360;
+}

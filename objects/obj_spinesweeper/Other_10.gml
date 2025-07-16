@@ -3,8 +3,6 @@
 var _target = player_nearest_alive();
 var _target_direction;
 
-size_previous = size;
-
 // Inherit the parent event
 event_inherited();
 
