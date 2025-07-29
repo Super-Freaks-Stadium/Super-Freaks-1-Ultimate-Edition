@@ -114,7 +114,7 @@ while (_frames_game > 0)
 			trophy_offset = min(trophy_offset + 3, 32);
 	}
 		
-	if (!_pause && !instance_exists(obj_level_win_screen) && !instance_exists(obj_level_win_explosion))
+	if (!_pause && !instance_exists(obj_level_win_screen) && !instance_exists(obj_level_win_explosion) && !instance_exists(obj_gameover))
 	{
         _frame_extra = 1;
         

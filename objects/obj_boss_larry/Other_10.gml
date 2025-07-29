@@ -6,7 +6,6 @@ var _collider_size = 28 * image_xscale;
 
 hurt_timer_step();
 collision_flags = 0;
-angle_previous = angle;
 
 //speed_h *= speed_frc_air;
 if (speed_v < 6)

@@ -14,16 +14,8 @@ var _angle;
 var _length = (chain_segments * 32) * chain_size;
 
 #region Buzzsaw
-	buzzsaw_angle_previous = buzzsaw_angle;
-	buzzsaw_angle = (buzzsaw_angle + swing_speed);
-	if (buzzsaw_angle < 0)
-		buzzsaw_angle += 360;
-	buzzsaw_angle = buzzsaw_angle mod 360;
-
 	_angle = (lengthdir_x(90, buzzsaw_angle) + 270) mod 360;
 
-	buzzsaw_x_previous = buzzsaw_x;
-	buzzsaw_y_previous = buzzsaw_y;
 	buzzsaw_x = lengthdir_x(_length, _angle);
 	buzzsaw_y = lengthdir_y(_length, _angle);
 	hitbox_buzzsaw.x_offset = buzzsaw_x;
@@ -39,14 +31,10 @@ var _length = (chain_segments * 32) * chain_size;
 #endregion
 
 #region Claws
-	claw_left_angle_previous = claw_left_angle;
-	claw_left_pos_previous = claw_left_pos;
 	claw_left_timer = max(claw_left_timer - 1, 0);
 	if (claw_left_timer == 0)
 		claw_left_index = 0;
 	
-	claw_right_angle_previous = claw_right_angle;
-	claw_right_pos_previous = claw_right_pos;
 	claw_right_timer = max(claw_right_timer - 1, 0);
 	if (claw_right_timer == 0)
 		claw_right_index = 0;

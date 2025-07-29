@@ -5,9 +5,6 @@ event_inherited();
 
 collision_flags = 0;
 
-arm_angle_previous = arm_angle;
-arm_length_previous = arm_length;
-
 arm_angle = arm_angle + arm_speed mod 360;
 if (arm_angle < 0)
 {

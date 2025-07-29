@@ -60,8 +60,6 @@ if (alpha > 0)
     
     if (mirror_flip_get() == -1)
         _x = screen_width_get() - _x;
-    
-    show_debug_message($"X: {_x}");
 	
     surface_set_target(global.surface_HUD);
     

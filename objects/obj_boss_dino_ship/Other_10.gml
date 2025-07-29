@@ -5,8 +5,6 @@ var _i, _angle, _x1, _y1, _x2, _y2, _saber;
 // Inherit the parent event
 event_inherited();
 
-saber_angle_previous = saber_angle;
-
 for (_i = 0; _i < array_length(hitbox_saber); ++_i)
 {
 	_angle = saber_angle + (_i * 90);

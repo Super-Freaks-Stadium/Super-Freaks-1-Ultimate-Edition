@@ -6,8 +6,6 @@ var _projectile, _shockwave;
 // Inherit the parent event
 event_inherited();
 
-arm_length_previous = arm_length;
-
 switch (state)
 {
 	case boss_megaklaw_states.intro:

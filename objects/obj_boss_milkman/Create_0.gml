@@ -17,7 +17,7 @@ enum boss_milkman_states
 }
 
 /// @function boss_milkman_activate_arms
-/// @param {boolean} _flag = true
+/// @param {Bool} _flag = true
 function boss_milkman_activate_arms(_flag = true)
 {
 	var _i, _active = hitbox_active.passive;

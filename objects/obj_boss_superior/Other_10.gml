@@ -4,6 +4,8 @@ var _player = player_nearest_alive();
 var _fast_forward = fast_forward_level_get() + global.frame_machine_level.multiplier;
 var _fireball, _angle;
 
+var _i, _my_fellow_americans = 0;
+
 // Inherit the parent event
 event_inherited();
 
@@ -54,13 +56,14 @@ switch (state)
 	case boss_antifreak_states.wait:
 		if (state_begin)
 		{
-			if (wait == 0)
-				wait = choose(80, 112);
+            for (_i = 0; _i < 4; ++_i)
+            {
+                _my_fellow_americans += bit_get(global.boss_phase, _i);
+            }
+            wait = _my_fellow_americans * 24;
 		}
 		
-		wait--;
-		
-		if (wait <= 0)
+		if (wait-- <= 0)
 			state_next_set(boss_antifreak_states.attack_1);
 		break;
 	case boss_antifreak_states.death:

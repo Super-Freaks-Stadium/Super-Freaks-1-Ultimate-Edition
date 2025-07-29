@@ -3,7 +3,6 @@
 speed_y += 0.125;
 y += speed_y;
 
-angle_previous = angle;
 angle += angle_speed;
 if (angle < 0)
 {

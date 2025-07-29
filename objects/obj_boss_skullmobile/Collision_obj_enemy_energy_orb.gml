@@ -8,7 +8,10 @@ if (_hitbox_self == hitbox)
 	{
 		enemy_hurt();
 		if (global.boss_phase == 1)
-			laser_rotate_speed = -laser_rotate_speed;
+        {
+            if (irandom_range(0, 1))
+			    laser_rotate_speed = -laser_rotate_speed;
+        }
 		with (other)
 			instance_destroy();
 	}

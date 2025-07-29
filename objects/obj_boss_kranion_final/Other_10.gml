@@ -9,10 +9,6 @@ event_inherited();
 
 collision_flags = 0;
 
-face_angle_previous = face_angle;
-aura_angle_previous = aura_angle;
-spike_angle_previous = spike_angle;
-
 aura_angle += 5;
 face_angle += face_rotate_speed;
 spike_angle += spike_speed;
