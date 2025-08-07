@@ -9,8 +9,8 @@
     "path":"folders/Rooms/Levels/Freaky World/Cool n Chill Caverns.yy",
   },
   "points":[
-    {"speed":100.0,"x":3232.0,"y":784.0,},
-    {"speed":100.0,"x":3952.0,"y":784.0,},
+    {"speed":100.0,"x":3232.0,"y":800.0,},
+    {"speed":100.0,"x":3952.0,"y":800.0,},
   ],
   "precision":4,
   "resourceType":"GMPath",

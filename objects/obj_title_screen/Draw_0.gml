@@ -22,6 +22,6 @@ draw_verb(global.player_lead, "start", _center_x + 16, _view_y2 - 16);
 draw_set_valign(fa_bottom);
 draw_set_font(global.font_12);
 draw_set_halign(fa_left);
-draw_text(_view_x1, _view_y2, "v3.1 Beta 10\n7/30/2025");
+draw_text(_view_x1, _view_y2, "v3.1 Beta 11\n8/7/2025");
 draw_set_halign(fa_right);
 draw_text(_view_x2, _view_y2, "By SuperFreaksDev\nMusic by philraco and SFD");

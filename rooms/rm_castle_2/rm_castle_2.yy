@@ -4,7 +4,7 @@
   "creationCodeFile":"${project_dir}/rooms/rm_castle_2/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":true,
-  "inheritLayers":true,
+  "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_49EC6FA7_26","path":"rooms/rm_castle_2/rm_castle_2.yy",},
     {"name":"inst_18FDBC48_1","path":"rooms/rm_castle_2/rm_castle_2.yy",},
@@ -319,7 +319,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_mortar","path":"objects/obj_mortar/obj_mortar.yy",},"propertyId":{"name":"shoot_frequency","path":"objects/obj_mortar/obj_mortar.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"64",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":-1.0,"scaleY":1.0,"x":1248.0,"y":624.0,},
       ],"layers":[],"name":"layer_instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"layer_tiles_special","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"layer_tiles_special","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":188,"TileCompressedData":[-5640,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tileset_special","path":"tilesets/tileset_special/tileset_special.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"layer_tiles_normal","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"layer_tiles_normal","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":188,"TileCompressedData":[
           -58,0,4,15,1,1,16,-19,0,-4,-2147483648,1,15,-6,1,1,16,-22,-2147483648,1,15,-3,1,1,16,-68,-2147483648,
           -58,0,4,15,1,1,16,-19,0,-2,-2147483648,-2,0,1,15,-6,1,1,16,-22,-2147483648,1,15,-3,1,1,16,-68,-2147483648,

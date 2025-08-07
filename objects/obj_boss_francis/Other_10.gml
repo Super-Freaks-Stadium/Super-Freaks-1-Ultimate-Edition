@@ -250,6 +250,7 @@ switch (state)
 		{
 			chain_size = min(chain_size + 0.025, 1);
 			hitbox_buzzsaw.active = hitbox_active.passive;
+            buzzsaw_angle = (buzzsaw_angle + swing_speed);
 			if (global.difficulty == difficulty_levels.hard)
 				hitbox_buzzsaw_2.active = hitbox_active.passive;
 			if (chain_size == 1)

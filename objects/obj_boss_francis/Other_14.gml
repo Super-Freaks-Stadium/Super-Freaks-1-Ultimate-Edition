@@ -6,7 +6,7 @@ event_inherited();
 buzzsaw_x_previous = buzzsaw_x;
 buzzsaw_y_previous = buzzsaw_y;
 buzzsaw_angle_previous = buzzsaw_angle;
-buzzsaw_angle = (buzzsaw_angle + swing_speed);
+
 if (buzzsaw_angle < 0)
 {
     buzzsaw_angle += 360;
