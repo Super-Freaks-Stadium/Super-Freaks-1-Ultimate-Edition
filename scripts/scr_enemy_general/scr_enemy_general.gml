@@ -37,6 +37,8 @@ function enemy_hurt(_hp = 1, _hurt_timer = 8)
 }
 
 /// @function enemy_killed_create
+/// @param _x = x
+/// @param _y = y
 /// @param _sprite_index = sprite_index
 /// @param _image_index = image_index
 /// @param _animate_speed = 0
@@ -45,9 +47,9 @@ function enemy_hurt(_hp = 1, _hurt_timer = 8)
 /// @param _angle = 0
 /// @param _speed_h = 0
 /// @param _speed_v = -2
-function enemy_killed_create(_sprite_index = sprite_index, _image_index = image_index, _animate_speed = 0, _image_xscale = abs(image_xscale) * face, _image_yscale = image_yscale, _angle = 0, _speed_h = 0, _speed_v = -2)
+function enemy_killed_create(_x = x, _y = y, _sprite_index = sprite_index, _image_index = image_index, _animate_speed = 0, _image_xscale = abs(image_xscale) * face, _image_yscale = image_yscale, _angle = 0, _speed_h = 0, _speed_v = -2)
 {
-	with (instance_create(obj_enemy_killed, x, y))
+	with (instance_create(obj_enemy_killed, _x, _y))
 	{
 		sprite_index = _sprite_index;
 		image_index = _image_index;

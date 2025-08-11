@@ -1,25 +1,39 @@
 /// @description Step
 
 var _array_length;
-var _segment_previous, _segment_x_previous, _segment_y_previous;
-var _segment, _x_min, _x_max, _y_min, _y_max;
+var _segment, _segment_previous, _segment_x_previous, _segment_y_previous;
+var _path_pos, _path_x, _path_y, _path_x_next, _path_y_next;
+var _my_x, _my_y;
 
 event_inherited();
 
-path_move(my_path);
+my_path_pos += speed_normalized;
+if (my_path_pos < 0)
+    my_path_pos++;
+else
+    my_path_pos = my_path_pos mod 1;
+_path_pos = my_path_pos;
 
-array_insert(hitbox[0][1], 0, [x, y]);
-array_resize(hitbox[0][1], SKIZZORPEDE_SEGMENT_LENGTH);
-
-for (_segment = 1; _segment <= segments; ++_segment)
+for (_segment = 0; _segment <= segments; ++_segment)
 {
-	_array_length = array_length(hitbox[_segment - 1][1]);
-	_segment_previous = hitbox[_segment - 1][1];
-	_segment_x_previous = _segment_previous[_array_length - 1][0];
-	_segment_y_previous = _segment_previous[_array_length - 1][1];
-	array_insert(hitbox[_segment][1], 0, [_segment_x_previous, _segment_y_previous]);
-	array_resize(hitbox[_segment][1], SKIZZORPEDE_SEGMENT_LENGTH);
-		
-	hitbox[_segment][0].x_offset = _segment_x_previous - x;
-	hitbox[_segment][0].y_offset = _segment_y_previous - y;
+    _path_x = path_get_x(my_path, _path_pos);
+    _path_y = path_get_y(my_path, _path_pos);
+    
+    _path_pos -= SKIZZORPEDE_SEGMENT_LENGTH * sign(speed_path);
+    if (_path_pos < 0)
+        _path_pos++;
+    else
+        _path_pos = _path_pos mod 1;
+    _path_x_next = path_get_x(my_path, _path_pos);
+    _path_y_next = path_get_y(my_path, _path_pos);
+    
+    _my_x = _path_x - x;
+    _my_y = _path_y - y;
+    
+    with (hitbox[_segment])
+    {
+        body.x_offset = _my_x;
+        body.y_offset = _my_y;
+        angle = point_direction(_path_x_next, _path_y_next, _path_x, _path_y);
+    }
 }
