@@ -2,8 +2,6 @@
 
 var _func;
 
-circle_size_previous = circle_size;
-
 switch (state)
 {
 	case 0: //Fade In

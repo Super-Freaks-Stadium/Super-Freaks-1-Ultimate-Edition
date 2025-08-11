@@ -6,8 +6,6 @@ var _cutscene_room = global.level_cutscene_list[global.story_mode][global.level_
 // Inherit the parent event
 event_inherited();
 
-animate_previous = animate;
-
 switch (state)
 {
 	case 0:

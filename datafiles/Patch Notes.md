@@ -99,8 +99,9 @@
         * Movement speed increased by 0.25px so you're not so sluggish
         * Sprinting: run uninterrupted and you'll notice your speed continue to increase. You'll see your character start to kick up dust clouds when you're going quickly enough for you to notice.
         * Turbo Mode: A new mode that can be chosen right from the level select screen! Your movement speed is much faster (4.25px vs 3.25), but you have only 30 seconds to make it to the end of the level, and you get one life, so no checkpoints. Extend your time by grabbing yorbs, beating enemies, hitting checkpoints, and collecting trophies. When you get hit, you'll lose 5 seconds, and this number increases by an extra 5 seconds every consecutive time you get hit. Make good use of your extra speed to dominate the level!
-        * To accomodate the above changes and better the game's flow and difficulty in general, every level and boss has been touched up and rebalanced, some more drastically than others. 
+        * To accomodate the above changes and better the game's flow and difficulty in general, every level and boss has been touched up and rebalanced, some more drastically than others. A huge shoutout to Mugen Azure for playtesting every single level and boss very extensively. I fear her power.
     * Bug Fixes
         * Fast Forward is no longer jittery! That one was annoying me for two years. I had to rewrite the frame backend to make this happen.
+        * Side effect of the above: Skizzorpede enemies are recoded from scratch and look much smoother AND actually explode into pieces when you kill them in Bad Guys Story. How awesome is that??? Woah!!!
     * Other
         * [New mod page at ModDB!](https://www.moddb.com/games/super-freaks-1-ultimate-edition) Hopefully this one won't randomly get taken down for no reason.

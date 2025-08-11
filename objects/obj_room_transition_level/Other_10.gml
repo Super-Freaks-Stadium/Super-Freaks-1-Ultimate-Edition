@@ -3,8 +3,6 @@
 // Inherit the parent event
 event_inherited();
 
-animate_previous = animate;
-
 switch (state)
 {
 	case 0:
