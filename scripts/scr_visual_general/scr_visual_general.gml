@@ -48,7 +48,7 @@ function visuals_init()
 	screen_set();
 		
 	application_surface_draw_enable(false);
-	surface_depth_disable(true);
+	//surface_depth_disable(true);
 		
 	view_init();
 }

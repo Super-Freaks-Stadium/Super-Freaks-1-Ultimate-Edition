@@ -87,9 +87,21 @@ switch (global.game_mode)
 				else
 					draw_set_alpha(0.5);
 		
-				draw_sprite(spr_trophy, 0, _view_x1 + _trophy_rec_x1 + (_i * _trophy_separate), _view_y1 + _screen_height_half);
+				draw_sprite(spr_trophy, 0, _view_x1 + _trophy_rec_x1 + (_i * _trophy_separate), _view_y1 + _screen_height_half - 16);
 			}
 		}
+        draw_set_valign(fa_top);
+        if (trophy_count > 0)
+        {
+            draw_set_valign(fa_top);
+		    game_timer_draw(_view_x1 + _screen_width - (_screen_width_half * _animate), _view_y1 + _screen_height_half + 16);
+        }
+        else 
+        {
+    		draw_set_valign(fa_middle);
+            draw_set_font(global.font_title);
+    		game_timer_draw(_view_x1 + _screen_width - (_screen_width_half * _animate), _view_y1 + _screen_height_half);
+        }
 		draw_set_alpha(1);
 		break;
 }
