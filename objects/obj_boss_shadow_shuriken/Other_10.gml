@@ -49,5 +49,4 @@ switch (state)
 		break;
 }
 
-image_angle_previous = image_angle;
 image_angle = (image_angle + 7) mod 360;

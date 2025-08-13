@@ -4,7 +4,7 @@
   "creationCodeFile":"${project_dir}/rooms/rm_ice_1/RoomCreationCode.gml",
   "inheritCode":false,
   "inheritCreationOrder":true,
-  "inheritLayers":true,
+  "inheritLayers":false,
   "instanceCreationOrder":[
     {"name":"inst_49EC6FA7","path":"rooms/rm_ice_1/rm_ice_1.yy",},
     {"name":"inst_11A1B292","path":"rooms/rm_ice_1/rm_ice_1.yy",},
@@ -261,7 +261,6 @@
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_walkietalkie","path":"objects/obj_walkietalkie/obj_walkietalkie.yy",},"propertyId":{"name":"hint_antifreaks","path":"objects/obj_walkietalkie/obj_walkietalkie.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"\"This overgrown guppy is completely invincible, unless you're a Ribson, which you aren't. When you see it submerge, get out of the way, or become a seafood dinner.\"",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":704.0,},
       ],"layers":[],"name":"layer_instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
-    {"$GMRTileLayer":"","%Name":"layer_tiles_special","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":true,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"layer_tiles_special","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":125,"TileCompressedData":[-3750,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"tileset_special","path":"tilesets/tileset_special/tileset_special.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"$GMRTileLayer":"","%Name":"layer_tiles_normal","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"layer_tiles_normal","properties":[],"resourceType":"GMRTileLayer","resourceVersion":"2.0","tiles":{"SerialiseHeight":30,"SerialiseWidth":125,"TileCompressedData":[
           -16,0,2,63,64,-9,0,-20,-2147483648,4,63,49,49,64,-4,-2147483648,-2,0,4,63,49,49,64,-10,-2147483648,2,
           0,63,-38,49,1,64,-13,-2147483648,-16,0,2,63,64,-9,0,-20,-2147483648,4,63,49,49,64,-4,-2147483648,-2,
