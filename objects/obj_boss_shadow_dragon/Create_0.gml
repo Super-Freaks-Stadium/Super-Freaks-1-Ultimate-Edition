@@ -17,6 +17,7 @@ for (_segment = 0; _segment <= segments; ++_segment)
 {
 	hitbox[_segment][0] = new comp_hitbox_circle(,,, enemy_hitbox_behaviors.hazard,, 16);
 	hitbox[_segment][1] = [];
+    hitbox[_segment][2] = [x, y, 90];
 	
 	for (_i = 0; _i <= SKIZZORPEDE_SEGMENT_LENGTH; ++_i)
 	{
