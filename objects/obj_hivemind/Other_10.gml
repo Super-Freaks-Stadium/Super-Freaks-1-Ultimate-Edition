@@ -29,7 +29,7 @@ switch (state)
 		
 		if (timer >= 112)
 		{
-			if (instance_number(obj_drillobee) < BEE_SPAWN_LIMIT)
+			if (instance_number(obj_drillobee) < bee_limit)
 				state_next_set(1);
 			else
 				timer = 0;
@@ -54,7 +54,7 @@ switch (state)
 		if (state_begin)
 		{
 			timer = 0;
-			if (instance_number(obj_drillobee) < BEE_SPAWN_LIMIT)
+			if (instance_number(obj_drillobee) < bee_limit)
 				instance_create_layer(x, y - 72, "layer_instances", obj_drillobee);
 		}
 		

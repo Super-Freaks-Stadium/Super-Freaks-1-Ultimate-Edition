@@ -1,7 +1,5 @@
 /// @description Init
 
-#macro BEE_SPAWN_LIMIT 3
-
 // Inherit the parent event
 event_inherited();
 

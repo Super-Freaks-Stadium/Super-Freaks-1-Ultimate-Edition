@@ -10,9 +10,6 @@ var _screen_height_half = _screen_height / 2;
 // Inherit the parent event
 event_inherited();
 
-animate_previous = animate;
-lower_offset_previous = lower_offset;
-
 switch (state)
 {
 	case 0:
@@ -65,7 +62,12 @@ switch (state)
 			global.frame_machine_level.pause = false;
 			instance_create_layer(_view_x1 + _screen_width_half, _view_y1 + _screen_height_half, "layer_instances", obj_boss_explosion);
 			instance_create_layer(_view_x1 + _screen_width_half, _view_y1 + _screen_height_half, "layer_instances", obj_boss_kranion_final);
-			victory_quote = choose("Hey!", "You gotta be kidding me!", "Here we go again!", "Right when I have to use the bathroom!");
+			victory_quote = choose("Hey!", 
+                                   "You gotta be kidding me!", 
+                                   "Here we go again!", 
+                                   "Right when I have to use the bathroom!", 
+                                   "Gotcha!", 
+                                   "You didn't think he'd be done after one phase, did you?");
 			frame = 0;
 		}
 		frame++;

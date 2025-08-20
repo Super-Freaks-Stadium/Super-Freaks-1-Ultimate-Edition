@@ -51,19 +51,32 @@ draw_set_valign(fa_top);
 draw_text(_view_x1 + (_screen_width_half * _animate), _view_y1 + _lower_offset, string_upper(_name_world) + "\n" + string_upper(_name_level) + "\n" + string_upper(clear_text));
 
 draw_set_valign(fa_bottom);
-draw_text_ext(_view_x1 + (_screen_width_half * _animate), _view_y1 + _screen_height + _lower_offset, string_upper(victory_quote), -1, _screen_width);
+draw_set_font(global.font_16);
+draw_text_ext(_view_x1 + (_screen_width_half * _animate), _view_y1 + _screen_height + _lower_offset, victory_quote, -1, _screen_width);
 
 for (_i = 0; _i < global.trophies_max; ++_i)
 {
-	if (_i < trophy_count)
-	{
-		if (bit_get(global.trophies, _i))
-			draw_set_alpha(1);
-		else
-			draw_set_alpha(0.5);
-		
-		draw_sprite(spr_trophy, 0, _view_x1 + _trophy_rec_x1 + (_i * _trophy_separate), _view_y1 + _screen_height_half + _lower_offset);
-	}
+    if (_i < trophy_count)
+    {
+        if (bit_get(global.trophies, _i))
+            draw_set_alpha(1);
+        else
+            draw_set_alpha(0.5);
+
+        draw_sprite(spr_trophy, 0, _view_x1 + _trophy_rec_x1 + (_i * _trophy_separate), _view_y1 + _screen_height_half - 16);
+    }
+}
+draw_set_valign(fa_top);
+if (trophy_count > 0)
+{
+    draw_set_valign(fa_top);
+    game_timer_draw(_view_x1 + _screen_width - (_screen_width_half * _animate), _view_y1 + _screen_height_half + 16 + _lower_offset);
+}
+else 
+{
+    draw_set_valign(fa_middle);
+    draw_set_font(global.font_title);
+    game_timer_draw(_view_x1 + _screen_width - (_screen_width_half * _animate), _view_y1 + _screen_height_half + _lower_offset);
 }
 
 if (state >= 3)
