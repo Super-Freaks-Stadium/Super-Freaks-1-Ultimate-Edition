@@ -43,6 +43,8 @@ character_index = 0;
 	
 	underwater = false;
 	water_meter = 100;
+    
+    star_arrow = 0;
 	
 	#macro HANG_DISMOUNT_FRAMES_MAX 6
 	hang_dismount_frames = 0;

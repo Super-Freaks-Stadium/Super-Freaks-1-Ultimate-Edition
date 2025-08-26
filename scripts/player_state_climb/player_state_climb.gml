@@ -24,6 +24,7 @@ function player_state_climb()
 			active = hitbox_active.active;
 		rubber_band_can_slingshot = false;
 		physics = player_physics_modifiers.normal;
+        star_arrow = 0;
 	}
 	
 	if (global.story_mode == story_modes.swordsman)

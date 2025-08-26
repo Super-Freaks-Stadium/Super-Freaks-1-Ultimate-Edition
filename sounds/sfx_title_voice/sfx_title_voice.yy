@@ -2,14 +2,14 @@
   "$GMSound":"",
   "%Name":"sfx_title_voice",
   "audioGroupId":{
-    "name":"audiogroup_sfx",
-    "path":"audiogroups/audiogroup_sfx",
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
   "bitRate":128,
   "compression":0,
   "conversionMode":0,
-  "duration":6.162177,
+  "duration":8.113742,
   "name":"sfx_title_voice",
   "parent":{
     "name":"Sound Effects",

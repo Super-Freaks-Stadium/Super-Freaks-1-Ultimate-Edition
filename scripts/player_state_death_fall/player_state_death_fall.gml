@@ -19,6 +19,7 @@ function player_state_death_fall()
 			
 		sprite_index = player_animation_get(character_index, player_animations.death);
 		image_index = 0;
+        star_arrow = 0;
 			
 		sfx_play_global(player_fallsound_get(character_index));
 		

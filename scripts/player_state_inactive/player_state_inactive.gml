@@ -10,6 +10,7 @@ function player_state_inactive()
 		rubber_band_can_slingshot = false;
 		aura = 0;
 		jump_strength = JUMP_STRENGTH_MIN;
+        star_arrow = 0;
 	}
 	
 	//if (button_jump == controls_action_states.press)

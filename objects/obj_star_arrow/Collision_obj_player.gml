@@ -19,6 +19,7 @@ with (other)
 	lock_controls_vertical = _launch_duration;
 	lock_friction = _launch_duration;
 	lock_gravity = _launch_duration;
+    star_arrow = _launch_duration;
 	player_physics_set_normal();
 }
 

@@ -20,6 +20,7 @@ var _heart_zoom = 32;
 var _heart_meter_zoom = _heart_zoom / 100;
 var _show_heart = (global.story_mode == story_modes.super_freaks || global.turbo.mode);
 var _turbo_meter_lerp = 32 / TURBO_TIME_MAX;
+var _heart_move_vertical = lengthdir_x(min(8, heart_shake), heart_radius) + yorb_effect;
 
 #region Draw Water
 	water_draw();
@@ -157,9 +158,14 @@ var _turbo_meter_lerp = 32 / TURBO_TIME_MAX;
                         draw_set_font(global.font_12); 
                         draw_set_halign(fa_center);
     					draw_set_valign(fa_middle); 
-                        draw_sprite(spr_HUD_clock, 0, _view_x1, _view_y1 + _screen_height - 32 + yorb_effect); 
-                        draw_sprite_part(spr_HUD_clock, 1, 0, 32 - (global.turbo.time_visual * _turbo_meter_lerp), 32, (global.turbo.time_visual * _turbo_meter_lerp), _view_x1, _view_y1 + _screen_height - (global.turbo.time_visual * _turbo_meter_lerp) + yorb_effect); 
-                        draw_text(_view_x1 + 16, _view_y1 + _screen_height - 16 + yorb_effect, floor(global.turbo.time_visual));
+                        draw_sprite(spr_HUD_clock, 0, _view_x1, _view_y1 + _screen_height - 32 + _heart_move_vertical); 
+                        draw_sprite_part(spr_HUD_clock, 1, 0, 32 - (global.turbo.time_visual * _turbo_meter_lerp), 32, (global.turbo.time_visual * _turbo_meter_lerp), _view_x1, _view_y1 + _screen_height - (global.turbo.time_visual * _turbo_meter_lerp) + _heart_move_vertical); 
+                        draw_text(_view_x1 + 16, _view_y1 + _screen_height - 16 + _heart_move_vertical, floor(global.turbo.time_visual));
+                        if (abs(heart_shake) > 0)
+                        {
+                            draw_text(_view_x1 + 16, _view_y1 + _screen_height - 36 + yorb_effect, $"-{global.turbo.punish * 5}");
+                        }
+                            
                     }
                     else
                     {
@@ -168,9 +174,9 @@ var _turbo_meter_lerp = 32 / TURBO_TIME_MAX;
     						draw_set_font(global.font_12);
     						draw_set_halign(fa_center);
     						draw_set_valign(fa_middle);
-    					    draw_sprite(spr_HUD_heart, 0, _view_x1, _view_y1 + _screen_height - 32 + yorb_effect);
-    					    draw_sprite_part(spr_HUD_heart, 1, 0, 32 - (global.heart_meter * 0.32), 32, (global.heart_meter * 0.32), _view_x1, _view_y1 + _screen_height - (global.heart_meter * 0.32) + yorb_effect);
-    						draw_text(_view_x1 + 16, _view_y1 + _screen_height - 16 + yorb_effect, string(global.hearts));
+    					    draw_sprite(spr_HUD_heart, 0, _view_x1, _view_y1 + _screen_height - 32 + _heart_move_vertical);
+    					    draw_sprite_part(spr_HUD_heart, 1, 0, 32 - (global.heart_meter * 0.32), 32, (global.heart_meter * 0.32), _view_x1, _view_y1 + _screen_height - (global.heart_meter * 0.32) + _heart_move_vertical);
+    						draw_text(_view_x1 + 16, _view_y1 + _screen_height - 16 + _heart_move_vertical, string(global.hearts));
     					}
                     }
 				}

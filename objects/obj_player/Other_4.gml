@@ -59,6 +59,7 @@ lock_controls_horizontal = 0;
 lock_controls_vertical = 0;
 lock_friction = 0;
 lock_gravity = 0;
+star_arrow = 0;
 
 x_previous = x;
 y_previous = y;

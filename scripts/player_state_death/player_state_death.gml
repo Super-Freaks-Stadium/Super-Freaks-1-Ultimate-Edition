@@ -14,6 +14,7 @@ function player_state_death()
 		instance_attach = undefined;
 		aura = 0;
 		jump_strength = JUMP_STRENGTH_MIN;
+        star_arrow = 0;
 		
 		collider_attach_clear();
 		hitbox.active = hitbox_active.inactive;

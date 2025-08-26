@@ -57,6 +57,7 @@ switch (state)
 			image_index = 0;
 			animate_speed = 0.125;
 			timer = 0;
+            fast_forward = false;
 		}
 		
 		timer++;
@@ -67,6 +68,8 @@ switch (state)
 	case 3: //Shoot 3
 		if (state_begin)
 		{
+            if (fast)
+                fast_forward = true;
 			speed_walk = 0;
 			sprite_index = spr_boneblaster_shoot_3;
 			image_index = 0;

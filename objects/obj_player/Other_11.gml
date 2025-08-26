@@ -18,5 +18,8 @@ switch (state)
 		break;
 }
 
-if (invincible)
-	instance_create_layer(x - 12 + random(24), y - 12 + random(24), "layer_instances", obj_invincibility_stars);
+if (star_arrow > 0)
+{
+    instance_create_layer(x - 12 + random(24), y - 12 + random(24), "layer_instances", obj_yorb_collected_single);
+    star_arrow--;
+}

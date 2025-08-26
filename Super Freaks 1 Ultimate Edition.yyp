@@ -2059,6 +2059,7 @@
     {"id":{"name":"spr_freakyfreakpainting","path":"sprites/spr_freakyfreakpainting/spr_freakyfreakpainting.yy",},},
     {"id":{"name":"spr_fruit_tileset","path":"sprites/spr_fruit_tileset/spr_fruit_tileset.yy",},},
     {"id":{"name":"spr_fusedropper_orange","path":"sprites/spr_fusedropper_orange/spr_fusedropper_orange.yy",},},
+    {"id":{"name":"spr_fusedropper_prepare","path":"sprites/spr_fusedropper_prepare/spr_fusedropper_prepare.yy",},},
     {"id":{"name":"spr_fusey_danger","path":"sprites/spr_fusey_danger/spr_fusey_danger.yy",},},
     {"id":{"name":"spr_fusey_normal","path":"sprites/spr_fusey_normal/spr_fusey_normal.yy",},},
     {"id":{"name":"spr_gameover","path":"sprites/spr_gameover/spr_gameover.yy",},},

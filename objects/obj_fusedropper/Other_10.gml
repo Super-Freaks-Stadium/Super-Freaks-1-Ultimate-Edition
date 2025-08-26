@@ -88,4 +88,9 @@ if (timer >= timer_frequency)
 			break;
 	}
 	timer = 0;
+    sprite_index = spr_fusedropper_orange;
+}
+else if (timer > timer_frequency - 28)
+{
+    sprite_index = spr_fusedropper_prepare;
 }

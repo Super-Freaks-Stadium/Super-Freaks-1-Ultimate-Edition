@@ -28,6 +28,7 @@ function player_state_climb_pole()
 		rubber_band_can_slingshot = false;
 		physics = player_physics_modifiers.normal;
 		sprite_index = _sprite_climb;
+        star_arrow = 0;
 	}
 	
 	hurt_timer_step();

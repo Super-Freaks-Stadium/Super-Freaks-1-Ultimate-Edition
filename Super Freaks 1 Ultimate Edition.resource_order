@@ -1765,6 +1765,7 @@
     {"name":"spr_font_16","order":1,"path":"sprites/spr_font_16/spr_font_16.yy",},
     {"name":"spr_font_title_card","order":2,"path":"sprites/spr_font_title_card/spr_font_title_card.yy",},
     {"name":"spr_freakyfreakpainting","order":7,"path":"sprites/spr_freakyfreakpainting/spr_freakyfreakpainting.yy",},
+    {"name":"spr_fusedropper_prepare","order":1,"path":"sprites/spr_fusedropper_prepare/spr_fusedropper_prepare.yy",},
     {"name":"spr_fusey_danger","order":1,"path":"sprites/spr_fusey_danger/spr_fusey_danger.yy",},
     {"name":"spr_gameover","order":7,"path":"sprites/spr_gameover/spr_gameover.yy",},
     {"name":"spr_gravity_area_high","order":5,"path":"sprites/spr_gravity_area_high/spr_gravity_area_high.yy",},

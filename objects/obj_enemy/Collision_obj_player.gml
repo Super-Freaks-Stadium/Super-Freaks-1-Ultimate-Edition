@@ -44,7 +44,7 @@ switch (_hitbox_self.behavior)
 		}
 		else
 		{
-			if (other.ego_invincible > 0)
+			if (other.star_arrow > 0 || other.ego_invincible > 0)
 				_enemy_hurt = true;
 			else
 				_player_hurt = true;
@@ -78,7 +78,7 @@ switch (_hitbox_self.behavior)
 			}
 			else
 			{
-				if (ego_invincible > 0)
+				if (star_arrow > 0 || ego_invincible > 0)
 					_enemy_hurt = true;
 				else
 					_player_hurt = true;
@@ -128,7 +128,7 @@ switch (_hitbox_self.behavior)
 			}
 			else
 			{
-				if (ego_invincible > 0)
+				if (star_arrow > 0 || ego_invincible > 0)
 					_enemy_hurt = true;
 				else
 					_player_hurt = true;
@@ -175,7 +175,7 @@ switch (_hitbox_self.behavior)
 			}
 			else
 			{
-				if (ego_invincible > 0)
+				if (star_arrow > 0 || ego_invincible > 0)
 					_enemy_hurt = true;
 				else
 					_player_hurt = true;
@@ -201,7 +201,7 @@ switch (_hitbox_self.behavior)
 		{
 			if (hurt_timer == 0)
 			{
-				if (ego_invincible > 0)
+				if (star_arrow > 0 || ego_invincible > 0)
 					_enemy_hurt = true;
 				else
 					player_hurt();
@@ -213,7 +213,7 @@ switch (_hitbox_self.behavior)
 		{
 			if (hurt_timer == 0)
 			{
-				if (ego_invincible > 0)
+				if (star_arrow > 0 || ego_invincible > 0)
 					_enemy_hurt = true;
 				else
 					player_hurt();
@@ -235,7 +235,7 @@ switch (_hitbox_self.behavior)
 		}
 		break;
 	case enemy_hitbox_behaviors.die:
-		if (other.ego_invincible == 0)
+		if (other.star_arrow == 0 && other.ego_invincible == 0)
 			_player_hurt = true;
 		if (hurt_timer == 0)
 			event_user(5);

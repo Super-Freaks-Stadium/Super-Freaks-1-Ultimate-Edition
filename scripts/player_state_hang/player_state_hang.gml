@@ -18,6 +18,7 @@ function player_state_hang()
 		with (hitbox)
 			active = hitbox_active.active;
 		rubber_band_can_slingshot = false;
+        star_arrow = 0;
 	}
 	
 	animate_speed = 0;

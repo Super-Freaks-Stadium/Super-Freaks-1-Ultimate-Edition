@@ -7,6 +7,7 @@ function player_state_debug()
 		physics = player_physics_modifiers.normal;
 		ball = false;
 		rubber_band_can_slingshot = false;
+        star_arrow = 0;
 	}
 		
 	//if (button_left == controls_action_states.hold) || (button_left == controls_action_states.press)

@@ -224,7 +224,7 @@ function player_hurt()
 	if (room_transition_active_get())
 		exit;
 	
-	if (ego_invincible == 0 && hurt_timer == 0 && state != player_states.hurt && state != player_states.bubble)
+	if (star_arrow == 0 && ego_invincible == 0 && hurt_timer == 0 && state != player_states.hurt && state != player_states.bubble)
 	{
 		switch (global.story_mode)
 		{

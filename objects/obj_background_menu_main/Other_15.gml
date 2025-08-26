@@ -15,5 +15,5 @@ else
 {
 	draw_sprite_tiled(spr_menu_main_background, 0, 0, 0);
 }
-draw_set_alpha(0.5);
-draw_rectangle(_view_x1, _view_y1, view_x2_get(), view_y2_get(), false);
+//draw_set_alpha(0.5);
+//draw_rectangle(_view_x1, _view_y1, view_x2_get(), view_y2_get(), false);

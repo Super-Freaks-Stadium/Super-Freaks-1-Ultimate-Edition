@@ -94,7 +94,7 @@
     * Static Menu Background visual option upgraded into Motion Sickness Mode
     * Title Screen logo cleaned up (thanks again Jordan)
     * Manual is now a markdown file instead of a word document (oops), patch notes are their own markdown file
-* V3.1 - 20XX
+* V3.1 - August 24th, 2025
     * Gameplay Changes (some of these are huge so pay attention)
         * Movement speed increased by 0.25px so you're not so sluggish
         * Sprinting: run uninterrupted and you'll notice your speed continue to increase. You'll see your character start to kick up dust clouds when you're going quickly enough for you to notice.
@@ -105,3 +105,12 @@
         * Side effect of the above: Skizzorpede enemies are recoded from scratch and look much smoother AND actually explode into pieces when you kill them in Bad Guys Story. How awesome is that??? Woah!!!
     * Other
         * [New mod page at ModDB!](https://www.moddb.com/games/super-freaks-1-ultimate-edition) Hopefully this one won't randomly get taken down for no reason.
+* V3.1.1 - August 31st, 2025
+    * Gameplay Changes
+        * In Turbo, when you get hit, the clock will visibly shake and show you how much time you just lost. You can't lose any extra time while it's draining like this, so you shouldn't get combo'd quite as badly in multiplayer, as a nice side effect of this.
+        * Star Arrows will make you invincible while launching from them.
+        * Fusedroppers visibly puff up a bit before dropping their explosive payload.
+        * Boneblasters (the huge Doom revenant like guys in Conveyor Castle) will take the same amount of time to fire a missile regardless if Fast Forward is enabled. They were admittedly a little cheap with Fast Forward on!
+    * Other
+        * Recolored the Main Menu background--should look better than it did before but I'm willing to change it again!
+        * The title screen now says TUURRRRBOOOOOOOOOOOOO, lovingly provided by defnotreal_.

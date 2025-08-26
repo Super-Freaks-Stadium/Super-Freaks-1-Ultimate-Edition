@@ -137,8 +137,12 @@ function turbo_time_add(_amount = 1)
 /// @function turbo_time_hit
 function turbo_time_hit()
 {
-    global.turbo.time -= global.turbo.punish * 5;
-    global.turbo.punish++;
+    if (instance_exists(obj_gameplay_manager) && obj_gameplay_manager.heart_shake == 0)
+    {
+        obj_gameplay_manager.heart_shake = 24;
+        global.turbo.time -= global.turbo.punish * 5;
+        global.turbo.punish++;
+    }
 }
 
 /// @function yorb_collect_effect_multi

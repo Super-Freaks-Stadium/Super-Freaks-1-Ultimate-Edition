@@ -24,3 +24,4 @@ despawn_area[3] = sprite_get_bbox_bottom(sprite_index);
 
 state_next_set(0);
 timer = 0;
+fast = fast_forward;
