@@ -462,7 +462,7 @@
           1,15,-37,1,1,16,-15,-2147483648,1,15,-37,1,1,16,-15,-2147483648,1,15,-37,1,1,16,-15,41,1,15,-37,1,1,
           18,-15,10,1,17,-20,1,
         ],"TileDataFormat":1,},"tilesetId":{"name":"tileset_ship","path":"tilesets/tileset_ship/tileset_ship.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
-    {"$GMRBackgroundLayer":"","%Name":"layer_background","animationFPS":60.0,"animationSpeedType":0,"colour":4281346084,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"layer_background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
+    {"$GMRBackgroundLayer":"","%Name":"layer_background","animationFPS":60.0,"animationSpeedType":0,"colour":4281346084,"depth":2000,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":true,"inheritLayerDepth":true,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"layer_background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":true,"visible":true,"vspeed":0.0,"vtiled":true,"x":0,"y":0,},
   ],
   "name":"rm_ship_3",
   "parent":{

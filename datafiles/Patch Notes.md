@@ -105,7 +105,7 @@
         * Side effect of the above: Skizzorpede enemies are recoded from scratch and look much smoother AND actually explode into pieces when you kill them in Bad Guys Story. How awesome is that??? Woah!!!
     * Other
         * [New mod page at ModDB!](https://www.moddb.com/games/super-freaks-1-ultimate-edition) Hopefully this one won't randomly get taken down for no reason.
-* V3.1.1 - August 31st, 2025
+* V3.1.1 - August 26th, 2025
     * Gameplay Changes
         * In Turbo, when you get hit, the clock will visibly shake and show you how much time you just lost. You can't lose any extra time while it's draining like this, so you shouldn't get combo'd quite as badly in multiplayer, as a nice side effect of this.
         * Star Arrows will make you invincible while launching from them.
@@ -114,3 +114,5 @@
     * Other
         * Recolored the Main Menu background--should look better than it did before but I'm willing to change it again!
         * The title screen now says TUURRRRBOOOOOOOOOOOOO, lovingly provided by defnotreal_.
+* V3.1.1a - August 31st, 2025
+    * One of the backgrounds in Shipwreck Poopdeck somehow became a solid color. Yes I'm reexporting the entire game again for that!
