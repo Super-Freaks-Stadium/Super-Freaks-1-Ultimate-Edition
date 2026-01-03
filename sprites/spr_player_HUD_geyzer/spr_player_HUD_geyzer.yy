@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_HUD_geyzer",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"97e4a14b-65e2-4c1c-86b2-9ac1641338d1","name":"97e4a14b-65e2-4c1c-86b2-9ac1641338d1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"97e4a14b-65e2-4c1c-86b2-9ac1641338d1","name":"97e4a14b-65e2-4c1c-86b2-9ac1641338d1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

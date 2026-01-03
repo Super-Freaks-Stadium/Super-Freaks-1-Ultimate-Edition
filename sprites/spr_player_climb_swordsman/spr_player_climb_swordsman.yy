@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_climb_swordsman",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0f97807a-9309-42b9-862f-8836be2a861f","name":"0f97807a-9309-42b9-862f-8836be2a861f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"507d05a6-f6a3-4c58-9b97-6ab4290ac83c","name":"507d05a6-f6a3-4c58-9b97-6ab4290ac83c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0f97807a-9309-42b9-862f-8836be2a861f","name":"0f97807a-9309-42b9-862f-8836be2a861f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"507d05a6-f6a3-4c58-9b97-6ab4290ac83c","name":"507d05a6-f6a3-4c58-9b97-6ab4290ac83c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

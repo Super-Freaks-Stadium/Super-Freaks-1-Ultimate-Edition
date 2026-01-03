@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_slaypool",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"36b2f920-ce27-40af-81c9-c74e560f640c","name":"36b2f920-ce27-40af-81c9-c74e560f640c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d8883009-c731-4931-a58f-05a906ede0e9","name":"d8883009-c731-4931-a58f-05a906ede0e9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"36b2f920-ce27-40af-81c9-c74e560f640c","name":"36b2f920-ce27-40af-81c9-c74e560f640c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d8883009-c731-4931-a58f-05a906ede0e9","name":"d8883009-c731-4931-a58f-05a906ede0e9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

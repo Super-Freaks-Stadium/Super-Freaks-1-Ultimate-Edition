@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_hang_quincy_2006",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f3a83939-8a21-4c6d-9cae-4d08ebfca392","name":"f3a83939-8a21-4c6d-9cae-4d08ebfca392","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f3a83939-8a21-4c6d-9cae-4d08ebfca392","name":"f3a83939-8a21-4c6d-9cae-4d08ebfca392","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_tikiman",
   "bboxMode":0,
   "bbox_bottom":60,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cd597017-f609-448c-994d-c15e44550234","name":"cd597017-f609-448c-994d-c15e44550234","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"05d0baf9-12cb-41ea-90d7-37cb6e4abb06","name":"05d0baf9-12cb-41ea-90d7-37cb6e4abb06","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cd597017-f609-448c-994d-c15e44550234","name":"cd597017-f609-448c-994d-c15e44550234","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"05d0baf9-12cb-41ea-90d7-37cb6e4abb06","name":"05d0baf9-12cb-41ea-90d7-37cb6e4abb06","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

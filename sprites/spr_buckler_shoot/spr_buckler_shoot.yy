@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_buckler_shoot",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"456d5fa5-675a-4316-b67f-12ba751d53b3","name":"456d5fa5-675a-4316-b67f-12ba751d53b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2324469a-fba3-4e8a-bba0-bdfcbe8260da","name":"2324469a-fba3-4e8a-bba0-bdfcbe8260da","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"456d5fa5-675a-4316-b67f-12ba751d53b3","name":"456d5fa5-675a-4316-b67f-12ba751d53b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2324469a-fba3-4e8a-bba0-bdfcbe8260da","name":"2324469a-fba3-4e8a-bba0-bdfcbe8260da","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

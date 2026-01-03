@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_sky_tileset",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"50664fd4-09d5-45ff-a1b7-30ab6bc75af2","name":"50664fd4-09d5-45ff-a1b7-30ab6bc75af2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"50664fd4-09d5-45ff-a1b7-30ab6bc75af2","name":"50664fd4-09d5-45ff-a1b7-30ab6bc75af2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

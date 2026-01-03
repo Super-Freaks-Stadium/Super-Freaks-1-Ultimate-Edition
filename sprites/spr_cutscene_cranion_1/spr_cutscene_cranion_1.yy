@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_cranion_1",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"108c1df8-20d4-4766-bfa9-a75ad713aa22","name":"108c1df8-20d4-4766-bfa9-a75ad713aa22","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"108c1df8-20d4-4766-bfa9-a75ad713aa22","name":"108c1df8-20d4-4766-bfa9-a75ad713aa22","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

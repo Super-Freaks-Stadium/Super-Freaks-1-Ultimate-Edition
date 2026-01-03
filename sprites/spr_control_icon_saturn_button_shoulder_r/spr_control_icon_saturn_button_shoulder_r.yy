@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_control_icon_saturn_button_shoulder_r",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f1a39956-9053-4705-9f4c-9a1bc6d3dddd","name":"f1a39956-9053-4705-9f4c-9a1bc6d3dddd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"594ff638-81a8-4a28-8c79-d6aac591dc7b","name":"594ff638-81a8-4a28-8c79-d6aac591dc7b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f1a39956-9053-4705-9f4c-9a1bc6d3dddd","name":"f1a39956-9053-4705-9f4c-9a1bc6d3dddd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"594ff638-81a8-4a28-8c79-d6aac591dc7b","name":"594ff638-81a8-4a28-8c79-d6aac591dc7b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

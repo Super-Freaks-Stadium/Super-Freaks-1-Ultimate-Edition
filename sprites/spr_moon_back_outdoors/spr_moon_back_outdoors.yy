@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_moon_back_outdoors",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"83a54efb-b581-4209-8903-6e2cda047052","name":"83a54efb-b581-4209-8903-6e2cda047052","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c8f6a1ad-1ac0-42ec-9f30-53ddcdcd33d4","name":"c8f6a1ad-1ac0-42ec-9f30-53ddcdcd33d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"83a54efb-b581-4209-8903-6e2cda047052","name":"83a54efb-b581-4209-8903-6e2cda047052","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c8f6a1ad-1ac0-42ec-9f30-53ddcdcd33d4","name":"c8f6a1ad-1ac0-42ec-9f30-53ddcdcd33d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

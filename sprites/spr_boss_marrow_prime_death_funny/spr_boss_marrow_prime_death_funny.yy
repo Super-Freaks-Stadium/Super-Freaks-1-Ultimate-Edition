@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_marrow_prime_death_funny",
   "bboxMode":0,
   "bbox_bottom":182,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dc94aba0-07ee-4d2b-9e0d-a3e9f63836d0","name":"dc94aba0-07ee-4d2b-9e0d-a3e9f63836d0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dc94aba0-07ee-4d2b-9e0d-a3e9f63836d0","name":"dc94aba0-07ee-4d2b-9e0d-a3e9f63836d0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

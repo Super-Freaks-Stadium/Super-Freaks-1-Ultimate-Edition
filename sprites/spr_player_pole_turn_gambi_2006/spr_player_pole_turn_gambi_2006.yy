@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_gambi_2006",
   "bboxMode":0,
   "bbox_bottom":59,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9b7b9919-5cdb-46f2-b2e1-1f34b4711bbe","name":"9b7b9919-5cdb-46f2-b2e1-1f34b4711bbe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e0313b74-affb-45aa-9cce-bde5a0221083","name":"e0313b74-affb-45aa-9cce-bde5a0221083","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9b7b9919-5cdb-46f2-b2e1-1f34b4711bbe","name":"9b7b9919-5cdb-46f2-b2e1-1f34b4711bbe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e0313b74-affb-45aa-9cce-bde5a0221083","name":"e0313b74-affb-45aa-9cce-bde5a0221083","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

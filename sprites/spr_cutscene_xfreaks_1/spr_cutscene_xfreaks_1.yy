@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_xfreaks_1",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7953c827-208c-42fa-9a7e-4f3ba2fcaa1b","name":"7953c827-208c-42fa-9a7e-4f3ba2fcaa1b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7953c827-208c-42fa-9a7e-4f3ba2fcaa1b","name":"7953c827-208c-42fa-9a7e-4f3ba2fcaa1b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

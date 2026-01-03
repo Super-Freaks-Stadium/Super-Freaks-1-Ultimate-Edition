@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_hurt_gambi_2006",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4972fa2a-6d0b-48ff-8c28-d437fc9cea77","name":"4972fa2a-6d0b-48ff-8c28-d437fc9cea77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4972fa2a-6d0b-48ff-8c28-d437fc9cea77","name":"4972fa2a-6d0b-48ff-8c28-d437fc9cea77","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

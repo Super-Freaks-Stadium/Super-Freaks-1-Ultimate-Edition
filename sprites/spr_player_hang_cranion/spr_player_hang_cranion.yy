@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_hang_cranion",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1eb0d497-a5c4-447a-b2f8-0aacd596cb5e","name":"1eb0d497-a5c4-447a-b2f8-0aacd596cb5e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1eb0d497-a5c4-447a-b2f8-0aacd596cb5e","name":"1eb0d497-a5c4-447a-b2f8-0aacd596cb5e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

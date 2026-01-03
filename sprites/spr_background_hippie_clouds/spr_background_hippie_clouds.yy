@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_background_hippie_clouds",
   "bboxMode":0,
   "bbox_bottom":49,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f574d1b1-9f04-4e0b-8262-6edd0658f49e","name":"f574d1b1-9f04-4e0b-8262-6edd0658f49e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f574d1b1-9f04-4e0b-8262-6edd0658f49e","name":"f574d1b1-9f04-4e0b-8262-6edd0658f49e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

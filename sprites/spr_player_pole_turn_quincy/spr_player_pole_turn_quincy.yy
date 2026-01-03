@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_quincy",
   "bboxMode":0,
   "bbox_bottom":62,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"89c21c4b-0077-49ca-8885-1c5c904ad5d2","name":"89c21c4b-0077-49ca-8885-1c5c904ad5d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f9281654-5701-431a-930e-f6ea41a3fcb4","name":"f9281654-5701-431a-930e-f6ea41a3fcb4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"89c21c4b-0077-49ca-8885-1c5c904ad5d2","name":"89c21c4b-0077-49ca-8885-1c5c904ad5d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f9281654-5701-431a-930e-f6ea41a3fcb4","name":"f9281654-5701-431a-930e-f6ea41a3fcb4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

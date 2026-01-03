@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_death_professor_t",
   "bboxMode":0,
   "bbox_bottom":62,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b4c8da51-f63f-4d9c-9beb-a6d0294e1b85","name":"b4c8da51-f63f-4d9c-9beb-a6d0294e1b85","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b4c8da51-f63f-4d9c-9beb-a6d0294e1b85","name":"b4c8da51-f63f-4d9c-9beb-a6d0294e1b85","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

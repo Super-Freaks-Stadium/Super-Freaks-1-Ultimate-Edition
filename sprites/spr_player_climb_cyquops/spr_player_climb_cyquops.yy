@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_climb_cyquops",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"515ed36b-f37d-406e-aacf-566334d7c4e1","name":"515ed36b-f37d-406e-aacf-566334d7c4e1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c56bf723-ec0c-47c3-8bff-3c10224a3764","name":"c56bf723-ec0c-47c3-8bff-3c10224a3764","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"515ed36b-f37d-406e-aacf-566334d7c4e1","name":"515ed36b-f37d-406e-aacf-566334d7c4e1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c56bf723-ec0c-47c3-8bff-3c10224a3764","name":"c56bf723-ec0c-47c3-8bff-3c10224a3764","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

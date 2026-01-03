@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_skull_turret_off",
   "bboxMode":0,
   "bbox_bottom":39,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6b3caad0-cb94-497b-8b6e-f3b3fdefa880","name":"6b3caad0-cb94-497b-8b6e-f3b3fdefa880","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6b3caad0-cb94-497b-8b6e-f3b3fdefa880","name":"6b3caad0-cb94-497b-8b6e-f3b3fdefa880","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

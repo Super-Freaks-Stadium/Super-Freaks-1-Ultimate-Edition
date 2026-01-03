@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_air_gambi_2006",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"8d8938b9-a1d3-4459-8edc-4d39f835ec18","name":"8d8938b9-a1d3-4459-8edc-4d39f835ec18","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ab6ee6c1-3f8a-4610-916b-dd78e78023af","name":"ab6ee6c1-3f8a-4610-916b-dd78e78023af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"09e0169a-9b01-4dac-9826-2a39c9e3f2d7","name":"09e0169a-9b01-4dac-9826-2a39c9e3f2d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8d8938b9-a1d3-4459-8edc-4d39f835ec18","name":"8d8938b9-a1d3-4459-8edc-4d39f835ec18","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ab6ee6c1-3f8a-4610-916b-dd78e78023af","name":"ab6ee6c1-3f8a-4610-916b-dd78e78023af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"09e0169a-9b01-4dac-9826-2a39c9e3f2d7","name":"09e0169a-9b01-4dac-9826-2a39c9e3f2d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

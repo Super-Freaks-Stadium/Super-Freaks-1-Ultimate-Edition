@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_kranion",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c7c6ea65-b212-4be2-90d5-acbbcc13e794","name":"c7c6ea65-b212-4be2-90d5-acbbcc13e794","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a03c1e69-d85f-4280-9067-8fc3a59c6fc5","name":"a03c1e69-d85f-4280-9067-8fc3a59c6fc5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c7c6ea65-b212-4be2-90d5-acbbcc13e794","name":"c7c6ea65-b212-4be2-90d5-acbbcc13e794","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a03c1e69-d85f-4280-9067-8fc3a59c6fc5","name":"a03c1e69-d85f-4280-9067-8fc3a59c6fc5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

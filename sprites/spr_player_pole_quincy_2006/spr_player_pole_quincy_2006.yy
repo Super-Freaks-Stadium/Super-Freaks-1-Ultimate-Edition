@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_quincy_2006",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0e35ec2c-370a-4023-99bd-300fbf0d20fe","name":"0e35ec2c-370a-4023-99bd-300fbf0d20fe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"44f4cf59-afaf-447a-9f47-ca5efbb4beb6","name":"44f4cf59-afaf-447a-9f47-ca5efbb4beb6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0e35ec2c-370a-4023-99bd-300fbf0d20fe","name":"0e35ec2c-370a-4023-99bd-300fbf0d20fe","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"44f4cf59-afaf-447a-9f47-ca5efbb4beb6","name":"44f4cf59-afaf-447a-9f47-ca5efbb4beb6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

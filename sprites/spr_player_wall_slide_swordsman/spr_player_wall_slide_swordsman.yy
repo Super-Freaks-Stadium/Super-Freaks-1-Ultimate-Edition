@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_wall_slide_swordsman",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a17aee76-5e3d-42d9-8f09-85b1d1bd3518","name":"a17aee76-5e3d-42d9-8f09-85b1d1bd3518","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a17aee76-5e3d-42d9-8f09-85b1d1bd3518","name":"a17aee76-5e3d-42d9-8f09-85b1d1bd3518","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

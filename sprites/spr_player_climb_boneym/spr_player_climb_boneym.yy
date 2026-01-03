@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_climb_boneym",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"efdd5f81-a214-4437-baca-5320feaa8d6b","name":"efdd5f81-a214-4437-baca-5320feaa8d6b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ef3ae57e-be67-416c-babf-1aa4b51f2e2a","name":"ef3ae57e-be67-416c-babf-1aa4b51f2e2a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"efdd5f81-a214-4437-baca-5320feaa8d6b","name":"efdd5f81-a214-4437-baca-5320feaa8d6b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ef3ae57e-be67-416c-babf-1aa4b51f2e2a","name":"ef3ae57e-be67-416c-babf-1aa4b51f2e2a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

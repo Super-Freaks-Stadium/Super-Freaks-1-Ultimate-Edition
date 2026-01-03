@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_kranion_death",
   "bboxMode":0,
   "bbox_bottom":127,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b670989b-ecfd-4ee4-9c0f-5b3ed74cef3b","name":"b670989b-ecfd-4ee4-9c0f-5b3ed74cef3b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b670989b-ecfd-4ee4-9c0f-5b3ed74cef3b","name":"b670989b-ecfd-4ee4-9c0f-5b3ed74cef3b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

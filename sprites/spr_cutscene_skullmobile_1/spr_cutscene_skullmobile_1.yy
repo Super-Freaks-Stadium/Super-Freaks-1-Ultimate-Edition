@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_skullmobile_1",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9aa25a05-52e4-465a-96da-09b19c1711c8","name":"9aa25a05-52e4-465a-96da-09b19c1711c8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d4059ad7-8f24-4b64-95ec-cd86b39bfcd3","name":"d4059ad7-8f24-4b64-95ec-cd86b39bfcd3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9aa25a05-52e4-465a-96da-09b19c1711c8","name":"9aa25a05-52e4-465a-96da-09b19c1711c8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d4059ad7-8f24-4b64-95ec-cd86b39bfcd3","name":"d4059ad7-8f24-4b64-95ec-cd86b39bfcd3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

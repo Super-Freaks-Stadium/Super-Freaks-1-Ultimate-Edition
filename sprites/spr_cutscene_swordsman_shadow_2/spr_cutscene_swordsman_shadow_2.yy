@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_swordsman_shadow_2",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7823cb64-4981-4e54-ae46-6c8c4afbdf00","name":"7823cb64-4981-4e54-ae46-6c8c4afbdf00","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7823cb64-4981-4e54-ae46-6c8c4afbdf00","name":"7823cb64-4981-4e54-ae46-6c8c4afbdf00","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

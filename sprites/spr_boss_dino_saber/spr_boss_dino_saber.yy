@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_dino_saber",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5b10fab3-84a9-4ce4-ae7c-d457f83a5a00","name":"5b10fab3-84a9-4ce4-ae7c-d457f83a5a00","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"217069ec-16d5-48de-ace7-ac4c6ca45793","name":"217069ec-16d5-48de-ace7-ac4c6ca45793","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5b10fab3-84a9-4ce4-ae7c-d457f83a5a00","name":"5b10fab3-84a9-4ce4-ae7c-d457f83a5a00","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"217069ec-16d5-48de-ace7-ac4c6ca45793","name":"217069ec-16d5-48de-ace7-ac4c6ca45793","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

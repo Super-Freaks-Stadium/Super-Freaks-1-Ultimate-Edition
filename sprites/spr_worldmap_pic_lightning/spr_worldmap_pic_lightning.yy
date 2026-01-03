@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_worldmap_pic_lightning",
   "bboxMode":0,
   "bbox_bottom":195,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"43403e1d-ac67-4163-9329-32bc10994c07","name":"43403e1d-ac67-4163-9329-32bc10994c07","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"43403e1d-ac67-4163-9329-32bc10994c07","name":"43403e1d-ac67-4163-9329-32bc10994c07","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

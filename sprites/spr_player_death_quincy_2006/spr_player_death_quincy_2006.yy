@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_death_quincy_2006",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a6795c9b-a44e-4dd0-ae97-3facb8b98124","name":"a6795c9b-a44e-4dd0-ae97-3facb8b98124","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a6795c9b-a44e-4dd0-ae97-3facb8b98124","name":"a6795c9b-a44e-4dd0-ae97-3facb8b98124","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

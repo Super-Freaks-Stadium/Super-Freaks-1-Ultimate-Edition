@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_dino_ship",
   "bboxMode":0,
   "bbox_bottom":111,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"25b25158-2aed-43f2-a02f-6b059c630024","name":"25b25158-2aed-43f2-a02f-6b059c630024","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b8a64c35-e909-46bc-a497-544cfea2af82","name":"b8a64c35-e909-46bc-a497-544cfea2af82","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"25b25158-2aed-43f2-a02f-6b059c630024","name":"25b25158-2aed-43f2-a02f-6b059c630024","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b8a64c35-e909-46bc-a497-544cfea2af82","name":"b8a64c35-e909-46bc-a497-544cfea2af82","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

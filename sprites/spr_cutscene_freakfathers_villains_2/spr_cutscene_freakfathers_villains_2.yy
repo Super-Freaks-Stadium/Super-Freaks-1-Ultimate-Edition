@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_freakfathers_villains_2",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d420c3c2-c78c-4e11-916b-ab4e2eb7e872","name":"d420c3c2-c78c-4e11-916b-ab4e2eb7e872","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d420c3c2-c78c-4e11-916b-ab4e2eb7e872","name":"d420c3c2-c78c-4e11-916b-ab4e2eb7e872","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

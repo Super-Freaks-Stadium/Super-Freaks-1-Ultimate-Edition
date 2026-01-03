@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_air_tikiman_2006",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"26ce3f27-2762-4c08-b6a9-c2ea3eca9cdc","name":"26ce3f27-2762-4c08-b6a9-c2ea3eca9cdc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f479934b-d8de-474d-aaee-e0b63dcfd339","name":"f479934b-d8de-474d-aaee-e0b63dcfd339","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"73e33bf8-e75a-490d-825e-e325d3d271c9","name":"73e33bf8-e75a-490d-825e-e325d3d271c9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"26ce3f27-2762-4c08-b6a9-c2ea3eca9cdc","name":"26ce3f27-2762-4c08-b6a9-c2ea3eca9cdc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f479934b-d8de-474d-aaee-e0b63dcfd339","name":"f479934b-d8de-474d-aaee-e0b63dcfd339","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"73e33bf8-e75a-490d-825e-e325d3d271c9","name":"73e33bf8-e75a-490d-825e-e325d3d271c9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

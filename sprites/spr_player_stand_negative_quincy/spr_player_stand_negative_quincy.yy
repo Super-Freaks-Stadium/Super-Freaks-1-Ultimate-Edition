@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_stand_negative_quincy",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bb937cc0-b2f8-4a48-a49e-6d004b4aa276","name":"bb937cc0-b2f8-4a48-a49e-6d004b4aa276","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bb937cc0-b2f8-4a48-a49e-6d004b4aa276","name":"bb937cc0-b2f8-4a48-a49e-6d004b4aa276","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

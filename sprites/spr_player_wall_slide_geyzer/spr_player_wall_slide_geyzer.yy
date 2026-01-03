@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_wall_slide_geyzer",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2c11c8e5-a4cb-4796-a77e-f8f4ac1ae6a5","name":"2c11c8e5-a4cb-4796-a77e-f8f4ac1ae6a5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2c11c8e5-a4cb-4796-a77e-f8f4ac1ae6a5","name":"2c11c8e5-a4cb-4796-a77e-f8f4ac1ae6a5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

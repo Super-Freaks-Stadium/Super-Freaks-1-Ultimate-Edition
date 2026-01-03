@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_character_select_quincy_2006",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f6af108a-e9e2-4012-800f-7d2eb2c2b6e1","name":"f6af108a-e9e2-4012-800f-7d2eb2c2b6e1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f6af108a-e9e2-4012-800f-7d2eb2c2b6e1","name":"f6af108a-e9e2-4012-800f-7d2eb2c2b6e1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

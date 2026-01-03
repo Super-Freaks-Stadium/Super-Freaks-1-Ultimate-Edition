@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_francis_cockpit_normal",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3ace4cd6-8b8e-42a1-aaa6-bddee5912876","name":"3ace4cd6-8b8e-42a1-aaa6-bddee5912876","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"982f757e-cc6c-43fb-bb96-a85bbae1266d","name":"982f757e-cc6c-43fb-bb96-a85bbae1266d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"913407bf-4345-4e8f-a1ba-41e26ba33aee","name":"913407bf-4345-4e8f-a1ba-41e26ba33aee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"22f34f1c-ceb1-4dc8-939a-2194ba4d69c5","name":"22f34f1c-ceb1-4dc8-939a-2194ba4d69c5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3ace4cd6-8b8e-42a1-aaa6-bddee5912876","name":"3ace4cd6-8b8e-42a1-aaa6-bddee5912876","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"982f757e-cc6c-43fb-bb96-a85bbae1266d","name":"982f757e-cc6c-43fb-bb96-a85bbae1266d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"913407bf-4345-4e8f-a1ba-41e26ba33aee","name":"913407bf-4345-4e8f-a1ba-41e26ba33aee","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"22f34f1c-ceb1-4dc8-939a-2194ba4d69c5","name":"22f34f1c-ceb1-4dc8-939a-2194ba4d69c5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

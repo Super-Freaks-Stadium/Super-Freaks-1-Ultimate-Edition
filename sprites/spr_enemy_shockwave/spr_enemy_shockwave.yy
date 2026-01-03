@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_enemy_shockwave",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"62e7b60b-2e9b-41e1-b422-db9452450b03","name":"62e7b60b-2e9b-41e1-b422-db9452450b03","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cb0424b9-4204-4de5-af5b-46603c84c1db","name":"cb0424b9-4204-4de5-af5b-46603c84c1db","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"62e7b60b-2e9b-41e1-b422-db9452450b03","name":"62e7b60b-2e9b-41e1-b422-db9452450b03","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cb0424b9-4204-4de5-af5b-46603c84c1db","name":"cb0424b9-4204-4de5-af5b-46603c84c1db","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

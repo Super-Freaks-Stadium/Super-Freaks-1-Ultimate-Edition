@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_intro_kranion_6",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bdaeec41-1758-47a7-aa1b-d50b2f3bfbfd","name":"bdaeec41-1758-47a7-aa1b-d50b2f3bfbfd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bdaeec41-1758-47a7-aa1b-d50b2f3bfbfd","name":"bdaeec41-1758-47a7-aa1b-d50b2f3bfbfd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

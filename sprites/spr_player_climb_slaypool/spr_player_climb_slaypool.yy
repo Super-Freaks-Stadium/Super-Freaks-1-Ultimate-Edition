@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_climb_slaypool",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"39027091-3a70-42bc-a51b-48185f5eb620","name":"39027091-3a70-42bc-a51b-48185f5eb620","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"62012988-c6f1-496d-a674-be6e2bd8bf84","name":"62012988-c6f1-496d-a674-be6e2bd8bf84","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"39027091-3a70-42bc-a51b-48185f5eb620","name":"39027091-3a70-42bc-a51b-48185f5eb620","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"62012988-c6f1-496d-a674-be6e2bd8bf84","name":"62012988-c6f1-496d-a674-be6e2bd8bf84","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

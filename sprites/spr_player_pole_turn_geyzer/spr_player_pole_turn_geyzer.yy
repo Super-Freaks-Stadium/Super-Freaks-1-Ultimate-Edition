@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_geyzer",
   "bboxMode":0,
   "bbox_bottom":61,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"53545a27-c70d-4675-8d6f-9c05e2f5574a","name":"53545a27-c70d-4675-8d6f-9c05e2f5574a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ab11b84d-62e3-4488-8162-a45a672f10d5","name":"ab11b84d-62e3-4488-8162-a45a672f10d5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"53545a27-c70d-4675-8d6f-9c05e2f5574a","name":"53545a27-c70d-4675-8d6f-9c05e2f5574a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ab11b84d-62e3-4488-8162-a45a672f10d5","name":"ab11b84d-62e3-4488-8162-a45a672f10d5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

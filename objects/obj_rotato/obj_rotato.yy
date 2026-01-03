@@ -33,9 +33,9 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"angle_start","filters":[],"listItems":[],"multiselect":false,"name":"angle_start","rangeEnabled":true,"rangeMax":359.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"angle_speed","filters":[],"listItems":[],"multiselect":false,"name":"angle_speed","rangeEnabled":true,"rangeMax":8.0,"rangeMin":-8.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"spikeball_distance","filters":[],"listItems":[],"multiselect":false,"name":"spikeball_distance","rangeEnabled":true,"rangeMax":320.0,"rangeMin":48.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"48","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"angle_start","filters":[],"listItems":[],"multiselect":false,"name":"angle_start","rangeEnabled":true,"rangeMax":359.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"angle_speed","filters":[],"listItems":[],"multiselect":false,"name":"angle_speed","rangeEnabled":true,"rangeMax":8.0,"rangeMin":-8.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"spikeball_distance","filters":[],"listItems":[],"multiselect":false,"name":"spikeball_distance","rangeEnabled":true,"rangeMax":320.0,"rangeMin":48.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"48","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

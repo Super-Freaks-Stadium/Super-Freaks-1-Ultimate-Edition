@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_HUD_professor_t",
   "bboxMode":0,
   "bbox_bottom":27,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e08cd95b-e2f0-44ed-9b9d-6410f21fd083","name":"e08cd95b-e2f0-44ed-9b9d-6410f21fd083","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e08cd95b-e2f0-44ed-9b9d-6410f21fd083","name":"e08cd95b-e2f0-44ed-9b9d-6410f21fd083","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

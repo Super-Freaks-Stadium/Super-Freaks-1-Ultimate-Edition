@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_wartnose_cup",
   "bboxMode":0,
   "bbox_bottom":127,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"54e407a7-6b78-4ac3-b70e-f60bbcf88904","name":"54e407a7-6b78-4ac3-b70e-f60bbcf88904","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"54e407a7-6b78-4ac3-b70e-f60bbcf88904","name":"54e407a7-6b78-4ac3-b70e-f60bbcf88904","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

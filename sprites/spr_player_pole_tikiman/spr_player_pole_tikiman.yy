@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_tikiman",
   "bboxMode":0,
   "bbox_bottom":61,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"97ab5da0-fe42-4aaa-823d-f7fafae4a09f","name":"97ab5da0-fe42-4aaa-823d-f7fafae4a09f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"dfdff281-62d1-407d-846c-7876392cd94f","name":"dfdff281-62d1-407d-846c-7876392cd94f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"97ab5da0-fe42-4aaa-823d-f7fafae4a09f","name":"97ab5da0-fe42-4aaa-823d-f7fafae4a09f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dfdff281-62d1-407d-846c-7876392cd94f","name":"dfdff281-62d1-407d-846c-7876392cd94f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

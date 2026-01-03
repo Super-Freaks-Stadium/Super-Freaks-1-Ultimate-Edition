@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_worldmap_pic_larry",
   "bboxMode":0,
   "bbox_bottom":195,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1a38dd72-d35c-4270-a4a7-8a8fe3a808fd","name":"1a38dd72-d35c-4270-a4a7-8a8fe3a808fd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1a38dd72-d35c-4270-a4a7-8a8fe3a808fd","name":"1a38dd72-d35c-4270-a4a7-8a8fe3a808fd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

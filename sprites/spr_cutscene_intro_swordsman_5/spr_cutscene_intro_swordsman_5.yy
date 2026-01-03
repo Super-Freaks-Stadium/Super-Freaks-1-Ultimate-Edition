@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_intro_swordsman_5",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"24c12cb5-5c03-4a00-ab1b-a9060bf772ba","name":"24c12cb5-5c03-4a00-ab1b-a9060bf772ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"24c12cb5-5c03-4a00-ab1b-a9060bf772ba","name":"24c12cb5-5c03-4a00-ab1b-a9060bf772ba","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

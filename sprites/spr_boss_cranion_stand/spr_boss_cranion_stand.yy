@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_cranion_stand",
   "bboxMode":0,
   "bbox_bottom":127,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b7d1a0af-44c7-433f-befd-8e352492cda6","name":"b7d1a0af-44c7-433f-befd-8e352492cda6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d5f66f42-b804-4e9e-bce3-5c5e041eb2b0","name":"d5f66f42-b804-4e9e-bce3-5c5e041eb2b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b7d1a0af-44c7-433f-befd-8e352492cda6","name":"b7d1a0af-44c7-433f-befd-8e352492cda6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d5f66f42-b804-4e9e-bce3-5c5e041eb2b0","name":"d5f66f42-b804-4e9e-bce3-5c5e041eb2b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

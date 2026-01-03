@@ -30,11 +30,11 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"can_despawn","filters":[],"listItems":[],"multiselect":false,"name":"can_despawn","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"zone_index","filters":[],"listItems":[],"multiselect":false,"name":"zone_index","rangeEnabled":true,"rangeMax":255.0,"rangeMin":-3.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"level_id","filters":[],"listItems":[],"multiselect":false,"name":"level_id","rangeEnabled":true,"rangeMax":255.0,"rangeMin":-1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"fast_forward","filters":[],"listItems":[],"multiselect":false,"name":"fast_forward","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
-    {"$GMObjectProperty":"v1","%Name":"difficulty","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"can_despawn","filters":[],"listItems":[],"multiselect":false,"name":"can_despawn","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"zone_index","filters":[],"listItems":[],"multiselect":false,"name":"zone_index","rangeEnabled":true,"rangeMax":255.0,"rangeMin":-3.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"level_id","filters":[],"listItems":[],"multiselect":false,"name":"level_id","rangeEnabled":true,"rangeMax":255.0,"rangeMin":-1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"fast_forward","filters":[],"listItems":[],"multiselect":false,"name":"fast_forward","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"True","varType":3,},
+    {"$GMObjectProperty":"v2","%Name":"difficulty","filters":[],"listItems":[
         "\"Easy\"",
         "\"Normal\"",
         "\"Hard\"",

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_gunnery_shoot",
   "bboxMode":0,
   "bbox_bottom":94,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f2fd5815-cf56-48c5-aca0-6193c6ba2df8","name":"f2fd5815-cf56-48c5-aca0-6193c6ba2df8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a13b9193-685e-401b-b605-d6422c82e246","name":"a13b9193-685e-401b-b605-d6422c82e246","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f2fd5815-cf56-48c5-aca0-6193c6ba2df8","name":"f2fd5815-cf56-48c5-aca0-6193c6ba2df8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a13b9193-685e-401b-b605-d6422c82e246","name":"a13b9193-685e-401b-b605-d6422c82e246","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

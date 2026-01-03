@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_cinge_death",
   "bboxMode":0,
   "bbox_bottom":159,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"96db0d0a-48ea-425e-9bdb-dff413c6c4ac","name":"96db0d0a-48ea-425e-9bdb-dff413c6c4ac","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b4a65925-4db9-4506-9ebf-d9e4763b1bf4","name":"b4a65925-4db9-4506-9ebf-d9e4763b1bf4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"96db0d0a-48ea-425e-9bdb-dff413c6c4ac","name":"96db0d0a-48ea-425e-9bdb-dff413c6c4ac","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b4a65925-4db9-4506-9ebf-d9e4763b1bf4","name":"b4a65925-4db9-4506-9ebf-d9e4763b1bf4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

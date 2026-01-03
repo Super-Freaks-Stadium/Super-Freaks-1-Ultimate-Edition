@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_background_park_roller_coaster",
   "bboxMode":0,
   "bbox_bottom":319,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"52cea77a-d456-4241-885f-83d7368debea","name":"52cea77a-d456-4241-885f-83d7368debea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"35dd95b4-7ce1-4f32-a886-5540d414fe16","name":"35dd95b4-7ce1-4f32-a886-5540d414fe16","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"220df860-814d-492f-b874-3f39c5717e70","name":"220df860-814d-492f-b874-3f39c5717e70","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"52cea77a-d456-4241-885f-83d7368debea","name":"52cea77a-d456-4241-885f-83d7368debea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"35dd95b4-7ce1-4f32-a886-5540d414fe16","name":"35dd95b4-7ce1-4f32-a886-5540d414fe16","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"220df860-814d-492f-b874-3f39c5717e70","name":"220df860-814d-492f-b874-3f39c5717e70","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

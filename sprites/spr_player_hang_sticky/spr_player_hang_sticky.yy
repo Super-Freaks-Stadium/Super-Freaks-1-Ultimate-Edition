@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_hang_sticky",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3e3ea2f8-bb75-4e3b-b446-f2d9175c2f7d","name":"3e3ea2f8-bb75-4e3b-b446-f2d9175c2f7d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3e3ea2f8-bb75-4e3b-b446-f2d9175c2f7d","name":"3e3ea2f8-bb75-4e3b-b446-f2d9175c2f7d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

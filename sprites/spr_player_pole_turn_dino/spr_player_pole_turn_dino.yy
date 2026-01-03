@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_dino",
   "bboxMode":0,
   "bbox_bottom":62,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f0b2933a-7cfd-42db-aea4-2df76fc1a2f7","name":"f0b2933a-7cfd-42db-aea4-2df76fc1a2f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f100b87a-3793-48f1-b786-a59eac58334e","name":"f100b87a-3793-48f1-b786-a59eac58334e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f0b2933a-7cfd-42db-aea4-2df76fc1a2f7","name":"f0b2933a-7cfd-42db-aea4-2df76fc1a2f7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f100b87a-3793-48f1-b786-a59eac58334e","name":"f100b87a-3793-48f1-b786-a59eac58334e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

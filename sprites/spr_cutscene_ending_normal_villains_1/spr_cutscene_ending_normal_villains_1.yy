@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_ending_normal_villains_1",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3cbd4b41-fc45-46ab-9b22-0061eec5e49f","name":"3cbd4b41-fc45-46ab-9b22-0061eec5e49f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6262270b-682c-4ffd-90dd-9b9be6a6f3d6","name":"6262270b-682c-4ffd-90dd-9b9be6a6f3d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3cbd4b41-fc45-46ab-9b22-0061eec5e49f","name":"3cbd4b41-fc45-46ab-9b22-0061eec5e49f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6262270b-682c-4ffd-90dd-9b9be6a6f3d6","name":"6262270b-682c-4ffd-90dd-9b9be6a6f3d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

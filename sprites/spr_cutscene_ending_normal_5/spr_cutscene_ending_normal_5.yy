@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_ending_normal_5",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c55c2ceb-cf96-4d97-9661-d907a2a0dc20","name":"c55c2ceb-cf96-4d97-9661-d907a2a0dc20","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c55c2ceb-cf96-4d97-9661-d907a2a0dc20","name":"c55c2ceb-cf96-4d97-9661-d907a2a0dc20","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

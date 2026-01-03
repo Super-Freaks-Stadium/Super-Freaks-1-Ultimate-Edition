@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_professor_t",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e1574680-05a5-4590-a933-548b8f5e8d49","name":"e1574680-05a5-4590-a933-548b8f5e8d49","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1a82edb0-7544-402e-9a55-18574714ac82","name":"1a82edb0-7544-402e-9a55-18574714ac82","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e1574680-05a5-4590-a933-548b8f5e8d49","name":"e1574680-05a5-4590-a933-548b8f5e8d49","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1a82edb0-7544-402e-9a55-18574714ac82","name":"1a82edb0-7544-402e-9a55-18574714ac82","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

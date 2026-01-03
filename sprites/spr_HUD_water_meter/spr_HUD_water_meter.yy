@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_HUD_water_meter",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"af8b53e4-6d7b-45d5-999d-ded14a8315af","name":"af8b53e4-6d7b-45d5-999d-ded14a8315af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a90e2bb9-fbb2-4149-a5c1-955939104997","name":"a90e2bb9-fbb2-4149-a5c1-955939104997","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"95c3c84a-e2d5-4153-a9ec-9f4a8c9ac8f2","name":"95c3c84a-e2d5-4153-a9ec-9f4a8c9ac8f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"af8b53e4-6d7b-45d5-999d-ded14a8315af","name":"af8b53e4-6d7b-45d5-999d-ded14a8315af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a90e2bb9-fbb2-4149-a5c1-955939104997","name":"a90e2bb9-fbb2-4149-a5c1-955939104997","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"95c3c84a-e2d5-4153-a9ec-9f4a8c9ac8f2","name":"95c3c84a-e2d5-4153-a9ec-9f4a8c9ac8f2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

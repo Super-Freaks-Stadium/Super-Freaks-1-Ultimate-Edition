@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_HUD_trophy",
   "bboxMode":0,
   "bbox_bottom":29,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"77c9b13d-a5eb-4289-a5a8-f453b7ff8f0c","name":"77c9b13d-a5eb-4289-a5a8-f453b7ff8f0c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4c7ef11c-1e57-46d2-84d0-d87861b3cb40","name":"4c7ef11c-1e57-46d2-84d0-d87861b3cb40","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"77c9b13d-a5eb-4289-a5a8-f453b7ff8f0c","name":"77c9b13d-a5eb-4289-a5a8-f453b7ff8f0c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4c7ef11c-1e57-46d2-84d0-d87861b3cb40","name":"4c7ef11c-1e57-46d2-84d0-d87861b3cb40","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

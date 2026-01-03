@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_trash_can_man",
   "bboxMode":0,
   "bbox_bottom":62,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"079f09c5-840f-4b27-a911-dd76b1970bff","name":"079f09c5-840f-4b27-a911-dd76b1970bff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c19f507c-83bd-4186-84d5-058fbf5f4a31","name":"c19f507c-83bd-4186-84d5-058fbf5f4a31","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"079f09c5-840f-4b27-a911-dd76b1970bff","name":"079f09c5-840f-4b27-a911-dd76b1970bff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c19f507c-83bd-4186-84d5-058fbf5f4a31","name":"c19f507c-83bd-4186-84d5-058fbf5f4a31","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

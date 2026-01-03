@@ -1,5 +1,5 @@
 {
-  "$GMNotes":"",
+  "$GMNotes":"v1",
   "%Name":"Cutscenes - Kranion",
   "name":"Cutscenes - Kranion",
   "parent":{

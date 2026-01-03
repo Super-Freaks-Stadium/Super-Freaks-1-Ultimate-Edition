@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_HUD_scruffy_2006",
   "bboxMode":0,
   "bbox_bottom":30,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fa20d5ba-4ff6-4822-ba22-6df4d762dfae","name":"fa20d5ba-4ff6-4822-ba22-6df4d762dfae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fa20d5ba-4ff6-4822-ba22-6df4d762dfae","name":"fa20d5ba-4ff6-4822-ba22-6df4d762dfae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_HUD_scruffy",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"52ecf577-3f99-453c-8527-f92cd4e96080","name":"52ecf577-3f99-453c-8527-f92cd4e96080","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b18b4ad5-1b7b-4312-8d5b-e8055d95e5df","name":"b18b4ad5-1b7b-4312-8d5b-e8055d95e5df","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"52ecf577-3f99-453c-8527-f92cd4e96080","name":"52ecf577-3f99-453c-8527-f92cd4e96080","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b18b4ad5-1b7b-4312-8d5b-e8055d95e5df","name":"b18b4ad5-1b7b-4312-8d5b-e8055d95e5df","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

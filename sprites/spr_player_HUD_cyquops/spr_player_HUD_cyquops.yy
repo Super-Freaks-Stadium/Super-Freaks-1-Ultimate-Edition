@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_HUD_cyquops",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fc94fbda-5c21-4acd-acfa-ef2a5c6bab63","name":"fc94fbda-5c21-4acd-acfa-ef2a5c6bab63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fc94fbda-5c21-4acd-acfa-ef2a5c6bab63","name":"fc94fbda-5c21-4acd-acfa-ef2a5c6bab63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

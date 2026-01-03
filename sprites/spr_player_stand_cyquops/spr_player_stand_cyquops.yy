@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_stand_cyquops",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7a9f33ed-4c1f-4480-8a2e-9fa3c21512ed","name":"7a9f33ed-4c1f-4480-8a2e-9fa3c21512ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7a9f33ed-4c1f-4480-8a2e-9fa3c21512ed","name":"7a9f33ed-4c1f-4480-8a2e-9fa3c21512ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_character_select_scruffy",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a1a105e7-d57f-4d5c-8cd6-c79f4d0f33d6","name":"a1a105e7-d57f-4d5c-8cd6-c79f4d0f33d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a1a105e7-d57f-4d5c-8cd6-c79f4d0f33d6","name":"a1a105e7-d57f-4d5c-8cd6-c79f4d0f33d6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

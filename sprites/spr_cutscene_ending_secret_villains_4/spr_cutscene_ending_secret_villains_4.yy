@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_ending_secret_villains_4",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"620a6f86-3f4d-4efb-beba-05667f461a6f","name":"620a6f86-3f4d-4efb-beba-05667f461a6f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"92cc6f90-ffdc-4ea0-bc56-c543c9c2a971","name":"92cc6f90-ffdc-4ea0-bc56-c543c9c2a971","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cdff79d7-ddb0-4626-a190-eaa99edc4f6b","name":"cdff79d7-ddb0-4626-a190-eaa99edc4f6b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0c4539e1-1aa8-4e05-91a7-9b8ef36873f9","name":"0c4539e1-1aa8-4e05-91a7-9b8ef36873f9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"620a6f86-3f4d-4efb-beba-05667f461a6f","name":"620a6f86-3f4d-4efb-beba-05667f461a6f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"92cc6f90-ffdc-4ea0-bc56-c543c9c2a971","name":"92cc6f90-ffdc-4ea0-bc56-c543c9c2a971","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cdff79d7-ddb0-4626-a190-eaa99edc4f6b","name":"cdff79d7-ddb0-4626-a190-eaa99edc4f6b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0c4539e1-1aa8-4e05-91a7-9b8ef36873f9","name":"0c4539e1-1aa8-4e05-91a7-9b8ef36873f9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

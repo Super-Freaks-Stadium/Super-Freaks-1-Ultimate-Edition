@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boneblaster_shoot_1",
   "bboxMode":0,
   "bbox_bottom":159,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"59723f41-2485-4df9-98a8-ebd92575b9c7","name":"59723f41-2485-4df9-98a8-ebd92575b9c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cf82192a-b8e5-4373-ae24-f6831aad1114","name":"cf82192a-b8e5-4373-ae24-f6831aad1114","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"59723f41-2485-4df9-98a8-ebd92575b9c7","name":"59723f41-2485-4df9-98a8-ebd92575b9c7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cf82192a-b8e5-4373-ae24-f6831aad1114","name":"cf82192a-b8e5-4373-ae24-f6831aad1114","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_climb_quincy_2006",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"257ecbc9-1524-46ec-b11c-072c657e90e1","name":"257ecbc9-1524-46ec-b11c-072c657e90e1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d9d23b85-5b96-45c1-8974-9ee9e8998187","name":"d9d23b85-5b96-45c1-8974-9ee9e8998187","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"257ecbc9-1524-46ec-b11c-072c657e90e1","name":"257ecbc9-1524-46ec-b11c-072c657e90e1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d9d23b85-5b96-45c1-8974-9ee9e8998187","name":"d9d23b85-5b96-45c1-8974-9ee9e8998187","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_HUD_gambi_2006",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f0c6cca9-e1d3-4de8-b1c6-2785d687d56a","name":"f0c6cca9-e1d3-4de8-b1c6-2785d687d56a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f0c6cca9-e1d3-4de8-b1c6-2785d687d56a","name":"f0c6cca9-e1d3-4de8-b1c6-2785d687d56a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

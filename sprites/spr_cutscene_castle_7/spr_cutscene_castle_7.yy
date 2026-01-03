@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_castle_7",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a295b8c0-2e09-4548-807b-d0ffa7ecfcf4","name":"a295b8c0-2e09-4548-807b-d0ffa7ecfcf4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a295b8c0-2e09-4548-807b-d0ffa7ecfcf4","name":"a295b8c0-2e09-4548-807b-d0ffa7ecfcf4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

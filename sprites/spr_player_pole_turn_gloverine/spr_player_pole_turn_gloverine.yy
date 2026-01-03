@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_gloverine",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a4e6c1b0-902d-4b7c-b097-06ff3acfa8b2","name":"a4e6c1b0-902d-4b7c-b097-06ff3acfa8b2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7cc824c4-1fe2-4ba2-a0c1-b7ce31eb1456","name":"7cc824c4-1fe2-4ba2-a0c1-b7ce31eb1456","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a4e6c1b0-902d-4b7c-b097-06ff3acfa8b2","name":"a4e6c1b0-902d-4b7c-b097-06ff3acfa8b2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7cc824c4-1fe2-4ba2-a0c1-b7ce31eb1456","name":"7cc824c4-1fe2-4ba2-a0c1-b7ce31eb1456","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

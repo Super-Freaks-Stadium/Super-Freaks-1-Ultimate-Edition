@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_freakfathers_1",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"189ec7e4-8733-4cd8-8e4e-90d1b2d09423","name":"189ec7e4-8733-4cd8-8e4e-90d1b2d09423","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"189ec7e4-8733-4cd8-8e4e-90d1b2d09423","name":"189ec7e4-8733-4cd8-8e4e-90d1b2d09423","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -33,10 +33,10 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"chain_segments","filters":[],"listItems":[],"multiselect":false,"name":"chain_segments","rangeEnabled":true,"rangeMax":16.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"starting_angle","filters":[],"listItems":[],"multiselect":false,"name":"starting_angle","rangeEnabled":true,"rangeMax":359.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"swing_speed","filters":[],"listItems":[],"multiselect":false,"name":"swing_speed","rangeEnabled":true,"rangeMax":4.0,"rangeMin":-4.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"circle_angle","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"chain_segments","filters":[],"listItems":[],"multiselect":false,"name":"chain_segments","rangeEnabled":true,"rangeMax":16.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"starting_angle","filters":[],"listItems":[],"multiselect":false,"name":"starting_angle","rangeEnabled":true,"rangeMax":359.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"swing_speed","filters":[],"listItems":[],"multiselect":false,"name":"swing_speed","rangeEnabled":true,"rangeMax":4.0,"rangeMin":-4.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"circle_angle","filters":[],"listItems":[
         "45",
         "90",
         "180",

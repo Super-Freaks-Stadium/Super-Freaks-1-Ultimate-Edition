@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_kranion",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"923c4a42-912a-40fc-949d-60e043a908ce","name":"923c4a42-912a-40fc-949d-60e043a908ce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"596ab056-d079-4a73-9867-b652624bc6bc","name":"596ab056-d079-4a73-9867-b652624bc6bc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"923c4a42-912a-40fc-949d-60e043a908ce","name":"923c4a42-912a-40fc-949d-60e043a908ce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"596ab056-d079-4a73-9867-b652624bc6bc","name":"596ab056-d079-4a73-9867-b652624bc6bc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

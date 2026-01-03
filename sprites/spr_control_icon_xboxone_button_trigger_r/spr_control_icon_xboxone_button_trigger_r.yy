@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_control_icon_xboxone_button_trigger_r",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e0ddeb0d-8b1e-4966-8c62-0646549a7956","name":"e0ddeb0d-8b1e-4966-8c62-0646549a7956","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"924ffeaf-8f4f-43c1-a4b1-af5b863e4a9d","name":"924ffeaf-8f4f-43c1-a4b1-af5b863e4a9d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e0ddeb0d-8b1e-4966-8c62-0646549a7956","name":"e0ddeb0d-8b1e-4966-8c62-0646549a7956","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"924ffeaf-8f4f-43c1-a4b1-af5b863e4a9d","name":"924ffeaf-8f4f-43c1-a4b1-af5b863e4a9d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

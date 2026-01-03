@@ -35,8 +35,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"speed_move","filters":[],"listItems":[],"multiselect":false,"name":"speed_move","rangeEnabled":true,"rangeMax":8.0,"rangeMin":-8.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"move_direction","filters":[],"listItems":[
+    {"$GMObjectProperty":"v2","%Name":"speed_move","filters":[],"listItems":[],"multiselect":false,"name":"speed_move","rangeEnabled":true,"rangeMax":8.0,"rangeMin":-8.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"move_direction","filters":[],"listItems":[
         "\"Left\"",
         "\"Up\"",
         "\"Right\"",

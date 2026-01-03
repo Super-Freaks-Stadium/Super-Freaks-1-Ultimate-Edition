@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_gambi",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"18596d26-9293-4413-bb6b-ecdc1d4698ef","name":"18596d26-9293-4413-bb6b-ecdc1d4698ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"06793be3-ee70-4519-b2d4-eb52f462bee4","name":"06793be3-ee70-4519-b2d4-eb52f462bee4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"18596d26-9293-4413-bb6b-ecdc1d4698ef","name":"18596d26-9293-4413-bb6b-ecdc1d4698ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"06793be3-ee70-4519-b2d4-eb52f462bee4","name":"06793be3-ee70-4519-b2d4-eb52f462bee4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

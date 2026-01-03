@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_death_scruffy",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"115fca4f-cdd9-4081-8a8c-c4e01e47c7ff","name":"115fca4f-cdd9-4081-8a8c-c4e01e47c7ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"115fca4f-cdd9-4081-8a8c-c4e01e47c7ff","name":"115fca4f-cdd9-4081-8a8c-c4e01e47c7ff","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

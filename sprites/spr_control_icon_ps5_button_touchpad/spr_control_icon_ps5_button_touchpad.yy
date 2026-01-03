@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_control_icon_ps5_button_touchpad",
   "bboxMode":0,
   "bbox_bottom":13,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3f074cc6-5b65-464d-8785-8dd39f0e4801","name":"3f074cc6-5b65-464d-8785-8dd39f0e4801","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"fc89cbf0-bef0-4812-bff2-bbc90cb49949","name":"fc89cbf0-bef0-4812-bff2-bbc90cb49949","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3f074cc6-5b65-464d-8785-8dd39f0e4801","name":"3f074cc6-5b65-464d-8785-8dd39f0e4801","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fc89cbf0-bef0-4812-bff2-bbc90cb49949","name":"fc89cbf0-bef0-4812-bff2-bbc90cb49949","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

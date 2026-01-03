@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_worldmap_pic_conveyor_secret",
   "bboxMode":0,
   "bbox_bottom":195,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0483a34d-5c4c-40bb-96af-732e2d8bdd9e","name":"0483a34d-5c4c-40bb-96af-732e2d8bdd9e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0483a34d-5c4c-40bb-96af-732e2d8bdd9e","name":"0483a34d-5c4c-40bb-96af-732e2d8bdd9e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

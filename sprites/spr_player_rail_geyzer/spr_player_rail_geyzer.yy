@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_rail_geyzer",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"787249f1-4ec7-4d7f-b6ac-b363fb1aa1e2","name":"787249f1-4ec7-4d7f-b6ac-b363fb1aa1e2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"787249f1-4ec7-4d7f-b6ac-b363fb1aa1e2","name":"787249f1-4ec7-4d7f-b6ac-b363fb1aa1e2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

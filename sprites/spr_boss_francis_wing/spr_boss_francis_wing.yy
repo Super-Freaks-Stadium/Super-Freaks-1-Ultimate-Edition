@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_francis_wing",
   "bboxMode":0,
   "bbox_bottom":211,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d4150106-a5b6-48d8-939d-2ff873b6d93e","name":"d4150106-a5b6-48d8-939d-2ff873b6d93e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d4150106-a5b6-48d8-939d-2ff873b6d93e","name":"d4150106-a5b6-48d8-939d-2ff873b6d93e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

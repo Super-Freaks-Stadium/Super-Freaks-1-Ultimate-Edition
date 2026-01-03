@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_antifreaks_villains_intro",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"503934cd-000d-41a3-8f2f-7c62ff13fea3","name":"503934cd-000d-41a3-8f2f-7c62ff13fea3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"503934cd-000d-41a3-8f2f-7c62ff13fea3","name":"503934cd-000d-41a3-8f2f-7c62ff13fea3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

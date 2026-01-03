@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_climb_geyzer",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a14d5269-b428-4e1b-8029-ca9cb7658891","name":"a14d5269-b428-4e1b-8029-ca9cb7658891","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"14efa0e5-c654-404d-afa1-c1ce2ae3491f","name":"14efa0e5-c654-404d-afa1-c1ce2ae3491f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a14d5269-b428-4e1b-8029-ca9cb7658891","name":"a14d5269-b428-4e1b-8029-ca9cb7658891","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"14efa0e5-c654-404d-afa1-c1ce2ae3491f","name":"14efa0e5-c654-404d-afa1-c1ce2ae3491f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

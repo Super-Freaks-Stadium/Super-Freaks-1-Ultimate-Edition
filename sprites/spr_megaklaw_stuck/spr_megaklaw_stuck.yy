@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_megaklaw_stuck",
   "bboxMode":0,
   "bbox_bottom":127,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"131f1e43-3c6f-4b99-9479-2db44ab25ec3","name":"131f1e43-3c6f-4b99-9479-2db44ab25ec3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"131f1e43-3c6f-4b99-9479-2db44ab25ec3","name":"131f1e43-3c6f-4b99-9479-2db44ab25ec3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_francis_cockpit_hurt",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4a72668d-515f-40f8-a0f7-ed57b556cd93","name":"4a72668d-515f-40f8-a0f7-ed57b556cd93","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4a72668d-515f-40f8-a0f7-ed57b556cd93","name":"4a72668d-515f-40f8-a0f7-ed57b556cd93","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

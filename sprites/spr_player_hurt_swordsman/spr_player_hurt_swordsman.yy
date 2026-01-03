@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_hurt_swordsman",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4dd4a5ab-c8f4-4f89-b63b-c9c455348e9e","name":"4dd4a5ab-c8f4-4f89-b63b-c9c455348e9e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4dd4a5ab-c8f4-4f89-b63b-c9c455348e9e","name":"4dd4a5ab-c8f4-4f89-b63b-c9c455348e9e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_climb_bandit",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"619d145a-b9fc-4e91-85cf-afce35213215","name":"619d145a-b9fc-4e91-85cf-afce35213215","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"27a742c4-7418-486f-8e80-7ed7ced53f9c","name":"27a742c4-7418-486f-8e80-7ed7ced53f9c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"619d145a-b9fc-4e91-85cf-afce35213215","name":"619d145a-b9fc-4e91-85cf-afce35213215","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"27a742c4-7418-486f-8e80-7ed7ced53f9c","name":"27a742c4-7418-486f-8e80-7ed7ced53f9c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

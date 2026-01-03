@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_background_canyon_mountains_front",
   "bboxMode":0,
   "bbox_bottom":255,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7cabfef0-5aba-48dd-bb3f-e236d1270857","name":"7cabfef0-5aba-48dd-bb3f-e236d1270857","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"dfaa1a63-3cbc-40f8-9116-cd368faa8ea8","name":"dfaa1a63-3cbc-40f8-9116-cd368faa8ea8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7cabfef0-5aba-48dd-bb3f-e236d1270857","name":"7cabfef0-5aba-48dd-bb3f-e236d1270857","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dfaa1a63-3cbc-40f8-9116-cd368faa8ea8","name":"dfaa1a63-3cbc-40f8-9116-cd368faa8ea8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

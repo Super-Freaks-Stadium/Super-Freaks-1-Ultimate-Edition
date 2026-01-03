@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_scruffy",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"520a9d4d-3e47-438e-a123-89487948059b","name":"520a9d4d-3e47-438e-a123-89487948059b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"481ebbd1-38a3-4096-9a2e-491452b41bd2","name":"481ebbd1-38a3-4096-9a2e-491452b41bd2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"520a9d4d-3e47-438e-a123-89487948059b","name":"520a9d4d-3e47-438e-a123-89487948059b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"481ebbd1-38a3-4096-9a2e-491452b41bd2","name":"481ebbd1-38a3-4096-9a2e-491452b41bd2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

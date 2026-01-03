@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_control_icon_ps_dpad_right",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0313d267-5bc3-4bea-8ffe-dbba4fb633b0","name":"0313d267-5bc3-4bea-8ffe-dbba4fb633b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"bb6c6013-1d40-470c-810f-31892ccbe391","name":"bb6c6013-1d40-470c-810f-31892ccbe391","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0313d267-5bc3-4bea-8ffe-dbba4fb633b0","name":"0313d267-5bc3-4bea-8ffe-dbba4fb633b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bb6c6013-1d40-470c-810f-31892ccbe391","name":"bb6c6013-1d40-470c-810f-31892ccbe391","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

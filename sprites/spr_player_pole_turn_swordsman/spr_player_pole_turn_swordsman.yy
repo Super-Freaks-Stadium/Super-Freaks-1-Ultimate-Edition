@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_swordsman",
   "bboxMode":0,
   "bbox_bottom":61,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f88edb0c-bc38-4da9-8033-66c114cde77e","name":"f88edb0c-bc38-4da9-8033-66c114cde77e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6c9aba47-8890-445a-81af-ef9c2764031b","name":"6c9aba47-8890-445a-81af-ef9c2764031b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f88edb0c-bc38-4da9-8033-66c114cde77e","name":"f88edb0c-bc38-4da9-8033-66c114cde77e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6c9aba47-8890-445a-81af-ef9c2764031b","name":"6c9aba47-8890-445a-81af-ef9c2764031b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

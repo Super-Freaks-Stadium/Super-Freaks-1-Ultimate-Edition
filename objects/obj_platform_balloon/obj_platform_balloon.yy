@@ -33,7 +33,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"speed_move","filters":[],"listItems":[],"multiselect":false,"name":"speed_move","rangeEnabled":true,"rangeMax":8.0,"rangeMin":-8.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"speed_move","filters":[],"listItems":[],"multiselect":false,"name":"speed_move","rangeEnabled":true,"rangeMax":8.0,"rangeMin":-8.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

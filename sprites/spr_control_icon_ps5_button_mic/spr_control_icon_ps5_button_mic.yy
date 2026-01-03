@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_control_icon_ps5_button_mic",
   "bboxMode":0,
   "bbox_bottom":14,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"85a29421-bfe2-47a7-b548-255c7d8b3dae","name":"85a29421-bfe2-47a7-b548-255c7d8b3dae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"07ea4daa-9915-4e15-9a88-fb180ede85b3","name":"07ea4daa-9915-4e15-9a88-fb180ede85b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"85a29421-bfe2-47a7-b548-255c7d8b3dae","name":"85a29421-bfe2-47a7-b548-255c7d8b3dae","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"07ea4daa-9915-4e15-9a88-fb180ede85b3","name":"07ea4daa-9915-4e15-9a88-fb180ede85b3","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

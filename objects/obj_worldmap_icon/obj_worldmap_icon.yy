@@ -32,8 +32,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"level_id","filters":[],"listItems":[],"multiselect":false,"name":"level_id","rangeEnabled":true,"rangeMax":255.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
-    {"$GMObjectProperty":"v1","%Name":"room_first_playthrough","filters":[
+    {"$GMObjectProperty":"v2","%Name":"level_id","filters":[],"listItems":[],"multiselect":false,"name":"level_id","rangeEnabled":true,"rangeMax":255.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"room_first_playthrough","filters":[
         "GMRoom",
       ],"listItems":[],"multiselect":false,"name":"room_first_playthrough","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":5,},
   ],

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_climb_dino",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"0f450594-f931-4d91-9962-4659204d1dcb","name":"0f450594-f931-4d91-9962-4659204d1dcb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"19cd93d3-65c0-4fab-bef5-10b1b20e598c","name":"19cd93d3-65c0-4fab-bef5-10b1b20e598c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0f450594-f931-4d91-9962-4659204d1dcb","name":"0f450594-f931-4d91-9962-4659204d1dcb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"19cd93d3-65c0-4fab-bef5-10b1b20e598c","name":"19cd93d3-65c0-4fab-bef5-10b1b20e598c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_walk_swordsman",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,10 +12,10 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"38f5f9ba-f05a-41ac-8651-83e3bd23fdda","name":"38f5f9ba-f05a-41ac-8651-83e3bd23fdda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"0781c65f-54aa-480d-a09a-d525edcaf777","name":"0781c65f-54aa-480d-a09a-d525edcaf777","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4dac7367-560f-4aec-aab3-e428c10cb1b8","name":"4dac7367-560f-4aec-aab3-e428c10cb1b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1e869792-16f7-4584-97f2-1cdfe7c032c0","name":"1e869792-16f7-4584-97f2-1cdfe7c032c0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"38f5f9ba-f05a-41ac-8651-83e3bd23fdda","name":"38f5f9ba-f05a-41ac-8651-83e3bd23fdda","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"0781c65f-54aa-480d-a09a-d525edcaf777","name":"0781c65f-54aa-480d-a09a-d525edcaf777","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4dac7367-560f-4aec-aab3-e428c10cb1b8","name":"4dac7367-560f-4aec-aab3-e428c10cb1b8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1e869792-16f7-4584-97f2-1cdfe7c032c0","name":"1e869792-16f7-4584-97f2-1cdfe7c032c0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

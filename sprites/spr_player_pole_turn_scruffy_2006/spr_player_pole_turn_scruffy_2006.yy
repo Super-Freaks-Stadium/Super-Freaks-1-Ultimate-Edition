@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_scruffy_2006",
   "bboxMode":0,
   "bbox_bottom":62,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"24e4249e-75e3-440d-878f-23285534f89d","name":"24e4249e-75e3-440d-878f-23285534f89d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d0d09f0f-0236-46a2-a9ea-0ad1f8099edc","name":"d0d09f0f-0236-46a2-a9ea-0ad1f8099edc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"24e4249e-75e3-440d-878f-23285534f89d","name":"24e4249e-75e3-440d-878f-23285534f89d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d0d09f0f-0236-46a2-a9ea-0ad1f8099edc","name":"d0d09f0f-0236-46a2-a9ea-0ad1f8099edc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

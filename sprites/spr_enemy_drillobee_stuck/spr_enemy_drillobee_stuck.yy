@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_enemy_drillobee_stuck",
   "bboxMode":0,
   "bbox_bottom":47,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"31e10819-e1a5-41da-b39f-33f270bc2611","name":"31e10819-e1a5-41da-b39f-33f270bc2611","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9f3f61a8-8f47-4b59-ab76-85bfdd14c0de","name":"9f3f61a8-8f47-4b59-ab76-85bfdd14c0de","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"31e10819-e1a5-41da-b39f-33f270bc2611","name":"31e10819-e1a5-41da-b39f-33f270bc2611","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9f3f61a8-8f47-4b59-ab76-85bfdd14c0de","name":"9f3f61a8-8f47-4b59-ab76-85bfdd14c0de","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

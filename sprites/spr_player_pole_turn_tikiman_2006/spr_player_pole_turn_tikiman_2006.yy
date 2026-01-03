@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_tikiman_2006",
   "bboxMode":0,
   "bbox_bottom":62,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7b378b6c-d217-485f-b38d-0ca6c2390c5d","name":"7b378b6c-d217-485f-b38d-0ca6c2390c5d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6122e6b2-da11-4e51-8fad-5591b4258a9b","name":"6122e6b2-da11-4e51-8fad-5591b4258a9b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7b378b6c-d217-485f-b38d-0ca6c2390c5d","name":"7b378b6c-d217-485f-b38d-0ca6c2390c5d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6122e6b2-da11-4e51-8fad-5591b4258a9b","name":"6122e6b2-da11-4e51-8fad-5591b4258a9b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

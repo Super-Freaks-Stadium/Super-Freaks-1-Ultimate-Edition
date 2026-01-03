@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_bandit",
   "bboxMode":0,
   "bbox_bottom":61,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"410ee2fe-2802-46c7-8489-067e19c93632","name":"410ee2fe-2802-46c7-8489-067e19c93632","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7499d846-73c2-4a16-ba07-10c7cc2d6ff6","name":"7499d846-73c2-4a16-ba07-10c7cc2d6ff6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"410ee2fe-2802-46c7-8489-067e19c93632","name":"410ee2fe-2802-46c7-8489-067e19c93632","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7499d846-73c2-4a16-ba07-10c7cc2d6ff6","name":"7499d846-73c2-4a16-ba07-10c7cc2d6ff6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

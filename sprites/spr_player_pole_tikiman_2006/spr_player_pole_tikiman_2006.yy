@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_tikiman_2006",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"91979a5b-1527-4a8e-8e6a-dd7a12e70751","name":"91979a5b-1527-4a8e-8e6a-dd7a12e70751","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9bec4374-0d72-431c-9c58-3906e665e503","name":"9bec4374-0d72-431c-9c58-3906e665e503","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"91979a5b-1527-4a8e-8e6a-dd7a12e70751","name":"91979a5b-1527-4a8e-8e6a-dd7a12e70751","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9bec4374-0d72-431c-9c58-3906e665e503","name":"9bec4374-0d72-431c-9c58-3906e665e503","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

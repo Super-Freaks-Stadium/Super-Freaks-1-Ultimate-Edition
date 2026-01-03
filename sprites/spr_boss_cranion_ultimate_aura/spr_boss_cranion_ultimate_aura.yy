@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_cranion_ultimate_aura",
   "bboxMode":0,
   "bbox_bottom":158,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"83af2129-05a1-4dde-86f1-922104240920","name":"83af2129-05a1-4dde-86f1-922104240920","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"83af2129-05a1-4dde-86f1-922104240920","name":"83af2129-05a1-4dde-86f1-922104240920","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

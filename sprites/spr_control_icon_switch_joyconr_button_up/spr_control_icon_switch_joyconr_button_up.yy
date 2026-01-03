@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_control_icon_switch_joyconr_button_up",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"38420c8b-7411-4e98-9070-66566d8f64f0","name":"38420c8b-7411-4e98-9070-66566d8f64f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9f693113-ba9a-4440-bb78-5232372877a9","name":"9f693113-ba9a-4440-bb78-5232372877a9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"38420c8b-7411-4e98-9070-66566d8f64f0","name":"38420c8b-7411-4e98-9070-66566d8f64f0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9f693113-ba9a-4440-bb78-5232372877a9","name":"9f693113-ba9a-4440-bb78-5232372877a9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

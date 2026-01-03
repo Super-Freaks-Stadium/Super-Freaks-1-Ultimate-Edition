@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_control_icon_xbox360_dpad_down",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"686133f6-f19f-4bf5-a6d8-b5d5d554236b","name":"686133f6-f19f-4bf5-a6d8-b5d5d554236b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b1eda5c0-1921-4f61-83b4-db177c231500","name":"b1eda5c0-1921-4f61-83b4-db177c231500","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"686133f6-f19f-4bf5-a6d8-b5d5d554236b","name":"686133f6-f19f-4bf5-a6d8-b5d5d554236b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b1eda5c0-1921-4f61-83b4-db177c231500","name":"b1eda5c0-1921-4f61-83b4-db177c231500","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

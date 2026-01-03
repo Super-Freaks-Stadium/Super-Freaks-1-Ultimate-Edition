@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_control_icon_xboxone_dpad_right",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"12854754-dbbb-4cc5-959e-7aa28f8391fa","name":"12854754-dbbb-4cc5-959e-7aa28f8391fa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"51a9485b-4420-44ed-975e-3728edb4de89","name":"51a9485b-4420-44ed-975e-3728edb4de89","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"12854754-dbbb-4cc5-959e-7aa28f8391fa","name":"12854754-dbbb-4cc5-959e-7aa28f8391fa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"51a9485b-4420-44ed-975e-3728edb4de89","name":"51a9485b-4420-44ed-975e-3728edb4de89","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -32,7 +32,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"activate_timer","filters":[],"listItems":[],"multiselect":false,"name":"activate_timer","rangeEnabled":true,"rangeMax":120.0,"rangeMin":20.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"activate_timer","filters":[],"listItems":[],"multiselect":false,"name":"activate_timer","rangeEnabled":true,"rangeMax":120.0,"rangeMin":20.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"20","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

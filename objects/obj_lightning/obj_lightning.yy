@@ -32,7 +32,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"delay","filters":[],"listItems":[],"multiselect":false,"name":"delay","rangeEnabled":true,"rangeMax":420.0,"rangeMin":64.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"96","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"delay","filters":[],"listItems":[],"multiselect":false,"name":"delay","rangeEnabled":true,"rangeMax":420.0,"rangeMin":64.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"96","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

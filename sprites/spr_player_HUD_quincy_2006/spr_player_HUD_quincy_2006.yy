@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_HUD_quincy_2006",
   "bboxMode":0,
   "bbox_bottom":27,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"aeef83ee-d40a-4cc8-bdd7-2f19ba3185c1","name":"aeef83ee-d40a-4cc8-bdd7-2f19ba3185c1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"aeef83ee-d40a-4cc8-bdd7-2f19ba3185c1","name":"aeef83ee-d40a-4cc8-bdd7-2f19ba3185c1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

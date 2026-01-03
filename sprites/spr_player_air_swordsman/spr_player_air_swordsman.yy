@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_air_swordsman",
   "bboxMode":0,
   "bbox_bottom":62,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"559e6e05-d6ff-4467-ae5e-77451235a4af","name":"559e6e05-d6ff-4467-ae5e-77451235a4af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"6a5f6207-c718-4893-bd47-d30756b2c7dd","name":"6a5f6207-c718-4893-bd47-d30756b2c7dd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e2b805b2-b7d6-4b34-b621-78c21d48be93","name":"e2b805b2-b7d6-4b34-b621-78c21d48be93","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"559e6e05-d6ff-4467-ae5e-77451235a4af","name":"559e6e05-d6ff-4467-ae5e-77451235a4af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6a5f6207-c718-4893-bd47-d30756b2c7dd","name":"6a5f6207-c718-4893-bd47-d30756b2c7dd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e2b805b2-b7d6-4b34-b621-78c21d48be93","name":"e2b805b2-b7d6-4b34-b621-78c21d48be93","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

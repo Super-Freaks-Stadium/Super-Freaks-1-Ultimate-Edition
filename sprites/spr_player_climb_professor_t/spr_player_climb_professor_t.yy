@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_climb_professor_t",
   "bboxMode":0,
   "bbox_bottom":62,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"01b3a145-edc5-4c41-91f8-f45ea756102b","name":"01b3a145-edc5-4c41-91f8-f45ea756102b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"cfb6b1f4-5f86-456e-9f14-4c5c485dee63","name":"cfb6b1f4-5f86-456e-9f14-4c5c485dee63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"01b3a145-edc5-4c41-91f8-f45ea756102b","name":"01b3a145-edc5-4c41-91f8-f45ea756102b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cfb6b1f4-5f86-456e-9f14-4c5c485dee63","name":"cfb6b1f4-5f86-456e-9f14-4c5c485dee63","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

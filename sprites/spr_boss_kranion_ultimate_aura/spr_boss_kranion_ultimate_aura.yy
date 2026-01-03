@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_kranion_ultimate_aura",
   "bboxMode":0,
   "bbox_bottom":158,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e7cb8ae4-d71c-4b48-8924-efcd78fc917d","name":"e7cb8ae4-d71c-4b48-8924-efcd78fc917d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e7cb8ae4-d71c-4b48-8924-efcd78fc917d","name":"e7cb8ae4-d71c-4b48-8924-efcd78fc917d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

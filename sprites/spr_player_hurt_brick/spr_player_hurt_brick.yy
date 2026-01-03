@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_hurt_brick",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7de332ef-d4ec-47d6-8258-cd0e5f37ef7b","name":"7de332ef-d4ec-47d6-8258-cd0e5f37ef7b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7de332ef-d4ec-47d6-8258-cd0e5f37ef7b","name":"7de332ef-d4ec-47d6-8258-cd0e5f37ef7b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

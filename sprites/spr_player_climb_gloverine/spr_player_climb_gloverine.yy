@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_climb_gloverine",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5acb6887-b80d-4834-9428-3d8794455da8","name":"5acb6887-b80d-4834-9428-3d8794455da8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a6a845cf-0397-4dd3-9806-34bd09167c2c","name":"a6a845cf-0397-4dd3-9806-34bd09167c2c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5acb6887-b80d-4834-9428-3d8794455da8","name":"5acb6887-b80d-4834-9428-3d8794455da8","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a6a845cf-0397-4dd3-9806-34bd09167c2c","name":"a6a845cf-0397-4dd3-9806-34bd09167c2c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_ending_secret_1",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cc9ff6eb-04cc-4e6e-845b-9ba9d4264e97","name":"cc9ff6eb-04cc-4e6e-845b-9ba9d4264e97","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9b639970-cc70-417d-b6b1-056d140078d2","name":"9b639970-cc70-417d-b6b1-056d140078d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cc9ff6eb-04cc-4e6e-845b-9ba9d4264e97","name":"cc9ff6eb-04cc-4e6e-845b-9ba9d4264e97","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9b639970-cc70-417d-b6b1-056d140078d2","name":"9b639970-cc70-417d-b6b1-056d140078d2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

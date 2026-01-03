@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_background_fruit_sky",
   "bboxMode":0,
   "bbox_bottom":239,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c2c9642d-6f50-4d6a-b149-ff86e8d19491","name":"c2c9642d-6f50-4d6a-b149-ff86e8d19491","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d158867a-dbe7-43ed-83f9-8c7e75ca9faa","name":"d158867a-dbe7-43ed-83f9-8c7e75ca9faa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c2c9642d-6f50-4d6a-b149-ff86e8d19491","name":"c2c9642d-6f50-4d6a-b149-ff86e8d19491","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d158867a-dbe7-43ed-83f9-8c7e75ca9faa","name":"d158867a-dbe7-43ed-83f9-8c7e75ca9faa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

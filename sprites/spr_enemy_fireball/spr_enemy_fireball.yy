@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_enemy_fireball",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"326bdbac-26d2-4039-9063-9202f80577b7","name":"326bdbac-26d2-4039-9063-9202f80577b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"56addcbd-a6c0-4a69-b31a-a1caa2505fc5","name":"56addcbd-a6c0-4a69-b31a-a1caa2505fc5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"326bdbac-26d2-4039-9063-9202f80577b7","name":"326bdbac-26d2-4039-9063-9202f80577b7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"56addcbd-a6c0-4a69-b31a-a1caa2505fc5","name":"56addcbd-a6c0-4a69-b31a-a1caa2505fc5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

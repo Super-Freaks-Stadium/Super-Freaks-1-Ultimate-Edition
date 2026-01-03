@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_marrow_prime_sit_attack_prepare",
   "bboxMode":0,
   "bbox_bottom":191,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"93c7e5bb-b915-4192-94b4-5e5761ec71bf","name":"93c7e5bb-b915-4192-94b4-5e5761ec71bf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"f2e5eca1-406d-4d13-8667-1d6bc0528d9c","name":"f2e5eca1-406d-4d13-8667-1d6bc0528d9c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"93c7e5bb-b915-4192-94b4-5e5761ec71bf","name":"93c7e5bb-b915-4192-94b4-5e5761ec71bf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f2e5eca1-406d-4d13-8667-1d6bc0528d9c","name":"f2e5eca1-406d-4d13-8667-1d6bc0528d9c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

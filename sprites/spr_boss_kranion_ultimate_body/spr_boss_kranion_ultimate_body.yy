@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_kranion_ultimate_body",
   "bboxMode":0,
   "bbox_bottom":143,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"263fc3c2-aad7-48a4-b9c6-7ef9e5716412","name":"263fc3c2-aad7-48a4-b9c6-7ef9e5716412","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"263fc3c2-aad7-48a4-b9c6-7ef9e5716412","name":"263fc3c2-aad7-48a4-b9c6-7ef9e5716412","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

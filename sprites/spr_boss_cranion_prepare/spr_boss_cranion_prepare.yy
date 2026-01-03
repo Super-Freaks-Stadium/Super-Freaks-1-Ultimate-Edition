@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_cranion_prepare",
   "bboxMode":0,
   "bbox_bottom":127,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e80f46b5-cbd0-469d-8bdb-e3fe465f7766","name":"e80f46b5-cbd0-469d-8bdb-e3fe465f7766","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e5e5b135-bd26-4e5d-bd5d-6f8a59f23437","name":"e5e5b135-bd26-4e5d-bd5d-6f8a59f23437","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e80f46b5-cbd0-469d-8bdb-e3fe465f7766","name":"e80f46b5-cbd0-469d-8bdb-e3fe465f7766","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e5e5b135-bd26-4e5d-bd5d-6f8a59f23437","name":"e5e5b135-bd26-4e5d-bd5d-6f8a59f23437","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

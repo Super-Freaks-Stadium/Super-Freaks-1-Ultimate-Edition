@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_freakfathers_swordsman_2",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f610a134-a71d-419c-bcc7-cdcf78b81b5a","name":"f610a134-a71d-419c-bcc7-cdcf78b81b5a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f610a134-a71d-419c-bcc7-cdcf78b81b5a","name":"f610a134-a71d-419c-bcc7-cdcf78b81b5a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

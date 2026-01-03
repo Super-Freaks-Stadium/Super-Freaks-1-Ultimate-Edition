@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_hurt_gloverine",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b39a47ee-39ed-4ad7-8b85-80f2dcb32344","name":"b39a47ee-39ed-4ad7-8b85-80f2dcb32344","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b39a47ee-39ed-4ad7-8b85-80f2dcb32344","name":"b39a47ee-39ed-4ad7-8b85-80f2dcb32344","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

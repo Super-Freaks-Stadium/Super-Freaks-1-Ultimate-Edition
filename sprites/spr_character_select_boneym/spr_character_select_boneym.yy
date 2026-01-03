@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_character_select_boneym",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f5e340a0-a8b2-4ab6-b2d7-2c48d581248d","name":"f5e340a0-a8b2-4ab6-b2d7-2c48d581248d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f5e340a0-a8b2-4ab6-b2d7-2c48d581248d","name":"f5e340a0-a8b2-4ab6-b2d7-2c48d581248d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

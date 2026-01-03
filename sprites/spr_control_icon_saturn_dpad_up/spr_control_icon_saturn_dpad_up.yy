@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_control_icon_saturn_dpad_up",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"eba74753-6a63-4e37-b3da-74fb996c8728","name":"eba74753-6a63-4e37-b3da-74fb996c8728","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"8ced9540-3a0a-410c-93fc-af43229b711d","name":"8ced9540-3a0a-410c-93fc-af43229b711d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"eba74753-6a63-4e37-b3da-74fb996c8728","name":"eba74753-6a63-4e37-b3da-74fb996c8728","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"8ced9540-3a0a-410c-93fc-af43229b711d","name":"8ced9540-3a0a-410c-93fc-af43229b711d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

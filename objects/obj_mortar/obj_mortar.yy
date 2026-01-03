@@ -31,7 +31,7 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"shoot_frequency","filters":[],"listItems":[],"multiselect":false,"name":"shoot_frequency","rangeEnabled":true,"rangeMax":128.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"24","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"shoot_frequency","filters":[],"listItems":[],"multiselect":false,"name":"shoot_frequency","rangeEnabled":true,"rangeMax":128.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"24","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_scruffy_2006",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"d06d7749-5879-42e0-ac82-8668bf385cd7","name":"d06d7749-5879-42e0-ac82-8668bf385cd7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"62782fbc-77ee-447e-9198-e77fe1e4d261","name":"62782fbc-77ee-447e-9198-e77fe1e4d261","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d06d7749-5879-42e0-ac82-8668bf385cd7","name":"d06d7749-5879-42e0-ac82-8668bf385cd7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"62782fbc-77ee-447e-9198-e77fe1e4d261","name":"62782fbc-77ee-447e-9198-e77fe1e4d261","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

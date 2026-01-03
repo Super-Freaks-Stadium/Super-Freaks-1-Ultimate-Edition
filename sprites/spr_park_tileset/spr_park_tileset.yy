@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_park_tileset",
   "bboxMode":0,
   "bbox_bottom":127,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ccfaeadb-c03c-46b6-b738-f8f2f01c1cac","name":"ccfaeadb-c03c-46b6-b738-f8f2f01c1cac","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ccfaeadb-c03c-46b6-b738-f8f2f01c1cac","name":"ccfaeadb-c03c-46b6-b738-f8f2f01c1cac","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

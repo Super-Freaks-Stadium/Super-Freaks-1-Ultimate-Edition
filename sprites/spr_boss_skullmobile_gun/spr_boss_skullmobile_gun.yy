@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_skullmobile_gun",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"73e1cd84-d5e1-429a-bdba-42b7cc900fc0","name":"73e1cd84-d5e1-429a-bdba-42b7cc900fc0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"73e1cd84-d5e1-429a-bdba-42b7cc900fc0","name":"73e1cd84-d5e1-429a-bdba-42b7cc900fc0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

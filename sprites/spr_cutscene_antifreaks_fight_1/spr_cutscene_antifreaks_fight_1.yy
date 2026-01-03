@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_antifreaks_fight_1",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a84e5b49-9ff6-4461-b843-db6f06ea80ea","name":"a84e5b49-9ff6-4461-b843-db6f06ea80ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a84e5b49-9ff6-4461-b843-db6f06ea80ea","name":"a84e5b49-9ff6-4461-b843-db6f06ea80ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

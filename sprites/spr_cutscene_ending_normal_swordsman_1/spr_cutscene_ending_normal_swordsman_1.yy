@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_ending_normal_swordsman_1",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"1f3c9f7d-9e47-4fd1-9863-3ff16d99ef5e","name":"1f3c9f7d-9e47-4fd1-9863-3ff16d99ef5e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1f3c9f7d-9e47-4fd1-9863-3ff16d99ef5e","name":"1f3c9f7d-9e47-4fd1-9863-3ff16d99ef5e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

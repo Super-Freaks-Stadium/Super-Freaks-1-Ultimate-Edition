@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_professor_t",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6cfe2cd2-7870-442a-8240-8a2321e3a9a0","name":"6cfe2cd2-7870-442a-8240-8a2321e3a9a0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"9d9ab784-1bb6-4b42-a196-db60348eff93","name":"9d9ab784-1bb6-4b42-a196-db60348eff93","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6cfe2cd2-7870-442a-8240-8a2321e3a9a0","name":"6cfe2cd2-7870-442a-8240-8a2321e3a9a0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9d9ab784-1bb6-4b42-a196-db60348eff93","name":"9d9ab784-1bb6-4b42-a196-db60348eff93","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

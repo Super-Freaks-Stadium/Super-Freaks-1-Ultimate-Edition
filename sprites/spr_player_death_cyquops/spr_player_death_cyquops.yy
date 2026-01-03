@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_death_cyquops",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"2d96ef62-7dc8-4247-84d6-3f186d4f5cf2","name":"2d96ef62-7dc8-4247-84d6-3f186d4f5cf2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2d96ef62-7dc8-4247-84d6-3f186d4f5cf2","name":"2d96ef62-7dc8-4247-84d6-3f186d4f5cf2","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

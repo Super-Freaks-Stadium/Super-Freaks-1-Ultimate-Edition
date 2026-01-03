@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_megaklaw_spit",
   "bboxMode":0,
   "bbox_bottom":127,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6d0b801e-32c8-42f0-9153-bd8927c69c7a","name":"6d0b801e-32c8-42f0-9153-bd8927c69c7a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"dbfbb258-8264-48bc-9f09-763b0b56165b","name":"dbfbb258-8264-48bc-9f09-763b0b56165b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6d0b801e-32c8-42f0-9153-bd8927c69c7a","name":"6d0b801e-32c8-42f0-9153-bd8927c69c7a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dbfbb258-8264-48bc-9f09-763b0b56165b","name":"dbfbb258-8264-48bc-9f09-763b0b56165b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

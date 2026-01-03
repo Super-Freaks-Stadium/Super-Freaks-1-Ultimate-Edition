@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_kranibomb",
   "bboxMode":0,
   "bbox_bottom":31,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f4035005-98a5-4b4a-bf0e-fc1af7bbf7f9","name":"f4035005-98a5-4b4a-bf0e-fc1af7bbf7f9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4dfc305e-f166-423c-9ff9-db5d1d48d3b5","name":"4dfc305e-f166-423c-9ff9-db5d1d48d3b5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f4035005-98a5-4b4a-bf0e-fc1af7bbf7f9","name":"f4035005-98a5-4b4a-bf0e-fc1af7bbf7f9","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4dfc305e-f166-423c-9ff9-db5d1d48d3b5","name":"4dfc305e-f166-423c-9ff9-db5d1d48d3b5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

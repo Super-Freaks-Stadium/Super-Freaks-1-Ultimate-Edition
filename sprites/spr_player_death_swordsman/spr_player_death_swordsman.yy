@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_death_swordsman",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5cf8d272-41f8-4a0d-ac7c-0486b2fcbfbd","name":"5cf8d272-41f8-4a0d-ac7c-0486b2fcbfbd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5cf8d272-41f8-4a0d-ac7c-0486b2fcbfbd","name":"5cf8d272-41f8-4a0d-ac7c-0486b2fcbfbd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

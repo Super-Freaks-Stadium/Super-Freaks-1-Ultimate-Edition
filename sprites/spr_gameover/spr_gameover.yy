@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_gameover",
   "bboxMode":0,
   "bbox_bottom":226,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f4627004-ed59-4b4d-87d4-b5ec4e6dadaf","name":"f4627004-ed59-4b4d-87d4-b5ec4e6dadaf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f4627004-ed59-4b4d-87d4-b5ec4e6dadaf","name":"f4627004-ed59-4b4d-87d4-b5ec4e6dadaf","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

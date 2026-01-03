@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_ending_secret_villains_1",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c2c539c2-cac2-459d-86dc-e189351a9e43","name":"c2c539c2-cac2-459d-86dc-e189351a9e43","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b873fdc4-262b-4d9d-8761-b3b383b737ce","name":"b873fdc4-262b-4d9d-8761-b3b383b737ce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c2c539c2-cac2-459d-86dc-e189351a9e43","name":"c2c539c2-cac2-459d-86dc-e189351a9e43","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b873fdc4-262b-4d9d-8761-b3b383b737ce","name":"b873fdc4-262b-4d9d-8761-b3b383b737ce","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_saber_dino",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"77953237-1a64-42d3-ac0b-1601edd7e603","name":"77953237-1a64-42d3-ac0b-1601edd7e603","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"ff15cc8d-044e-4dbe-ac27-2f5f29cbd402","name":"ff15cc8d-044e-4dbe-ac27-2f5f29cbd402","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"77953237-1a64-42d3-ac0b-1601edd7e603","name":"77953237-1a64-42d3-ac0b-1601edd7e603","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ff15cc8d-044e-4dbe-ac27-2f5f29cbd402","name":"ff15cc8d-044e-4dbe-ac27-2f5f29cbd402","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

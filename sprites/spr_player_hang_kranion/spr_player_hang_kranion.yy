@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_hang_kranion",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bb4e6e68-01b4-4cae-a3e1-18dcdb4210b0","name":"bb4e6e68-01b4-4cae-a3e1-18dcdb4210b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bb4e6e68-01b4-4cae-a3e1-18dcdb4210b0","name":"bb4e6e68-01b4-4cae-a3e1-18dcdb4210b0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

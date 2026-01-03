@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_climb_kranion",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"fc11df00-70e1-411b-8613-6a58c8d98db1","name":"fc11df00-70e1-411b-8613-6a58c8d98db1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"eef32ab5-fe80-4f43-b7f4-170c7459065a","name":"eef32ab5-fe80-4f43-b7f4-170c7459065a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"fc11df00-70e1-411b-8613-6a58c8d98db1","name":"fc11df00-70e1-411b-8613-6a58c8d98db1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"eef32ab5-fe80-4f43-b7f4-170c7459065a","name":"eef32ab5-fe80-4f43-b7f4-170c7459065a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

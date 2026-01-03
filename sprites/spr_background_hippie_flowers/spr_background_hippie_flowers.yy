@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_background_hippie_flowers",
   "bboxMode":0,
   "bbox_bottom":423,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ab1fb660-1d3e-40ab-bf11-764c09926b8f","name":"ab1fb660-1d3e-40ab-bf11-764c09926b8f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ab1fb660-1d3e-40ab-bf11-764c09926b8f","name":"ab1fb660-1d3e-40ab-bf11-764c09926b8f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_kranitron_stealth",
   "bboxMode":0,
   "bbox_bottom":175,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5f70f38c-addd-4a43-971a-1aa41d27bf60","name":"5f70f38c-addd-4a43-971a-1aa41d27bf60","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5f70f38c-addd-4a43-971a-1aa41d27bf60","name":"5f70f38c-addd-4a43-971a-1aa41d27bf60","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

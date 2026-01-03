@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_worldmap_pic_moon_secret",
   "bboxMode":0,
   "bbox_bottom":195,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c6b4d5b8-dfca-46a3-86e2-e5dfac5f5b0f","name":"c6b4d5b8-dfca-46a3-86e2-e5dfac5f5b0f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c6b4d5b8-dfca-46a3-86e2-e5dfac5f5b0f","name":"c6b4d5b8-dfca-46a3-86e2-e5dfac5f5b0f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

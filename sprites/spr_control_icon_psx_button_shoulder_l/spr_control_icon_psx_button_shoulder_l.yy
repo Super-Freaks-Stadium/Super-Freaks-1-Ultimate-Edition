@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_control_icon_psx_button_shoulder_l",
   "bboxMode":0,
   "bbox_bottom":13,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"669ad7c3-a54d-42bb-a149-b98e94d41b31","name":"669ad7c3-a54d-42bb-a149-b98e94d41b31","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"d1ff1d8d-b6a3-4224-9b3a-fe9faf9c0a0c","name":"d1ff1d8d-b6a3-4224-9b3a-fe9faf9c0a0c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"669ad7c3-a54d-42bb-a149-b98e94d41b31","name":"669ad7c3-a54d-42bb-a149-b98e94d41b31","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"d1ff1d8d-b6a3-4224-9b3a-fe9faf9c0a0c","name":"d1ff1d8d-b6a3-4224-9b3a-fe9faf9c0a0c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_hurt_slaypool",
   "bboxMode":0,
   "bbox_bottom":62,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7ead2e5a-ee8d-4a6a-ad1f-61c857c81b54","name":"7ead2e5a-ee8d-4a6a-ad1f-61c857c81b54","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7ead2e5a-ee8d-4a6a-ad1f-61c857c81b54","name":"7ead2e5a-ee8d-4a6a-ad1f-61c857c81b54","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

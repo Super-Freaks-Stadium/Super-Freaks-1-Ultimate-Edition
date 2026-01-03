@@ -1,5 +1,5 @@
 {
-  "$GMNotes":"",
+  "$GMNotes":"v1",
   "%Name":"Unlimit Powers",
   "name":"Unlimit Powers",
   "parent":{

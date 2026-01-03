@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_swordsman",
   "bboxMode":0,
   "bbox_bottom":61,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"be7e4f2f-2117-4226-8390-81e6066a1f10","name":"be7e4f2f-2117-4226-8390-81e6066a1f10","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"362a181f-0dd4-46a8-93e5-5b8a0a76d509","name":"362a181f-0dd4-46a8-93e5-5b8a0a76d509","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"be7e4f2f-2117-4226-8390-81e6066a1f10","name":"be7e4f2f-2117-4226-8390-81e6066a1f10","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"362a181f-0dd4-46a8-93e5-5b8a0a76d509","name":"362a181f-0dd4-46a8-93e5-5b8a0a76d509","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

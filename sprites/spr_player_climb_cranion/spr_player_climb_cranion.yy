@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_climb_cranion",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b5af54d0-015b-46fb-8427-9c9b8ae41a05","name":"b5af54d0-015b-46fb-8427-9c9b8ae41a05","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"55c5156b-276a-4e89-82d8-58ad52aabd0e","name":"55c5156b-276a-4e89-82d8-58ad52aabd0e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b5af54d0-015b-46fb-8427-9c9b8ae41a05","name":"b5af54d0-015b-46fb-8427-9c9b8ae41a05","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"55c5156b-276a-4e89-82d8-58ad52aabd0e","name":"55c5156b-276a-4e89-82d8-58ad52aabd0e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

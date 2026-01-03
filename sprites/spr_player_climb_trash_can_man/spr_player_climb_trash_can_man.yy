@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_climb_trash_can_man",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e51a0718-63c6-46d1-8a95-6c36b631449c","name":"e51a0718-63c6-46d1-8a95-6c36b631449c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3225bf58-2aeb-43b9-916a-0849d94caf7d","name":"3225bf58-2aeb-43b9-916a-0849d94caf7d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e51a0718-63c6-46d1-8a95-6c36b631449c","name":"e51a0718-63c6-46d1-8a95-6c36b631449c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3225bf58-2aeb-43b9-916a-0849d94caf7d","name":"3225bf58-2aeb-43b9-916a-0849d94caf7d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

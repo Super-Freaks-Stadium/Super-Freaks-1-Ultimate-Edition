@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_character_select_gambi_2006",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"a14a2ef4-59d3-4b9e-81b6-5cabecb1c400","name":"a14a2ef4-59d3-4b9e-81b6-5cabecb1c400","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a14a2ef4-59d3-4b9e-81b6-5cabecb1c400","name":"a14a2ef4-59d3-4b9e-81b6-5cabecb1c400","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

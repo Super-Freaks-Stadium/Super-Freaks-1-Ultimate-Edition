@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_intro_5",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f7d3d361-1e4b-475d-ad8a-bd3dd4c6a1db","name":"f7d3d361-1e4b-475d-ad8a-bd3dd4c6a1db","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f7d3d361-1e4b-475d-ad8a-bd3dd4c6a1db","name":"f7d3d361-1e4b-475d-ad8a-bd3dd4c6a1db","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

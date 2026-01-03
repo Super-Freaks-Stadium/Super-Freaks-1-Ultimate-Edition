@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_background_toy_bridge",
   "bboxMode":0,
   "bbox_bottom":239,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cf5080b8-0d7e-4b2a-ba10-2c7fa58659ef","name":"cf5080b8-0d7e-4b2a-ba10-2c7fa58659ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cf5080b8-0d7e-4b2a-ba10-2c7fa58659ef","name":"cf5080b8-0d7e-4b2a-ba10-2c7fa58659ef","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

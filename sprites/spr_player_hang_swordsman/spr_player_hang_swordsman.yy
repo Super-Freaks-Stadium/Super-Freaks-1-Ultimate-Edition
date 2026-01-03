@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_hang_swordsman",
   "bboxMode":0,
   "bbox_bottom":60,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"6af499b5-13b6-4b4e-b2d5-7c6b82d9c9d7","name":"6af499b5-13b6-4b4e-b2d5-7c6b82d9c9d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"6af499b5-13b6-4b4e-b2d5-7c6b82d9c9d7","name":"6af499b5-13b6-4b4e-b2d5-7c6b82d9c9d7","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

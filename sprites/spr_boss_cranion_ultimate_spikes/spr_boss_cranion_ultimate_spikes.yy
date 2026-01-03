@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_cranion_ultimate_spikes",
   "bboxMode":0,
   "bbox_bottom":159,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"bb17c0a5-cbdf-41fb-8c91-9d8151547c80","name":"bb17c0a5-cbdf-41fb-8c91-9d8151547c80","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"bb17c0a5-cbdf-41fb-8c91-9d8151547c80","name":"bb17c0a5-cbdf-41fb-8c91-9d8151547c80","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

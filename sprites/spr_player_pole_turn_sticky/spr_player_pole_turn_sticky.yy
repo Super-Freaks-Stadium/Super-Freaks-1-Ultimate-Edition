@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_sticky",
   "bboxMode":0,
   "bbox_bottom":79,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"c9d4732c-22c7-4cd2-b4da-47497839e6f5","name":"c9d4732c-22c7-4cd2-b4da-47497839e6f5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"1b2892cf-89fd-4aa1-b04c-e96c746f12fb","name":"1b2892cf-89fd-4aa1-b04c-e96c746f12fb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c9d4732c-22c7-4cd2-b4da-47497839e6f5","name":"c9d4732c-22c7-4cd2-b4da-47497839e6f5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"1b2892cf-89fd-4aa1-b04c-e96c746f12fb","name":"1b2892cf-89fd-4aa1-b04c-e96c746f12fb","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

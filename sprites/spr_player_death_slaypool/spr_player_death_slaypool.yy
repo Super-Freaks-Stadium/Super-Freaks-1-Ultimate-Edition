@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_death_slaypool",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ef5d54a4-ca9b-4ab3-a7d3-8f67217f9b0c","name":"ef5d54a4-ca9b-4ab3-a7d3-8f67217f9b0c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ef5d54a4-ca9b-4ab3-a7d3-8f67217f9b0c","name":"ef5d54a4-ca9b-4ab3-a7d3-8f67217f9b0c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

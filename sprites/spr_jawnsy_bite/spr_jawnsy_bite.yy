@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_jawnsy_bite",
   "bboxMode":0,
   "bbox_bottom":127,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f8920415-5571-4a85-bb68-58359873e7d5","name":"f8920415-5571-4a85-bb68-58359873e7d5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b5d70e3d-77f8-4d45-b216-35552436ad42","name":"b5d70e3d-77f8-4d45-b216-35552436ad42","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f8920415-5571-4a85-bb68-58359873e7d5","name":"f8920415-5571-4a85-bb68-58359873e7d5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b5d70e3d-77f8-4d45-b216-35552436ad42","name":"b5d70e3d-77f8-4d45-b216-35552436ad42","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

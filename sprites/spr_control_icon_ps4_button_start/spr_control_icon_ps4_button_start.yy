@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_control_icon_ps4_button_start",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"af001ca9-4432-4102-96ca-2ddab00a9374","name":"af001ca9-4432-4102-96ca-2ddab00a9374","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"eb14edcb-9e8f-49bf-844d-353503bd11bc","name":"eb14edcb-9e8f-49bf-844d-353503bd11bc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"af001ca9-4432-4102-96ca-2ddab00a9374","name":"af001ca9-4432-4102-96ca-2ddab00a9374","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"eb14edcb-9e8f-49bf-844d-353503bd11bc","name":"eb14edcb-9e8f-49bf-844d-353503bd11bc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

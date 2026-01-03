@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_climb_scruffy_2006",
   "bboxMode":0,
   "bbox_bottom":60,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"f79bdce5-ae52-4b59-9b95-b232fbf9c2af","name":"f79bdce5-ae52-4b59-9b95-b232fbf9c2af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"84d9bf29-8de2-400c-b0a2-a4634aad147b","name":"84d9bf29-8de2-400c-b0a2-a4634aad147b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"f79bdce5-ae52-4b59-9b95-b232fbf9c2af","name":"f79bdce5-ae52-4b59-9b95-b232fbf9c2af","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"84d9bf29-8de2-400c-b0a2-a4634aad147b","name":"84d9bf29-8de2-400c-b0a2-a4634aad147b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

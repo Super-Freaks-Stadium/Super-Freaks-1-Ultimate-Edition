@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_control_icon_ps5_button_shoulder_l",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"e557fd63-678a-47fd-b521-21a8e71734c5","name":"e557fd63-678a-47fd-b521-21a8e71734c5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"c4481043-2f63-4db5-9d59-c37a00fc9577","name":"c4481043-2f63-4db5-9d59-c37a00fc9577","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e557fd63-678a-47fd-b521-21a8e71734c5","name":"e557fd63-678a-47fd-b521-21a8e71734c5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"c4481043-2f63-4db5-9d59-c37a00fc9577","name":"c4481043-2f63-4db5-9d59-c37a00fc9577","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

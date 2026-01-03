@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_skid_quincy_2006",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4ae9ef8e-9e42-49e5-8b8f-6dce3ce93dcc","name":"4ae9ef8e-9e42-49e5-8b8f-6dce3ce93dcc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4ae9ef8e-9e42-49e5-8b8f-6dce3ce93dcc","name":"4ae9ef8e-9e42-49e5-8b8f-6dce3ce93dcc","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_francis_claw",
   "bboxMode":0,
   "bbox_bottom":71,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"db11b843-d221-4176-9813-7e5b3264ca4a","name":"db11b843-d221-4176-9813-7e5b3264ca4a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"7aa1b49d-3948-4a72-a409-4a77ad547635","name":"7aa1b49d-3948-4a72-a409-4a77ad547635","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"db11b843-d221-4176-9813-7e5b3264ca4a","name":"db11b843-d221-4176-9813-7e5b3264ca4a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7aa1b49d-3948-4a72-a409-4a77ad547635","name":"7aa1b49d-3948-4a72-a409-4a77ad547635","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

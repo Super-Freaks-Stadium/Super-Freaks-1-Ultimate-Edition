@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_castle_tileset",
   "bboxMode":0,
   "bbox_bottom":95,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"ec6d7b64-0b73-47d2-93a1-8c0ab48b72db","name":"ec6d7b64-0b73-47d2-93a1-8c0ab48b72db","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"ec6d7b64-0b73-47d2-93a1-8c0ab48b72db","name":"ec6d7b64-0b73-47d2-93a1-8c0ab48b72db","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_hang_scruffy_2006",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"dadc5eb5-1b2c-4436-a329-2ca3f6ad36a6","name":"dadc5eb5-1b2c-4436-a329-2ca3f6ad36a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"dadc5eb5-1b2c-4436-a329-2ca3f6ad36a6","name":"dadc5eb5-1b2c-4436-a329-2ca3f6ad36a6","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

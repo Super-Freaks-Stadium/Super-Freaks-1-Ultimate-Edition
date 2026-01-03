@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_brick",
   "bboxMode":0,
   "bbox_bottom":60,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"4d11f208-c461-469f-965a-dc6a3acdf793","name":"4d11f208-c461-469f-965a-dc6a3acdf793","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"88d3a8b0-bf82-4210-9203-64d543e63f2c","name":"88d3a8b0-bf82-4210-9203-64d543e63f2c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4d11f208-c461-469f-965a-dc6a3acdf793","name":"4d11f208-c461-469f-965a-dc6a3acdf793","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"88d3a8b0-bf82-4210-9203-64d543e63f2c","name":"88d3a8b0-bf82-4210-9203-64d543e63f2c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

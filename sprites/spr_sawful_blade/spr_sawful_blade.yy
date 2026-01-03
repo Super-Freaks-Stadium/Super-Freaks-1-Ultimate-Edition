@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_sawful_blade",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,7 +12,7 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"84d327c0-b926-4ec9-9b8f-46a0e76b52d1","name":"84d327c0-b926-4ec9-9b8f-46a0e76b52d1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"84d327c0-b926-4ec9-9b8f-46a0e76b52d1","name":"84d327c0-b926-4ec9-9b8f-46a0e76b52d1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

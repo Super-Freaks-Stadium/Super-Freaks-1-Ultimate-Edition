@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_control_icon_saturn_stick_l_right",
   "bboxMode":0,
   "bbox_bottom":15,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"b28c686d-c295-4d61-98ed-929ec8a5bbb0","name":"b28c686d-c295-4d61-98ed-929ec8a5bbb0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"b70d0807-10e0-48ff-a568-14ffbcfc23b1","name":"b70d0807-10e0-48ff-a568-14ffbcfc23b1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b28c686d-c295-4d61-98ed-929ec8a5bbb0","name":"b28c686d-c295-4d61-98ed-929ec8a5bbb0","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"b70d0807-10e0-48ff-a568-14ffbcfc23b1","name":"b70d0807-10e0-48ff-a568-14ffbcfc23b1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

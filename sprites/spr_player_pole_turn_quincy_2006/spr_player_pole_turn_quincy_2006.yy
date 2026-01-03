@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_quincy_2006",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"710e4f9e-8b25-494e-a916-59891a952d47","name":"710e4f9e-8b25-494e-a916-59891a952d47","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2c0f15aa-ee31-41a3-9888-b1456584526e","name":"2c0f15aa-ee31-41a3-9888-b1456584526e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"710e4f9e-8b25-494e-a916-59891a952d47","name":"710e4f9e-8b25-494e-a916-59891a952d47","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2c0f15aa-ee31-41a3-9888-b1456584526e","name":"2c0f15aa-ee31-41a3-9888-b1456584526e","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

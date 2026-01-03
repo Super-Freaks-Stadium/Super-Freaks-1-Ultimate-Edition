@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_boss_kranion_ultimate_face",
   "bboxMode":0,
   "bbox_bottom":138,
@@ -12,9 +12,9 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"753c36a1-b9ff-47b2-84f5-36f0607c6f55","name":"753c36a1-b9ff-47b2-84f5-36f0607c6f55","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"e6590bc1-67b4-4289-a118-6f4118b1d06b","name":"e6590bc1-67b4-4289-a118-6f4118b1d06b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"4de3010c-866a-48e2-9cc1-71e30224e94f","name":"4de3010c-866a-48e2-9cc1-71e30224e94f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"753c36a1-b9ff-47b2-84f5-36f0607c6f55","name":"753c36a1-b9ff-47b2-84f5-36f0607c6f55","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"e6590bc1-67b4-4289-a118-6f4118b1d06b","name":"e6590bc1-67b4-4289-a118-6f4118b1d06b","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"4de3010c-866a-48e2-9cc1-71e30224e94f","name":"4de3010c-866a-48e2-9cc1-71e30224e94f","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

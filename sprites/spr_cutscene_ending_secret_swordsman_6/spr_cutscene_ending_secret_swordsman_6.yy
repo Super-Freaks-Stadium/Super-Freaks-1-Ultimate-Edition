@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_cutscene_ending_secret_swordsman_6",
   "bboxMode":0,
   "bbox_bottom":359,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"9fff965d-5e62-4c67-8de7-bdb24b7648fa","name":"9fff965d-5e62-4c67-8de7-bdb24b7648fa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"3f927f04-8e42-43cb-80ae-72a2fa371c40","name":"3f927f04-8e42-43cb-80ae-72a2fa371c40","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"9fff965d-5e62-4c67-8de7-bdb24b7648fa","name":"9fff965d-5e62-4c67-8de7-bdb24b7648fa","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3f927f04-8e42-43cb-80ae-72a2fa371c40","name":"3f927f04-8e42-43cb-80ae-72a2fa371c40","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

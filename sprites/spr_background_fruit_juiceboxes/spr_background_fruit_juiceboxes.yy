@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_background_fruit_juiceboxes",
   "bboxMode":0,
   "bbox_bottom":239,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"86024527-8650-4940-a3e9-34dd7996aa58","name":"86024527-8650-4940-a3e9-34dd7996aa58","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"abedeb32-2dd6-4cbc-b38d-166897009c22","name":"abedeb32-2dd6-4cbc-b38d-166897009c22","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"86024527-8650-4940-a3e9-34dd7996aa58","name":"86024527-8650-4940-a3e9-34dd7996aa58","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"abedeb32-2dd6-4cbc-b38d-166897009c22","name":"abedeb32-2dd6-4cbc-b38d-166897009c22","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_trash_can_man",
   "bboxMode":0,
   "bbox_bottom":61,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"cd56745c-18de-4962-bc66-10cf90a98731","name":"cd56745c-18de-4962-bc66-10cf90a98731","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"88d6f221-193e-42d6-9b06-69c451a584b1","name":"88d6f221-193e-42d6-9b06-69c451a584b1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"cd56745c-18de-4962-bc66-10cf90a98731","name":"cd56745c-18de-4962-bc66-10cf90a98731","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"88d6f221-193e-42d6-9b06-69c451a584b1","name":"88d6f221-193e-42d6-9b06-69c451a584b1","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

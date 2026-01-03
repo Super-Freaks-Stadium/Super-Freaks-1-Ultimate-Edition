@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_cyquops",
   "bboxMode":0,
   "bbox_bottom":63,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"94c02a4b-4e8a-4587-add9-1803bafe0d61","name":"94c02a4b-4e8a-4587-add9-1803bafe0d61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"057ecdc2-5cbf-49cc-a06a-c1d324a08f1c","name":"057ecdc2-5cbf-49cc-a06a-c1d324a08f1c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"94c02a4b-4e8a-4587-add9-1803bafe0d61","name":"94c02a4b-4e8a-4587-add9-1803bafe0d61","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"057ecdc2-5cbf-49cc-a06a-c1d324a08f1c","name":"057ecdc2-5cbf-49cc-a06a-c1d324a08f1c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

@@ -31,8 +31,8 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v1","%Name":"bubble_timer","filters":[],"listItems":[],"multiselect":false,"name":"bubble_timer","rangeEnabled":true,"rangeMax":255.0,"rangeMin":16.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"64","varType":0,},
-    {"$GMObjectProperty":"v1","%Name":"bubble_speed","filters":[],"listItems":[],"multiselect":false,"name":"bubble_speed","rangeEnabled":true,"rangeMax":16.0,"rangeMin":1.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"bubble_timer","filters":[],"listItems":[],"multiselect":false,"name":"bubble_timer","rangeEnabled":true,"rangeMax":255.0,"rangeMin":16.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"64","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"bubble_speed","filters":[],"listItems":[],"multiselect":false,"name":"bubble_speed","rangeEnabled":true,"rangeMax":16.0,"rangeMin":1.0,"resource":null,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"1","varType":0,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

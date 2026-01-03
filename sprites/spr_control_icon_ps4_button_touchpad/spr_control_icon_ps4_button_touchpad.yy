@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_control_icon_ps4_button_touchpad",
   "bboxMode":0,
   "bbox_bottom":13,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"3e7a4512-1ceb-4e18-a054-99ccdaf76434","name":"3e7a4512-1ceb-4e18-a054-99ccdaf76434","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"a3b1ac50-7a9c-4ecc-ae57-1ca9d6113104","name":"a3b1ac50-7a9c-4ecc-ae57-1ca9d6113104","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"3e7a4512-1ceb-4e18-a054-99ccdaf76434","name":"3e7a4512-1ceb-4e18-a054-99ccdaf76434","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"a3b1ac50-7a9c-4ecc-ae57-1ca9d6113104","name":"a3b1ac50-7a9c-4ecc-ae57-1ca9d6113104","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

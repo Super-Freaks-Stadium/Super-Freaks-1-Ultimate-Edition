@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_turn_slaypool",
   "bboxMode":0,
   "bbox_bottom":62,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"7bf9e1b5-9ca4-45ed-b8d0-a071d4697be5","name":"7bf9e1b5-9ca4-45ed-b8d0-a071d4697be5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"134d8dbd-6689-42f8-a9a7-57d500d0dbcd","name":"134d8dbd-6689-42f8-a9a7-57d500d0dbcd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"7bf9e1b5-9ca4-45ed-b8d0-a071d4697be5","name":"7bf9e1b5-9ca4-45ed-b8d0-a071d4697be5","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"134d8dbd-6689-42f8-a9a7-57d500d0dbcd","name":"134d8dbd-6689-42f8-a9a7-57d500d0dbcd","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,

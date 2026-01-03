@@ -1,5 +1,5 @@
 {
-  "$GMSprite":"",
+  "$GMSprite":"v2",
   "%Name":"spr_player_pole_gambi_2006",
   "bboxMode":0,
   "bbox_bottom":60,
@@ -12,8 +12,8 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"","%Name":"5582330d-a90e-4549-af3f-60aea974447c","name":"5582330d-a90e-4549-af3f-60aea974447c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
-    {"$GMSpriteFrame":"","%Name":"2e8870d5-9bbc-48c1-9af4-491aa4f5990d","name":"2e8870d5-9bbc-48c1-9af4-491aa4f5990d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"5582330d-a90e-4549-af3f-60aea974447c","name":"5582330d-a90e-4549-af3f-60aea974447c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"2e8870d5-9bbc-48c1-9af4-491aa4f5990d","name":"2e8870d5-9bbc-48c1-9af4-491aa4f5990d","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
