@@ -116,3 +116,14 @@
         * The title screen now says TUURRRRBOOOOOOOOOOOOO, lovingly provided by defnotreal_.
 * V3.1.1a - August 31st, 2025
     * One of the backgrounds in Shipwreck Poopdeck somehow became a solid color. Yes I'm reexporting the entire game again for that!
+* V3.1.2 - April 1st, 2026
+    * Gameplay Changes
+        * Metal Pipe Modifier added. Go on, activate it, see what happens!
+        * Beginning of Barrel Secret is zoomed out more
+    * Other
+        * Changed how music files are loaded, so hopefully you won't have to go through a huge
+        * Main Menu now has some more stuff on it:
+            * A ModDB Page link.
+            * More Super Freaks games now links away from the website I keep forgetting to update to my itch.io page!
+            * Wishlist Strato Freaks DX cause you should!
+        * Conveyor Castle has an updated song.

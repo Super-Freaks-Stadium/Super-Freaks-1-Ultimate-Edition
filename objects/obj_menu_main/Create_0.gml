@@ -147,18 +147,40 @@ timer = 0;
             instance_create(obj_room_transition_fade);
         }
 	});
-	menu_option_add(_page, 7, "More Super Freaks Games", function()
+	menu_option_add(_page, 7, "ModDB Page", function()
 	{
 		main_text = "Super Freaks 1 Ultimate Edition";
 		if (input_check_pressed("confirm", global.player_lead))
-			url_open("https://superfreaks.neocities.org/");
+			url_open("https://www.moddb.com/games/super-freaks-1-ultimate-edition");
         if (input_check_pressed("deny", global.player_lead))
         {
             spawn_point_set(rm_title);
             instance_create(obj_room_transition_fade);
         }
 	});
-	menu_option_add(_page, 8, "Exit", function()
+	menu_option_add(_page, 8, "More Super Freaks Games", function()
+	{
+		main_text = "Super Freaks 1 Ultimate Edition";
+		if (input_check_pressed("confirm", global.player_lead))
+			url_open("https://mr-freaks.itch.io/");
+        if (input_check_pressed("deny", global.player_lead))
+        {
+            spawn_point_set(rm_title);
+            instance_create(obj_room_transition_fade);
+        }
+	});
+	menu_option_add(_page, 9, "Wishlist Strato Freaks DX!", function()
+	{
+		main_text = "Super Freaks 1 Ultimate Edition";
+		if (input_check_pressed("confirm", global.player_lead))
+			url_open("https://store.steampowered.com/app/3957840/Strato_Freaks_DX/");
+        if (input_check_pressed("deny", global.player_lead))
+        {
+            spawn_point_set(rm_title);
+            instance_create(obj_room_transition_fade);
+        }
+	});
+	menu_option_add(_page, 10, "Exit", function()
 	{
 		main_text = "Super Freaks 1 Ultimate Edition";
 		if (input_check_pressed("confirm", global.player_lead))

@@ -13,7 +13,8 @@ enum heart_setting_levels
 
 enum modifiers
 {
-	mirror = 0,
+	metalpipe = 0,
+    mirror,
 	fast_forward,
 	game_over,
 	

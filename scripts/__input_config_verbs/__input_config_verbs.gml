@@ -28,7 +28,7 @@ function __input_config_verbs()
             drop_out: input_binding_key(vk_shift),
             
             start: [input_binding_key(vk_enter), input_binding_key(vk_escape)],
-            confirm:  [input_binding_key("Z"), input_binding_mouse_button(mb_left)],
+            confirm:  [input_binding_key("Z"), input_binding_key(vk_space), input_binding_mouse_button(mb_left)],
             deny:  [input_binding_key("X"), input_binding_mouse_button(mb_right)],
         },
         

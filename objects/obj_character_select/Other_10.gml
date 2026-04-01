@@ -93,12 +93,12 @@ switch (state)
 				{
 					option--;
 					if (option < 0)
-						option = 2;
+						option = 3;
 				} 
 				else if (input_check_pressed("down", global.player_lead))
 				{
 					option++;
-					if (option > 2)
+					if (option > 3)
 						option = 0;
 				}
 				

@@ -43,7 +43,7 @@ Compared to other platformers, the Super Freaks have a few extra tricks up their
 | Elastiband Color (Co-op)  | V, E                           | Xbox RT / Nintendo ZR / PlayStation R2                         |
 | Drop Out (Co-op)          | Shift                          | Xbox View / Nintendo Select or - / PlayStation Select or Share |
 | Start                     | Enter, ESC                     | Xbox Menu / Nintendo Start or + / PlayStation Start or Options |
-| Confirm                   | Z, Left Click                  | Xbox A / Nintendo B / PlayStation Cross                        |
+| Confirm                   | Z, Space, Left Click           | Xbox A / Nintendo B / PlayStation Cross                        |
 | Deny                      | X, Right Click                 | Xbox B / Nintendo A / PlayStation Circle                       |
 
 #### Moves

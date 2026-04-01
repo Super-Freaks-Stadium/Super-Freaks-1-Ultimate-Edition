@@ -40,7 +40,7 @@ global.victory_quotes =
 "Bones", 
 "It's been 16 hours since you replied to me. Is this referencing arthritis?", 
 "Am I the only one who likes Super Freaks 1 Ultimate Edition?", 
-"SuperFreaksDev just shot himself in the foot, I'm an expert on Japanese culture",
+"Mr. Freaks just shot himself in the foot, I'm an expert on Japanese culture",
 "Wanna watch me brush my teeth?",
 "Licking doorknobs is illegal on other planets!",
 "What's up gamers it's Mayor Cheddar",

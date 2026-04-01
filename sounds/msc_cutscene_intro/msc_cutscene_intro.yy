@@ -7,10 +7,10 @@
   },
   "bitDepth":1,
   "channelFormat":1,
-  "compression":3,
+  "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":120.00501,
+  "duration":119.99485,
   "exportDir":"",
   "name":"msc_cutscene_intro",
   "parent":{

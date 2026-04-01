@@ -12,3 +12,5 @@ trophy_offset = 32;
 
 heart_shake = 0;
 heart_radius = 0;
+
+metalpipe_delay = random_range(96, 6767);

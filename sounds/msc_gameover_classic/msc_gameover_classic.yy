@@ -7,10 +7,10 @@
   },
   "bitDepth":1,
   "channelFormat":1,
-  "compression":3,
+  "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":4.405986,
+  "duration":4.395828,
   "exportDir":"",
   "name":"msc_gameover_classic",
   "parent":{
