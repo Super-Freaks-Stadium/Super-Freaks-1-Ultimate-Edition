@@ -76,7 +76,7 @@ while (global.delta > 1)
 while (_frames_game > 0)
 {
 	__input_system_tick();
-	__input_system_tick_touch();
+	//__input_system_tick_touch();
     //virtual_buttons_step();
 	
 	_pause = game_pause_get();
@@ -144,6 +144,7 @@ while (_frames_game > 0)
                 if (frame_counter > 1)
                     instance_step();
             }
+            //---Crash seems to happen here---
             with (obj_level_obj)
             {
                 if (frame_counter > 1)

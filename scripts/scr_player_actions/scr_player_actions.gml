@@ -93,10 +93,12 @@ function player_drop_out_force(_player_number = 0)
 function player_enter_bubble()
 {
 	//if (players_exist() && button_bubble == controls_action_states.press)
+    show_debug_message("Check Out me fucking bubble");
 	if (players_exist() && input_check_pressed("bubble", player_number))
-		state_next_set(player_states.bubble, 999999999999);
+		state_next_set(player_states.bubble, 999);
+    show_debug_message("bruh lol");
 	
-	gml_pragma("forceinline");
+	//gml_pragma("forceinline");
 }
 
 /// @function player_rubberband_activate

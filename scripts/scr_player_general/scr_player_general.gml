@@ -170,10 +170,8 @@ function player_is_alive()
 		case player_states.death:
 		case player_states.bubble:
 			return false;
-			break;
 		default:
 			return true;
-			break;
 	}
 }
 
@@ -184,22 +182,11 @@ function players_alive()
 	
 	with (obj_player)
 	{
-		if (id == _my_id)
-			continue;
-			
-		switch (state)
-		{
-			case player_states.debug:
-			case player_states.inactive:
-			case player_states.drop_in:
-			case player_states.death:
-			case player_states.bubble:
-				continue;
-				break;
-			default:
-				return true;
-				break;
-		}
+		if (id != _my_id)
+        {
+    		if (player_is_alive())
+                return true;
+        }
 	}
 	
 	return false;
@@ -214,29 +201,19 @@ function player_nearest_alive()
 	
 	with (obj_player)
 	{
-		if (id == _my_id)
-			continue;
-			
-		switch (state)
-		{
-			case player_states.debug:
-			case player_states.inactive:
-			case player_states.drop_in:
-			case player_states.death:
-			case player_states.bubble:
-				continue;
-				break;
-			default:
-				break;
-		}
-			
-		_distance_temp = point_distance(_my_id.x, _my_id.y, x, y);
-		if (is_undefined(_distance) || _distance_temp < _distance)
-		{
-			_player = id;
-			_distance = _distance_temp;
-		}
-	}
+		if (id != _my_id)
+        {
+    		if (player_is_alive())
+            {
+        		_distance_temp = point_distance(_my_id.x, _my_id.y, x, y);
+        		if (is_undefined(_distance) || _distance_temp < _distance)
+        		{
+        			_player = id;
+        			_distance = _distance_temp;
+        		}
+            }
+        }
+    }
 	
 	return _player;
 }
@@ -252,28 +229,18 @@ function player_nearest_to_point_alive(_x = x, _y = y)
 	
 	with (obj_player)
 	{
-		if (id == _my_id)
-			continue;
-			
-		switch (state)
-		{
-			case player_states.debug:
-			case player_states.inactive:
-			case player_states.drop_in:
-			case player_states.death:
-			case player_states.bubble:
-				continue;
-				break;
-			default:
-				break;
-		}
-			
-		_distance_temp = point_distance(_my_id.x, _my_id.y, _x, _y);
-		if (is_undefined(_distance) || _distance_temp < _distance)
-		{
-			_player = id;
-			_distance = _distance_temp;
-		}
+		if (id != _my_id)
+        {
+    		if (player_is_alive())
+            {
+        		_distance_temp = point_distance(_my_id.x, _my_id.y, _x, _y);
+        		if (is_undefined(_distance) || _distance_temp < _distance)
+        		{
+        			_player = id;
+        			_distance = _distance_temp;
+        		}
+            }
+        }
 	}
 	
 	return _player;
@@ -286,20 +253,11 @@ function players_exist()
 	
 	with (obj_player)
 	{
-		if (id == _my_id)
-			continue;
-			
-		switch (state)
-		{
-			case player_states.debug:
-			case player_states.inactive:
-			case player_states.drop_in:
-				continue;
-				break;
-			default:
-				return true;
-				break;
-		}
+		if (id != _my_id)
+        {
+            if (state != player_states.debug && state != player_states.inactive && state != player_states.drop_in)
+                return true;
+        }
 	}
 	
 	return false;

@@ -20,13 +20,21 @@ function instance_create(_object_index, _x = x, _y = y)
 /// @function instance_step
 function instance_step()
 {
+    if (object_index == obj_player)
+        show_debug_message($"{player_number} Begin Step");
 	run_frame = true;
 	state_machine_step();
 	collider_attach_step();
+    if (object_index == obj_player)
+        show_debug_message($"{player_number} Pre-Step Event");
 	EVENT_STEP;
+    if (object_index == obj_player)
+        show_debug_message($"{player_number} After Step Event");
 	if (is_undefined(collider_attach[collider_attach_data.collider]))
 		comp_list_collider_move();
 	image_index += animate_speed;
+    if (object_index == obj_player)
+        show_debug_message($"{player_number} End Step");
 }
 
 /// @function instance_step_2

@@ -49,12 +49,12 @@ function player_state_bubble()
 			direction = point_direction(x, y, _nearest_player.x, _nearest_player.y);
 			camera.active = false;
 		}
-	}
-	
-	if (speed_true < 2)
-		speed_true = min(speed_true + 0.25, 2);
-	else
-		speed_true = max(speed_true - 0.25, 2);
+    }
+    
+    if (speed_true < 2)
+        speed_true = min(speed_true + 0.25, 2);
+    else
+        speed_true = max(speed_true - 0.25, 2);
 		
 	if (_nearest_player != undefined)
 	{
