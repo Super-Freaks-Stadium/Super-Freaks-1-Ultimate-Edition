@@ -127,3 +127,8 @@
             * More Super Freaks games now links away from the website I keep forgetting to update to my itch.io page!
             * Wishlist Strato Freaks DX cause you should!
         * Conveyor Castle has an updated song.
+* V3.1.2a - April 8th, 2026
+    * Bug Fixes
+        * Game Maker suddenly decided to care about an admittedly sloppy switch statement so the game would crash REALLY NASTY in multiplayer for a hot minute. Thank God that's fixed!
+    * Other
+        * Cinge's Theme, which is right now also used for most bosses, has been updated and sounds a lot better and more menacing. It's really good! Take it as a consolation prize.
