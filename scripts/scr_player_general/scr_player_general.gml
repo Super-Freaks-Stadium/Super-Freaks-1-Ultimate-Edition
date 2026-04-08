@@ -164,6 +164,7 @@ function player_is_alive()
 {
 	switch (state)
 	{
+        case player_states.NA:
 		case player_states.debug:
 		case player_states.inactive:
 		case player_states.drop_in:

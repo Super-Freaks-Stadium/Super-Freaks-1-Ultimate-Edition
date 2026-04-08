@@ -12,29 +12,21 @@
 /// @param _y = y
 function instance_create(_object_index, _x = x, _y = y)
 {
+    gml_pragma("forceinline");
+    
 	return instance_create_layer(_x, _y, "layer_instances", _object_index);
-	
-	gml_pragma("forceinline");
 }
 
 /// @function instance_step
 function instance_step()
 {
-    if (object_index == obj_player)
-        show_debug_message($"{player_number} Begin Step");
 	run_frame = true;
 	state_machine_step();
 	collider_attach_step();
-    if (object_index == obj_player)
-        show_debug_message($"{player_number} Pre-Step Event");
 	EVENT_STEP;
-    if (object_index == obj_player)
-        show_debug_message($"{player_number} After Step Event");
 	if (is_undefined(collider_attach[collider_attach_data.collider]))
 		comp_list_collider_move();
 	image_index += animate_speed;
-    if (object_index == obj_player)
-        show_debug_message($"{player_number} End Step");
 }
 
 /// @function instance_step_2
@@ -128,7 +120,7 @@ function instance_despawn_check()
 				instance_despawn();
 			break;
 		case -2:
-			exit;
+			//exit;
 			break;
 		case -1:
 			if (_despawn)

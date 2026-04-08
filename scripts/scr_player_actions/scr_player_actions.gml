@@ -92,13 +92,10 @@ function player_drop_out_force(_player_number = 0)
 /// @function player_enter_bubble
 function player_enter_bubble()
 {
-	//if (players_exist() && button_bubble == controls_action_states.press)
-    show_debug_message("Check Out me fucking bubble");
 	if (players_exist() && input_check_pressed("bubble", player_number))
 		state_next_set(player_states.bubble, 999);
-    show_debug_message("bruh lol");
 	
-	//gml_pragma("forceinline");
+	gml_pragma("forceinline");
 }
 
 /// @function player_rubberband_activate
@@ -163,19 +160,8 @@ function player_meter_collect(_ego = 2)
 	var _aura_previous;
 	with (obj_player)
 	{
-		switch (state)
-		{
-			case player_states.inactive:
-			case player_states.NA:
-			case player_states.debug:
-			case player_states.death:
-			case player_states.death_fall:
-			case player_states.bubble:
-				continue;
-				break;
-			default:
-				break;
-		}
+		if (!player_is_alive())
+            continue;
 		
 		switch (global.story_mode)
 		{
