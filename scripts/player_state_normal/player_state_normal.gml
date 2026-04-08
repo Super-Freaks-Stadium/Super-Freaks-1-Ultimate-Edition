@@ -267,7 +267,7 @@ function player_state_normal()
                 if (aura_stored == 0)
                     aura_stored = aura;
                 
-				if (aura_stored > ANTI_FREAK_WEAK)
+				if (aura_stored >= ANTI_FREAK_WEAK)
 				{
 					if (jump_strength < JUMP_STRENGTH_MAX)
 					{
@@ -284,7 +284,7 @@ function player_state_normal()
             
 			if (input_check_released("jump", player_number))
 			{
-				if (jump_strength > _anti_freak_jump_min)
+				if (aura_stored >= ANTI_FREAK_WEAK && jump_strength >= _anti_freak_jump_min)
 				{
 					jump_buffer = 0;
 					coyote_time = 0;
@@ -583,6 +583,7 @@ function player_state_normal()
 			angle_ground = 0;
 			speed_h = speed_x;
 			speed_v = speed_y;
+            can_fireball = true;
 		}
 		collider_attach_clear();
 		if (physics == player_physics_modifiers.slime)

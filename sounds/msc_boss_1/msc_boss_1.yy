@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":77.041,
+  "duration":78.00399,
   "exportDir":"",
   "name":"msc_boss_1",
   "parent":{

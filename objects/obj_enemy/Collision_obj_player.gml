@@ -248,6 +248,7 @@ if (_enemy_hurt)
 {
 	with (other)
 	{
+        can_fireball = true;
 		if (physics == player_physics_modifiers.ice)
 			player_physics_set_normal();
 	}

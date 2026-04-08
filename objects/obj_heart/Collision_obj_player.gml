@@ -1,6 +1,6 @@
 /// @description 
 
-instance_destroy();
+event_inherited();
 
 if (global.turbo.mode)
 {

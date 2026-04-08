@@ -21,4 +21,4 @@ if (instance_exists(obj_gameplay_manager))
 	with (obj_gameplay_manager)
 		the_trophy_appears = 100;
 }
-instance_destroy();
+event_inherited();

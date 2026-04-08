@@ -97,7 +97,7 @@ timer = 0;
             spawn_point_set(rm_title);
             instance_create(obj_room_transition_fade);
         }
-	}, false);
+	}, true);
 	menu_option_add(_page, 4, "Final Battle (Coming Soon!)", function()
 	{
 		main_text = "Super Freaks 1 Ultimate Edition";

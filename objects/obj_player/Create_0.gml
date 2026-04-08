@@ -79,6 +79,7 @@ character_index = 0;
 	#macro AURA_INVINCIBLE 30
 	aura = 0;
 	aura_stored = undefined;
+    aura_depleted = false;
 	can_fireball = true;
 #endregion
 
