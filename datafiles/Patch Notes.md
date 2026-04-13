@@ -132,3 +132,9 @@
         * Game Maker suddenly decided to care about an admittedly sloppy switch statement so the game would crash REALLY NASTY in multiplayer for a hot minute. Thank God that's fixed!
     * Other
         * Cinge's Theme, which is right now also used for most bosses, has been updated and sounds a lot better and more menacing. It's really good! Take it as a consolation prize.
+        
+* V3.1.2b - April 12th, 2026
+    * Bug Fixes (This better be it for a while)
+        * All that rampant bug fixing I did a few days ago messed up the Yorb Star! You could collect it but it wouldn't disappear and then it would spam sounds like crazy. So uh...that's fixed now!
+    * Other
+        * Slight level design tweaks to Shipwreck Poopdeck and Flowery Secret. Both should be paced a bit quicker now!

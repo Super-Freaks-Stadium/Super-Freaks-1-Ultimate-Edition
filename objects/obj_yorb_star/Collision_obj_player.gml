@@ -1,6 +1,6 @@
 /// @description 
 
-event_inherited();
+instance_destroy();
 
 switch (global.story_mode)
 {

@@ -1,6 +1,6 @@
 /// @description Step
 
-if (floor(image_index) == image_number)
+if animation_about_to_end()
 	animate_speed = 0;
 
 if (timer > 0)
